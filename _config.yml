@@ -1,6 +1,6 @@
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'NC STATE'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
@@ -11,13 +11,18 @@ logo:
   desktop_width: "120px"
 
 home: 
-  limit_services: 6
+  limit_services: 4
 
 collections:
   services:
     output: true
     sort_by: weight
   team:
+    output: true
+  successstories:
+    output: true
+    sort_by: weight
+  research_papers:
     output: true
 
 defaults:
@@ -31,12 +36,33 @@ defaults:
       type: "team"
     values:
       layout: "team"
+  - scope:
+      path: ""
+      type: "about"
+    values:
+      layout: "about"
+  - scope:
+      path: ""
+      type: "home"
+    values:
+      layout: "home"
+  - scope:
+      path: ""
+      type: "contact"
+    values:
+      layout: "contact"
+  - scope:
+      path: ""
+      type: "address"
+    values:
+      layout: "address"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
 
 plugins:
   - jekyll-environment-variables
+  - jekyll-feed
 
 exclude:
   - Gemfile

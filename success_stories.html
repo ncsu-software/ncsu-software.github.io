@@ -1,0 +1,24 @@
+---
+layout: default
+bodyClass: "page-successstories"
+---
+
+<div>
+    <h1>Success Stories</h1>
+    
+    <ul>
+      {% for story in site.success_stories %}
+        <li>
+          <img src="{{ story.image }}" alt="{{ story.name }}">
+          <h2>{{ story.name }}</h2>
+          <p><strong>What they did:</strong> {{ story.work }}</p>
+          <p><strong>What they are doing now:</strong> {{ story.current_work }}</p>
+          {% if story.web_page %}
+            <p><a href="{{ story.web_page }}">Website</a></p>
+          {% endif %}
+          <p><a href="{{ story.papers_link }}">Research Papers</a></p>
+        </li>
+      {% endfor %}
+    </ul>
+    </div>
+    

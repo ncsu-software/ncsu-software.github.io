@@ -1,13 +1,13 @@
 ---
 title: Jekyll Serif Theme
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: Index PAge Description in index.md
 intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: true
+intro_image_absolute: false
 intro_image_hide_on_mobile: true
-show_call_box: true
+show_call_box: false
 ---
 
-# Serif - A Jekyll Business Theme.
+# Software Engineering at NCSU
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Accelerate your SE  career, in industry, in research.

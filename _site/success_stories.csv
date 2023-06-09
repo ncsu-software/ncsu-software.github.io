@@ -1,0 +1,3 @@
+image,name,work,current_work,web_page,papers_link
+/path/to/image1.jpg,John Doe,Software Engineer,Software Engineer at Company A,https://www.example.com/johndoe,https://www.example.com/johndoe/papers
+/path/to/image2.jpg,Jane Smith,Software Developer,Senior Software Developer at Company B,https://www.example.com/janesmith,https://www.example.com/janesmith/papers

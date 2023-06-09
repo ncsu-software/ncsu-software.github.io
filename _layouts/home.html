@@ -6,7 +6,7 @@ bodyClass: "page-home"
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+      <div class="col-6 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
         {% if page.show_call_box %}
           {% include call.html show_button=true %}
@@ -21,18 +21,85 @@ bodyClass: "page-home"
   </div>
 </div>
 
+
 <div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
+  <div class="container pt-3 pb-3 pb-md-5">
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_services | default: 6 %}
       {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
+        <div class="col-12 col-md-3 mb-1">
+          <div class="service service-summary">
+            <div class="service-content">
+              <h2 class="service-title">
+                {% if service.title == "Success Stories" %}
+                  {% assign is_success_stories = true %}
+                  <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+                {% else %}
+                  {% assign is_success_stories = false %}
+                  <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+                {% endif %}
+              </h2>
+              <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
+            </div>
+          </div>
+        </div>
+        <!-- {% comment %} Debug statement to check if the code enters the if condition {% endcomment %}
+        {% if is_success_stories %}
+          <p>The code entered the if condition for service: {{ service.title }}</p>
+        {% endif %} -->
+      {% endfor %}
+    </div>
+    <!-- <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
+      </div>
+    </div> -->
+  </div>
+</div>
+
+
+<!-- <div class="strip">
+  <div class="container pt-3 pb-3 pb-md-5">
+    <div class="row justify-content-start">
+      {% assign limit = site.home.limit_services | default: 6 %}
+      {% for service in site.services limit: limit %}
+        <div class="col-12 col-md-3 mb-1">
+          <div class="service service-summary">
+            <div class="service-content">
+              <h2 class="service-title">
+                {% if service.type == "successstories" %}
+                  <a href="{{ 'success_stories.html' }}">{{ service.title }}</a>
+                {% else %}
+                  <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+                {% endif %}
+              </h2>
+              <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- 
+<div class="strip">
+  <div class="container pt-3 pb-3 pb-md-5">
+    <div class="row justify-content-start">
+      {% assign limit = site.home.limit_services | default: 6 %}
+      {% for service in site.services limit: limit %}
+      <div class="col-12 col-md-3 mb-1">
         <div class="service service-summary">
           <div class="service-content">
             <h2 class="service-title">
               <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
             </h2>
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+            <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
           </div>
         </div>
       </div>
@@ -44,9 +111,9 @@ bodyClass: "page-home"
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
-{% if site.data.features %}
+<!-- {% if site.data.features %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
@@ -66,4 +133,4 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
-{% endif %}
+{% endif %} -->
