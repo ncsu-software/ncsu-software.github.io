@@ -19,6 +19,9 @@ about: Elevating the Future of Software Engineering through Advanced Research & 
               <p><strong>Mantra: </strong>{{story.comments}}</p>
               <p><strong>Lab (if they have one): </strong>{{story.comments}}</p>
               <p><strong>Mission: </strong>{{story.comments}}</p>
+              {% if story.current_students_file %}
+                  <p><a href="{{ story.current_students_file }}" target="_blank">Current Students</a></p>
+              {% endif %}
               <button onclick="toggleDetails(this)" style="background-color: #CC0000; color: #ffffff;">Show More</button>
               <div class="hidden-details" style="display: none;">
                 <p><strong>About:</strong> {{story.who_are_you}}</p>
@@ -30,9 +33,6 @@ about: Elevating the Future of Software Engineering through Advanced Research & 
                 <p><a href="{{ story.papers_link }}" target="_blank">Research Papers Link</a></p>
                 {% if story.html_file %}
                   <p><a href="{{ story.html_file }}" target="_blank">Research Papers In Our Website</a></p>
-                {% endif %}
-                {% if story.current_students_file %}
-                  <p><a href="{{ story.current_students_file }}" target="_blank">Current Students</a></p>
                 {% endif %}
               </div>
             </div>
