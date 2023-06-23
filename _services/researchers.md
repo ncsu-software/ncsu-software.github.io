@@ -62,9 +62,6 @@ about: Elevating the Future of Software Engineering through Advanced Research & 
             {% if story.LabName %}
             <p><strong>Lab Name: </strong>{{ story.LabName }}</p>
             {% endif %}
-            {% if story.CurrentStudents %}
-              <p><strong>Current Students: </strong>{{ story.CurrentStudents }}</p>
-            {% endif %}
             {% if story.CoreResearchAreas %}
               <p><strong>Core Research Areas: </strong>{{ story.CoreResearchAreas }}</p>
             {% endif %}
