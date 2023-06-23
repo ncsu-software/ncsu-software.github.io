@@ -70,7 +70,7 @@ about: Elevating the Future of Software Engineering through Advanced Research & 
         <p><a href="{{ story.CurrentStudents }}" target="_blank">Current Students</a></p>
     {% endif %}
     {% if story.DBLPPapers %}
-        <p><a href="{{ story.DBLPPapers }}" target="_blank">DBLPPapers</a></p>
+        <p><a href="{{ story.DBLPPapers }}" target="_blank">Research Papers</a></p>
     {% endif %}
     {% if story.Grants %}
         <p><a href="{{ story.Grants }}" target="_blank">Grants</a></p>
