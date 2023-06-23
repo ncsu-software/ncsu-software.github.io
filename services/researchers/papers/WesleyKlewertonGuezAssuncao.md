@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Timothy Menzies's Research Papers
+title: WesleyKlewertonGuezAssuncao's Research Papers
 ---
 
 <div style="display: flex; flex-direction: column; align-items: left; border: 80px solid #ccc; padding: 20px;">
   <h1 style="text-align: center;">{{ page.title }}</h1>
-  {% for row in site.data.researchers.papers.timothy_menzies %}
+  {% for row in site.data.researchers.papers.WesleyKlewertonGuezAssuncao %}
     {% if row.select == "TRUE" %}
     <div style="text-align: left; margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 10px;">
       <a href="{{ row.DOI }}" target="_blank" style="text-decoration: underline; color: inherit; display: inline-block;">
