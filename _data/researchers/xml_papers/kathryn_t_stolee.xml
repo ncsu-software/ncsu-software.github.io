@@ -1,0 +1,1057 @@
+<dblpperson name="Kathryn T. Stolee" pid="26/694" n="56">
+    <person key="homepages/26/694" mdate="2022-12-28">
+        <author pid="26/694">Kathryn T. Stolee</author>
+        <note type="affiliation">North Carolina State University, NC, USA</note>
+        <url>https://dl.acm.org/profile/81384621273</url>
+        <url>https://orcid.org/0000-0003-0584-7094</url>
+    </person>
+    <r>
+        <article key="journals/ese/WangBJS22" mdate="2022-04-09">
+            <author orcid="0000-0001-6179-9790" pid="38/2083">Peipei Wang</author>
+            <author orcid="0000-0002-6036-4733" pid="126/9627">Chris Brown 0001</author>
+            <author pid="274/7687">Jamie A. Jennings</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Demystifying regular expression bugs.</title>
+            <pages>21</pages>
+            <year>2022</year>
+            <volume>27</volume>
+            <journal>Empir. Softw. Eng.</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.1007/s10664-021-10033-1</ee>
+            <url>db/journals/ese/ese27.html#WangBJS22</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/icer/Presler-Marshall22" mdate="2022-08-09">
+            <author pid="242/2099">Kai Presler-Marshall</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>What Makes Team[s] Work? A Study of Team Characteristics in Software Engineering
+                Projects.</title>
+            <pages>177-188</pages>
+            <year>2022</year>
+            <booktitle>ICER (1)</booktitle>
+            <ee>https://doi.org/10.1145/3501385.3543980</ee>
+            <crossref>conf/icer/2022</crossref>
+            <url>db/conf/icer/icer2022.html#Presler-Marshall22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/iticse/BaiPPS22" mdate="2022-07-11">
+            <author pid="237/8508">Gina R. Bai</author>
+            <author pid="242/2099">Kai Presler-Marshall</author>
+            <author pid="163/7960">Thomas W. Price</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Check It Off: Exploring the Impact of a Checklist Intervention on the Quality of
+                Student-authored Unit Tests.</title>
+            <pages>276-282</pages>
+            <year>2022</year>
+            <booktitle>ITiCSE (1)</booktitle>
+            <ee>https://doi.org/10.1145/3502718.3524799</ee>
+            <crossref>conf/iticse/2022-1</crossref>
+            <url>db/conf/iticse/iticse2022-1.html#BaiPPS22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/Presler-Marshall21" mdate="2022-03-07">
+            <author pid="242/2099">Kai Presler-Marshall</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Identifying Struggling Teams in Software Engineering Courses Through Weekly
+                Surveys.</title>
+            <pages>126-132</pages>
+            <year>2022</year>
+            <booktitle>SIGCSE (1)</booktitle>
+            <ee>https://doi.org/10.1145/3478431.3499367</ee>
+            <crossref>conf/sigcse/2022-1</crossref>
+            <url>db/conf/sigcse/sigcse2022-1.html#Presler-Marshall21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/tse/AfzalMSBG21" mdate="2021-11-03">
+            <author orcid="0000-0003-1942-6573" pid="217/9306">Afsoon Afzal</author>
+            <author orcid="0000-0001-5129-3980" pid="44/6242">Manish Motwani</author>
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author orcid="0000-0003-3027-7986" pid="51/1518">Yuriy Brun</author>
+            <author orcid="0000-0002-3931-060X" pid="93/4573">Claire Le Goues</author>
+            <title>SOSRepair: Expressive Semantic Search for Real-World Program Repair.</title>
+            <pages>2162-2181</pages>
+            <year>2021</year>
+            <volume>47</volume>
+            <journal>IEEE Trans. Software Eng.</journal>
+            <number>10</number>
+            <ee>https://doi.org/10.1109/TSE.2019.2944914</ee>
+            <url>db/journals/tse/tse47.html#AfzalMSBG21</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/Presler-Marshall21" mdate="2021-06-28">
+            <author pid="242/2099">Kai Presler-Marshall</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>SQLRepair: Identifying and Repairing Mistakes in Student-Authored SQL Queries.</title>
+            <pages>199-210</pages>
+            <year>2021</year>
+            <booktitle>ICSE (SEET)</booktitle>
+            <ee>https://doi.org/10.1109/ICSE-SEET52601.2021.00030</ee>
+            <crossref>conf/icse/2021seet</crossref>
+            <url>db/conf/icse/seet2021.html#Presler-Marshall21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/iticse/BaiSS21" mdate="2022-09-13">
+            <author pid="237/8508">Gina R. Bai</author>
+            <author orcid="0000-0001-6987-5196" pid="75/2200">Justin Smith 0001</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>How Students Unit Test: Perceptions, Practices, and Pitfalls.</title>
+            <pages>248-254</pages>
+            <year>2021</year>
+            <booktitle>ITiCSE (1)</booktitle>
+            <ee>https://doi.org/10.1145/3430665.3456368</ee>
+            <crossref>conf/iticse/2021</crossref>
+            <url>db/conf/iticse/iticse2021.html#BaiSS21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/iticse/FiskWBS21" mdate="2022-09-13">
+            <author pid="295/3509">Susan R. Fisk</author>
+            <author pid="295/3210">Tiah Wingate</author>
+            <author orcid="0000-0002-1450-9700" pid="98/3395">Lina Battestilli</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Increasing Women's Persistence in Computer Science by Decreasing Gendered
+                Self-Assessments of Computing Ability.</title>
+            <pages>464-470</pages>
+            <year>2021</year>
+            <booktitle>ITiCSE (1)</booktitle>
+            <ee>https://doi.org/10.1145/3430665.3456374</ee>
+            <crossref>conf/iticse/2021</crossref>
+            <url>db/conf/iticse/iticse2021.html#FiskWBS21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigsoft/MathewS21" mdate="2022-01-08">
+            <author orcid="0000-0002-9393-793X" pid="37/6725">George Mathew</author>
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <title>Cross-language code search using static and dynamic analyses.</title>
+            <pages>205-217</pages>
+            <year>2021</year>
+            <booktitle>ESEC/SIGSOFT FSE</booktitle>
+            <ee>https://doi.org/10.1145/3468264.3468538</ee>
+            <crossref>conf/sigsoft/2021</crossref>
+            <url>db/conf/sigsoft/fse2021.html#MathewS21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2102-05729" mdate="2021-02-18">
+            <author pid="242/2099">Kai Presler-Marshall</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>SQLRepair: Identifying and Repairing Mistakes in Student-Authored SQL Queries.</title>
+            <year>2021</year>
+            <volume>abs/2102.05729</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2102.05729</ee>
+            <url>db/journals/corr/corr2102.html#abs-2102-05729</url>
+        </article>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2104-09693" mdate="2021-09-09">
+            <author pid="38/2083">Peipei Wang</author>
+            <author pid="126/9627">Chris Brown 0001</author>
+            <author pid="274/7687">Jamie A. Jennings</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Demystifying Regular Expression Bugs: A comprehensive study on regular expression
+                bug causes, fixes, and testing.</title>
+            <year>2021</year>
+            <volume>abs/2104.09693</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2104.09693</ee>
+            <url>db/journals/corr/corr2104.html#abs-2104-09693</url>
+        </article>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2106-09173" mdate="2021-06-29">
+            <author pid="37/6725">George Mathew</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Cross-Language Code Search using Static and Dynamic Analyses.</title>
+            <year>2021</year>
+            <volume>abs/2106.09173</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2106.09173</ee>
+            <url>db/journals/corr/corr2106.html#abs-2106-09173</url>
+        </article>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2110-13029" mdate="2021-10-28">
+            <author pid="215/4443">Suvodeep Majumder</author>
+            <author pid="239/5715">Joymallya Chakraborty</author>
+            <author pid="237/8508">Gina R. Bai</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <author pid="m/TimMenzies">Tim Menzies</author>
+            <title>Fair Enough: Searching for Sufficient Measures of Fairness.</title>
+            <year>2021</year>
+            <volume>abs/2110.13029</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2110.13029</ee>
+            <url>db/journals/corr/corr2110.html#abs-2110-13029</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/pacmhci/MiddletonMS20" mdate="2020-09-04">
+            <author pid="177/6937">Justin Middleton</author>
+            <author pid="02/3722">Emerson R. Murphy-Hill</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Data Analysts and Their Software Practices: A Profile of the Sabermetrics
+                Community and Beyond.</title>
+            <pages>052:1-052:27</pages>
+            <year>2020</year>
+            <volume>4</volume>
+            <journal>Proc. ACM Hum. Comput. Interact.</journal>
+            <number>CSCW</number>
+            <ee>https://doi.org/10.1145/3392859</ee>
+            <url>db/journals/pacmhci/pacmhci4.html#MiddletonMS20</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/MathewPS20" mdate="2021-01-08">
+            <author pid="37/6725">George Mathew</author>
+            <author pid="46/2873">Chris Parnin</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>SLACC: simion-based language agnostic code clones.</title>
+            <pages>210-221</pages>
+            <year>2020</year>
+            <booktitle>ICSE</booktitle>
+            <ee>https://doi.org/10.1145/3377811.3380407</ee>
+            <ee>https://ieeexplore.ieee.org/document/9283951</ee>
+            <crossref>conf/icse/2020</crossref>
+            <url>db/conf/icse/icse2020.html#MathewPS20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/iwpc/BaiKS20" mdate="2020-09-21">
+            <author pid="237/8508">Gina R. Bai</author>
+            <author pid="217/2169">Joshua Kayani</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>How Graduate Computing Students Search When Using an Unfamiliar Programming
+                Language.</title>
+            <pages>160-171</pages>
+            <year>2020</year>
+            <booktitle>ICPC</booktitle>
+            <ee>https://doi.org/10.1145/3387904.3389274</ee>
+            <crossref>conf/iwpc/2020</crossref>
+            <url>db/conf/iwpc/icpc2020.html#BaiKS20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/msr/WangBJS20" mdate="2022-01-03">
+            <author pid="38/2083">Peipei Wang</author>
+            <author orcid="0000-0002-6036-4733" pid="126/9627">Chris Brown 0001</author>
+            <author pid="274/7687">Jamie A. Jennings</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>An Empirical Study on Regular Expression Bugs.</title>
+            <pages>103-113</pages>
+            <year>2020</year>
+            <booktitle>MSR</booktitle>
+            <ee>https://doi.org/10.1145/3379597.3387464</ee>
+            <crossref>conf/msr/2020</crossref>
+            <url>db/conf/msr/msr2020.html#WangBJS20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/respect/FiskSB20" mdate="2022-01-03">
+            <author pid="295/3509">Susan R. Fisk</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <author orcid="0000-0002-1450-9700" pid="98/3395">Lina Battestilli</author>
+            <title>A Lightweight Intervention to Decrease Gender Bias in Student Evaluations of
+                Teaching.</title>
+            <pages>1-4</pages>
+            <year>2020</year>
+            <booktitle>RESPECT</booktitle>
+            <ee>https://doi.org/10.1109/RESPECT49803.2020.9272454</ee>
+            <crossref>conf/respect/2020</crossref>
+            <url>db/conf/respect/respect2020.html#FiskSB20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2002-03039" mdate="2020-02-12">
+            <author pid="37/6725">George Mathew</author>
+            <author pid="46/2873">Chris Parnin</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>SLACC: Simion-based Language Agnostic Code Clones.</title>
+            <year>2020</year>
+            <volume>abs/2002.03039</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2002.03039</ee>
+            <url>db/journals/corr/corr2002.html#abs-2002-03039</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/Presler-Marshall19" mdate="2019-09-05">
+            <author pid="242/2099">Kai Presler-Marshall</author>
+            <author pid="218/6656">Eric Horton</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Wait wait. No, tell me: analyzing selenium configuration effects on test
+                flakiness.</title>
+            <pages>7-13</pages>
+            <year>2019</year>
+            <booktitle>AST@ICSE</booktitle>
+            <ee>https://doi.org/10.1109/AST.2019.000-1</ee>
+            <ee>https://dl.acm.org/citation.cfm?id=3338661</ee>
+            <crossref>conf/icse/2019ast</crossref>
+            <url>db/conf/icse/ast2019.html#Presler-Marshall19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/iwpc/ChenSM19" mdate="2019-09-04">
+            <author pid="12/414">Di Chen</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <author pid="m/TimMenzies">Tim Menzies</author>
+            <title>Replication can improve prior results: a GitHub study of pull request acceptance.</title>
+            <pages>179-190</pages>
+            <year>2019</year>
+            <booktitle>ICPC</booktitle>
+            <ee>https://doi.org/10.1109/ICPC.2019.00037</ee>
+            <ee>https://dl.acm.org/citation.cfm?id=3339110</ee>
+            <crossref>conf/iwpc/2019</crossref>
+            <url>db/conf/iwpc/icpc2019.html#ChenSM19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/iwpc/BaiCSCWS19" mdate="2019-09-04">
+            <author pid="237/8508">Gina R. Bai</author>
+            <author pid="242/2054">Brian Clee</author>
+            <author pid="225/7825">Nischal Shrestha</author>
+            <author pid="183/0207">Carl Chapman</author>
+            <author pid="242/2017">Cimone Wright</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Exploring tools and strategies used during regular expression composition tasks.</title>
+            <pages>197-208</pages>
+            <year>2019</year>
+            <booktitle>ICPC</booktitle>
+            <ee>https://doi.org/10.1109/ICPC.2019.00039</ee>
+            <ee>https://dl.acm.org/citation.cfm?id=3339112</ee>
+            <crossref>conf/iwpc/2019</crossref>
+            <url>db/conf/iwpc/icpc2019.html#BaiCSCWS19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/wcre/SunBBS19" mdate="2022-01-03">
+            <author pid="88/619">Peng Sun</author>
+            <author orcid="0000-0002-6036-4733" pid="126/9627">Chris Brown 0001</author>
+            <author pid="98/5324">Ivan Beschastnikh</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Mining Specifications from Documentation using a Crowd.</title>
+            <pages>275-286</pages>
+            <year>2019</year>
+            <booktitle>SANER</booktitle>
+            <ee>https://doi.org/10.1109/SANER.2019.8668025</ee>
+            <crossref>conf/wcre/2019</crossref>
+            <url>db/conf/wcre/saner2019.html#SunBBS19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/wcre/WangBS19" mdate="2019-03-29">
+            <author pid="38/2083">Peipei Wang</author>
+            <author pid="237/8508">Gina R. Bai</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Exploring Regular Expression Evolution.</title>
+            <pages>502-513</pages>
+            <year>2019</year>
+            <booktitle>SANER</booktitle>
+            <ee>https://doi.org/10.1109/SANER.2019.8667972</ee>
+            <crossref>conf/wcre/2019</crossref>
+            <url>db/conf/wcre/saner2019.html#WangBS19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-1902-04060" mdate="2019-05-21">
+            <author pid="12/414">Di Chen</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <author pid="m/TimMenzies">Tim Menzies</author>
+            <title>Replication Can Improve Prior Results: A GitHub Study of Pull Request Acceptance.</title>
+            <year>2019</year>
+            <volume>abs/1902.04060</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">http://arxiv.org/abs/1902.04060</ee>
+            <url>db/journals/corr/corr1902.html#abs-1902-04060</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/software/GouesJOSS18" mdate="2022-04-09">
+            <author pid="93/4573">Claire Le Goues</author>
+            <author pid="36/1500">Ciera Jaspan</author>
+            <author orcid="0000-0002-7336-4775" pid="86/5769">Ipek Ozkaya</author>
+            <author pid="93/5634">Mary Shaw</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Bridging the Gap: From Research to Practical Advice.</title>
+            <pages>50-57</pages>
+            <year>2018</year>
+            <volume>35</volume>
+            <journal>IEEE Softw.</journal>
+            <number>5</number>
+            <ee>https://doi.org/10.1109/MS.2018.3571235</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/MS.2018.3571235</ee>
+            <url>db/journals/software/software35.html#GouesJOSS18</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/HeckmanSP18" mdate="2021-08-10">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <author pid="46/2873">Christopher Parnin</author>
+            <title>10+ years of teaching software engineering with itrust: the good, the bad, and
+                the ugly.</title>
+            <pages>1-4</pages>
+            <year>2018</year>
+            <booktitle>ICSE (SEET)</booktitle>
+            <ee>https://doi.org/10.1145/3183377.3183393</ee>
+            <ee>https://ieeexplore.ieee.org/document/8445174</ee>
+            <crossref>conf/icse/2018seet</crossref>
+            <url>db/conf/icse/seet2018.html#HeckmanSP18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/HillPS18" mdate="2021-08-10">
+            <author pid="61/2397">Andrew Hill</author>
+            <author pid="03/4368">Corina S. Pasareanu</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Automated program repair with canonical constraints.</title>
+            <pages>339-341</pages>
+            <year>2018</year>
+            <booktitle>ICSE (Companion Volume)</booktitle>
+            <ee>https://doi.org/10.1145/3183440.3194999</ee>
+            <ee>https://ieeexplore.ieee.org/document/8449568</ee>
+            <crossref>conf/icse/2018c</crossref>
+            <url>db/conf/icse/icse2018c.html#HillPS18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/msr/RahmanBPKLQPSR08" mdate="2021-11-12">
+            <author pid="08/2425-1">Md. Masudur Rahman 0001</author>
+            <author pid="217/2226">Jed Barson</author>
+            <author pid="217/2048">Sydney Paul</author>
+            <author pid="217/2169">Joshua Kayani</author>
+            <author pid="217/2063">Federico Andres Lois</author>
+            <author pid="217/2055">Sebastian Fernandez Quezada</author>
+            <author pid="46/2873">Christopher Parnin</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <author pid="74/1969">Baishakhi Ray</author>
+            <title>Evaluating how developers use general-purpose web-search for code retrieval.</title>
+            <pages>465-475</pages>
+            <year>2018</year>
+            <booktitle>MSR</booktitle>
+            <ee>https://doi.org/10.1145/3196398.3196425</ee>
+            <ee>https://ieeexplore.ieee.org/document/8595230</ee>
+            <crossref>conf/msr/2018</crossref>
+            <url>db/conf/msr/msr2018.html#RahmanBPKLQPSR08</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigsoft/WangS18" mdate="2018-11-21">
+            <author pid="38/2083">Peipei Wang</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>How well are regular expressions tested in the wild?</title>
+            <pages>668-678</pages>
+            <year>2018</year>
+            <booktitle>ESEC/SIGSOFT FSE</booktitle>
+            <ee>https://doi.org/10.1145/3236024.3236072</ee>
+            <crossref>conf/sigsoft/2018</crossref>
+            <url>db/conf/sigsoft/fse2018.html#WangS18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <proceedings key="conf/icse/2018gi" mdate="2018-08-27">
+            <editor pid="23/8779">Justyna Petke</editor>
+            <editor pid="26/694">Kathryn T. Stolee</editor>
+            <editor pid="l/WilliamBLangdon">William B. Langdon</editor>
+            <editor pid="05/4127">Westley Weimer</editor>
+            <title>Proceedings of the 4th International Genetic Improvement Workshop, GI@ICSE 2018,
+                Gothenburg, Sweden, June 2, 2018</title>
+            <publisher>ACM</publisher>
+            <booktitle>GI@ICSE</booktitle>
+            <year>2018</year>
+            <ee>http://dl.acm.org/citation.cfm?id=3194810</ee>
+            <url>db/conf/icse/gi2018.html</url>
+        </proceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-1803-08612" mdate="2021-11-12">
+            <author pid="08/2425-1">Md. Masudur Rahman 0001</author>
+            <author pid="217/2226">Jed Barson</author>
+            <author pid="217/2048">Sydney Paul</author>
+            <author pid="217/2169">Joshua Kayani</author>
+            <author pid="217/2063">Federico Andres Lois</author>
+            <author pid="217/2055">Sebastian Fernandez Quezada</author>
+            <author pid="46/2873">Christopher Parnin</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <author pid="74/1969">Baishakhi Ray</author>
+            <title>Evaluating How Developers Use General-Purpose Web-Search for Code Retrieval.</title>
+            <year>2018</year>
+            <volume>abs/1803.08612</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">http://arxiv.org/abs/1803.08612</ee>
+            <url>db/journals/corr/corr1803.html#abs-1803-08612</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/ShriverES17" mdate="2023-03-23">
+            <author orcid="0000-0003-0208-6517" pid="202/8415">David Shriver</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <title>At the End of Synthesis: Narrowing Program Candidates.</title>
+            <pages>19-22</pages>
+            <year>2017</year>
+            <booktitle>ICSE-NIER</booktitle>
+            <ee>https://doi.org/10.1109/ICSE-NIER.2017.7</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/ICSE-NIER.2017.7</ee>
+            <crossref>conf/icse/2017nier</crossref>
+            <url>db/conf/icse/icse2017nier.html#ShriverES17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/kbse/ChapmanWS17" mdate="2023-03-24">
+            <author pid="183/0207">Carl Chapman</author>
+            <author pid="38/2083">Peipei Wang</author>
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <title>Exploring regular expression comprehension.</title>
+            <pages>405-416</pages>
+            <year>2017</year>
+            <booktitle>ASE</booktitle>
+            <ee>https://doi.org/10.1109/ASE.2017.8115653</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/ASE.2017.8115653</ee>
+            <ee>http://dl.acm.org/citation.cfm?id=3155616</ee>
+            <crossref>conf/kbse/2017</crossref>
+            <url>db/conf/kbse/ase2017.html#ChapmanWS17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/vl/SinghSSJ17" mdate="2023-03-23">
+            <author pid="208/7351">Devarshi Singh</author>
+            <author pid="208/7378">Varun Ramachandra Sekar</author>
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="116/6719">Brittany Johnson</author>
+            <title>Evaluating how static analysis tools can reduce code review effort.</title>
+            <pages>101-105</pages>
+            <year>2017</year>
+            <booktitle>VL/HCC</booktitle>
+            <ee>https://doi.org/10.1109/VLHCC.2017.8103456</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/VLHCC.2017.8103456</ee>
+            <crossref>conf/vl/2017</crossref>
+            <url>db/conf/vl/vlhcc2017.html#SinghSSJ17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/ChenSM17" mdate="2018-08-13">
+            <author pid="12/414">Di Chen</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <author pid="m/TimMenzies">Tim Menzies</author>
+            <title>Replicating and Scaling up Qualitative Analysis using Crowdsourcing: A
+                Github-based Case Study.</title>
+            <year>2017</year>
+            <volume>abs/1702.08571</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">http://arxiv.org/abs/1702.08571</ee>
+            <url>db/journals/corr/corr1702.html#ChenSM17</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/jss/StoleeED16" mdate="2020-12-29">
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <author orcid="0000-0002-1937-1544" pid="d/MatthewBDwyer">Matthew B. Dwyer</author>
+            <title>Code search with input/output queries: Generalizing, ranking, and assessment.</title>
+            <pages>35-48</pages>
+            <year>2016</year>
+            <volume>116</volume>
+            <journal>J. Syst. Softw.</journal>
+            <ee>https://doi.org/10.1016/j.jss.2015.04.081</ee>
+            <url>db/journals/jss/jss116.html#StoleeED16</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/SunS16" mdate="2023-03-23">
+            <author pid="88/619">Peng Sun</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Exploring crowd consistency in a mechanical turk survey.</title>
+            <pages>8-14</pages>
+            <year>2016</year>
+            <booktitle>CSI-SE@ICSE</booktitle>
+            <ee>https://doi.org/10.1145/2897659.2897662</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/CSI-SE.2016.010</ee>
+            <ee>https://www.wikidata.org/entity/Q57433738</ee>
+            <crossref>conf/icse/2016csise</crossref>
+            <url>db/conf/icse/csise2016.html#SunS16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/issta/ChapmanS16" mdate="2018-11-06">
+            <author pid="183/0207">Carl Chapman</author>
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <title>Exploring regular expression usage and context in Python.</title>
+            <pages>282-293</pages>
+            <year>2016</year>
+            <booktitle>ISSTA</booktitle>
+            <ee>https://doi.org/10.1145/2931037.2931073</ee>
+            <crossref>conf/issta/2016</crossref>
+            <url>db/conf/issta/issta2016.html#ChapmanS16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/vl/HermansSH16" mdate="2023-03-23">
+            <author pid="21/7423">Felienne Hermans</author>
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="171/6079">David Hoepelman</author>
+            <title>Smells in block-based programming languages.</title>
+            <pages>68-72</pages>
+            <year>2016</year>
+            <booktitle>VL/HCC</booktitle>
+            <ee>https://doi.org/10.1109/VLHCC.2016.7739666</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/VLHCC.2016.7739666</ee>
+            <crossref>conf/vl/2016</crossref>
+            <url>db/conf/vl/vlhcc2016.html#HermansSH16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/esem/MelloST15" mdate="2023-03-24">
+            <author orcid="0000-0002-9877-3946" pid="121/2507">Rafael Maiani de Mello</author>
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="t/GuilhermeTravassos">Guilherme H. Travassos</author>
+            <title>Investigating Samples Representativeness for an Online Experiment in Java Code
+                Search.</title>
+            <pages>118-127</pages>
+            <year>2015</year>
+            <booktitle>ESEM</booktitle>
+            <ee>https://doi.org/10.1109/ESEM.2015.7321205</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/ESEM.2015.7321205</ee>
+            <crossref>conf/esem/2015</crossref>
+            <url>db/conf/esem/esem2015.html#MelloST15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/StoleeSL15" mdate="2023-03-23">
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="166/4334">James Saylor</author>
+            <author pid="166/4295">Trevor Lund</author>
+            <title>Exploring the Benefits of Using Redundant Responses in Crowdsourced Evaluations.</title>
+            <pages>38-44</pages>
+            <year>2015</year>
+            <booktitle>CSI-SE</booktitle>
+            <ee>https://doi.org/10.1109/CSI-SE.2015.15</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/CSI-SE.2015.15</ee>
+            <ee>http://dl.acm.org/citation.cfm?id=2820124</ee>
+            <crossref>conf/icse/2015csise</crossref>
+            <url>db/conf/icse/csise2015.html#StoleeSL15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/kbse/KeSGB15" mdate="2023-03-24">
+            <author pid="144/1504">Yalin Ke</author>
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="93/4573">Claire Le Goues</author>
+            <author orcid="0000-0003-3027-7986" pid="51/1518">Yuriy Brun</author>
+            <title>Repairing Programs with Semantic Code Search (T).</title>
+            <pages>295-306</pages>
+            <year>2015</year>
+            <booktitle>ASE</booktitle>
+            <ee>https://doi.org/10.1109/ASE.2015.60</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/ASE.2015.60</ee>
+            <ee>https://dl.acm.org/citation.cfm?id=3343925</ee>
+            <ee>https://www.wikidata.org/entity/Q57311857</ee>
+            <crossref>conf/kbse/2015</crossref>
+            <url>db/conf/kbse/ase2015.html#KeSGB15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigsoft/SadowskiSE15" mdate="2018-11-06">
+            <author pid="17/2324">Caitlin Sadowski</author>
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <title>How developers search for code: a case study.</title>
+            <pages>191-201</pages>
+            <year>2015</year>
+            <booktitle>ESEC/SIGSOFT FSE</booktitle>
+            <ee>https://doi.org/10.1145/2786805.2786855</ee>
+            <crossref>conf/sigsoft/2015</crossref>
+            <url>db/conf/sigsoft/fse2015.html#SadowskiSE15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/tosem/StoleeED14" mdate="2022-03-16">
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <author pid="146/3522">Daniel Dobos</author>
+            <title>Solving the Search for Source Code.</title>
+            <pages>26:1-26:45</pages>
+            <year>2014</year>
+            <volume>23</volume>
+            <journal>ACM Trans. Softw. Eng. Methodol.</journal>
+            <number>3</number>
+            <ee>https://doi.org/10.1145/2581377</ee>
+            <ee>https://www.wikidata.org/entity/Q110511330</ee>
+            <url>db/journals/tosem/tosem23.html#StoleeED14</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/infsof/StoleeES13" mdate="2021-10-14">
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <author orcid="0000-0002-1859-1692" pid="26/6565">Anita Sarma</author>
+            <title>Discovering how end-user programmers and their communities use public
+                repositories: A study on Yahoo! Pipes.</title>
+            <pages>1289-1303</pages>
+            <year>2013</year>
+            <volume>55</volume>
+            <journal>Inf. Softw. Technol.</journal>
+            <number>7</number>
+            <ee>https://doi.org/10.1016/j.infsof.2012.10.004</ee>
+            <url>db/journals/infsof/infsof55.html#StoleeES13</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/tse/StoleeE13" mdate="2018-11-30">
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <title>Identification, Impact, and Refactoring of Smells in Pipe-Like Web Mashups.</title>
+            <pages>1654-1679</pages>
+            <year>2013</year>
+            <volume>39</volume>
+            <journal>IEEE Trans. Software Eng.</journal>
+            <number>12</number>
+            <ee>https://doi.org/10.1109/TSE.2013.42</ee>
+            <ee>http://doi.ieeecomputersociety.org/10.1109/TSE.2013.42</ee>
+            <url>db/journals/tse/tse39.html#StoleeE13</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/esem/StoleeE13" mdate="2023-03-24">
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <title>On the Use of Input/Output Queries for Code Search.</title>
+            <pages>251-254</pages>
+            <year>2013</year>
+            <booktitle>ESEM</booktitle>
+            <ee>https://doi.org/10.1109/ESEM.2013.35</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/ESEM.2013.35</ee>
+            <crossref>conf/esem/2013</crossref>
+            <url>db/conf/esem/esem2013.html#StoleeE13</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/Stolee12" mdate="2023-03-23">
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Finding suitable programs: Semantic search with incomplete and lightweight
+                specifications.</title>
+            <pages>1571-1574</pages>
+            <year>2012</year>
+            <booktitle>ICSE</booktitle>
+            <ee>https://doi.org/10.1109/ICSE.2012.6227034</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/ICSE.2012.6227034</ee>
+            <ee>http://dl.acm.org/citation.cfm?id=2337487</ee>
+            <crossref>conf/icse/2012</crossref>
+            <url>db/conf/icse/icse2012.html#Stolee12</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigsoft/StoleeE12" mdate="2018-11-06">
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <title>Toward semantic search via SMT solver.</title>
+            <pages>25</pages>
+            <year>2012</year>
+            <booktitle>SIGSOFT FSE</booktitle>
+            <ee>https://doi.org/10.1145/2393596.2393625</ee>
+            <crossref>conf/sigsoft/2012</crossref>
+            <url>db/conf/sigsoft/fse2012.html#StoleeE12</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/esem/StoleeES11" mdate="2023-03-24">
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <author orcid="0000-0002-1859-1692" pid="26/6565">Anita Sarma</author>
+            <title>End-User Programmers and their Communities: An Artifact-based Analysis.</title>
+            <pages>147-156</pages>
+            <year>2011</year>
+            <booktitle>ESEM</booktitle>
+            <ee>https://doi.org/10.1109/ESEM.2011.23</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/ESEM.2011.23</ee>
+            <crossref>conf/esem/2011</crossref>
+            <url>db/conf/esem/esem2011.html#StoleeES11</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/StoleeE11" mdate="2018-11-06">
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <title>Refactoring pipe-like mashups for end-user programmers.</title>
+            <pages>81-90</pages>
+            <year>2011</year>
+            <booktitle>ICSE</booktitle>
+            <ee>https://doi.org/10.1145/1985793.1985805</ee>
+            <crossref>conf/icse/2011</crossref>
+            <url>db/conf/icse/icse2011.html#StoleeE11</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/StoleeF11" mdate="2018-11-06">
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="88/10634">Teale Fristoe</author>
+            <title>Expressing computer science concepts through Kodu game lab.</title>
+            <pages>99-104</pages>
+            <year>2011</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/1953163.1953197</ee>
+            <crossref>conf/sigcse/2011</crossref>
+            <url>db/conf/sigcse/sigcse2011.html#StoleeF11</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/esem/StoleeE10" mdate="2018-11-06">
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <title>Exploring the use of crowdsourcing to support empirical studies in software
+                engineering.</title>
+            <year>2010</year>
+            <booktitle>ESEM</booktitle>
+            <ee>https://doi.org/10.1145/1852786.1852832</ee>
+            <crossref>conf/esem/2010</crossref>
+            <url>db/conf/esem/esem2010.html#StoleeE10</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/vl/StoleeER09" mdate="2023-03-23">
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <author pid="25/6796">Gregg Rothermel</author>
+            <title>Revealing the copy and paste habits of end users.</title>
+            <pages>59-66</pages>
+            <year>2009</year>
+            <booktitle>VL/HCC</booktitle>
+            <ee>https://doi.org/10.1109/VLHCC.2009.5295296</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/VLHCC.2009.5295296</ee>
+            <crossref>conf/vl/2009</crossref>
+            <url>db/conf/vl/vlhcc2009.html#StoleeER09</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigsoft/KoesnandarERHSS08" mdate="2018-11-06">
+            <author pid="05/7003">Andhy Koesnandar</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <author pid="25/6796">Gregg Rothermel</author>
+            <author pid="75/1187">Lorin Hochstein</author>
+            <author pid="13/5036">Christopher Scaffidi</author>
+            <author orcid="0000-0003-0584-7094" pid="26/694">Kathryn T. Stolee</author>
+            <title>Using assertions to help end-user programmers create dependable web macros.</title>
+            <pages>124-134</pages>
+            <year>2008</year>
+            <booktitle>SIGSOFT FSE</booktitle>
+            <ee>https://doi.org/10.1145/1453101.1453119</ee>
+            <crossref>conf/sigsoft/2008</crossref>
+            <url>db/conf/sigsoft/fse2008.html#KoesnandarERHSS08</url>
+        </inproceedings>
+    </r>
+    <coauthors n="66" nc="3">
+        <co c="0">
+            <na f="a/Afzal:Afsoon" pid="217/9306">Afsoon Afzal</na>
+        </co>
+        <co c="0">
+            <na f="b/Bai:Gina_R=" pid="237/8508">Gina R. Bai</na>
+        </co>
+        <co c="0">
+            <na f="b/Barson:Jed" pid="217/2226">Jed Barson</na>
+        </co>
+        <co c="0">
+            <na f="b/Battestilli:Lina" pid="98/3395">Lina Battestilli</na>
+        </co>
+        <co c="0">
+            <na f="b/Beschastnikh:Ivan" pid="98/5324">Ivan Beschastnikh</na>
+        </co>
+        <co c="0">
+            <na f="b/Brown_0001:Chris" pid="126/9627">Chris Brown 0001</na>
+        </co>
+        <co c="0">
+            <na f="b/Brun:Yuriy" pid="51/1518">Yuriy Brun</na>
+        </co>
+        <co c="0">
+            <na f="c/Chakraborty:Joymallya" pid="239/5715">Joymallya Chakraborty</na>
+        </co>
+        <co c="0">
+            <na f="c/Chapman:Carl" pid="183/0207">Carl Chapman</na>
+        </co>
+        <co c="0">
+            <na f="c/Chen:Di" pid="12/414">Di Chen</na>
+        </co>
+        <co c="0">
+            <na f="c/Clee:Brian" pid="242/2054">Brian Clee</na>
+        </co>
+        <co c="0">
+            <na f="d/Dobos:Daniel" pid="146/3522">Daniel Dobos</na>
+        </co>
+        <co c="0">
+            <na f="d/Dwyer:Matthew_B=" pid="d/MatthewBDwyer">Matthew B. Dwyer</na>
+        </co>
+        <co c="0">
+            <na f="e/Elbaum:Sebastian_G=" pid="e/SebastianGElbaum">Sebastian G. Elbaum</na>
+        </co>
+        <co c="0">
+            <na f="f/Fisk:Susan_R=" pid="295/3509">Susan R. Fisk</na>
+        </co>
+        <co c="-1">
+            <na f="f/Fristoe:Teale" pid="88/10634">Teale Fristoe</na>
+        </co>
+        <co c="0">
+            <na f="g/Goues:Claire_Le" pid="93/4573">Claire Le Goues</na>
+        </co>
+        <co c="0" n="2">
+            <na f="h/Heckman:Sarah_Smith" pid="62/6606">Sarah Smith Heckman</na>
+            <na>Sarah Heckman</na>
+        </co>
+        <co c="0">
+            <na f="h/Hermans:Felienne" pid="21/7423">Felienne Hermans</na>
+        </co>
+        <co c="0">
+            <na f="h/Hill:Andrew" pid="61/2397">Andrew Hill</na>
+        </co>
+        <co c="0">
+            <na f="h/Hochstein:Lorin" pid="75/1187">Lorin Hochstein</na>
+        </co>
+        <co c="0">
+            <na f="h/Hoepelman:David" pid="171/6079">David Hoepelman</na>
+        </co>
+        <co c="0">
+            <na f="h/Horton:Eric" pid="218/6656">Eric Horton</na>
+        </co>
+        <co c="0">
+            <na f="j/Jaspan:Ciera" pid="36/1500">Ciera Jaspan</na>
+        </co>
+        <co c="0">
+            <na f="j/Jennings:Jamie_A=" pid="274/7687">Jamie A. Jennings</na>
+        </co>
+        <co c="0">
+            <na f="j/Johnson:Brittany" pid="116/6719">Brittany Johnson</na>
+        </co>
+        <co c="0">
+            <na f="k/Kayani:Joshua" pid="217/2169">Joshua Kayani</na>
+        </co>
+        <co c="0">
+            <na f="k/Ke:Yalin" pid="144/1504">Yalin Ke</na>
+        </co>
+        <co c="0">
+            <na f="k/Koesnandar:Andhy" pid="05/7003">Andhy Koesnandar</na>
+        </co>
+        <co c="0">
+            <na f="l/Langdon:William_B=" pid="l/WilliamBLangdon">William B. Langdon</na>
+        </co>
+        <co c="0">
+            <na f="l/Lois:Federico_Andres" pid="217/2063">Federico Andres Lois</na>
+        </co>
+        <co c="1">
+            <na f="l/Lund:Trevor" pid="166/4295">Trevor Lund</na>
+        </co>
+        <co c="0">
+            <na f="m/Majumder:Suvodeep" pid="215/4443">Suvodeep Majumder</na>
+        </co>
+        <co c="0">
+            <na f="m/Mathew:George" pid="37/6725">George Mathew</na>
+        </co>
+        <co c="2">
+            <na f="m/Mello:Rafael_Maiani_de" pid="121/2507">Rafael Maiani de Mello</na>
+        </co>
+        <co c="0">
+            <na f="m/Menzies:Tim" pid="m/TimMenzies">Tim Menzies</na>
+        </co>
+        <co c="0">
+            <na f="m/Middleton:Justin" pid="177/6937">Justin Middleton</na>
+        </co>
+        <co c="0">
+            <na f="m/Motwani:Manish" pid="44/6242">Manish Motwani</na>
+        </co>
+        <co c="0">
+            <na f="m/Murphy=Hill:Emerson_R=" pid="02/3722">Emerson R. Murphy-Hill</na>
+        </co>
+        <co c="0">
+            <na f="o/Ozkaya:Ipek" pid="86/5769">Ipek Ozkaya</na>
+        </co>
+        <co c="0" n="2">
+            <na f="p/Parnin:Chris" pid="46/2873">Chris Parnin</na>
+            <na>Christopher Parnin</na>
+        </co>
+        <co c="0">
+            <na f="p/Pasareanu:Corina_S=" pid="03/4368">Corina S. Pasareanu</na>
+        </co>
+        <co c="0">
+            <na f="p/Paul:Sydney" pid="217/2048">Sydney Paul</na>
+        </co>
+        <co c="0">
+            <na f="p/Petke:Justyna" pid="23/8779">Justyna Petke</na>
+        </co>
+        <co c="0">
+            <na f="p/Presler=Marshall:Kai" pid="242/2099">Kai Presler-Marshall</na>
+        </co>
+        <co c="0">
+            <na f="p/Price:Thomas_W=" pid="163/7960">Thomas W. Price</na>
+        </co>
+        <co c="0">
+            <na f="q/Quezada:Sebastian_Fernandez" pid="217/2055">Sebastian Fernandez Quezada</na>
+        </co>
+        <co c="0">
+            <na f="r/Rahman_0001:Md=_Masudur" pid="08/2425-1">Md. Masudur Rahman 0001</na>
+        </co>
+        <co c="0">
+            <na f="r/Ray:Baishakhi" pid="74/1969">Baishakhi Ray</na>
+        </co>
+        <co c="0">
+            <na f="r/Rothermel:Gregg" pid="25/6796">Gregg Rothermel</na>
+        </co>
+        <co c="0">
+            <na f="s/Sadowski:Caitlin" pid="17/2324">Caitlin Sadowski</na>
+        </co>
+        <co c="0">
+            <na f="s/Sarma:Anita" pid="26/6565">Anita Sarma</na>
+        </co>
+        <co c="1">
+            <na f="s/Saylor:James" pid="166/4334">James Saylor</na>
+        </co>
+        <co c="0">
+            <na f="s/Scaffidi:Christopher" pid="13/5036">Christopher Scaffidi</na>
+        </co>
+        <co c="0">
+            <na f="s/Sekar:Varun_Ramachandra" pid="208/7378">Varun Ramachandra Sekar</na>
+        </co>
+        <co c="0">
+            <na f="s/Shaw:Mary" pid="93/5634">Mary Shaw</na>
+        </co>
+        <co c="0">
+            <na f="s/Shrestha:Nischal" pid="225/7825">Nischal Shrestha</na>
+        </co>
+        <co c="0">
+            <na f="s/Shriver:David" pid="202/8415">David Shriver</na>
+        </co>
+        <co c="0">
+            <na f="s/Singh:Devarshi" pid="208/7351">Devarshi Singh</na>
+        </co>
+        <co c="0">
+            <na f="s/Smith_0001:Justin" pid="75/2200">Justin Smith 0001</na>
+        </co>
+        <co c="0">
+            <na f="s/Sun:Peng" pid="88/619">Peng Sun</na>
+        </co>
+        <co c="2" n="2">
+            <na f="t/Travassos:Guilherme_Horta" pid="t/GuilhermeTravassos">Guilherme Horta Travassos</na>
+            <na>Guilherme H. Travassos</na>
+        </co>
+        <co c="0">
+            <na f="w/Wang:Peipei" pid="38/2083">Peipei Wang</na>
+        </co>
+        <co c="0">
+            <na f="w/Weimer:Westley" pid="05/4127">Westley Weimer</na>
+        </co>
+        <co c="0">
+            <na f="w/Wingate:Tiah" pid="295/3210">Tiah Wingate</na>
+        </co>
+        <co c="0">
+            <na f="w/Wright:Cimone" pid="242/2017">Cimone Wright</na>
+        </co>
+    </coauthors>
+</dblpperson>

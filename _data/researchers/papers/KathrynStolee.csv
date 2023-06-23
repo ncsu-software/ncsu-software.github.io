@@ -1,0 +1,71 @@
+Authors,Title,Journal/Booktitle,Volume/Pages,DOI,Type
+"Peipei Wang, Chris Brown 0001, Jamie A. Jennings, Kathryn T. Stolee",Demystifying regular expression bugs.,Empir. Softw. Eng.,27(2022): 21,https://doi.org/10.1007/s10664-021-10033-1,article
+"Kai Presler-Marshall, Sarah Heckman, Kathryn T. Stolee","What Makes Team[s] Work? A Study of Team Characteristics in Software Engineering
+                Projects.",ICER (1),2022: 177-188,https://doi.org/10.1145/3501385.3543980,inproceedings
+"Gina R. Bai, Kai Presler-Marshall, Thomas W. Price, Kathryn T. Stolee","Check It Off: Exploring the Impact of a Checklist Intervention on the Quality of
+                Student-authored Unit Tests.",ITiCSE (1),2022: 276-282,https://doi.org/10.1145/3502718.3524799,inproceedings
+"Kai Presler-Marshall, Sarah Heckman, Kathryn T. Stolee","Identifying Struggling Teams in Software Engineering Courses Through Weekly
+                Surveys.",SIGCSE (1),2022: 126-132,https://doi.org/10.1145/3478431.3499367,inproceedings
+"Afsoon Afzal, Manish Motwani, Kathryn T. Stolee, Yuriy Brun, Claire Le Goues",SOSRepair: Expressive Semantic Search for Real-World Program Repair.,IEEE Trans. Software Eng.,47(2021): 2162-2181,https://doi.org/10.1109/TSE.2019.2944914,article
+"Kai Presler-Marshall, Sarah Heckman, Kathryn T. Stolee",SQLRepair: Identifying and Repairing Mistakes in Student-Authored SQL Queries.,ICSE (SEET),2021: 199-210,https://doi.org/10.1109/ICSE-SEET52601.2021.00030,inproceedings
+"Gina R. Bai, Justin Smith 0001, Kathryn T. Stolee","How Students Unit Test: Perceptions, Practices, and Pitfalls.",ITiCSE (1),2021: 248-254,https://doi.org/10.1145/3430665.3456368,inproceedings
+"Susan R. Fisk, Tiah Wingate, Lina Battestilli, Kathryn T. Stolee","Increasing Women's Persistence in Computer Science by Decreasing Gendered
+                Self-Assessments of Computing Ability.",ITiCSE (1),2021: 464-470,https://doi.org/10.1145/3430665.3456374,inproceedings
+"George Mathew, Kathryn T. Stolee",Cross-language code search using static and dynamic analyses.,ESEC/SIGSOFT FSE,2021: 205-217,https://doi.org/10.1145/3468264.3468538,inproceedings
+"Kai Presler-Marshall, Sarah Heckman, Kathryn T. Stolee",SQLRepair: Identifying and Repairing Mistakes in Student-Authored SQL Queries.,CoRR,abs/2102.05729(2021): ,https://arxiv.org/abs/2102.05729,article
+"Peipei Wang, Chris Brown 0001, Jamie A. Jennings, Kathryn T. Stolee","Demystifying Regular Expression Bugs: A comprehensive study on regular expression
+                bug causes, fixes, and testing.",CoRR,abs/2104.09693(2021): ,https://arxiv.org/abs/2104.09693,article
+"George Mathew, Kathryn T. Stolee",Cross-Language Code Search using Static and Dynamic Analyses.,CoRR,abs/2106.09173(2021): ,https://arxiv.org/abs/2106.09173,article
+"Suvodeep Majumder, Joymallya Chakraborty, Gina R. Bai, Kathryn T. Stolee, Tim Menzies",Fair Enough: Searching for Sufficient Measures of Fairness.,CoRR,abs/2110.13029(2021): ,https://arxiv.org/abs/2110.13029,article
+"Justin Middleton, Emerson R. Murphy-Hill, Kathryn T. Stolee","Data Analysts and Their Software Practices: A Profile of the Sabermetrics
+                Community and Beyond.",Proc. ACM Hum. Comput. Interact.,4(2020): 052:1-052:27,https://doi.org/10.1145/3392859,article
+"George Mathew, Chris Parnin, Kathryn T. Stolee",SLACC: simion-based language agnostic code clones.,ICSE,2020: 210-221,https://doi.org/10.1145/3377811.3380407,inproceedings
+"Gina R. Bai, Joshua Kayani, Kathryn T. Stolee","How Graduate Computing Students Search When Using an Unfamiliar Programming
+                Language.",ICPC,2020: 160-171,https://doi.org/10.1145/3387904.3389274,inproceedings
+"Peipei Wang, Chris Brown 0001, Jamie A. Jennings, Kathryn T. Stolee",An Empirical Study on Regular Expression Bugs.,MSR,2020: 103-113,https://doi.org/10.1145/3379597.3387464,inproceedings
+"Susan R. Fisk, Kathryn T. Stolee, Lina Battestilli","A Lightweight Intervention to Decrease Gender Bias in Student Evaluations of
+                Teaching.",RESPECT,2020: 1-4,https://doi.org/10.1109/RESPECT49803.2020.9272454,inproceedings
+"George Mathew, Chris Parnin, Kathryn T. Stolee",SLACC: Simion-based Language Agnostic Code Clones.,CoRR,abs/2002.03039(2020): ,https://arxiv.org/abs/2002.03039,article
+"Kai Presler-Marshall, Eric Horton, Sarah Heckman, Kathryn T. Stolee","Wait wait. No, tell me: analyzing selenium configuration effects on test
+                flakiness.",AST@ICSE,2019: 7-13,https://doi.org/10.1109/AST.2019.000-1,inproceedings
+"Di Chen, Kathryn T. Stolee, Tim Menzies",Replication can improve prior results: a GitHub study of pull request acceptance.,ICPC,2019: 179-190,https://doi.org/10.1109/ICPC.2019.00037,inproceedings
+"Gina R. Bai, Brian Clee, Nischal Shrestha, Carl Chapman, Cimone Wright, Kathryn T. Stolee",Exploring tools and strategies used during regular expression composition tasks.,ICPC,2019: 197-208,https://doi.org/10.1109/ICPC.2019.00039,inproceedings
+"Peng Sun, Chris Brown 0001, Ivan Beschastnikh, Kathryn T. Stolee",Mining Specifications from Documentation using a Crowd.,SANER,2019: 275-286,https://doi.org/10.1109/SANER.2019.8668025,inproceedings
+"Peipei Wang, Gina R. Bai, Kathryn T. Stolee",Exploring Regular Expression Evolution.,SANER,2019: 502-513,https://doi.org/10.1109/SANER.2019.8667972,inproceedings
+"Di Chen, Kathryn T. Stolee, Tim Menzies",Replication Can Improve Prior Results: A GitHub Study of Pull Request Acceptance.,CoRR,abs/1902.04060(2019): ,http://arxiv.org/abs/1902.04060,article
+"Claire Le Goues, Ciera Jaspan, Ipek Ozkaya, Mary Shaw, Kathryn T. Stolee",Bridging the Gap: From Research to Practical Advice.,IEEE Softw.,35(2018): 50-57,https://doi.org/10.1109/MS.2018.3571235,article
+"Sarah Heckman, Kathryn T. Stolee, Christopher Parnin","10+ years of teaching software engineering with itrust: the good, the bad, and
+                the ugly.",ICSE (SEET),2018: 1-4,https://doi.org/10.1145/3183377.3183393,inproceedings
+"Andrew Hill, Corina S. Pasareanu, Kathryn T. Stolee",Automated program repair with canonical constraints.,ICSE (Companion Volume),2018: 339-341,https://doi.org/10.1145/3183440.3194999,inproceedings
+"Md. Masudur Rahman 0001, Jed Barson, Sydney Paul, Joshua Kayani, Federico Andres Lois, Sebastian Fernandez Quezada, Christopher Parnin, Kathryn T. Stolee, Baishakhi Ray",Evaluating how developers use general-purpose web-search for code retrieval.,MSR,2018: 465-475,https://doi.org/10.1145/3196398.3196425,inproceedings
+"Peipei Wang, Kathryn T. Stolee",How well are regular expressions tested in the wild?,ESEC/SIGSOFT FSE,2018: 668-678,https://doi.org/10.1145/3236024.3236072,inproceedings
+"Md. Masudur Rahman 0001, Jed Barson, Sydney Paul, Joshua Kayani, Federico Andres Lois, Sebastian Fernandez Quezada, Christopher Parnin, Kathryn T. Stolee, Baishakhi Ray",Evaluating How Developers Use General-Purpose Web-Search for Code Retrieval.,CoRR,abs/1803.08612(2018): ,http://arxiv.org/abs/1803.08612,article
+"David Shriver, Sebastian G. Elbaum, Kathryn T. Stolee",At the End of Synthesis: Narrowing Program Candidates.,ICSE-NIER,2017: 19-22,https://doi.org/10.1109/ICSE-NIER.2017.7,inproceedings
+"Carl Chapman, Peipei Wang, Kathryn T. Stolee",Exploring regular expression comprehension.,ASE,2017: 405-416,https://doi.org/10.1109/ASE.2017.8115653,inproceedings
+"Devarshi Singh, Varun Ramachandra Sekar, Kathryn T. Stolee, Brittany Johnson",Evaluating how static analysis tools can reduce code review effort.,VL/HCC,2017: 101-105,https://doi.org/10.1109/VLHCC.2017.8103456,inproceedings
+"Di Chen, Kathryn T. Stolee, Tim Menzies","Replicating and Scaling up Qualitative Analysis using Crowdsourcing: A
+                Github-based Case Study.",CoRR,abs/1702.08571(2017): ,http://arxiv.org/abs/1702.08571,article
+"Kathryn T. Stolee, Sebastian G. Elbaum, Matthew B. Dwyer","Code search with input/output queries: Generalizing, ranking, and assessment.",J. Syst. Softw.,116(2016): 35-48,https://doi.org/10.1016/j.jss.2015.04.081,article
+"Peng Sun, Kathryn T. Stolee",Exploring crowd consistency in a mechanical turk survey.,CSI-SE@ICSE,2016: 8-14,https://doi.org/10.1145/2897659.2897662,inproceedings
+"Carl Chapman, Kathryn T. Stolee",Exploring regular expression usage and context in Python.,ISSTA,2016: 282-293,https://doi.org/10.1145/2931037.2931073,inproceedings
+"Felienne Hermans, Kathryn T. Stolee, David Hoepelman",Smells in block-based programming languages.,VL/HCC,2016: 68-72,https://doi.org/10.1109/VLHCC.2016.7739666,inproceedings
+"Rafael Maiani de Mello, Kathryn T. Stolee, Guilherme H. Travassos","Investigating Samples Representativeness for an Online Experiment in Java Code
+                Search.",ESEM,2015: 118-127,https://doi.org/10.1109/ESEM.2015.7321205,inproceedings
+"Kathryn T. Stolee, James Saylor, Trevor Lund",Exploring the Benefits of Using Redundant Responses in Crowdsourced Evaluations.,CSI-SE,2015: 38-44,https://doi.org/10.1109/CSI-SE.2015.15,inproceedings
+"Yalin Ke, Kathryn T. Stolee, Claire Le Goues, Yuriy Brun",Repairing Programs with Semantic Code Search (T).,ASE,2015: 295-306,https://doi.org/10.1109/ASE.2015.60,inproceedings
+"Caitlin Sadowski, Kathryn T. Stolee, Sebastian G. Elbaum",How developers search for code: a case study.,ESEC/SIGSOFT FSE,2015: 191-201,https://doi.org/10.1145/2786805.2786855,inproceedings
+"Kathryn T. Stolee, Sebastian G. Elbaum, Daniel Dobos",Solving the Search for Source Code.,ACM Trans. Softw. Eng. Methodol.,23(2014): 26:1-26:45,https://doi.org/10.1145/2581377,article
+"Kathryn T. Stolee, Sebastian G. Elbaum, Anita Sarma","Discovering how end-user programmers and their communities use public
+                repositories: A study on Yahoo! Pipes.",Inf. Softw. Technol.,55(2013): 1289-1303,https://doi.org/10.1016/j.infsof.2012.10.004,article
+"Kathryn T. Stolee, Sebastian G. Elbaum","Identification, Impact, and Refactoring of Smells in Pipe-Like Web Mashups.",IEEE Trans. Software Eng.,39(2013): 1654-1679,https://doi.org/10.1109/TSE.2013.42,article
+"Kathryn T. Stolee, Sebastian G. Elbaum",On the Use of Input/Output Queries for Code Search.,ESEM,2013: 251-254,https://doi.org/10.1109/ESEM.2013.35,inproceedings
+Kathryn T. Stolee,"Finding suitable programs: Semantic search with incomplete and lightweight
+                specifications.",ICSE,2012: 1571-1574,https://doi.org/10.1109/ICSE.2012.6227034,inproceedings
+"Kathryn T. Stolee, Sebastian G. Elbaum",Toward semantic search via SMT solver.,SIGSOFT FSE,2012: 25,https://doi.org/10.1145/2393596.2393625,inproceedings
+"Kathryn T. Stolee, Sebastian G. Elbaum, Anita Sarma",End-User Programmers and their Communities: An Artifact-based Analysis.,ESEM,2011: 147-156,https://doi.org/10.1109/ESEM.2011.23,inproceedings
+"Kathryn T. Stolee, Sebastian G. Elbaum",Refactoring pipe-like mashups for end-user programmers.,ICSE,2011: 81-90,https://doi.org/10.1145/1985793.1985805,inproceedings
+"Kathryn T. Stolee, Teale Fristoe",Expressing computer science concepts through Kodu game lab.,SIGCSE,2011: 99-104,https://doi.org/10.1145/1953163.1953197,inproceedings
+"Kathryn T. Stolee, Sebastian G. Elbaum","Exploring the use of crowdsourcing to support empirical studies in software
+                engineering.",ESEM,2010: ,https://doi.org/10.1145/1852786.1852832,inproceedings
+"Kathryn T. Stolee, Sebastian G. Elbaum, Gregg Rothermel",Revealing the copy and paste habits of end users.,VL/HCC,2009: 59-66,https://doi.org/10.1109/VLHCC.2009.5295296,inproceedings
+"Andhy Koesnandar, Sebastian G. Elbaum, Gregg Rothermel, Lorin Hochstein, Christopher Scaffidi, Kathryn T. Stolee",Using assertions to help end-user programmers create dependable web macros.,SIGSOFT FSE,2008: 124-134,https://doi.org/10.1145/1453101.1453119,inproceedings

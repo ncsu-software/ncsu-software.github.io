@@ -1,0 +1,2126 @@
+<dblpperson name="Wesley K. G. Assunção" pid="90/9459" n="101">
+    <person key="homepages/90/9459" mdate="2023-06-01">
+        <author pid="90/9459">Wesley K. G. Assunção</author>
+        <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+        <note label="since 2023" type="affiliation">North Carolina State University, Department of
+            Computer Science, Raleigh, NC, USA</note>
+        <note label="2021-2023" type="affiliation">Johannes Kepler University Linz, Austria</note>
+        <note label="2013-2021" type="affiliation">Federal University of Technology - Paraná,
+            Toledo, Brazil</note>
+        <note label="2010-2017, PhD 2017" type="affiliation">Federal University of Paraná, Curitiba,
+            Brazil</note>
+        <url>https://wesleyklewerton.github.io/</url>
+        <url>https://orcid.org/0000-0002-7557-9091</url>
+        <url>https://twitter.com/wesleyklewerton</url>
+        <url>https://github.com/wesleyklewerton</url>
+    </person>
+    <r>
+        <article key="journals/infsof/BibianoUAOCVG23" mdate="2023-05-01">
+            <author orcid="0000-0003-3730-9290" pid="221/1533">Ana Carla Bibiano</author>
+            <author orcid="0000-0002-6847-5569" pid="199/5439">Anderson G. Uchôa</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="32/1293-5">Daniel Tenório Martins de Oliveira</author>
+            <author orcid="0000-0001-9761-1999" pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <author pid="g/AlessandroFGarcia">Alessandro F. Garcia 0001</author>
+            <title>Composite refactoring: Representations, characteristics and effects on software
+                projects.</title>
+            <pages>107134</pages>
+            <year>2023</year>
+            <month>April</month>
+            <volume>156</volume>
+            <journal>Inf. Softw. Technol.</journal>
+            <ee>https://doi.org/10.1016/j.infsof.2022.107134</ee>
+            <url>db/journals/infsof/infsof156.html#BibianoUAOCVG23</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/jss/MichelonMSAAAE23" mdate="2023-01-05">
+            <author pid="246/4971">Gabriela Karoline Michelon</author>
+            <author pid="86/3767">Jabier Martinez</author>
+            <author pid="300/9111">Bruno Sotto-Mayor</author>
+            <author pid="78/8234">Aitor Arrieta</author>
+            <author orcid="0000-0002-7557-9091" pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="00/6243">Rui Abreu 0001</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Spectrum-based feature localization for families of systems.</title>
+            <pages>111532</pages>
+            <year>2023</year>
+            <volume>195</volume>
+            <journal>J. Syst. Softw.</journal>
+            <ee type="oa">https://doi.org/10.1016/j.jss.2022.111532</ee>
+            <url>db/journals/jss/jss195.html#MichelonMSAAAE23</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/sosym/MarchezanKARE23" mdate="2023-03-11">
+            <author orcid="0000-0003-3096-580X" pid="214/1062">Luciano Marchezan</author>
+            <author pid="00/2588">Roland Kretschmer</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="15/7915">Alexander Reder</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Generating repairs for inconsistent models.</title>
+            <pages>297-329</pages>
+            <year>2023</year>
+            <month>February</month>
+            <volume>22</volume>
+            <journal>Softw. Syst. Model.</journal>
+            <number>1</number>
+            <ee type="oa">https://doi.org/10.1007/s10270-022-00996-0</ee>
+            <url>db/journals/sosym/sosym22.html#MarchezanKARE23</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/ease/MarchezanAME23" mdate="2023-06-09">
+            <author pid="214/1062">Luciano Marchezan</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="246/4971">Gabriela Karoline Michelon</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Do Developers Benefit from Recommendations when Repairing Inconsistent Design
+                Models? a Controlled Experiment.</title>
+            <pages>131-140</pages>
+            <year>2023</year>
+            <booktitle>EASE</booktitle>
+            <ee>https://doi.org/10.1145/3593434.3593482</ee>
+            <crossref>conf/ease/2023</crossref>
+            <url>db/conf/ease/ease2023.html#MarchezanAME23</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/se/BarrosPAB23" mdate="2023-01-18">
+            <author pid="331/7245">Djonathan Barros</author>
+            <author pid="145/7808">Sven Peldszus</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="22/6472">Thorsten Berger</author>
+            <title>Editing Support for Software Languages: Implementation Practices in Language
+                Server Protocols (Summary).</title>
+            <pages>35-36</pages>
+            <year>2023</year>
+            <booktitle>Software Engineering</booktitle>
+            <ee>https://dl.gi.de/20.500.12116/40127</ee>
+            <crossref>conf/se/2023</crossref>
+            <url>db/conf/se/se2023.html#BarrosPAB23</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/vamos/0006MARE23" mdate="2023-01-31">
+            <author orcid="0000-0002-4715-3384" pid="f/StefanFischer0006">Stefan Fischer 0006</author>
+            <author orcid="0000-0002-9638-8569" pid="246/4971">Gabriela Karoline Michelon</author>
+            <author orcid="0000-0002-7557-9091" pid="90/9459">Wesley K. G. Assunção</author>
+            <author orcid="0000-0001-9903-6107" pid="95/4255">Rudolf Ramler</author>
+            <author orcid="0000-0003-3128-5427" pid="20/5529">Alexander Egyed</author>
+            <title>Designing a Test Model for a Configurable System: An Exploratory Study of
+                Preprocessor Directives and Feature Toggles.</title>
+            <pages>31-39</pages>
+            <year>2023</year>
+            <booktitle>VaMoS</booktitle>
+            <ee>https://doi.org/10.1145/3571788.3571795</ee>
+            <crossref>conf/vamos/2023</crossref>
+            <url>db/conf/vamos/vamos2023.html#0006MARE23</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/wcre/MichelonAGE23" mdate="2023-05-27">
+            <author pid="246/4971">Gabriela Karoline Michelon</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="g/PGrunbacher">Paul Grünbacher</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Analysis and Propagation of Feature Revisions in Preprocessor-based Software
+                Product Lines.</title>
+            <pages>284-295</pages>
+            <year>2023</year>
+            <booktitle>SANER</booktitle>
+            <ee>https://doi.org/10.1109/SANER56733.2023.00035</ee>
+            <crossref>conf/wcre/2023</crossref>
+            <url>db/conf/wcre/saner2023.html#MichelonAGE23</url>
+        </inproceedings>
+    </r>
+    <r>
+        <incollection key="books/sp/23/AllianNMAO23" mdate="2023-02-22">
+            <author pid="205/5812">Ana Paula Allian</author>
+            <author pid="67/5214">Elisa Yumi Nakagawa</author>
+            <author pid="86/3767">Jabier Martinez</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="04/2051">Edson OliveiraJr</author>
+            <title>Variability Implementation and UML-Based Software Product Lines.</title>
+            <pages>27-40</pages>
+            <year>2023</year>
+            <booktitle>UML-Based Software Product Line Engineering with SMarty</booktitle>
+            <ee>https://doi.org/10.1007/978-3-031-18556-4_2</ee>
+            <crossref>books/sp/23/O2023</crossref>
+            <url>db/books/collections/O2023.html#AllianNMAO23</url>
+        </incollection>
+    </r>
+    <r>
+        <incollection key="books/sp/23/AssuncaoVLL23" mdate="2022-11-25">
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <author pid="56/497">Roberto E. Lopez-Herrejon</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <title>Search-Based Variability Model Synthesis from Variant Configurations.</title>
+            <pages>115-141</pages>
+            <year>2023</year>
+            <booktitle>Handbook of Re-Engineering Software Intensive Systems into Software Product
+                Lines</booktitle>
+            <ee>https://doi.org/10.1007/978-3-031-11686-5_5</ee>
+            <crossref>books/sp/23/LMA2023</crossref>
+            <url>db/books/collections/LMA2023.html#AssuncaoVLL23</url>
+        </incollection>
+    </r>
+    <r>
+        <incollection key="books/sp/23/AssuncaoVL23" mdate="2022-11-25">
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <author pid="56/497">Roberto E. Lopez-Herrejon</author>
+            <title>ModelVars2SPL: From UML Class Diagram Variants to Software Product Line Core
+                Assets.</title>
+            <pages>221-250</pages>
+            <year>2023</year>
+            <booktitle>Handbook of Re-Engineering Software Intensive Systems into Software Product
+                Lines</booktitle>
+            <ee>https://doi.org/10.1007/978-3-031-11686-5_9</ee>
+            <crossref>books/sp/23/LMA2023</crossref>
+            <url>db/books/collections/LMA2023.html#AssuncaoVL23</url>
+        </incollection>
+    </r>
+    <r>
+        <incollection key="books/sp/23/Marchezan0CBBA23" mdate="2022-11-25">
+            <author pid="214/1062">Luciano Marchezan</author>
+            <author pid="42/8765">Elder Rodrigues 0001</author>
+            <author pid="273/6661">João Carbonell</author>
+            <author pid="20/10588">Maicon Bernardino</author>
+            <author pid="58/4232">Fábio Paulo Basso</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <title>PAxSPL: A Framework for Aiding SPL Reengineering Planning.</title>
+            <pages>319-353</pages>
+            <year>2023</year>
+            <booktitle>Handbook of Re-Engineering Software Intensive Systems into Software Product
+                Lines</booktitle>
+            <ee>https://doi.org/10.1007/978-3-031-11686-5_13</ee>
+            <crossref>books/sp/23/LMA2023</crossref>
+            <url>db/books/collections/LMA2023.html#Marchezan0CBBA23</url>
+        </incollection>
+    </r>
+    <r>
+        <incollection key="books/sp/23/Linsbauer0MAGLE23" mdate="2022-11-25">
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <author pid="f/StefanFischer0006">Stefan Fischer 0006</author>
+            <author pid="246/4971">Gabriela Karoline Michelon</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="g/PGrunbacher">Paul Grünbacher</author>
+            <author pid="56/497">Roberto E. Lopez-Herrejon</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Systematic Software Reuse with Automated Extraction and Composition for
+                Clone-and-Own.</title>
+            <pages>379-404</pages>
+            <year>2023</year>
+            <booktitle>Handbook of Re-Engineering Software Intensive Systems into Software Product
+                Lines</booktitle>
+            <ee>https://doi.org/10.1007/978-3-031-11686-5_15</ee>
+            <crossref>books/sp/23/LMA2023</crossref>
+            <url>db/books/collections/LMA2023.html#Linsbauer0MAGLE23</url>
+        </incollection>
+    </r>
+    <r>
+        <incollection key="books/sp/23/AssuncaoVL23a" mdate="2023-02-22">
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <author pid="56/497">Roberto E. Lopez-Herrejon</author>
+            <title>Reengineering UML Class Diagram Variants into a Product Line Architecture.</title>
+            <pages>393-414</pages>
+            <year>2023</year>
+            <booktitle>UML-Based Software Product Line Engineering with SMarty</booktitle>
+            <ee>https://doi.org/10.1007/978-3-031-18556-4_18</ee>
+            <crossref>books/sp/23/O2023</crossref>
+            <url>db/books/collections/O2023.html#AssuncaoVL23a</url>
+        </incollection>
+    </r>
+    <r>
+        <incollection key="books/sp/23/Carvalho0ACBTMC0L23" mdate="2023-02-17">
+            <author pid="145/5217">Luiz Carvalho</author>
+            <author pid="g/AlessandroFGarcia">Alessandro F. Garcia 0001</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="21/824">Rodrigo Bonifácio</author>
+            <author pid="32/8191">Leonardo P. Tizzei</author>
+            <author pid="121/2507">Rafael Maiani de Mello</author>
+            <author pid="165/3587">Renato Cerqueira</author>
+            <author pid="r/MarcioRibeiro">Márcio Ribeiro 0001</author>
+            <author pid="l/CarlosJosePereiradeLucena">Carlos Lucena</author>
+            <title>Re-engineering Legacy Systems as Microservices: An Industrial Survey of Criteria
+                to Deal with Modularity and Variability of Features.</title>
+            <pages>471-494</pages>
+            <year>2023</year>
+            <booktitle>Handbook of Re-Engineering Software Intensive Systems into Software Product
+                Lines</booktitle>
+            <ee>https://doi.org/10.1007/978-3-031-11686-5_19</ee>
+            <crossref>books/sp/23/LMA2023</crossref>
+            <url>db/books/collections/LMA2023.html#Carvalho0ACBTMC0L23</url>
+        </incollection>
+    </r>
+    <r>
+        <book key="books/sp/23/LMA2023" mdate="2022-12-11">
+            <editor pid="56/497">Roberto E. Lopez-Herrejon</editor>
+            <editor pid="86/3767">Jabier Martinez</editor>
+            <editor pid="90/9459">Wesley Klewerton Guez Assunção</editor>
+            <editor pid="54/4415">Tewfik Ziadi</editor>
+            <editor pid="57/2898">Mathieu Acher</editor>
+            <editor orcid="0000-0003-3139-6266" pid="99/4290">Silvia Regina Vergilio</editor>
+            <title>Handbook of Re-Engineering Software Intensive Systems into Software Product Lines</title>
+            <booktitle>Handbook of Re-Engineering Software Intensive Systems into Software Product
+                Lines</booktitle>
+            <publisher>Springer International Publishing</publisher>
+            <year>2023</year>
+            <isbn>978-3-031-11685-8</isbn>
+            <ee>https://doi.org/10.1007/978-3-031-11686-5</ee>
+            <url>db/books/collections/LMA2023.html</url>
+        </book>
+    </r>
+    <r>
+        <article key="journals/ese/AssuncaoCCGPLL22" mdate="2022-10-02">
+            <author orcid="0000-0002-7557-9091" pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="145/5217">Luiz Carvalho</author>
+            <author pid="g/AlessandroFGarcia">Alessandro Garcia 0001</author>
+            <author orcid="0000-0002-0799-2829" pid="139/6642">Juliana Alves Pereira</author>
+            <author pid="27/1189">Maria Julia de Lima</author>
+            <author pid="l/CarlosJosePereiradeLucena">Carlos Lucena</author>
+            <title>Analysis of a many-objective optimization approach for identifying microservices
+                from legacy systems.</title>
+            <pages>51</pages>
+            <year>2022</year>
+            <volume>27</volume>
+            <journal>Empir. Softw. Eng.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.1007/s10664-021-10049-7</ee>
+            <url>db/journals/ese/ese27.html#AssuncaoCCGPLL22</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ese/MoreiraAMF22" mdate="2022-04-29">
+            <author pid="318/4621">Rodrigo André Ferreira Moreira</author>
+            <author orcid="0000-0002-7557-9091" pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="86/3767">Jabier Martinez</author>
+            <author pid="03/335">Eduardo Figueiredo 0001</author>
+            <title>Open-source software product line extraction processes: the ArgoUML-SPL and
+                Phaser cases.</title>
+            <pages>85</pages>
+            <year>2022</year>
+            <volume>27</volume>
+            <journal>Empir. Softw. Eng.</journal>
+            <number>4</number>
+            <ee type="oa">https://doi.org/10.1007/s10664-021-10104-3</ee>
+            <url>db/journals/ese/ese27.html#MoreiraAMF22</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ese/MichelonOALGFLE22" mdate="2022-07-27">
+            <author orcid="0000-0002-9638-8569" pid="246/4971">Gabriela Karoline Michelon</author>
+            <author pid="276/8807">David Obermann</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <author pid="g/PGrunbacher">Paul Grünbacher</author>
+            <author pid="f/StefanFischer0006">Stefan Fischer 0006</author>
+            <author pid="56/497">Roberto E. Lopez-Herrejon</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Evolving software system families in space and time with feature revisions.</title>
+            <pages>112</pages>
+            <year>2022</year>
+            <volume>27</volume>
+            <journal>Empir. Softw. Eng.</journal>
+            <number>5</number>
+            <ee type="oa">https://doi.org/10.1007/s10664-021-10108-z</ee>
+            <url>db/journals/ese/ese27.html#MichelonOALGFLE22</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ese/LimaMVA22" mdate="2022-08-25">
+            <author orcid="0000-0003-4993-777X" pid="190/6638">Jackson A. Prado Lima</author>
+            <author pid="250/3378">Willian D. F. Mendonça</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <title>Cost-effective learning-based strategies for test case prioritization in
+                continuous integration of highly-configurable software.</title>
+            <pages>133</pages>
+            <year>2022</year>
+            <volume>27</volume>
+            <journal>Empir. Softw. Eng.</journal>
+            <number>6</number>
+            <ee>https://doi.org/10.1007/s10664-021-10093-3</ee>
+            <url>db/journals/ese/ese27.html#LimaMVA22</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ese/SilvaOAC22" mdate="2022-09-26">
+            <author pid="270/0799">Diego Fernandes da Silva</author>
+            <author pid="270/0053">Luiz Fernando Okada</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <title>Intensifying the search-based optimization of product line architectures with
+                crossover operators.</title>
+            <pages>166</pages>
+            <year>2022</year>
+            <volume>27</volume>
+            <journal>Empir. Softw. Eng.</journal>
+            <number>7</number>
+            <ee>https://doi.org/10.1007/s10664-022-10198-3</ee>
+            <url>db/journals/ese/ese27.html#SilvaOAC22</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ese/0005A0F022" mdate="2022-12-05">
+            <author orcid="0000-0002-1597-1622" pid="32/1293-5">Daniel Oliveira 0005</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="g/AlessandroFGarcia">Alessandro Garcia 0001</author>
+            <author pid="22/7095">Baldoino Fonseca</author>
+            <author pid="r/MarcioRibeiro">Márcio Ribeiro 0001</author>
+            <title>Developers' perception matters: machine learning to detect developer-sensitive
+                smells.</title>
+            <pages>195</pages>
+            <year>2022</year>
+            <volume>27</volume>
+            <journal>Empir. Softw. Eng.</journal>
+            <number>7</number>
+            <ee>https://doi.org/10.1007/s10664-022-10234-2</ee>
+            <url>db/journals/ese/ese27.html#0005A0F022</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/jss/MarchezanRABBC22" mdate="2022-04-01">
+            <author orcid="0000-0003-3096-580X" pid="214/1062">Luciano Marchezan</author>
+            <author pid="42/8765">Elder Rodrigues 0001</author>
+            <author orcid="0000-0002-7557-9091" pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author orcid="0000-0003-2776-8020" pid="20/10588">Maicon Bernardino</author>
+            <author pid="58/4232">Fábio Paulo Basso</author>
+            <author pid="273/6661">João Carbonell</author>
+            <title>Software product line scoping: A systematic literature review.</title>
+            <pages>111189</pages>
+            <year>2022</year>
+            <volume>186</volume>
+            <journal>J. Syst. Softw.</journal>
+            <ee>https://doi.org/10.1016/j.jss.2021.111189</ee>
+            <url>db/journals/jss/jss186.html#MarchezanRABBC22</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/iceis/MendoncaAV22" mdate="2022-05-18">
+            <author pid="250/3378">Willian D. F. Mendonça</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <title>Software Product Line Regression Testing: A Research Roadmap.</title>
+            <pages>81-89</pages>
+            <year>2022</year>
+            <booktitle>ICEIS (2)</booktitle>
+            <ee>https://doi.org/10.5220/0010959700003179</ee>
+            <crossref>conf/iceis/2022-2</crossref>
+            <url>db/conf/iceis/iceis2022-2.html#MendoncaAV22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ispw/MarchezanAKE22" mdate="2022-05-18">
+            <author pid="214/1062">Luciano Marchezan</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="00/2588">Roland Kretschmer</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Change-Oriented Repair Propagation.</title>
+            <pages>82-92</pages>
+            <year>2022</year>
+            <booktitle>ICSSP/ICGSE</booktitle>
+            <ee>https://doi.org/10.1145/3529320.3529330</ee>
+            <crossref>conf/ispw/2022</crossref>
+            <url>db/conf/ispw/icssp2022.html#MarchezanAKE22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/models/RatiuAHE22" mdate="2022-10-26">
+            <author pid="331/6773">Cosmina Cristina Ratiu</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="39/602">Rainer Haas</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Reactive links across multi-domain engineering models.</title>
+            <pages>76-86</pages>
+            <year>2022</year>
+            <booktitle>MoDELS</booktitle>
+            <ee>https://doi.org/10.1145/3550355.3552446</ee>
+            <crossref>conf/models/2022</crossref>
+            <url>db/conf/models/models2022.html#RatiuAHE22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/models/BarrosPAB22" mdate="2023-03-21">
+            <author pid="331/7245">Djonathan Barros</author>
+            <author orcid="0000-0002-2604-0487" pid="145/7808">Sven Peldszus</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="22/6472">Thorsten Berger</author>
+            <title>Editing support for software languages: implementation practices in language
+                server protocols.</title>
+            <pages>232-243</pages>
+            <year>2022</year>
+            <booktitle>MoDELS</booktitle>
+            <ee>https://doi.org/10.1145/3550355.3552452</ee>
+            <crossref>conf/models/2022</crossref>
+            <url>db/conf/models/models2022.html#BarrosPAB22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sbes/OliveiraOSAGLC22" mdate="2022-09-26">
+            <author pid="206/5735">Anderson Oliveira</author>
+            <author pid="121/2856">Willian Nalepa Oizumi</author>
+            <author pid="179/8618">Leonardo da Silva Sousa</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="g/AlessandroFGarcia">Alessandro F. Garcia 0001</author>
+            <author pid="l/CarlosJosePereiradeLucena">Carlos Lucena</author>
+            <author pid="179/8636">Diego Cedrim</author>
+            <title>Smell Patterns as Indicators of Design Degradation: Do Developers Agree?</title>
+            <pages>311-320</pages>
+            <year>2022</year>
+            <booktitle>SBES</booktitle>
+            <ee>https://doi.org/10.1145/3555228.3555243</ee>
+            <crossref>conf/sbes/2022</crossref>
+            <url>db/conf/sbes/sbes2022.html#OliveiraOSAGLC22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/MendoncaVMEA22" mdate="2022-08-26">
+            <author pid="250/3378">Willian D. F. Mendonça</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <author pid="246/4971">Gabriela Karoline Michelon</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <title>Test2Feature: feature-based test traceability tool for highly configurable
+                software.</title>
+            <pages>62-65</pages>
+            <year>2022</year>
+            <booktitle>SPLC (B)</booktitle>
+            <ee>https://doi.org/10.1145/3503229.3547031</ee>
+            <crossref>conf/splc/2022b</crossref>
+            <url>db/conf/splc/splc2022b.html#MendoncaVMEA22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/MarchezanAMHE22" mdate="2022-08-26">
+            <author pid="214/1062">Luciano Marchezan</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="246/4971">Gabriela Karoline Michelon</author>
+            <author pid="327/2551">Edvin Herac</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Code smell analysis in cloned Java variants: the apo-games case study.</title>
+            <pages>250-254</pages>
+            <year>2022</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3546932.3547015</ee>
+            <crossref>conf/splc/2022a</crossref>
+            <url>db/conf/splc/splc2022a.html#MarchezanAMHE22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/Marchezan0ABBC22" mdate="2022-08-26">
+            <author pid="214/1062">Luciano Marchezan</author>
+            <author pid="42/8765">Elder Rodrigues 0001</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="20/10588">Maicon Bernardino</author>
+            <author pid="58/4232">Fábio Paulo Basso</author>
+            <author pid="273/6661">João Carbonell</author>
+            <title>Software product line scoping: a systematic literature review.</title>
+            <pages>256</pages>
+            <year>2022</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3546932.3547012</ee>
+            <crossref>conf/splc/2022a</crossref>
+            <url>db/conf/splc/splc2022a.html#Marchezan0ABBC22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/Lopez-HerrejonA22" mdate="2022-08-26">
+            <author pid="56/497">Roberto E. Lopez-Herrejon</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="54/4415">Tewfik Ziadi</author>
+            <author pid="86/3767">Jabier Martinez</author>
+            <title>REVE 2022: 10th International Workshop on REverse Variability Engineering.</title>
+            <pages>262</pages>
+            <year>2022</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3546932.3547016</ee>
+            <crossref>conf/splc/2022a</crossref>
+            <url>db/conf/splc/splc2022a.html#Lopez-HerrejonA22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/KrugerAA022" mdate="2022-08-26">
+            <author pid="186/2756">Jacob Krüger</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="00/8104">Inmaculada Ayala</author>
+            <author pid="48/1683">Sébastien Mosser 0001</author>
+            <title>International Workshop on Variability Management for Modern Technologies
+                (VM4ModernTech 2022).</title>
+            <pages>266</pages>
+            <year>2022</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3546932.3547019</ee>
+            <crossref>conf/splc/2022a</crossref>
+            <url>db/conf/splc/splc2022a.html#KrugerAA022</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/MartinezAWSA22" mdate="2022-08-26">
+            <author pid="86/3767">Jabier Martinez</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="276/8441">Daniele Wolfart</author>
+            <author pid="29/310">Klaus Schmid</author>
+            <author pid="38/3828">Apostolos Ampatzoglou</author>
+            <title>TD4ViS 2022: 1st International Workshop on Technical Debt for
+                Variability-Intensive Systems.</title>
+            <pages>267</pages>
+            <year>2022</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3546932.3547017</ee>
+            <crossref>conf/splc/2022a</crossref>
+            <url>db/conf/splc/splc2022a.html#MartinezAWSA22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/vamos/RatzenbockGAEL22" mdate="2022-02-16">
+            <author pid="313/7526">Michael Ratzenböck</author>
+            <author pid="g/PGrunbacher">Paul Grünbacher</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <title>Refactoring Product Lines by Replaying Version Histories.</title>
+            <pages>8:1-8:10</pages>
+            <year>2022</year>
+            <booktitle>VaMoS</booktitle>
+            <ee>https://doi.org/10.1145/3510466.3510484</ee>
+            <crossref>conf/vamos/2022</crossref>
+            <url>db/conf/vamos/vamos2022.html#RatzenbockGAEL22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/wcre/CoutinhoUBSGSPA22" mdate="2022-12-07">
+            <author orcid="0000-0003-4226-2458" pid="87/1273">Daniel Coutinho</author>
+            <author pid="199/5439">Anderson G. Uchôa</author>
+            <author pid="221/1638">Caio Barbosa</author>
+            <author pid="282/5183">Vinícius Soares</author>
+            <author pid="g/AlessandroFGarcia">Alessandro F. Garcia 0001</author>
+            <author pid="08/9051">Marcelo Schots</author>
+            <author pid="139/6642">Juliana Alves Pereira</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <title>On the Influential Interactive Factors on Degrees of Design Decay: A
+                Multi-Project Study.</title>
+            <pages>753-764</pages>
+            <year>2022</year>
+            <booktitle>SANER</booktitle>
+            <ee>https://doi.org/10.1109/SANER53432.2022.00093</ee>
+            <crossref>conf/wcre/2022</crossref>
+            <url>db/conf/wcre/saner2022.html#CoutinhoUBSGSPA22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <proceedings key="conf/splc/2022a" mdate="2022-08-26">
+            <editor pid="71/915">Alexander Felfernig</editor>
+            <editor pid="59/1161">Lidia Fuentes</editor>
+            <editor pid="c/JaneClelandHuang">Jane Cleland-Huang</editor>
+            <editor pid="90/9459">Wesley K. G. Assunção</editor>
+            <editor pid="83/9575">Andreas A. Falkner</editor>
+            <editor pid="72/6498">Maider Azanza</editor>
+            <editor pid="327/2389">Miguel Á. Rodríguez Luaces</editor>
+            <editor pid="216/9196">Megha Bhushan</editor>
+            <editor pid="48/2416">Laura Semini</editor>
+            <editor pid="16/11059">Xavier Devroey</editor>
+            <editor pid="w/CMLWerner">Cláudia Maria Lima Werner</editor>
+            <editor pid="118/4031-1">Christoph Seidl 0001</editor>
+            <editor pid="242/4566">Viet-Man Le</editor>
+            <editor pid="142/9275">José Miguel Horcas</editor>
+            <title>SPLC '22: 26th ACM International Systems and Software Product Line Conference,
+                Graz, Austria, September 12 - 16, 2022, Volume A</title>
+            <publisher>ACM</publisher>
+            <booktitle>SPLC (A)</booktitle>
+            <year>2022</year>
+            <isbn>978-1-4503-9443-7</isbn>
+            <ee>https://doi.org/10.1145/3546932</ee>
+            <url>db/conf/splc/splc2022a.html</url>
+        </proceedings>
+    </r>
+    <r>
+        <proceedings key="conf/splc/2022b" mdate="2022-08-26">
+            <editor pid="71/915">Alexander Felfernig</editor>
+            <editor pid="59/1161">Lidia Fuentes</editor>
+            <editor pid="c/JaneClelandHuang">Jane Cleland-Huang</editor>
+            <editor pid="90/9459">Wesley K. G. Assunção</editor>
+            <editor pid="00/9990">Clément Quinton</editor>
+            <editor pid="69/6953">Jianmei Guo</editor>
+            <editor pid="29/310">Klaus Schmid</editor>
+            <editor pid="h/MarianneHuchard">Marianne Huchard</editor>
+            <editor pid="00/8104">Inmaculada Ayala</editor>
+            <editor pid="94/5122">José Miguel Rojas</editor>
+            <editor pid="242/4566">Viet-Man Le</editor>
+            <editor pid="142/9275">José Miguel Horcas</editor>
+            <title>SPLC '22: 26th ACM International Systems and Software Product Line Conference,
+                Graz, Austria, September 12 - 16, 2022, Volume B</title>
+            <publisher>ACM</publisher>
+            <booktitle>SPLC (B)</booktitle>
+            <year>2022</year>
+            <isbn>978-1-4503-9206-8</isbn>
+            <ee>https://doi.org/10.1145/3503229</ee>
+            <url>db/conf/splc/splc2022b.html</url>
+        </proceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ease/WolfartASDSVP21" mdate="2022-02-17">
+            <author pid="276/8441">Daniele Wolfart</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="27/9834">Ivonei F. da Silva</author>
+            <author pid="295/3208">Diogo C. P. Domingos</author>
+            <author pid="295/3472">Ederson Schmeing</author>
+            <author pid="295/3427">Guilherme L. Donin Villaca</author>
+            <author pid="295/3257">Diogo Do Nascimento Paza</author>
+            <title>Modernizing Legacy Systems with Microservices: A Roadmap.</title>
+            <pages>149-159</pages>
+            <year>2021</year>
+            <booktitle>EASE</booktitle>
+            <ee>https://doi.org/10.1145/3463274.3463334</ee>
+            <crossref>conf/ease/2021</crossref>
+            <url>db/conf/ease/ease2021.html#WolfartASDSVP21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/gpce/MichelonAOLGE21" mdate="2022-01-08">
+            <author orcid="0000-0002-9638-8569" pid="246/4971">Gabriela Karoline Michelon</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="276/8807">David Obermann</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <author pid="g/PGrunbacher">Paul Grünbacher</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>The life cycle of features in highly-configurable software systems evolving in
+                space and time.</title>
+            <pages>2-15</pages>
+            <year>2021</year>
+            <booktitle>GPCE</booktitle>
+            <ee>https://doi.org/10.1145/3486609.3487195</ee>
+            <crossref>conf/gpce/2021</crossref>
+            <url>db/conf/gpce/gpce2021.html#MichelonAOLGE21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icsm/BibianoACSSG0F021" mdate="2022-12-07">
+            <author pid="221/1533">Ana Carla Bibiano</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author orcid="0000-0003-4226-2458" pid="87/1273">Daniel Coutinho</author>
+            <author pid="274/4606">Kleber Santos</author>
+            <author pid="282/5183">Vinícius Soares</author>
+            <author pid="10/3240">Rohit Gheyi</author>
+            <author pid="g/AlessandroFGarcia">Alessandro Garcia 0001</author>
+            <author pid="22/7095">Baldoino Fonseca</author>
+            <author pid="r/MarcioRibeiro">Márcio Ribeiro 0001</author>
+            <author pid="32/1293-5">Daniel Oliveira 0005</author>
+            <author pid="221/1638">Caio Barbosa</author>
+            <author pid="307/3549">João Lucas Marques</author>
+            <author pid="206/5735">Anderson Oliveira</author>
+            <title>Look Ahead! Revealing Complete Composite Refactorings and their Smelliness
+                Effects.</title>
+            <pages>298-308</pages>
+            <year>2021</year>
+            <booktitle>ICSME</booktitle>
+            <ee>https://doi.org/10.1109/ICSME52107.2021.00033</ee>
+            <crossref>conf/icsm/2021</crossref>
+            <url>db/conf/icsm/icsme2021.html#BibianoACSSG0F021</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/msr/UchoaBCOAVPOG21" mdate="2022-01-03">
+            <author orcid="0000-0002-6847-5569" pid="199/5439">Anderson G. Uchôa</author>
+            <author pid="221/1638">Caio Barbosa</author>
+            <author orcid="0000-0003-4226-2458" pid="87/1273">Daniel Coutinho</author>
+            <author pid="121/2856">Willian Nalepa Oizumi</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <author pid="139/6642">Juliana Alves Pereira</author>
+            <author pid="206/5735">Anderson Oliveira</author>
+            <author pid="g/AlessandroFGarcia">Alessandro F. Garcia 0001</author>
+            <title>Predicting Design Impactful Changes in Modern Code Review: A Large-Scale
+                Empirical Study.</title>
+            <pages>471-482</pages>
+            <year>2021</year>
+            <booktitle>MSR</booktitle>
+            <ee>https://doi.org/10.1109/MSR52588.2021.00059</ee>
+            <crossref>conf/msr/2021</crossref>
+            <url>db/conf/msr/msr2021.html#UchoaBCOAVPOG21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sbcars/MarchezanACRBB21" mdate="2022-03-04">
+            <author pid="214/1062">Luciano Marchezan</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="273/6661">João Carbonell</author>
+            <author pid="42/8765">Elder Rodrigues 0001</author>
+            <author pid="20/10588">Maicon Bernardino</author>
+            <author pid="58/4232">Fábio Basso</author>
+            <title>SPLReePlan - Automated Support for Software Product Line Reengineering Planning.</title>
+            <pages>1-10</pages>
+            <year>2021</year>
+            <booktitle>SBCARS</booktitle>
+            <ee>https://doi.org/10.1145/3483899.3483902</ee>
+            <crossref>conf/sbcars/2021</crossref>
+            <url>db/conf/sbcars/sbcars2021.html#MarchezanACRBB21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sbcars/UchoaA021" mdate="2022-01-03">
+            <author orcid="0000-0002-6847-5569" pid="199/5439">Anderson G. Uchôa</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="g/AlessandroFGarcia">Alessandro F. Garcia 0001</author>
+            <title>Do Critical Components Smell Bad? An Empirical Study with Component-based
+                Software Product Lines.</title>
+            <pages>21-30</pages>
+            <year>2021</year>
+            <booktitle>SBCARS</booktitle>
+            <ee>https://doi.org/10.1145/3483899.3483907</ee>
+            <crossref>conf/sbcars/2021</crossref>
+            <url>db/conf/sbcars/sbcars2021.html#UchoaA021</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sbcars/ColanziAAZT0L21" mdate="2021-11-11">
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="201/2418">Aline Maria Malachini Miotto Amaral</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="282/4938">Arthur Cattaneo Zavadski</author>
+            <author pid="305/9097">Douglas Tanno</author>
+            <author pid="g/AlessandroFGarcia">Alessandro F. Garcia 0001</author>
+            <author pid="l/CarlosJosePereiradeLucena">Carlos Lucena</author>
+            <title>Are we speaking the industry language? The practice and literature of modernizing
+                legacy systems with microservices.</title>
+            <pages>61-70</pages>
+            <year>2021</year>
+            <booktitle>SBCARS</booktitle>
+            <ee>https://doi.org/10.1145/3483899.3483904</ee>
+            <crossref>conf/sbcars/2021</crossref>
+            <url>db/conf/sbcars/sbcars2021.html#ColanziAAZT0L21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sbqs/WolfartAM21" mdate="2022-03-29">
+            <author pid="276/8441">Daniele Wolfart</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="86/3767">Jabier Martinez</author>
+            <title>Variability Debt: Characterization, Causes and Consequences.</title>
+            <pages>17</pages>
+            <year>2021</year>
+            <booktitle>SBQS</booktitle>
+            <ee>https://doi.org/10.1145/3493244.3493250</ee>
+            <ee type="oa">https://sol.sbc.org.br/index.php/sbqs/article/view/18579</ee>
+            <crossref>conf/sbqs/2021</crossref>
+            <url>db/conf/sbqs/sbqs2021.html#WolfartAM21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/MichelonOALGE21" mdate="2021-09-03">
+            <author pid="246/4971">Gabriela Karoline Michelon</author>
+            <author pid="276/8807">David Obermann</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <author pid="g/PGrunbacher">Paul Grünbacher</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Managing systems evolving in space and time: four challenges for maintenance,
+                evolution and composition of variants.</title>
+            <pages>75-80</pages>
+            <year>2021</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3461001.3461660</ee>
+            <crossref>conf/splc/2021a</crossref>
+            <url>db/conf/splc/splc2021a.html#MichelonOALGE21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/MichelonSMAAA21" mdate="2021-10-14">
+            <author pid="246/4971">Gabriela Karoline Michelon</author>
+            <author orcid="0000-0002-4450-6906" pid="300/9111">Bruno Sotto-Mayor</author>
+            <author pid="86/3767">Jabier Martinez</author>
+            <author pid="78/8234">Aitor Arrieta</author>
+            <author pid="00/6243">Rui Abreu 0001</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <title>Spectrum-based feature localization: a case study using ArgoUML.</title>
+            <pages>126-130</pages>
+            <year>2021</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3461001.3473065</ee>
+            <crossref>conf/splc/2021a</crossref>
+            <url>db/conf/splc/splc2021a.html#MichelonSMAAA21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/AssuncaoAK021" mdate="2022-04-09">
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="00/8104">Inmaculada Ayala</author>
+            <author pid="186/2756">Jacob Krüger</author>
+            <author orcid="0000-0001-9769-216X" pid="48/1683">Sébastien Mosser 0001</author>
+            <title>International Workshop on Variability Management for Modern Technologies
+                (VM4ModernTech 2021).</title>
+            <pages>202</pages>
+            <year>2021</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3461001.3475157</ee>
+            <crossref>conf/splc/2021a</crossref>
+            <url>db/conf/splc/splc2021a.html#AssuncaoAK021</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/AssuncaoLZM21" mdate="2021-09-03">
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="56/497">Roberto E. Lopez-Herrejon</author>
+            <author pid="54/4415">Tewfik Ziadi</author>
+            <author pid="86/3767">Jabier Martinez</author>
+            <title>REVE 2021: 9th International Workshop on Reverse Variability Engineering.</title>
+            <pages>203</pages>
+            <year>2021</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3461001.3473054</ee>
+            <crossref>conf/splc/2021a</crossref>
+            <url>db/conf/splc/splc2021a.html#AssuncaoLZM21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/vamos/MichelonLA0E21" mdate="2021-02-12">
+            <author pid="246/4971">Gabriela Karoline Michelon</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="f/StefanFischer0006">Stefan Fischer 0006</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>A Hybrid Feature Location Technique for Re-engineeringSingle Systems into
+                Software Product Lines.</title>
+            <pages>11:1-11:9</pages>
+            <year>2021</year>
+            <booktitle>VaMoS</booktitle>
+            <ee>https://doi.org/10.1145/3442391.3442403</ee>
+            <crossref>conf/vamos/2021</crossref>
+            <url>db/conf/vamos/vamos2021.html#MichelonLA0E21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/wcre/AssuncaoCCP0LL21" mdate="2021-05-18">
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="145/5217">Luiz Carvalho</author>
+            <author pid="139/6642">Juliana Alves Pereira</author>
+            <author pid="g/AlessandroFGarcia">Alessandro F. Garcia 0001</author>
+            <author pid="27/1189">Maria Julia de Lima</author>
+            <author pid="l/CarlosJosePereiradeLucena">Carlos Lucena</author>
+            <title>A Multi-Criteria Strategy for Redesigning Legacy Features as Microservices: An
+                Industrial Case Study.</title>
+            <pages>377-387</pages>
+            <year>2021</year>
+            <booktitle>SANER</booktitle>
+            <ee>https://doi.org/10.1109/SANER50967.2021.00042</ee>
+            <crossref>conf/wcre/2021</crossref>
+            <url>db/conf/wcre/saner2021.html#AssuncaoCCP0LL21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <proceedings key="conf/sast/2021" mdate="2022-09-28">
+            <editor pid="154/5102">Cristiano D. Vasconcellos</editor>
+            <editor pid="226/4233">Karina Girardi Roggia</editor>
+            <editor pid="303/3386">Paulo Bousfield</editor>
+            <editor pid="303/4010">Vanessa Collere</editor>
+            <editor pid="89/6957">Marcelo Eler</editor>
+            <editor pid="90/9459">Wesley K. G. Assunção</editor>
+            <title>SAST'21: Brazilian Symposium on Systematic and Automated Software Testing,
+                Joinville, Brazil, 27 September 2021 - 1 October 2021</title>
+            <publisher>ACM</publisher>
+            <booktitle>SAST</booktitle>
+            <year>2021</year>
+            <isbn>978-1-4503-8503-9</isbn>
+            <ee>https://doi.org/10.1145/3482909</ee>
+            <url>db/conf/sast/sast2021.html</url>
+        </proceedings>
+    </r>
+    <r>
+        <article key="journals/infsof/AssuncaoVL20" mdate="2022-08-16">
+            <author orcid="0000-0002-7557-9091" pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <author pid="56/497">Roberto E. Lopez-Herrejon</author>
+            <title>Automatic extraction of product line architecture and feature models from UML
+                class diagram variants.</title>
+            <year>2020</year>
+            <volume>117</volume>
+            <journal>Inf. Softw. Technol.</journal>
+            <ee>https://doi.org/10.1016/j.infsof.2019.106198</ee>
+            <ee>https://www.wikidata.org/entity/Q113316780</ee>
+            <url>db/journals/infsof/infsof117.html#AssuncaoVL20</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/infsof/ColanziAVFG20" mdate="2022-12-07">
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <author pid="226/2793">Paulo Roberto Farah</author>
+            <author orcid="0000-0001-5361-2973" pid="148/4898">Giovani Guizzo</author>
+            <title>The Symposium on Search-Based Software Engineering: Past, Present and Future.</title>
+            <pages>106372</pages>
+            <year>2020</year>
+            <volume>127</volume>
+            <journal>Inf. Softw. Technol.</journal>
+            <ee>https://doi.org/10.1016/j.infsof.2020.106372</ee>
+            <ee>https://www.wikidata.org/entity/Q113316625</ee>
+            <url>db/journals/infsof/infsof127.html#ColanziAVFG20</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/cec/MendoncaAEVG20" mdate="2020-11-06">
+            <author pid="250/3378">Willian Douglas Ferrari Mendonça</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="273/8232">Lucas V. Estanislau</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <author pid="g/AlessandroFGarcia">Alessandro Garcia 0001</author>
+            <title>Towards a Microservices-Based Product Line with Multi-Objective Evolutionary
+                Algorithms.</title>
+            <pages>1-8</pages>
+            <year>2020</year>
+            <booktitle>CEC</booktitle>
+            <ee>https://doi.org/10.1109/CEC48606.2020.9185776</ee>
+            <crossref>conf/cec/2020</crossref>
+            <url>db/conf/cec/cec2020.html#MendoncaAEVG20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/gecco/CarvalhoGCALFRL20" mdate="2021-01-28">
+            <author pid="145/5217">Luiz Carvalho</author>
+            <author pid="g/AlessandroFGarcia">Alessandro Garcia 0001</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="27/1189">Maria Julia de Lima</author>
+            <author pid="22/7095">Baldoino Fonseca</author>
+            <author pid="r/MarcioRibeiro">Márcio Ribeiro 0001</author>
+            <author pid="l/CarlosJosePereiradeLucena">Carlos Lucena</author>
+            <title>Search-based many-criteria identification of microservices from legacy systems.</title>
+            <pages>305-306</pages>
+            <year>2020</year>
+            <booktitle>GECCO Companion</booktitle>
+            <ee>https://doi.org/10.1145/3377929.3390030</ee>
+            <crossref>conf/gecco/2020c</crossref>
+            <url>db/conf/gecco/gecco2020c.html#CarvalhoGCALFRL20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/gecco/SilvaOCA20" mdate="2020-07-20">
+            <author pid="270/0799">Diego Fernandes da Silva</author>
+            <author pid="270/0053">Luiz Fernando Okada</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <title>Enhancing search-based product line design with crossover operators.</title>
+            <pages>1250-1258</pages>
+            <year>2020</year>
+            <booktitle>GECCO</booktitle>
+            <ee>https://doi.org/10.1145/3377930.3390215</ee>
+            <crossref>conf/gecco/2020</crossref>
+            <url>db/conf/gecco/gecco2020.html#SilvaOCA20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icsm/CarvalhoGCAPFRL20" mdate="2021-01-28">
+            <author pid="145/5217">Luiz Carvalho</author>
+            <author pid="g/AlessandroFGarcia">Alessandro F. Garcia 0001</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="139/6642">Juliana Alves Pereira</author>
+            <author pid="22/7095">Baldoino Fonseca</author>
+            <author pid="r/MarcioRibeiro">Márcio Ribeiro 0001</author>
+            <author pid="27/1189">Maria Julia de Lima</author>
+            <author pid="l/CarlosJosePereiradeLucena">Carlos Lucena</author>
+            <title>On the Performance and Adoption of Search-Based Microservice Identification with
+                toMicroservices.</title>
+            <pages>569-580</pages>
+            <year>2020</year>
+            <booktitle>ICSME</booktitle>
+            <ee>https://doi.org/10.1109/ICSME46990.2020.00060</ee>
+            <crossref>conf/icsm/2020</crossref>
+            <url>db/conf/icsm/icsme2020.html#CarvalhoGCAPFRL20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sbcars/NicolodiCA20" mdate="2020-11-05">
+            <author pid="277/8495">Luciane Baldo Nicolodi</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <title>Architectural Feature Re-Modularization for Software Product Line Evolution.</title>
+            <pages>31-40</pages>
+            <year>2020</year>
+            <booktitle>SBCARS</booktitle>
+            <ee>https://doi.org/10.1145/3425269.3425271</ee>
+            <crossref>conf/sbcars/2020</crossref>
+            <url>db/conf/sbcars/sbcars2020.html#NicolodiCA20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sbes/OliveiraASO0F20" mdate="2022-08-18">
+            <author pid="32/1293-5">Daniel Oliveira 0005</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="219/5338">Leonardo Souza</author>
+            <author pid="121/2856">Willian Nalepa Oizumi</author>
+            <author pid="g/AlessandroFGarcia">Alessandro F. Garcia 0001</author>
+            <author pid="22/7095">Baldoino Fonseca</author>
+            <title>Applying Machine Learning to Customized Smell Detection: A Multi-Project Study.</title>
+            <pages>233-242</pages>
+            <year>2020</year>
+            <booktitle>SBES</booktitle>
+            <ee>https://doi.org/10.1145/3422392.3422427</ee>
+            <crossref>conf/sbes/2020</crossref>
+            <url>db/conf/sbes/sbes2020.html#OliveiraASO0F20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/MartinezWAF20" mdate="2021-10-14">
+            <author orcid="0000-0001-8742-9640" pid="86/3767">Jabier Martinez</author>
+            <author pid="276/8441">Daniele Wolfart</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="03/335">Eduardo Figueiredo 0001</author>
+            <title>Insights on software product line extraction processes: ArgoUML to ArgoUML-SPL
+                revisited.</title>
+            <pages>6:1-6:6</pages>
+            <year>2020</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3382025.3414971</ee>
+            <crossref>conf/splc/2020a</crossref>
+            <url>db/conf/splc/splc2020a.html#MartinezWAF20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/MichelonOLAGE20" mdate="2020-10-22">
+            <author pid="246/4971">Gabriela Karoline Michelon</author>
+            <author pid="276/8807">David Obermann</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="g/PGrunbacher">Paul Grünbacher</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Locating feature revisions in software systems evolving in space and time.</title>
+            <pages>14:1-14:11</pages>
+            <year>2020</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3382025.3414954</ee>
+            <crossref>conf/splc/2020a</crossref>
+            <url>db/conf/splc/splc2020a.html#MichelonOLAGE20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/AssuncaoKM20" mdate="2020-12-29">
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author orcid="0000-0002-0283-248X" pid="186/2756">Jacob Krüger</author>
+            <author pid="250/3378">Willian Douglas Ferrari Mendonça</author>
+            <title>Variability management meets microservices: six challenges of re-engineering
+                microservice-based webshops.</title>
+            <pages>22:1-22:6</pages>
+            <year>2020</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3382025.3414942</ee>
+            <crossref>conf/splc/2020a</crossref>
+            <url>db/conf/splc/splc2020a.html#AssuncaoKM20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/MarchezanCRBBA20" mdate="2022-03-04">
+            <author pid="214/1062">Luciano Marchezan</author>
+            <author pid="273/6661">João Carbonell</author>
+            <author pid="42/8765">Elder Rodrigues 0001</author>
+            <author pid="20/10588">Maicon Bernardino</author>
+            <author pid="58/4232">Fábio Paulo Basso</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <title>Enhancing the Feature Retrieval Process with Scoping and Tool Support: PAxSPL_v2.</title>
+            <pages>29-36</pages>
+            <year>2020</year>
+            <booktitle>SPLC (B)</booktitle>
+            <ee>https://doi.org/10.1145/3382026.3425767</ee>
+            <crossref>conf/splc/2020b</crossref>
+            <url>db/conf/splc/splc2020b.html#MarchezanCRBBA20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/LimaMVA20" mdate="2020-12-29">
+            <author orcid="0000-0003-4993-777X" pid="190/6638">Jackson A. Prado Lima</author>
+            <author pid="250/3378">Willian Douglas Ferrari Mendonça</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <title>Learning-based prioritization of test cases in continuous integration of
+                highly-configurable software.</title>
+            <pages>31:1-31:11</pages>
+            <year>2020</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3382025.3414967</ee>
+            <crossref>conf/splc/2020a</crossref>
+            <url>db/conf/splc/splc2020a.html#LimaMVA20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/AssuncaoAZM20" mdate="2021-10-14">
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="57/2898">Mathieu Acher</author>
+            <author pid="54/4415">Tewfik Ziadi</author>
+            <author orcid="0000-0001-8742-9640" pid="86/3767">Jabier Martinez</author>
+            <title>REVE 2020: 8th International Workshop on Reverse Variability Engineering.</title>
+            <pages>35:1</pages>
+            <year>2020</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3382025.3414947</ee>
+            <crossref>conf/splc/2020a</crossref>
+            <url>db/conf/splc/splc2020a.html#AssuncaoAZM20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/MichelonOALGE20" mdate="2020-10-29">
+            <author pid="246/4971">Gabriela Karoline Michelon</author>
+            <author pid="276/8807">David Obermann</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <author pid="g/PGrunbacher">Paul Grünbacher</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Mining Feature Revisions in Highly-Configurable Software Systems.</title>
+            <pages>74-78</pages>
+            <year>2020</year>
+            <booktitle>SPLC (B)</booktitle>
+            <ee>https://doi.org/10.1145/3382026.3425776</ee>
+            <crossref>conf/splc/2020b</crossref>
+            <url>db/conf/splc/splc2020b.html#MichelonOALGE20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/jbcs/LimaAMMMC19" mdate="2023-06-01">
+            <author orcid="0000-0002-0286-2056" pid="65/10587">Crescencio Lima</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author orcid="0000-0001-8742-9640" pid="86/3767">Jabier Martinez</author>
+            <author pid="250/3378">Willian D. F. Mendonça</author>
+            <author pid="33/9369">Ivan do Carmo Machado</author>
+            <author pid="c/ChristinavonFlachGChavez">Christina von Flach G. Chavez</author>
+            <title>Product line architecture recovery with outlier filtering in software families:
+                the Apo-Games case study.</title>
+            <pages>7:1-7:17</pages>
+            <year>2019</year>
+            <volume>25</volume>
+            <journal>J. Braz. Comput. Soc.</journal>
+            <number>1</number>
+            <ee type="oa">https://doi.org/10.1186/s13173-019-0088-4</ee>
+            <url>db/journals/jbcs/jbcs25.html#LimaAMMMC19</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/CarvalhoGAML19" mdate="2021-10-14">
+            <author pid="145/5217">Luiz Carvalho</author>
+            <author pid="g/AlessandroFGarcia">Alessandro Garcia 0001</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author orcid="0000-0002-9877-3946" pid="121/2507">Rafael Maiani de Mello</author>
+            <author pid="27/1189">Maria Julia de Lima</author>
+            <title>Analysis of the criteria adopted in industry to extract microservices.</title>
+            <pages>22-29</pages>
+            <year>2019</year>
+            <booktitle>CESSER-IP@ICSE</booktitle>
+            <ee>https://dl.acm.org/citation.cfm?id=3338712</ee>
+            <ee>https://doi.org/10.1109/CESSER-IP.2019.00012</ee>
+            <crossref>conf/icse/2019cesi</crossref>
+            <url>db/conf/icse/cesi2019.html#CarvalhoGAML19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sast/MendoncaAV19" mdate="2020-09-11">
+            <author pid="250/3378">Willian Douglas Ferrari Mendonça</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <title>Reusing Test Cases on Graph Product Line Variants: Results from a
+                State-of-the-Practice Test Data Generation Tool.</title>
+            <pages>52-61</pages>
+            <year>2019</year>
+            <booktitle>SAST</booktitle>
+            <ee>https://doi.org/10.1145/3356317.3356318</ee>
+            <crossref>conf/sast/2019</crossref>
+            <url>db/conf/sast/sast2019.html#MendoncaAV19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/CarvalhoGABTC19" mdate="2020-11-06">
+            <author pid="145/5217">Luiz Carvalho</author>
+            <author pid="g/AlessandroFGarcia">Alessandro Garcia 0001</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author orcid="0000-0002-2380-2829" pid="21/824">Rodrigo Bonifácio</author>
+            <author pid="32/8191">Leonardo P. Tizzei</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <title>Extraction of configurable and reusable microservices from legacy systems: an
+                exploratory study.</title>
+            <pages>6:1-6:6</pages>
+            <year>2019</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3336294.3336319</ee>
+            <crossref>conf/splc/2019a</crossref>
+            <url>db/conf/splc/splc2019a.html#CarvalhoGABTC19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/MichelonLAE19" mdate="2019-08-29">
+            <author pid="246/4971">Gabriela Karoline Michelon</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Comparison-based feature location in ArgoUML variants.</title>
+            <pages>17:1-17:5</pages>
+            <year>2019</year>
+            <booktitle>SPLC (A)</booktitle>
+            <ee>https://doi.org/10.1145/3336294.3342360</ee>
+            <crossref>conf/splc/2019a</crossref>
+            <url>db/conf/splc/splc2019a.html#MichelonLAE19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ssbse/ColanziAFVG19" mdate="2020-06-15">
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="226/2793">Paulo Roberto Farah</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <author orcid="0000-0001-5361-2973" pid="148/4898">Giovani Guizzo</author>
+            <title>A Review of Ten Years of the Symposium on Search-Based Software Engineering.</title>
+            <pages>42-57</pages>
+            <year>2019</year>
+            <booktitle>SSBSE</booktitle>
+            <ee>https://doi.org/10.1007/978-3-030-27455-9_4</ee>
+            <crossref>conf/ssbse/2019</crossref>
+            <url>db/conf/ssbse/ssbse2019.html#ColanziAFVG19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-1904-01861" mdate="2022-12-07">
+            <author pid="b/JLBarrosJ">José Luís Barros Justo</author>
+            <author pid="142/2187">Luisa Rincón</author>
+            <author pid="156/6349">Ángela Villota</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <title>Adopting a software product line engineering approach in industrial development
+                contexts: A protocol for a systematic literature review.</title>
+            <year>2019</year>
+            <volume>abs/1904.01861</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">http://arxiv.org/abs/1904.01861</ee>
+            <url>db/journals/corr/corr1904.html#abs-1904-01861</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/sbcars/LimaAMMCM18" mdate="2021-10-14">
+            <author orcid="0000-0002-0286-2056" pid="65/10587">Crescencio Lima</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author orcid="0000-0001-8742-9640" pid="86/3767">Jabier Martinez</author>
+            <author pid="33/9369">Ivan do Carmo Machado</author>
+            <author pid="c/ChristinavonFlachGChavez">Christina von Flach G. Chavez</author>
+            <author pid="250/3378">Willian Douglas Ferrari Mendonça</author>
+            <title>Towards an Automated Product Line Architecture Recovery: The Apo-Games Case
+                Study.</title>
+            <pages>33-42</pages>
+            <year>2018</year>
+            <booktitle>SBCARS</booktitle>
+            <ee>https://doi.org/10.1145/3267183.3267187</ee>
+            <crossref>conf/sbcars/2018</crossref>
+            <url>db/conf/sbcars/sbcars2018.html#LimaAMMCM18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sbesc/JuniorAJ18" mdate="2019-11-15">
+            <author pid="239/6872">Javan Ataide De Oliveira Junior</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="12/9857">Daniel Cavalcanti Jeronymo</author>
+            <title>Multi-objective Tuning of Generalized Predictive Controller: A Trade-Off Between
+                Performance and Robustness.</title>
+            <pages>178-183</pages>
+            <year>2018</year>
+            <booktitle>SBESC</booktitle>
+            <ee>https://doi.org/10.1109/SBESC.2018.00034</ee>
+            <crossref>conf/sbesc/2018</crossref>
+            <url>db/conf/sbesc/sbesc2018.html#JuniorAJ18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/MendoncaAL18" mdate="2020-09-11">
+            <author pid="250/3378">Willian Douglas Ferrari Mendonça</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <title>Multi-objective optimization for reverse engineering of apo-games feature models.</title>
+            <pages>279-283</pages>
+            <year>2018</year>
+            <booktitle>SPLC</booktitle>
+            <ee>https://doi.org/10.1145/3233027.3236397</ee>
+            <crossref>conf/splc/2018-1</crossref>
+            <url>db/conf/splc/splc2018-1.html#MendoncaAL18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <phdthesis key="phd/ndltd/Assuncao17" mdate="2022-05-04">
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <title>ModelVars2SPL: an automated approach to reengineer model variants into software
+                product lines.</title>
+            <year>2017</year>
+            <school>Federal University of Paraná, Curitiba, Brazil</school>
+            <ee>https://hdl.handle.net/1884/47037</ee>
+            <ee>
+                http://search.ndltd.org/show.php?id=oai:union.ndltd.org:IBICT/oai:dspace.c3sl.ufpr.br:1884/47037</ee>
+            <note type="source">ndltd.org (oai:dspace.c3sl.ufpr.br:1884/47037)</note>
+        </phdthesis>
+    </r>
+    <r>
+        <article key="journals/ese/AssuncaoLLVE17" mdate="2020-08-25">
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="56/497">Roberto E. Lopez-Herrejon</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Multi-objective reverse engineering of variability-safe feature models based on
+                code dependencies of system variants.</title>
+            <pages>1763-1794</pages>
+            <year>2017</year>
+            <volume>22</volume>
+            <journal>Empir. Softw. Eng.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.1007/s10664-016-9462-4</ee>
+            <url>db/journals/ese/ese22.html#AssuncaoLLVE17</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/ese/AssuncaoLLVE17a" mdate="2020-08-25">
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="56/497">Roberto E. Lopez-Herrejon</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Reengineering legacy applications into software product lines: a systematic
+                mapping.</title>
+            <pages>2972-3016</pages>
+            <year>2017</year>
+            <volume>22</volume>
+            <journal>Empir. Softw. Eng.</journal>
+            <number>6</number>
+            <ee>https://doi.org/10.1007/s10664-017-9499-z</ee>
+            <url>db/journals/ese/ese22.html#AssuncaoLLVE17a</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/icsr/AssuncaoVL17" mdate="2017-05-09">
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="99/4290">Silvia R. Vergilio</author>
+            <author pid="56/497">Roberto E. Lopez-Herrejon</author>
+            <title>Discovering Software Architectures with Search-Based Merge of UML Model Variants.</title>
+            <pages>95-111</pages>
+            <year>2017</year>
+            <booktitle>ICSR</booktitle>
+            <ee>https://doi.org/10.1007/978-3-319-56856-0_7</ee>
+            <crossref>conf/icsr/2017</crossref>
+            <url>db/conf/icsr/icsr2017.html#AssuncaoVL17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/MartinezAZ17" mdate="2021-10-14">
+            <author orcid="0000-0001-8742-9640" pid="86/3767">Jabier Martinez</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="54/4415">Tewfik Ziadi</author>
+            <title>ESPLA: A Catalog of Extractive SPL Adoption Case Studies.</title>
+            <pages>38-41</pages>
+            <year>2017</year>
+            <booktitle>SPLC (B)</booktitle>
+            <ee>https://doi.org/10.1145/3109729.3109748</ee>
+            <crossref>conf/splc/2017b</crossref>
+            <url>db/conf/splc/splc2017b.html#MartinezAZ17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/gecco/Lopez-HerrejonL15" mdate="2023-06-01">
+            <author pid="56/497">Roberto Erick Lopez-Herrejon</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="f/StefanFischer0006">Stefan Fischer 0006</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Genetic Improvement for Software Product Lines: An Overview and a Roadmap.</title>
+            <pages>823-830</pages>
+            <year>2015</year>
+            <booktitle>GECCO (Companion)</booktitle>
+            <ee>https://doi.org/10.1145/2739482.2768422</ee>
+            <crossref>conf/gecco/2015c</crossref>
+            <url>db/conf/gecco/gecco2015c.html#Lopez-HerrejonL15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/gecco/AssuncaoLLVE15" mdate="2023-06-01">
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="56/497">Roberto Erick Lopez-Herrejon</author>
+            <author pid="133/7495">Lukas Linsbauer</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <author pid="20/5529">Alexander Egyed</author>
+            <title>Extracting Variability-Safe Feature Models from Source Code Dependencies in
+                System Variants.</title>
+            <pages>1303-1310</pages>
+            <year>2015</year>
+            <booktitle>GECCO</booktitle>
+            <ee>https://doi.org/10.1145/2739480.2754720</ee>
+            <crossref>conf/gecco/2015</crossref>
+            <url>db/conf/gecco/gecco2015.html#AssuncaoLLVE15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/Assuncao15" mdate="2023-03-23">
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <title>Search-Based Migration of Model Variants to Software Product Line Architectures.</title>
+            <pages>895-898</pages>
+            <year>2015</year>
+            <booktitle>ICSE (2)</booktitle>
+            <ee>https://doi.org/10.1109/ICSE.2015.286</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/ICSE.2015.286</ee>
+            <ee>http://dl.acm.org/citation.cfm?id=2819208</ee>
+            <crossref>conf/icse/2015-2</crossref>
+            <url>db/conf/icse/icse2015-2.html#Assuncao15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/isci/AssuncaoCVP14" mdate="2020-10-26">
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <author orcid="0000-0001-5808-3919" pid="p/AuroraPozo">Aurora T. R. Pozo</author>
+            <title>A multi-objective optimization approach for the integration and test order
+                problem.</title>
+            <pages>119-139</pages>
+            <year>2014</year>
+            <volume>267</volume>
+            <journal>Inf. Sci.</journal>
+            <ee>https://doi.org/10.1016/j.ins.2013.12.040</ee>
+            <url>db/journals/isci/isci267.html#AssuncaoCVP14</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/jbcs/AssuncaoCVP14" mdate="2020-10-26">
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <author orcid="0000-0001-5808-3919" pid="p/AuroraPozo">Aurora Trinidad Ramirez Pozo</author>
+            <title>Evaluating different strategies for integration testing of aspect-oriented
+                programs.</title>
+            <pages>9:1-9:17</pages>
+            <year>2014</year>
+            <volume>20</volume>
+            <journal>J. Braz. Comput. Soc.</journal>
+            <number>1</number>
+            <ee type="oa">https://doi.org/10.1186/1678-4804-20-9</ee>
+            <ee>https://www.wikidata.org/entity/Q59322843</ee>
+            <url>db/journals/jbcs/jbcs20.html#AssuncaoCVP14</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/jserd/AssuncaoBCDPSV14" mdate="2023-06-01">
+            <author pid="90/9459">Wesley K. G. Assunção</author>
+            <author pid="36/2479">Márcio de Oliveira Barros</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="27/11253">Arilo Claudio Dias-Neto</author>
+            <author pid="133/2120">Matheus Henrique Esteves Paixão</author>
+            <author pid="22/6985">Jerffeson Teixeira de Souza</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <title>A mapping study of the Brazilian SBSE community.</title>
+            <pages>3</pages>
+            <year>2014</year>
+            <volume>2</volume>
+            <journal>J. Softw. Eng. Res. Dev.</journal>
+            <ee type="oa">https://doi.org/10.1186/2195-1721-2-3</ee>
+            <ee>https://www.wikidata.org/entity/Q59322274</ee>
+            <url>db/journals/jserd/jserd2.html#AssuncaoBCDPSV14</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/splc/AssuncaoV14" mdate="2018-11-06">
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <title>Feature location for software product line migration: a mapping study.</title>
+            <pages>52-59</pages>
+            <year>2014</year>
+            <booktitle>SPLC Workshops</booktitle>
+            <ee>https://doi.org/10.1145/2647908.2655967</ee>
+            <crossref>conf/splc/2014w</crossref>
+            <url>db/conf/splc/splc2014w.html#AssuncaoV14</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/et/ColanziATZV13" mdate="2020-09-11">
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="68/10090">Daniela de Freitas Guilhermino Trindade</author>
+            <author pid="42/10759">Carlos Alberto Zorzo</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <title>Evaluating Different Strategies for Testing Software Product Lines.</title>
+            <pages>9-24</pages>
+            <year>2013</year>
+            <volume>29</volume>
+            <journal>J. Electron. Test.</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.1007/s10836-012-5343-y</ee>
+            <url>db/journals/et/et29.html#ColanziATZV13</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/jss/ColanziVAP13" mdate="2020-10-26">
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author orcid="0000-0001-5808-3919" pid="p/AuroraPozo">Aurora T. R. Pozo</author>
+            <title>Search Based Software Engineering: Review and analysis of the field in Brazil.</title>
+            <pages>970-984</pages>
+            <year>2013</year>
+            <volume>86</volume>
+            <journal>J. Syst. Softw.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.1016/j.jss.2012.07.041</ee>
+            <url>db/journals/jss/jss86.html#ColanziVAP13</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/rita/AssuncaoCVP13" mdate="2020-02-03">
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <author pid="p/AuroraPozo">Aurora Trinidad Ramirez Pozo</author>
+            <title>Generating Integration Test Orders for Aspect Oriented Software with
+                Multi-objective Algorithms.</title>
+            <pages>301-327</pages>
+            <year>2013</year>
+            <volume>20</volume>
+            <journal>RITA</journal>
+            <number>2</number>
+            <ee type="oa">https://doi.org/10.22456/2175-2745.25720</ee>
+            <url>db/journals/rita/rita20.html#AssuncaoCVP13</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/bracis/AssuncaoV13" mdate="2023-03-24">
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <title>A Multi-objective Solution for Retrieving Class Diagrams.</title>
+            <pages>249-255</pages>
+            <year>2013</year>
+            <booktitle>BRACIS</booktitle>
+            <ee>https://doi.org/10.1109/BRACIS.2013.49</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/BRACIS.2013.49</ee>
+            <crossref>conf/bracis/2013</crossref>
+            <url>db/conf/bracis/bracis2013.html#AssuncaoV13</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sbes/AssuncaoCVP13" mdate="2023-03-24">
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <author orcid="0000-0001-5808-3919" pid="p/AuroraPozo">Aurora T. R. Pozo</author>
+            <title>Determining Integration and Test Orders in the Presence of Modularization
+                Restrictions.</title>
+            <pages>31-40</pages>
+            <year>2013</year>
+            <booktitle>SBES</booktitle>
+            <ee>https://doi.org/10.1109/SBES.2013.5</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/SBES.2013.5</ee>
+            <crossref>conf/sbes/2013</crossref>
+            <url>db/conf/sbes/sbes2013.html#AssuncaoCVP13</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/seke/AssuncaoV13" mdate="2015-01-05">
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <title>Class Diagram Retrieval with Particle Swarm Optimization.</title>
+            <pages>632-637</pages>
+            <year>2013</year>
+            <booktitle>SEKE</booktitle>
+            <crossref>conf/seke/2013</crossref>
+            <url>db/conf/seke/seke2013.html#AssuncaoV13</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ssbse/AssuncaoCVP13" mdate="2020-10-25">
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <author orcid="0000-0001-5808-3919" pid="p/AuroraPozo">Aurora T. R. Pozo</author>
+            <title>On the Application of the Multi-Evolutionary and Coupling-Based Approach with
+                Different Aspect-Class Integration Testing Strategies.</title>
+            <pages>19-33</pages>
+            <year>2013</year>
+            <booktitle>SSBSE</booktitle>
+            <ee>https://doi.org/10.1007/978-3-642-39742-4_4</ee>
+            <crossref>conf/ssbse/2013</crossref>
+            <url>db/conf/ssbse/ssbse2013.html#AssuncaoCVP13</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/cleiej/ColanziAPVPZF11" mdate="2019-05-21">
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="p/AuroraPozo">Aurora Trinidad Ramirez Pozo</author>
+            <author pid="96/9459">Ana Cristina B. Kochem Vendramin</author>
+            <author pid="29/9459">Diogo Augusto Barros Pereira</author>
+            <author pid="42/10759">Carlos Alberto Zorzo</author>
+            <author pid="98/3369">Pedro Luiz de Paula Filho</author>
+            <title>Application of Bio-inspired Metaheuristics in the Data Clustering Problem.</title>
+            <year>2011</year>
+            <volume>14</volume>
+            <journal>CLEI Electron. J.</journal>
+            <number>3</number>
+            <ee type="oa">https://doi.org/10.19153/cleiej.14.3.5</ee>
+            <url>db/journals/cleiej/cleiej14.html#ColanziAPVPZF11</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/gecco/AssuncaoCPV11" mdate="2020-10-25">
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author orcid="0000-0001-5808-3919" pid="p/AuroraPozo">Aurora Trinidad Ramirez Pozo</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <title>Establishing integration test orders of classes with several coupling measures.</title>
+            <pages>1867-1874</pages>
+            <year>2011</year>
+            <booktitle>GECCO</booktitle>
+            <ee>https://doi.org/10.1145/2001576.2001827</ee>
+            <crossref>conf/gecco/2011</crossref>
+            <url>db/conf/gecco/gecco2011.html#AssuncaoCPV11</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sbes/VergilioCPA11" mdate="2023-03-24">
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author orcid="0000-0001-5808-3919" pid="p/AuroraPozo">Aurora Trinidad Ramirez Pozo</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <title>Search Based Software Engineering: A Review from the Brazilian Symposium on
+                Software Engineering.</title>
+            <pages>50-55</pages>
+            <year>2011</year>
+            <booktitle>SBES</booktitle>
+            <ee>https://doi.org/10.1109/SBES.2011.13</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/SBES.2011.13</ee>
+            <crossref>conf/sbes/2011</crossref>
+            <url>db/conf/sbes/sbes2011.html#VergilioCPA11</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/ssbse/ColanziAVP11" mdate="2020-10-25">
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author pid="99/4290">Silvia Regina Vergilio</author>
+            <author orcid="0000-0001-5808-3919" pid="p/AuroraPozo">Aurora T. R. Pozo</author>
+            <title>Integration Test of Classes and Aspects with a Multi-Evolutionary and
+                Coupling-Based Approach.</title>
+            <pages>188-203</pages>
+            <year>2011</year>
+            <booktitle>SSBSE</booktitle>
+            <ee>https://doi.org/10.1007/978-3-642-23716-4_18</ee>
+            <crossref>conf/ssbse/2011</crossref>
+            <url>db/conf/ssbse/ssbse2011.html#ColanziAVP11</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sccc/ColanziAPVP10" mdate="2023-03-23">
+            <author pid="84/1707">Thelma Elita Colanzi</author>
+            <author pid="90/9459">Wesley Klewerton Guez Assunção</author>
+            <author orcid="0000-0001-5808-3919" pid="p/AuroraPozo">Aurora Trinidad Ramirez Pozo</author>
+            <author pid="96/9459">Ana Cristina B. Kochem Vendramin</author>
+            <author pid="29/9459">Diogo Augusto Barros Pereira</author>
+            <title>Empirical Studies on Application of Genetic Algorithms and Ant Colony
+                Optimization for Data Clustering.</title>
+            <pages>1-10</pages>
+            <year>2010</year>
+            <booktitle>SCCC</booktitle>
+            <ee>https://doi.org/10.1109/SCCC.2010.19</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/SCCC.2010.19</ee>
+            <crossref>conf/sccc/2010</crossref>
+            <url>db/conf/sccc/sccc2010.html#ColanziAPVP10</url>
+        </inproceedings>
+    </r>
+    <coauthors n="123" nc="2">
+        <co c="0">
+            <na f="a/Abreu_0001:Rui" pid="00/6243">Rui Abreu 0001</na>
+        </co>
+        <co c="0">
+            <na f="a/Acher:Mathieu" pid="57/2898">Mathieu Acher</na>
+        </co>
+        <co c="0" n="2">
+            <na f="a/Allian:Ana_P=" pid="205/5812">Ana P. Allian</na>
+            <na>Ana Paula Allian</na>
+        </co>
+        <co c="0">
+            <na f="a/Amaral:Aline_Maria_Malachini_Miotto" pid="201/2418">Aline Maria Malachini
+                Miotto Amaral</na>
+        </co>
+        <co c="0">
+            <na f="a/Ampatzoglou:Apostolos" pid="38/3828">Apostolos Ampatzoglou</na>
+        </co>
+        <co c="0">
+            <na f="a/Arrieta:Aitor" pid="78/8234">Aitor Arrieta</na>
+        </co>
+        <co c="0">
+            <na f="a/Ayala:Inmaculada" pid="00/8104">Inmaculada Ayala</na>
+        </co>
+        <co c="0">
+            <na f="a/Azanza:Maider" pid="72/6498">Maider Azanza</na>
+        </co>
+        <co c="0">
+            <na f="b/Barbosa:Caio" pid="221/1638">Caio Barbosa</na>
+        </co>
+        <co c="0">
+            <na f="b/Barros:Djonathan" pid="331/7245">Djonathan Barros</na>
+        </co>
+        <co c="0">
+            <na f="b/Barros:M=aacute=rcio_de_Oliveira" pid="36/2479">Márcio de Oliveira Barros</na>
+        </co>
+        <co c="0" n="2">
+            <na f="b/Basso:F=aacute=bio" pid="58/4232">Fábio Basso</na>
+            <na>Fábio Paulo Basso</na>
+        </co>
+        <co c="0">
+            <na f="b/Berger:Thorsten" pid="22/6472">Thorsten Berger</na>
+        </co>
+        <co c="0">
+            <na f="b/Bernardino:Maicon" pid="20/10588">Maicon Bernardino</na>
+        </co>
+        <co c="0">
+            <na f="b/Bhushan:Megha" pid="216/9196">Megha Bhushan</na>
+        </co>
+        <co c="0">
+            <na f="b/Bibiano:Ana_Carla" pid="221/1533">Ana Carla Bibiano</na>
+        </co>
+        <co c="0">
+            <na f="b/Bonif=aacute=cio:Rodrigo" pid="21/824">Rodrigo Bonifácio</na>
+        </co>
+        <co c="0">
+            <na f="b/Bousfield:Paulo" pid="303/3386">Paulo Bousfield</na>
+        </co>
+        <co c="0">
+            <na f="c/Carbonell:Jo=atilde=o" pid="273/6661">João Carbonell</na>
+        </co>
+        <co c="0">
+            <na f="c/Carvalho:Luiz" pid="145/5217">Luiz Carvalho</na>
+        </co>
+        <co c="0">
+            <na f="c/Cedrim:Diego" pid="179/8636">Diego Cedrim</na>
+        </co>
+        <co c="0" n="2">
+            <na f="c/Cerqueira:Renato_F=_G=" pid="165/3587">Renato F. G. Cerqueira</na>
+            <na>Renato Cerqueira</na>
+        </co>
+        <co c="0">
+            <na f="c/Chavez:Christina_von_Flach_G=" pid="c/ChristinavonFlachGChavez">Christina von
+                Flach G. Chavez</na>
+        </co>
+        <co c="0">
+            <na f="c/Cleland=Huang:Jane" pid="c/JaneClelandHuang">Jane Cleland-Huang</na>
+        </co>
+        <co c="0">
+            <na f="c/Colanzi:Thelma_Elita" pid="84/1707">Thelma Elita Colanzi</na>
+        </co>
+        <co c="0">
+            <na f="c/Collere:Vanessa" pid="303/4010">Vanessa Collere</na>
+        </co>
+        <co c="0">
+            <na f="c/Coutinho:Daniel" pid="87/1273">Daniel Coutinho</na>
+        </co>
+        <co c="0">
+            <na f="d/Devroey:Xavier" pid="16/11059">Xavier Devroey</na>
+        </co>
+        <co c="0">
+            <na f="d/Dias=Neto:Arilo_Claudio" pid="27/11253">Arilo Claudio Dias-Neto</na>
+        </co>
+        <co c="0">
+            <na f="d/Domingos:Diogo_C=_P=" pid="295/3208">Diogo C. P. Domingos</na>
+        </co>
+        <co c="0">
+            <na f="e/Egyed:Alexander" pid="20/5529">Alexander Egyed</na>
+        </co>
+        <co c="0" n="2">
+            <na f="e/Eler:Marcelo_Medeiros" pid="89/6957">Marcelo Medeiros Eler</na>
+            <na>Marcelo Eler</na>
+        </co>
+        <co c="0">
+            <na f="e/Estanislau:Lucas_V=" pid="273/8232">Lucas V. Estanislau</na>
+        </co>
+        <co c="0">
+            <na f="f/Falkner:Andreas_A=" pid="83/9575">Andreas A. Falkner</na>
+        </co>
+        <co c="0">
+            <na f="f/Farah:Paulo_Roberto" pid="226/2793">Paulo Roberto Farah</na>
+        </co>
+        <co c="0">
+            <na f="f/Felfernig:Alexander" pid="71/915">Alexander Felfernig</na>
+        </co>
+        <co c="0">
+            <na f="f/Figueiredo_0001:Eduardo" pid="03/335">Eduardo Figueiredo 0001</na>
+        </co>
+        <co c="0">
+            <na f="f/Filho:Pedro_Luiz_de_Paula" pid="98/3369">Pedro Luiz de Paula Filho</na>
+        </co>
+        <co c="0">
+            <na f="f/Fischer_0006:Stefan" pid="f/StefanFischer0006">Stefan Fischer 0006</na>
+        </co>
+        <co c="0">
+            <na f="f/Fuentes:Lidia" pid="59/1161">Lidia Fuentes</na>
+        </co>
+        <co c="0" n="2">
+            <na f="g/Garcia_0001:Alessandro_F=" pid="g/AlessandroFGarcia">Alessandro F. Garcia 0001</na>
+            <na>Alessandro Garcia 0001</na>
+        </co>
+        <co c="0">
+            <na f="g/Gheyi:Rohit" pid="10/3240">Rohit Gheyi</na>
+        </co>
+        <co c="0">
+            <na f="g/Gr=uuml=nbacher:Paul" pid="g/PGrunbacher">Paul Grünbacher</na>
+        </co>
+        <co c="0">
+            <na f="g/Guizzo:Giovani" pid="148/4898">Giovani Guizzo</na>
+        </co>
+        <co c="0">
+            <na f="g/Guo:Jianmei" pid="69/6953">Jianmei Guo</na>
+        </co>
+        <co c="0">
+            <na f="h/Haas:Rainer" pid="39/602">Rainer Haas</na>
+        </co>
+        <co c="0">
+            <na f="h/Herac:Edvin" pid="327/2551">Edvin Herac</na>
+        </co>
+        <co c="0">
+            <na f="h/Horcas:Jos=eacute=_Miguel" pid="142/9275">José Miguel Horcas</na>
+        </co>
+        <co c="0">
+            <na f="h/Huchard:Marianne" pid="h/MarianneHuchard">Marianne Huchard</na>
+        </co>
+        <co c="1">
+            <na f="j/Jeronymo:Daniel_Cavalcanti" pid="12/9857">Daniel Cavalcanti Jeronymo</na>
+        </co>
+        <co c="1">
+            <na f="j/Junior:Javan_Ataide_De_Oliveira" pid="239/6872">Javan Ataide De Oliveira Junior</na>
+        </co>
+        <co c="0">
+            <na f="j/Justo:Jos=eacute=_Lu=iacute=s_Barros" pid="b/JLBarrosJ">José Luís Barros Justo</na>
+        </co>
+        <co c="0">
+            <na f="k/Kretschmer:Roland" pid="00/2588">Roland Kretschmer</na>
+        </co>
+        <co c="0">
+            <na f="k/Kr=uuml=ger:Jacob" pid="186/2756">Jacob Krüger</na>
+        </co>
+        <co c="0" n="2">
+            <na f="l/Le:Viet_Man" pid="242/4566">Viet Man Le</na>
+            <na>Viet-Man Le</na>
+        </co>
+        <co c="0">
+            <na f="l/Lima:Jackson_A=_Prado" pid="190/6638">Jackson A. Prado Lima</na>
+        </co>
+        <co c="0">
+            <na f="l/Lima:Maria_Julia_de" pid="27/1189">Maria Julia de Lima</na>
+        </co>
+        <co c="0">
+            <na f="l/Linsbauer:Lukas" pid="133/7495">Lukas Linsbauer</na>
+        </co>
+        <co c="0" n="2">
+            <na f="l/Lopez=Herrejon:Roberto_Erick" pid="56/497">Roberto Erick Lopez-Herrejon</na>
+            <na>Roberto E. Lopez-Herrejon</na>
+        </co>
+        <co c="0">
+            <na f="l/Luaces:Miguel_=Aacute==_Rodr=iacute=guez" pid="327/2389">Miguel Á. Rodríguez
+                Luaces</na>
+        </co>
+        <co c="0" n="2">
+            <na f="l/Lucena:Carlos_Jos=eacute=_Pereira_de" pid="l/CarlosJosePereiradeLucena">Carlos
+                José Pereira de Lucena</na>
+            <na>Carlos Lucena</na>
+        </co>
+        <co c="0">
+            <na f="m/Machado:Ivan_do_Carmo" pid="33/9369">Ivan do Carmo Machado</na>
+        </co>
+        <co c="0">
+            <na f="m/Marchezan:Luciano" pid="214/1062">Luciano Marchezan</na>
+        </co>
+        <co c="0">
+            <na f="m/Marques:Jo=atilde=o_Lucas" pid="307/3549">João Lucas Marques</na>
+        </co>
+        <co c="0">
+            <na f="m/Martinez:Jabier" pid="86/3767">Jabier Martinez</na>
+        </co>
+        <co c="0">
+            <na f="m/Mello:Rafael_Maiani_de" pid="121/2507">Rafael Maiani de Mello</na>
+        </co>
+        <co c="0" n="2">
+            <na f="m/Mendon=ccedil=a:Willian_D=_F=" pid="250/3378">Willian D. F. Mendonça</na>
+            <na>Willian Douglas Ferrari Mendonça</na>
+        </co>
+        <co c="0">
+            <na f="m/Michelon:Gabriela_Karoline" pid="246/4971">Gabriela Karoline Michelon</na>
+        </co>
+        <co c="0">
+            <na f="m/Moreira:Rodrigo_Andr=eacute=_Ferreira" pid="318/4621">Rodrigo André Ferreira
+                Moreira</na>
+        </co>
+        <co c="0">
+            <na f="m/Mosser_0001:S=eacute=bastien" pid="48/1683">Sébastien Mosser 0001</na>
+        </co>
+        <co c="0">
+            <na f="n/Nakagawa:Elisa_Yumi" pid="67/5214">Elisa Yumi Nakagawa</na>
+        </co>
+        <co c="0" n="2">
+            <na f="n/Neto:Baldoino_Fonseca_dos_Santos" pid="22/7095">Baldoino Fonseca dos Santos
+                Neto</na>
+            <na>Baldoino Fonseca</na>
+        </co>
+        <co c="0" n="2">
+            <na f="n/Neto:Crescencio_Rodrigues_Lima" pid="65/10587">Crescencio Rodrigues Lima Neto</na>
+            <na>Crescencio Lima</na>
+        </co>
+        <co c="0">
+            <na f="n/Nicolodi:Luciane_Baldo" pid="277/8495">Luciane Baldo Nicolodi</na>
+        </co>
+        <co c="0">
+            <na f="o/Obermann:David" pid="276/8807">David Obermann</na>
+        </co>
+        <co c="0">
+            <na f="o/Oizumi:Willian_Nalepa" pid="121/2856">Willian Nalepa Oizumi</na>
+        </co>
+        <co c="0">
+            <na f="o/Okada:Luiz_Fernando" pid="270/0053">Luiz Fernando Okada</na>
+        </co>
+        <co c="0">
+            <na f="o/Oliveira:Anderson" pid="206/5735">Anderson Oliveira</na>
+        </co>
+        <co c="0" n="2">
+            <na f="o/Oliveira_0005:Daniel" pid="32/1293-5">Daniel Oliveira 0005</na>
+            <na>Daniel Tenório Martins de Oliveira</na>
+        </co>
+        <co c="0">
+            <na f="o/OliveiraJr:Edson" pid="04/2051">Edson OliveiraJr</na>
+        </co>
+        <co c="0" n="2">
+            <na f="p/Paix=atilde=o:Matheus" pid="133/2120">Matheus Paixão</na>
+            <na>Matheus Henrique Esteves Paixão</na>
+        </co>
+        <co c="0">
+            <na f="p/Paza:Diogo_Do_Nascimento" pid="295/3257">Diogo Do Nascimento Paza</na>
+        </co>
+        <co c="0">
+            <na f="p/Peldszus:Sven" pid="145/7808">Sven Peldszus</na>
+        </co>
+        <co c="0">
+            <na f="p/Pereira:Diogo_Augusto_Barros" pid="29/9459">Diogo Augusto Barros Pereira</na>
+        </co>
+        <co c="0">
+            <na f="p/Pereira:Juliana_Alves" pid="139/6642">Juliana Alves Pereira</na>
+        </co>
+        <co c="0" n="2">
+            <na f="p/Pozo:Aurora_T=_R=" pid="p/AuroraPozo">Aurora T. R. Pozo</na>
+            <na>Aurora Trinidad Ramirez Pozo</na>
+        </co>
+        <co c="0">
+            <na f="q/Quinton:Cl=eacute=ment" pid="00/9990">Clément Quinton</na>
+        </co>
+        <co c="0">
+            <na f="r/Ramler:Rudolf" pid="95/4255">Rudolf Ramler</na>
+        </co>
+        <co c="0">
+            <na f="r/Ratiu:Cosmina_Cristina" pid="331/6773">Cosmina Cristina Ratiu</na>
+        </co>
+        <co c="0">
+            <na f="r/Ratzenb=ouml=ck:Michael" pid="313/7526">Michael Ratzenböck</na>
+        </co>
+        <co c="0">
+            <na f="r/Reder:Alexander" pid="15/7915">Alexander Reder</na>
+        </co>
+        <co c="0">
+            <na f="r/Ribeiro_0001:M=aacute=rcio" pid="r/MarcioRibeiro">Márcio Ribeiro 0001</na>
+        </co>
+        <co c="0">
+            <na f="r/Rinc=oacute=n:Luisa" pid="142/2187">Luisa Rincón</na>
+        </co>
+        <co c="0">
+            <na f="r/Rodrigues_0001:Elder" pid="42/8765">Elder Rodrigues 0001</na>
+        </co>
+        <co c="0">
+            <na f="r/Roggia:Karina_Girardi" pid="226/4233">Karina Girardi Roggia</na>
+        </co>
+        <co c="0">
+            <na f="r/Rojas:Jos=eacute=_Miguel" pid="94/5122">José Miguel Rojas</na>
+        </co>
+        <co c="0">
+            <na f="s/Santos:Kleber" pid="274/4606">Kleber Santos</na>
+        </co>
+        <co c="0">
+            <na f="s/Schmeing:Ederson" pid="295/3472">Ederson Schmeing</na>
+        </co>
+        <co c="0">
+            <na f="s/Schmid:Klaus" pid="29/310">Klaus Schmid</na>
+        </co>
+        <co c="0">
+            <na f="s/Schots:Marcelo" pid="08/9051">Marcelo Schots</na>
+        </co>
+        <co c="0">
+            <na f="s/Seidl_0001:Christoph" pid="118/4031-1">Christoph Seidl 0001</na>
+        </co>
+        <co c="0">
+            <na f="s/Semini:Laura" pid="48/2416">Laura Semini</na>
+        </co>
+        <co c="0">
+            <na f="s/Silva:Diego_Fernandes_da" pid="270/0799">Diego Fernandes da Silva</na>
+        </co>
+        <co c="0">
+            <na f="s/Silva:Ivonei_F=_da" pid="27/9834">Ivonei F. da Silva</na>
+        </co>
+        <co c="0">
+            <na f="s/Soares:Vin=iacute=cius" pid="282/5183">Vinícius Soares</na>
+        </co>
+        <co c="0">
+            <na f="s/Sotto=Mayor:Bruno" pid="300/9111">Bruno Sotto-Mayor</na>
+        </co>
+        <co c="0">
+            <na f="s/Sousa:Leonardo_da_Silva" pid="179/8618">Leonardo da Silva Sousa</na>
+        </co>
+        <co c="0">
+            <na f="s/Souza:Jerffeson_Teixeira_de" pid="22/6985"
+                bibtex="Jerffeson {Teixeira de Souza}">Jerffeson Teixeira de Souza</na>
+        </co>
+        <co c="0">
+            <na f="s/Souza:Leonardo" pid="219/5338">Leonardo Souza</na>
+        </co>
+        <co c="0">
+            <na f="t/Tanno:Douglas" pid="305/9097">Douglas Tanno</na>
+        </co>
+        <co c="0">
+            <na f="t/Tizzei:Leonardo_P=" pid="32/8191">Leonardo P. Tizzei</na>
+        </co>
+        <co c="0" n="2">
+            <na f="t/Trindade:Daniela_de_F=_Guilhermino" pid="68/10090">Daniela de F. Guilhermino
+                Trindade</na>
+            <na>Daniela de Freitas Guilhermino Trindade</na>
+        </co>
+        <co c="0">
+            <na f="u/Uch=ocirc=a:Anderson_G=" pid="199/5439">Anderson G. Uchôa</na>
+        </co>
+        <co c="0">
+            <na f="v/Vasconcellos:Cristiano_D=" pid="154/5102">Cristiano D. Vasconcellos</na>
+        </co>
+        <co c="0">
+            <na f="v/Vendramin:Ana_Cristina_B=_Kochem" pid="96/9459">Ana Cristina B. Kochem
+                Vendramin</na>
+        </co>
+        <co c="0" n="2">
+            <na f="v/Vergilio:Silvia_Regina" pid="99/4290">Silvia Regina Vergilio</na>
+            <na>Silvia R. Vergilio</na>
+        </co>
+        <co c="0">
+            <na f="v/Villaca:Guilherme_L=_Donin" pid="295/3427">Guilherme L. Donin Villaca</na>
+        </co>
+        <co c="0">
+            <na f="v/Villota:=Aacute=ngela" pid="156/6349">Ángela Villota</na>
+        </co>
+        <co c="0" n="2">
+            <na f="w/Werner:Cl=aacute=udia_M=_L=" pid="w/CMLWerner">Cláudia M. L. Werner</na>
+            <na>Cláudia Maria Lima Werner</na>
+        </co>
+        <co c="0">
+            <na f="w/Wolfart:Daniele" pid="276/8441">Daniele Wolfart</na>
+        </co>
+        <co c="0">
+            <na f="z/Zavadski:Arthur_Cattaneo" pid="282/4938">Arthur Cattaneo Zavadski</na>
+        </co>
+        <co c="0">
+            <na f="z/Ziadi:Tewfik" pid="54/4415">Tewfik Ziadi</na>
+        </co>
+        <co c="0">
+            <na f="z/Zorzo:Carlos_Alberto" pid="42/10759">Carlos Alberto Zorzo</na>
+        </co>
+    </coauthors>
+</dblpperson>

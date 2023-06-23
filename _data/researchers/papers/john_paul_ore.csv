@@ -1,0 +1,24 @@
+Authors,Title,Journal/Booktitle,Volume/Pages,DOI,Type
+"Nicholas Albergo, Vivek Rathi, John-Paul Ore",Understanding Xacro Misunderstandings.,ICRA,2022: 6247-6252,https://doi.org/10.1109/ICRA46639.2022.9812349,inproceedings
+"Amr Moussa, John-Paul Ore",Maktub: Lightweight Robot System Test Creation and Automation.,ASE,2022: 162:1-162:4,https://doi.org/10.1145/3551349.3559531,inproceedings
+"Khashayar Asadi, Varun R. Haritsa, Kevin K. Han, John-Paul Ore","Automated Object Manipulation Using Vision-Based Mobile Robotic System for
+                Construction Applications.",J. Comput. Civ. Eng.,35(2021): ,https://doi.org/10.1061/(asce)cp.1943-5487.0000946,article
+"John-Paul Ore, Carrick Detweiler, Sebastian G. Elbaum","An Empirical Study on Type Annotations: Accuracy, Speed, and Suggestion
+                Effectiveness.",ACM Trans. Softw. Eng. Methodol.,30(2021): 20:1-20:29,https://doi.org/10.1145/3439775,article
+"Nicholas Albergo, Vivek Rathi, John-Paul Ore",Understanding Xacro Misunderstandings.,CoRR,abs/2109.09694(2021): ,https://arxiv.org/abs/2109.09694,article
+"John-Paul Ore, Carrick Detweiler",Sensing water properties at precise depths from the air.,J. Field Robotics,35(2018): 1205-1221,https://doi.org/10.1002/rob.21807,article
+"John-Paul Ore, Carrick Detweiler, Sebastian G. Elbaum",Towards code-aware robotic simulation: vision paper.,RoSE@ICSE,2018: 40-43,https://doi.org/10.1145/3196558.3196566,inproceedings
+"John-Paul Ore, Sebastian G. Elbaum, Carrick Detweiler, Lambros Karkazis",Assessing the type annotation burden.,ASE,2018: 190-201,https://doi.org/10.1145/3238147.3238173,inproceedings
+"Sayali Kate, John-Paul Ore, Xiangyu Zhang 0001, Sebastian G. Elbaum, Zhaogui Xu",Phys: probabilistic physical unit assignment and inconsistency detection.,ESEC/SIGSOFT FSE,2018: 563-573,https://doi.org/10.1145/3236024.3236035,inproceedings
+"John-Paul Ore, Carrick Detweiler",Sensing Water Properties at Precise Depths from the Air.,FSR,2017: 205-220,https://doi.org/10.1007/978-3-319-67361-5_14,inproceedings
+"John-Paul Ore, Sebastian G. Elbaum, Carrick Detweiler","Dimensional inconsistencies in code and ROS messages: A study of 5.9M lines of
+                code.",IROS,2017: 712-718,https://doi.org/10.1109/IROS.2017.8202229,inproceedings
+"John-Paul Ore, Carrick Detweiler, Sebastian G. Elbaum","Lightweight detection of physical unit inconsistencies without program
+                annotations.",ISSTA,2017: 341-351,https://doi.org/10.1145/3092703.3092722,inproceedings
+"John-Paul Ore, Carrick Detweiler, Sebastian G. Elbaum","Phriky-units: a lightweight, annotation-free physical unit inconsistency
+                detection tool.",ISSTA,2017: 352-355,https://doi.org/10.1145/3092703.3098219,inproceedings
+"John-Paul Ore, Sebastian G. Elbaum, Amy Burgin, Carrick Detweiler",Autonomous Aerial Water Sampling.,J. Field Robotics,32(2015): 1095-1113,https://doi.org/10.1002/rob.21591,article
+"David J. Anthony, Elizabeth Basha, Jared Ostdiek, John-Paul Ore, Carrick Detweiler",Surface classification for sensor deployment from UAV landings.,ICRA,2015: 3464-3470,https://doi.org/10.1109/ICRA.2015.7139678,inproceedings
+"Jacob Palmer, Nicholas Yuen, John-Paul Ore, Carrick Detweiler, Elizabeth Basha",On air-to-water radio communication between UAVs and water sensor networks.,ICRA,2015: 5311-5317,https://doi.org/10.1109/ICRA.2015.7139940,inproceedings
+"David J. Anthony, John-Paul Ore, Carrick Detweiler, Elizabeth Basha",Controlled sensor network installation with unmanned aerial vehicles.,SenSys,2014: 348-349,https://doi.org/10.1145/2668332.2668358,inproceedings
+"John-Paul Ore, Sebastian G. Elbaum, Amy Burgin, Baoliang Zhao, Carrick Detweiler",Autonomous Aerial Water Sampling.,FSR,2013: 137-151,https://doi.org/10.1007/978-3-319-07488-7_10,inproceedings

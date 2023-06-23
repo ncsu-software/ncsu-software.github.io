@@ -1,0 +1,1153 @@
+<dblpperson name="Sarah Smith Heckman" pid="62/6606" n="62">
+    <person key="homepages/62/6606" mdate="2021-07-24">
+        <author pid="62/6606">Sarah Smith Heckman</author>
+        <author pid="62/6606">Sarah Heckman</author>
+        <note type="affiliation">North Carolina State University, Raleigh, USA</note>
+        <url>http://people.engr.ncsu.edu/sesmith5/</url>
+        <url>https://dl.acm.org/profile/81330491893</url>
+        <url>https://orcid.org/0000-0003-4351-8611</url>
+    </person>
+    <r>
+        <inproceedings key="conf/sigcse/McGillTGHRD23" mdate="2023-03-11">
+            <author orcid="0000-0002-3096-9619" pid="56/2918">Monica M. McGill</author>
+            <author orcid="0000-0002-7753-6917" pid="341/5408">Angelica Thompson</author>
+            <author orcid="0000-0002-2670-065X" pid="299/8674">Isabella Gransbury</author>
+            <author orcid="0000-0003-4351-8611" pid="62/6606">Sarah Heckman</author>
+            <author orcid="0000-0001-9113-0668" pid="126/9852">Jennifer Rosato</author>
+            <author orcid="0000-0002-9556-6888" pid="10/10140">Leigh Ann DeLyser</author>
+            <title>Building upon the CAPE Framework for Broader Understanding of Capacity in K-12 CS
+                Education.</title>
+            <pages>577-582</pages>
+            <year>2023</year>
+            <booktitle>SIGCSE (1)</booktitle>
+            <ee>https://doi.org/10.1145/3545945.3569799</ee>
+            <crossref>conf/sigcse/2023-1</crossref>
+            <url>db/conf/sigcse/sigcse2023-1.html#McGillTGHRD23</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/ZahnH23" mdate="2023-03-11">
+            <author orcid="0000-0001-9994-245X" pid="341/8479">Matthew Zahn</author>
+            <author orcid="0000-0003-4351-8611" pid="62/6606">Sarah Heckman</author>
+            <title>Observations on Student Help-Seeking Behaviors in Introductory Computer Science
+                Courses.</title>
+            <pages>1380</pages>
+            <year>2023</year>
+            <booktitle>SIGCSE (2)</booktitle>
+            <ee>https://doi.org/10.1145/3545947.3576325</ee>
+            <crossref>conf/sigcse/2023-2</crossref>
+            <url>db/conf/sigcse/sigcse2023-2.html#ZahnH23</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/jeric/HeckmanCSA22" mdate="2022-01-21">
+            <author orcid="0000-0003-4351-8611" pid="62/6606">Sarah Heckman</author>
+            <author orcid="0000-0002-7824-9151" pid="c/JeffreyCCarver">Jeffrey C. Carver</author>
+            <author orcid="0000-0002-1745-205X" pid="39/1231">Mark Sherriff</author>
+            <author orcid="0000-0003-4305-2153" pid="173/3000">Ahmed Al-Zubidy</author>
+            <title>A Systematic Literature Review of Empiricism and Norms of Reporting in Computing
+                Education Research Literature.</title>
+            <pages>3:1-3:46</pages>
+            <year>2022</year>
+            <volume>22</volume>
+            <journal>ACM Trans. Comput. Educ.</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.1145/3470652</ee>
+            <url>db/journals/jeric/toce22.html#HeckmanCSA22</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/icer/Presler-Marshall22" mdate="2022-08-09">
+            <author pid="242/2099">Kai Presler-Marshall</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>What Makes Team[s] Work? A Study of Team Characteristics in Software Engineering
+                Projects.</title>
+            <pages>177-188</pages>
+            <year>2022</year>
+            <booktitle>ICER (1)</booktitle>
+            <ee>https://doi.org/10.1145/3501385.3543980</ee>
+            <crossref>conf/icer/2022</crossref>
+            <url>db/conf/icer/icer2022.html#Presler-Marshall22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/EricksonHL21" mdate="2022-03-07">
+            <author pid="314/7134">Bradley Erickson</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <title>Characterizing Student Development Progress: Validating Student Adherence to
+                Project Milestones.</title>
+            <pages>15-21</pages>
+            <year>2022</year>
+            <booktitle>SIGCSE (1)</booktitle>
+            <ee>https://doi.org/10.1145/3478431.3499373</ee>
+            <crossref>conf/sigcse/2022-1</crossref>
+            <url>db/conf/sigcse/sigcse2022-1.html#EricksonHL21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/Presler-Marshall21" mdate="2022-03-07">
+            <author pid="242/2099">Kai Presler-Marshall</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Identifying Struggling Teams in Software Engineering Courses Through Weekly
+                Surveys.</title>
+            <pages>126-132</pages>
+            <year>2022</year>
+            <booktitle>SIGCSE (1)</booktitle>
+            <ee>https://doi.org/10.1145/3478431.3499367</ee>
+            <crossref>conf/sigcse/2022-1</crossref>
+            <url>db/conf/sigcse/sigcse2022-1.html#Presler-Marshall21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/GaoHL21" mdate="2022-03-07">
+            <author pid="294/2150">Zhikai Gao</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <title>Who Uses Office Hours?: A Comparison of In-Person and Virtual Office Hours
+                Utilization.</title>
+            <pages>300-306</pages>
+            <year>2022</year>
+            <booktitle>SIGCSE (1)</booktitle>
+            <ee>https://doi.org/10.1145/3478431.3499334</ee>
+            <crossref>conf/sigcse/2022-1</crossref>
+            <url>db/conf/sigcse/sigcse2022-1.html#GaoHL21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/GitinabardHBL21" mdate="2022-03-07">
+            <author pid="206/6982">Niki Gitinabard</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <title>Designing a Dashboard for Student Teamwork Analysis.</title>
+            <pages>446-452</pages>
+            <year>2022</year>
+            <booktitle>SIGCSE (1)</booktitle>
+            <ee>https://doi.org/10.1145/3478431.3499377</ee>
+            <crossref>conf/sigcse/2022-1</crossref>
+            <url>db/conf/sigcse/sigcse2022-1.html#GitinabardHBL21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/CarverHS21" mdate="2022-03-07">
+            <author pid="c/JeffreyCCarver">Jeffrey C. Carver</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="39/1231">Mark Sherriff</author>
+            <title>Training Computing Educators to Become Computing Education Researchers.</title>
+            <pages>724-730</pages>
+            <year>2022</year>
+            <booktitle>SIGCSE (1)</booktitle>
+            <ee>https://doi.org/10.1145/3478431.3499297</ee>
+            <crossref>conf/sigcse/2022-1</crossref>
+            <url>db/conf/sigcse/sigcse2022-1.html#CarverHS21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/MannekoteCGBIHS21" mdate="2022-10-02">
+            <author pid="314/7340">Amogh Mannekote</author>
+            <author pid="214/7850">Mehmet Celepkolu</author>
+            <author pid="259/4046">Aisha Chung Galdo</author>
+            <author pid="46/1371">Kristy Elizabeth Boyer</author>
+            <author pid="158/3820">Maya Israel</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author orcid="0000-0002-3058-7418" pid="142/3308">Kristin Stephens-Martinez</author>
+            <title>Don't Just Paste Your Stacktrace: Shaping Discussion Forums in Introductory CS
+                Courses.</title>
+            <pages>1164</pages>
+            <year>2022</year>
+            <booktitle>SIGCSE (2)</booktitle>
+            <ee>https://doi.org/10.1145/3478432.3499110</ee>
+            <crossref>conf/sigcse/2022-2</crossref>
+            <url>db/conf/sigcse/sigcse2022-2.html#MannekoteCGBIHS21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/HeckmanM21" mdate="2022-03-07">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="23/5958">Mia Minnes</author>
+            <title>Academic Middle Management: Undergraduate Leadership in Computing Programs.</title>
+            <pages>1184</pages>
+            <year>2022</year>
+            <booktitle>SIGCSE (2)</booktitle>
+            <ee>https://doi.org/10.1145/3478432.3499196</ee>
+            <crossref>conf/sigcse/2022-2</crossref>
+            <url>db/conf/sigcse/sigcse2022-2.html#HeckmanM21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/edm/GaoLHB21" mdate="2022-03-09">
+            <author pid="294/2150">Zhikai Gao</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <title>Automatically classifying student help requests: a multi-year analysis.</title>
+            <year>2021</year>
+            <booktitle>EDM</booktitle>
+            <crossref>conf/edm/2021</crossref>
+            <url>db/conf/edm/edm2021.html#GaoLHB21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/Presler-Marshall21" mdate="2021-06-28">
+            <author pid="242/2099">Kai Presler-Marshall</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>SQLRepair: Identifying and Repairing Mistakes in Student-Authored SQL Queries.</title>
+            <pages>199-210</pages>
+            <year>2021</year>
+            <booktitle>ICSE (SEET)</booktitle>
+            <ee>https://doi.org/10.1109/ICSE-SEET52601.2021.00030</ee>
+            <crossref>conf/icse/2021seet</crossref>
+            <url>db/conf/icse/seet2021.html#Presler-Marshall21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/BasuHM21" mdate="2021-04-07">
+            <author pid="214/8030">Debarati Basu</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="m/MaryLouMaher">Mary Lou Maher</author>
+            <title>Online Vs Face-to-face Web-development Course: Course Strategies, Learning, and
+                Engagement.</title>
+            <pages>1191-1197</pages>
+            <year>2021</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/3408877.3432438</ee>
+            <crossref>conf/sigcse/2021</crossref>
+            <url>db/conf/sigcse/sigcse2021.html#BasuHM21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/vl/AkintundeLBHL21" mdate="2021-11-03">
+            <author pid="260/5317">Ruth Okoilu Akintunde</author>
+            <author pid="299/8580">Ally Limke</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <title>PEDI - Piazza Explorer Dashboard for Intervention.</title>
+            <pages>1-4</pages>
+            <year>2021</year>
+            <booktitle>VL/HCC</booktitle>
+            <ee>https://doi.org/10.1109/VL/HCC51201.2021.9576443</ee>
+            <crossref>conf/vl/2021</crossref>
+            <url>db/conf/vl/vlhcc2021.html#AkintundeLBHL21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2102-05729" mdate="2021-02-18">
+            <author pid="242/2099">Kai Presler-Marshall</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>SQLRepair: Identifying and Repairing Mistakes in Student-Authored SQL Queries.</title>
+            <year>2021</year>
+            <volume>abs/2102.05729</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2102.05729</ee>
+            <url>db/journals/corr/corr2102.html#abs-2102-05729</url>
+        </article>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2107-01984" mdate="2021-07-07">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="c/JeffreyCCarver">Jeffrey C. Carver</author>
+            <author pid="39/1231">Mark Sherriff</author>
+            <author pid="173/3000">Ahmed Al-Zubidy</author>
+            <title>A Systematic Literature Review of Empiricism and Norms of Reporting in Computing
+                Education Research Literature.</title>
+            <year>2021</year>
+            <volume>abs/2107.01984</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2107.01984</ee>
+            <url>db/journals/corr/corr2107.html#abs-2107-01984</url>
+        </article>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2110-05560" mdate="2021-10-21">
+            <author pid="c/JeffreyCCarver">Jeffrey C. Carver</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="39/1231">Mark Sherriff</author>
+            <title>Training Computing Educators to Become Computing Education Researchers.</title>
+            <year>2021</year>
+            <volume>abs/2110.05560</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2110.05560</ee>
+            <url>db/journals/corr/corr2110.html#abs-2110-05560</url>
+        </article>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2112-04465" mdate="2021-12-13">
+            <author pid="206/6982">Niki Gitinabard</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <title>Designing a Dashboard for Student Teamwork Analysis.</title>
+            <year>2021</year>
+            <volume>abs/2112.04465</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2112.04465</ee>
+            <url>db/journals/corr/corr2112.html#abs-2112-04465</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/edm/GitinabardOXHBL20" mdate="2021-02-05">
+            <author pid="206/6982">Niki Gitinabard</author>
+            <author pid="260/5317">Ruth Okoilu</author>
+            <author pid="226/0963">Yiqiao Xu</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <title>Student Teamwork on Programming Projects. What can GitHub logs show us?</title>
+            <year>2020</year>
+            <booktitle>EDM</booktitle>
+            <ee type="oa">
+                https://educationaldatamining.org/files/conferences/EDM2020/papers/paper_153.pdf</ee>
+            <crossref>conf/edm/2020</crossref>
+            <url>db/conf/edm/edm2020.html#GitinabardOXHBL20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icst/HeckmanSK20" mdate="2020-08-12">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="121/3953">Jessica Young Schmidt</author>
+            <author pid="129/8255">Jason King</author>
+            <title>Integrating Testing Throughout the CS Curriculum.</title>
+            <pages>441-444</pages>
+            <year>2020</year>
+            <booktitle>ICST Workshops</booktitle>
+            <ee>https://doi.org/10.1109/ICSTW50294.2020.00079</ee>
+            <crossref>conf/icst/2020w</crossref>
+            <url>db/conf/icst/icstw2020.html#HeckmanSK20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <proceedings key="conf/sigcse/2020" mdate="2021-03-23">
+            <editor pid="07/314-36">Jian Zhang 0036</editor>
+            <editor pid="39/1231">Mark Sherriff</editor>
+            <editor pid="62/6606">Sarah Heckman</editor>
+            <editor pid="56/852">Pamela A. Cutter</editor>
+            <editor pid="m/AlvaroEMonge">Alvaro E. Monge</editor>
+            <title>Proceedings of the 51st ACM Technical Symposium on Computer Science Education,
+                SIGCSE 2020, Portland, OR, USA, March 11-14, 2020</title>
+            <publisher>ACM</publisher>
+            <booktitle>SIGCSE</booktitle>
+            <year>2020</year>
+            <isbn>978-1-4503-6793-6</isbn>
+            <ee>https://doi.org/10.1145/3328778</ee>
+            <url>db/conf/sigcse/sigcse2020.html</url>
+        </proceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2008-11262" mdate="2020-10-08">
+            <author pid="206/6982">Niki Gitinabard</author>
+            <author pid="260/5317">Ruth Okoilu</author>
+            <author pid="226/0963">Yiqiao Xu</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <title>Student Teamwork on Programming Projects: What can GitHub logs show us?</title>
+            <year>2020</year>
+            <volume>abs/2008.11262</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2008.11262</ee>
+            <url>db/journals/corr/corr2008.html#abs-2008-11262</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/sigcse/HawthornePHZ19" mdate="2020-04-25">
+            <author pid="79/5709">Elizabeth K. Hawthorne</author>
+            <author pid="61/3558">Manuel A. Pérez-Quiñones</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="07/314-36">Jian Zhang 0036</author>
+            <title>SIGCSE technical symposium 2019 report.</title>
+            <pages>2-4</pages>
+            <year>2019</year>
+            <volume>51</volume>
+            <journal>ACM SIGCSE Bull.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.1145/3329103.3329104</ee>
+            <url>db/journals/sigcse/sigcse51.html#HawthornePHZ19</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/sigcse/ZhangSHCM19" mdate="2020-04-25">
+            <author pid="07/314-36">Jian Zhang 0036</author>
+            <author pid="39/1231">Mark Sherriff</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="56/852">Pamela A. Cutter</author>
+            <author pid="m/AlvaroEMonge">Alvaro E. Monge</author>
+            <title>SIGCSE technical symposium 2020 call for submissions.</title>
+            <pages>2-3</pages>
+            <year>2019</year>
+            <volume>51</volume>
+            <journal>ACM SIGCSE Bull.</journal>
+            <number>3</number>
+            <ee>https://doi.org/10.1145/3355504.3355505</ee>
+            <url>db/journals/sigcse/sigcse51.html#ZhangSHCM19</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/tlt/GitinabardXHBL19" mdate="2020-04-03">
+            <author orcid="0000-0002-9975-1677" pid="206/6982">Niki Gitinabard</author>
+            <author pid="226/0963">Yiqiao Xu</author>
+            <author orcid="0000-0003-4351-8611" pid="62/6606">Sarah Heckman</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <title>How Widely Can Prediction Models Be Generalized? Performance Prediction in
+                Blended Courses.</title>
+            <pages>184-197</pages>
+            <year>2019</year>
+            <volume>12</volume>
+            <journal>IEEE Trans. Learn. Technol.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.1109/TLT.2019.2911832</ee>
+            <url>db/journals/tlt/tlt12.html#GitinabardXHBL19</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/edm/GitinabardBHL19" mdate="2021-02-05">
+            <author pid="206/6982">Niki Gitinabard</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <title>What will you do next? A sequence analysis on the student transitions between
+                online platforms in blended courses.</title>
+            <year>2019</year>
+            <booktitle>EDM</booktitle>
+            <ee type="oa">https://drive.google.com/file/d/1dzAi40wvfQox-rzLFJ_2SSAwXJsUO2UQ</ee>
+            <crossref>conf/edm/2019</crossref>
+            <url>db/conf/edm/edm2019.html#GitinabardBHL19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/Presler-Marshall19" mdate="2019-09-05">
+            <author pid="242/2099">Kai Presler-Marshall</author>
+            <author pid="218/6656">Eric Horton</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <title>Wait wait. No, tell me: analyzing selenium configuration effects on test
+                flakiness.</title>
+            <pages>7-13</pages>
+            <year>2019</year>
+            <booktitle>AST@ICSE</booktitle>
+            <ee>https://doi.org/10.1109/AST.2019.000-1</ee>
+            <ee>https://dl.acm.org/citation.cfm?id=3338661</ee>
+            <crossref>conf/icse/2019ast</crossref>
+            <url>db/conf/icse/ast2019.html#Presler-Marshall19</url>
+        </inproceedings>
+    </r>
+    <r>
+        <proceedings key="conf/sigcse/2019" mdate="2019-03-04">
+            <editor pid="79/5709">Elizabeth K. Hawthorne</editor>
+            <editor pid="61/3558">Manuel A. Pérez-Quiñones</editor>
+            <editor pid="62/6606">Sarah Heckman</editor>
+            <editor pid="07/314-36">Jian Zhang 0036</editor>
+            <title>Proceedings of the 50th ACM Technical Symposium on Computer Science Education,
+                SIGCSE 2019, Minneapolis, MN, USA, February 27 - March 02, 2019</title>
+            <publisher>ACM</publisher>
+            <booktitle>SIGCSE</booktitle>
+            <year>2019</year>
+            <isbn>978-1-4503-5890-3</isbn>
+            <ee>https://doi.org/10.1145/3287324</ee>
+            <url>db/conf/sigcse/sigcse2019.html</url>
+        </proceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-1904-07328" mdate="2019-04-25">
+            <author pid="206/6982">Niki Gitinabard</author>
+            <author pid="226/0963">Yiqiao Xu</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <title>How Widely Can Prediction Models be Generalized? An Analysis of Performance
+                Prediction in Blended Courses.</title>
+            <year>2019</year>
+            <volume>abs/1904.07328</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">http://arxiv.org/abs/1904.07328</ee>
+            <url>db/journals/corr/corr1904.html#abs-1904-07328</url>
+        </article>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-1904-07331" mdate="2019-04-25">
+            <author pid="226/0559">Adithya Sheshadri</author>
+            <author pid="206/6982">Niki Gitinabard</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <title>Predicting Student Performance Based on Online Study Habits: A Study of Blended
+                Courses.</title>
+            <year>2019</year>
+            <volume>abs/1904.07331</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">http://arxiv.org/abs/1904.07331</ee>
+            <url>db/journals/corr/corr1904.html#abs-1904-07331</url>
+        </article>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-1905-00928" mdate="2019-05-27">
+            <author pid="206/6982">Niki Gitinabard</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <title>What will you do next? A sequence analysis on the student transitions between
+                online platforms in blended courses.</title>
+            <year>2019</year>
+            <volume>abs/1905.00928</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">http://arxiv.org/abs/1905.00928</ee>
+            <url>db/journals/corr/corr1905.html#abs-1905-00928</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/jeric/SherriffH18" mdate="2020-03-06">
+            <author pid="39/1231">Mark Sherriff</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <title>Capstones and Large Projects in Computing Education.</title>
+            <pages>6:1-6:4</pages>
+            <year>2018</year>
+            <volume>18</volume>
+            <journal>ACM Trans. Comput. Educ.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.1145/3229882</ee>
+            <url>db/journals/jeric/toce18.html#SherriffH18</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/sigcse/HeckmanZPH18" mdate="2020-04-25">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="07/314-36">Jian Zhang 0036</author>
+            <author pid="61/3558">Manuel A. Pérez-Quiñones</author>
+            <author pid="79/5709">Elizabeth K. Hawthorne</author>
+            <title>SIGCSE 2019 paper length change.</title>
+            <pages>4</pages>
+            <year>2018</year>
+            <volume>50</volume>
+            <journal>ACM SIGCSE Bull.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.1145/3212402.3212404</ee>
+            <url>db/journals/sigcse/sigcse50.html#HeckmanZPH18</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/sigcse/HeckmanZPH18a" mdate="2020-04-25">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="07/314-36">Jian Zhang 0036</author>
+            <author pid="61/3558">Manuel A. Pérez-Quiñones</author>
+            <author pid="79/5709">Elizabeth K. Hawthorne</author>
+            <title>What is a SIGCSE symposium paper?</title>
+            <pages>3</pages>
+            <year>2018</year>
+            <volume>50</volume>
+            <journal>ACM SIGCSE Bull.</journal>
+            <number>3</number>
+            <ee>https://doi.org/10.1145/3243071.3243073</ee>
+            <url>db/journals/sigcse/sigcse50.html#HeckmanZPH18a</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/edm/SheshadriGLBH18" mdate="2020-10-08">
+            <author pid="226/0559">Adithya Sheshadri</author>
+            <author pid="206/6982">Niki Gitinabard</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <title>Predicting Student Performance Based on Online Study Habits: A Study of Blended
+                Courses.</title>
+            <year>2018</year>
+            <booktitle>EDM</booktitle>
+            <ee type="oa">
+                http://educationaldatamining.org/files/conferences/EDM2018/papers/EDM2018_paper_147.pdf</ee>
+            <crossref>conf/edm/2018</crossref>
+            <url>db/conf/edm/edm2018.html#SheshadriGLBH18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/HeckmanSP18" mdate="2021-08-10">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="26/694">Kathryn T. Stolee</author>
+            <author pid="46/2873">Christopher Parnin</author>
+            <title>10+ years of teaching software engineering with itrust: the good, the bad, and
+                the ugly.</title>
+            <pages>1-4</pages>
+            <year>2018</year>
+            <booktitle>ICSE (SEET)</booktitle>
+            <ee>https://doi.org/10.1145/3183377.3183393</ee>
+            <ee>https://ieeexplore.ieee.org/document/8445174</ee>
+            <crossref>conf/icse/2018seet</crossref>
+            <url>db/conf/icse/seet2018.html#HeckmanSP18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/HeckmanK18" mdate="2018-11-06">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="129/8255">Jason King</author>
+            <title>Developing Software Engineering Skills using Real Tools for Automated Grading.</title>
+            <pages>794-799</pages>
+            <year>2018</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/3159450.3159595</ee>
+            <crossref>conf/sigcse/2018</crossref>
+            <url>db/conf/sigcse/sigcse2018.html#HeckmanK18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/CarverHS17" mdate="2018-11-06">
+            <author pid="c/JeffreyCCarver">Jeffrey C. Carver</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="39/1231">Mark Sherriff</author>
+            <title>Designing Empirical Education Research Studies (DEERS): Creating an Answerable
+                Research Question (Abstract Only).</title>
+            <pages>1051</pages>
+            <year>2018</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/3159450.3162350</ee>
+            <crossref>conf/sigcse/2018</crossref>
+            <url>db/conf/sigcse/sigcse2018.html#CarverHS17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/edm/GitinabardLHB17" mdate="2020-10-08">
+            <author pid="206/6982">Niki Gitinabard</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <title>Identifying student communities in blended courses.</title>
+            <year>2017</year>
+            <booktitle>EDM</booktitle>
+            <ee type="oa">http://educationaldatamining.org/EDM2017/proc_files/papers/paper_105.pdf</ee>
+            <crossref>conf/edm/2017</crossref>
+            <url>db/conf/edm/edm2017.html#GitinabardLHB17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/SmithBFHM17" mdate="2020-07-22">
+            <author pid="195/8788">Aaron J. Smith</author>
+            <author pid="46/1371">Kristy Elizabeth Boyer</author>
+            <author pid="04/1609">Jeffrey Forbes 0001</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="m/KetanMayerPatel">Ketan Mayer-Patel</author>
+            <title>My Digital Hand: A Tool for Scaling Up One-to-One Peer Teaching in Support of
+                Computer Science Learning.</title>
+            <pages>549-554</pages>
+            <year>2017</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/3017680.3017800</ee>
+            <crossref>conf/sigcse/2017</crossref>
+            <url>db/conf/sigcse/sigcse2017.html#SmithBFHM17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/VellukunnelBBFH17" mdate="2020-07-22">
+            <author orcid="0000-0002-0999-1862" pid="195/8803">Mickey Vellukunnel</author>
+            <author pid="141/9307">Philip Sheridan Buffum</author>
+            <author pid="46/1371">Kristy Elizabeth Boyer</author>
+            <author pid="04/1609">Jeffrey Forbes 0001</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="m/KetanMayerPatel">Ketan Mayer-Patel</author>
+            <title>Deconstructing the Discussion Forum: Student Questions and Computer Science
+                Learning.</title>
+            <pages>603-608</pages>
+            <year>2017</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/3017680.3017745</ee>
+            <crossref>conf/sigcse/2017</crossref>
+            <url>db/conf/sigcse/sigcse2017.html#VellukunnelBBFH17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/HeckmanCS17" mdate="2018-11-06">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="c/JeffreyCCarver">Jeffrey C. Carver</author>
+            <author pid="39/1231">Mark Sherriff</author>
+            <title>Designing Empirical Education Research Studies (DEERS): Creating an Answerable
+                Research Question (Abstract Only).</title>
+            <pages>737</pages>
+            <year>2017</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/3017680.3017836</ee>
+            <crossref>conf/sigcse/2017</crossref>
+            <url>db/conf/sigcse/sigcse2017.html#HeckmanCS17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-1709-10215" mdate="2018-08-13">
+            <author pid="206/6982">Niki Gitinabard</author>
+            <author pid="143/0319">Linting Xue</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <title>A Social Network Analysis on Blended Courses.</title>
+            <year>2017</year>
+            <volume>abs/1709.10215</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">http://arxiv.org/abs/1709.10215</ee>
+            <url>db/journals/corr/corr1709.html#abs-1709-10215</url>
+        </article>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-1710-04129" mdate="2018-08-13">
+            <author pid="206/6982">Niki Gitinabard</author>
+            <author pid="58/3939">Collin F. Lynch</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="70/57">Tiffany Barnes</author>
+            <title>Identifying Student Communities in Blended Courses.</title>
+            <year>2017</year>
+            <volume>abs/1710.04129</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">http://arxiv.org/abs/1710.04129</ee>
+            <url>db/journals/corr/corr1710.html#abs-1710-04129</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/Al-ZubidyCHS16" mdate="2018-11-06">
+            <author pid="173/3000">Ahmed Al-Zubidy</author>
+            <author pid="c/JeffreyCCarver">Jeffrey C. Carver</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="39/1231">Mark Sherriff</author>
+            <title>A (Updated) Review of Empiricism at the SIGCSE Technical Symposium.</title>
+            <pages>120-125</pages>
+            <year>2016</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/2839509.2844601</ee>
+            <crossref>conf/sigcse/2016</crossref>
+            <url>db/conf/sigcse/sigcse2016.html#Al-ZubidyCHS16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/HeckmanK16" mdate="2021-06-10">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="129/8255">Jason King</author>
+            <title>Teaching Software Engineering Skills in CS1.5: Incorporating Real-world Practices
+                and Tools (Abstract Only).</title>
+            <pages>696-697</pages>
+            <year>2016</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/2839509.2850562</ee>
+            <crossref>conf/sigcse/2016</crossref>
+            <url>db/conf/sigcse/sigcse2016.html#HeckmanK16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigsoft/JohnsonPSFEMHS16" mdate="2019-09-16">
+            <author pid="116/6719">Brittany Johnson</author>
+            <author pid="05/9103">Rahul Pandita</author>
+            <author orcid="0000-0001-6987-5196" pid="75/2200">Justin Smith 0001</author>
+            <author pid="166/1017">Denae Ford</author>
+            <author pid="190/1215">Sarah Elder</author>
+            <author pid="02/3722">Emerson R. Murphy-Hill</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="17/2324">Caitlin Sadowski</author>
+            <title>A cross-tool communication study on program analysis tool notifications.</title>
+            <pages>73-84</pages>
+            <year>2016</year>
+            <booktitle>SIGSOFT FSE</booktitle>
+            <ee>https://doi.org/10.1145/2950290.2950304</ee>
+            <ee>https://www.wikidata.org/entity/Q57433933</ee>
+            <crossref>conf/sigsoft/2016</crossref>
+            <url>db/conf/sigsoft/fse2016.html#JohnsonPSFEMHS16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icer/Heckman15" mdate="2018-11-06">
+            <author pid="62/6606">Sarah Smith Heckman</author>
+            <title>An Empirical Study of In-Class Laboratories on Student Learning of Linear Data
+                Structures.</title>
+            <pages>217-225</pages>
+            <year>2015</year>
+            <booktitle>ICER</booktitle>
+            <ee>https://doi.org/10.1145/2787622.2787713</ee>
+            <crossref>conf/icer/2015</crossref>
+            <url>db/conf/icer/icer2015.html#Heckman15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/AndersonHVWCBG15" mdate="2023-03-23">
+            <author pid="64/3919">Paul V. Anderson</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="v/MladenAVouk">Mladen A. Vouk</author>
+            <author pid="42/2975-4">David Wright 0004</author>
+            <author pid="43/5198">Michael Carter</author>
+            <author pid="71/4110">Janet E. Burge</author>
+            <author pid="91/2138">Gerald C. Gannod</author>
+            <title>CS/SE Instructors Can Improve Student Writing without Reducing Class Time Devoted
+                to Technical Content: Experimental Results.</title>
+            <pages>455-464</pages>
+            <year>2015</year>
+            <booktitle>ICSE (2)</booktitle>
+            <ee>https://doi.org/10.1109/ICSE.2015.178</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/ICSE.2015.178</ee>
+            <ee>http://dl.acm.org/citation.cfm?id=2819080</ee>
+            <ee>https://www.wikidata.org/entity/Q57438963</ee>
+            <crossref>conf/icse/2015-2</crossref>
+            <url>db/conf/icse/icse2015-2.html#AndersonHVWCBG15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/HeckmanKW15" mdate="2018-11-06">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="129/8255">Jason King</author>
+            <author pid="159/0102">Michael Winters</author>
+            <title>Automating Software Engineering Best Practices Using an Open Source Continuous
+                Integration Framework (Abstract Only).</title>
+            <pages>677</pages>
+            <year>2015</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/2676723.2691921</ee>
+            <crossref>conf/sigcse/2015</crossref>
+            <url>db/conf/sigcse/sigcse2015.html#HeckmanKW15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/SherriffH15" mdate="2018-11-06">
+            <author pid="39/1231">Mark Sherriff</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <title>Empirical Research in CS Education (Abstract Only).</title>
+            <pages>701</pages>
+            <year>2015</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/2676723.2691853</ee>
+            <crossref>conf/sigcse/2015</crossref>
+            <url>db/conf/sigcse/sigcse2015.html#SherriffH15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigsoft/JohnsonPMH15" mdate="2018-11-14">
+            <author pid="116/6719">Brittany Johnson</author>
+            <author pid="05/9103">Rahul Pandita</author>
+            <author pid="02/3722">Emerson R. Murphy-Hill</author>
+            <author pid="62/6606">Sarah Heckman</author>
+            <title>Bespoke tools: adapted to the concepts developers know.</title>
+            <pages>878-881</pages>
+            <year>2015</year>
+            <booktitle>ESEC/SIGSOFT FSE</booktitle>
+            <ee>https://doi.org/10.1145/2786805.2803197</ee>
+            <ee>https://www.wikidata.org/entity/Q57438916</ee>
+            <crossref>conf/sigsoft/2015</crossref>
+            <url>db/conf/sigsoft/fse2015.html#JohnsonPMH15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/promise/HeckmanW13" mdate="2020-09-07">
+            <author pid="62/6606">Sarah Smith Heckman</author>
+            <author pid="w/LaurieAWilliams">Laurie A. Williams</author>
+            <title>A comparative evaluation of static analysis actionable alert identification
+                techniques.</title>
+            <pages>4:1-4:10</pages>
+            <year>2013</year>
+            <booktitle>PROMISE</booktitle>
+            <ee>https://doi.org/10.1145/2499393.2499399</ee>
+            <crossref>conf/promise/2013</crossref>
+            <url>db/conf/promise/promise2013.html#HeckmanW13</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/infsof/HeckmanW11" mdate="2020-02-20">
+            <author pid="62/6606">Sarah Smith Heckman</author>
+            <author pid="w/LaurieAWilliams">Laurie A. Williams</author>
+            <title>A systematic literature review of actionable alert identification techniques for
+                automated static code analysis.</title>
+            <pages>363-387</pages>
+            <year>2011</year>
+            <volume>53</volume>
+            <journal>Inf. Softw. Technol.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.1016/j.infsof.2010.12.007</ee>
+            <ee>https://www.wikidata.org/entity/Q57436435</ee>
+            <url>db/journals/infsof/infsof53.html#HeckmanW11</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/csee/HeckmanHS11" mdate="2023-03-24">
+            <author pid="62/6606">Sarah Smith Heckman</author>
+            <author pid="39/375">Thomas B. Horton</author>
+            <author pid="39/1231">Mark Sherriff</author>
+            <title>Teaching second-level Java and software engineering with Android.</title>
+            <pages>540-542</pages>
+            <year>2011</year>
+            <booktitle>CSEE&amp;T</booktitle>
+            <ee>https://doi.org/10.1109/CSEET.2011.5876144</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/CSEET.2011.5876144</ee>
+            <crossref>conf/csee/2011</crossref>
+            <url>db/conf/csee/csee2011.html#HeckmanHS11</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icst/HeckmanW09" mdate="2023-03-23">
+            <author pid="62/6606">Sarah Smith Heckman</author>
+            <author pid="w/LaurieAWilliams">Laurie A. Williams</author>
+            <title>A Model Building Process for Identifying Actionable Static Analysis Alerts.</title>
+            <pages>161-170</pages>
+            <year>2009</year>
+            <booktitle>ICST</booktitle>
+            <ee>https://doi.org/10.1109/ICST.2009.45</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/ICST.2009.45</ee>
+            <crossref>conf/icst/2009</crossref>
+            <url>db/conf/icst/icst2009.html#HeckmanW09</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/esem/HeckmanW08" mdate="2020-09-07">
+            <author pid="62/6606">Sarah Smith Heckman</author>
+            <author pid="w/LaurieAWilliams">Laurie A. Williams</author>
+            <title>On establishing a benchmark for evaluating static analysis alert prioritization
+                and classification techniques.</title>
+            <pages>41-50</pages>
+            <year>2008</year>
+            <booktitle>ESEM</booktitle>
+            <ee>https://doi.org/10.1145/1414004.1414013</ee>
+            <crossref>conf/esem/2008</crossref>
+            <url>db/conf/esem/esem2008.html#HeckmanW08</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/crossroads/Heckman07" mdate="2018-11-06">
+            <author pid="62/6606">Sarah Smith Heckman</author>
+            <title>Adaptively ranking alerts generated from automated static analysis.</title>
+            <year>2007</year>
+            <volume>14</volume>
+            <journal>ACM Crossroads</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.1145/1349332.1349339</ee>
+            <url>db/journals/crossroads/crossroads14.html#Heckman07</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/cascon/SherriffHLW07" mdate="2018-11-06">
+            <author pid="39/1231">Mark Sherriff</author>
+            <author pid="62/6606">Sarah Smith Heckman</author>
+            <author pid="98/916">Mike Lake</author>
+            <author pid="w/LaurieAWilliams">Laurie A. Williams</author>
+            <title>Identifying fault-prone files using static analysis alerts through singular value
+                decomposition.</title>
+            <pages>276-279</pages>
+            <year>2007</year>
+            <crossref>conf/cascon/2007</crossref>
+            <booktitle>CASCON</booktitle>
+            <ee>https://doi.org/10.1145/1321211.1321247</ee>
+            <url>db/conf/cascon/cascon2007.html#SherriffHLW07</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/Heckman07" mdate="2023-03-23">
+            <author pid="62/6606">Sarah Smith Heckman</author>
+            <title>Adaptive Probabilistic Model for Ranking Code-Based Static Analysis Alerts.</title>
+            <pages>89-90</pages>
+            <year>2007</year>
+            <crossref>conf/icse/2007c</crossref>
+            <booktitle>ICSE Companion</booktitle>
+            <ee>https://doi.org/10.1109/ICSECOMPANION.2007.16</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/ICSECOMPANION.2007.16</ee>
+            <url>db/conf/icse/icsec2007.html#Heckman07</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigsoft/SherriffHLW07" mdate="2018-11-06">
+            <author pid="39/1231">Mark Sherriff</author>
+            <author pid="62/6606">Sarah Smith Heckman</author>
+            <author pid="51/2107">J. Michael Lake</author>
+            <author pid="w/LaurieAWilliams">Laurie A. Williams</author>
+            <title>Using groupings of static analysis alerts to identify files likely to contain
+                field failures.</title>
+            <pages>565-568</pages>
+            <year>2007</year>
+            <crossref>conf/sigsoft/2007</crossref>
+            <booktitle>ESEC/SIGSOFT FSE</booktitle>
+            <ee>https://doi.org/10.1145/1287624.1287711</ee>
+            <url>db/conf/sigsoft/fse2007.html#SherriffHLW07</url>
+        </inproceedings>
+    </r>
+    <coauthors n="62" nc="1">
+        <co c="0" n="2">
+            <na f="a/Akintunde:Ruth_Okoilu" pid="260/5317">Ruth Okoilu Akintunde</na>
+            <na>Ruth Okoilu</na>
+        </co>
+        <co c="0">
+            <na f="a/Al=Zubidy:Ahmed" pid="173/3000">Ahmed Al-Zubidy</na>
+        </co>
+        <co c="0">
+            <na f="a/Anderson:Paul_V=" pid="64/3919">Paul V. Anderson</na>
+        </co>
+        <co c="0">
+            <na f="b/Barnes:Tiffany" pid="70/57">Tiffany Barnes</na>
+        </co>
+        <co c="0">
+            <na f="b/Basu:Debarati" pid="214/8030">Debarati Basu</na>
+        </co>
+        <co c="0">
+            <na f="b/Boyer:Kristy_Elizabeth" pid="46/1371">Kristy Elizabeth Boyer</na>
+        </co>
+        <co c="0">
+            <na f="b/Buffum:Philip_Sheridan" pid="141/9307">Philip Sheridan Buffum</na>
+        </co>
+        <co c="0">
+            <na f="b/Burge:Janet_E=" pid="71/4110">Janet E. Burge</na>
+        </co>
+        <co c="0">
+            <na f="c/Carter:Michael" pid="43/5198">Michael Carter</na>
+        </co>
+        <co c="0">
+            <na f="c/Carver:Jeffrey_C=" pid="c/JeffreyCCarver">Jeffrey C. Carver</na>
+        </co>
+        <co c="0">
+            <na f="c/Celepkolu:Mehmet" pid="214/7850">Mehmet Celepkolu</na>
+        </co>
+        <co c="0">
+            <na f="c/Cutter:Pamela_A=" pid="56/852">Pamela A. Cutter</na>
+        </co>
+        <co c="0">
+            <na f="e/Elder:Sarah" pid="190/1215">Sarah Elder</na>
+        </co>
+        <co c="0">
+            <na f="e/Erickson:Bradley" pid="314/7134">Bradley Erickson</na>
+        </co>
+        <co c="0">
+            <na f="f/Forbes_0001:Jeffrey" pid="04/1609">Jeffrey Forbes 0001</na>
+        </co>
+        <co c="0">
+            <na f="f/Ford:Denae" pid="166/1017">Denae Ford</na>
+        </co>
+        <co c="0">
+            <na f="g/Galdo:Aisha_Chung" pid="259/4046">Aisha Chung Galdo</na>
+        </co>
+        <co c="0">
+            <na f="g/Gannod:Gerald_C=" pid="91/2138">Gerald C. Gannod</na>
+        </co>
+        <co c="0">
+            <na f="g/Gao:Zhikai" pid="294/2150">Zhikai Gao</na>
+        </co>
+        <co c="0">
+            <na f="g/Gitinabard:Niki" pid="206/6982">Niki Gitinabard</na>
+        </co>
+        <co c="0">
+            <na f="g/Gransbury:Isabella" pid="299/8674">Isabella Gransbury</na>
+        </co>
+        <co c="0">
+            <na f="h/Hawthorne:Elizabeth_K=" pid="79/5709">Elizabeth K. Hawthorne</na>
+        </co>
+        <co c="0">
+            <na f="h/Horton:Eric" pid="218/6656">Eric Horton</na>
+        </co>
+        <co c="0">
+            <na f="h/Horton:Thomas_B=" pid="39/375">Thomas B. Horton</na>
+        </co>
+        <co c="0">
+            <na f="i/Israel:Maya" pid="158/3820">Maya Israel</na>
+        </co>
+        <co c="0">
+            <na f="j/Johnson:Brittany" pid="116/6719">Brittany Johnson</na>
+        </co>
+        <co c="0">
+            <na f="k/King:Jason" pid="129/8255">Jason King</na>
+        </co>
+        <co c="0">
+            <na f="l/Lake:J=_Michael" pid="51/2107">J. Michael Lake</na>
+        </co>
+        <co c="0">
+            <na f="l/Lake:Mike" pid="98/916">Mike Lake</na>
+        </co>
+        <co c="0">
+            <na f="l/Limke:Ally" pid="299/8580">Ally Limke</na>
+        </co>
+        <co c="0">
+            <na f="l/Lynch:Collin_F=" pid="58/3939">Collin F. Lynch</na>
+        </co>
+        <co c="0">
+            <na f="m/Maher:Mary_Lou" pid="m/MaryLouMaher">Mary Lou Maher</na>
+        </co>
+        <co c="0">
+            <na f="m/Mannekote:Amogh" pid="314/7340">Amogh Mannekote</na>
+        </co>
+        <co c="0">
+            <na f="m/Mayer=Patel:Ketan" pid="m/KetanMayerPatel">Ketan Mayer-Patel</na>
+        </co>
+        <co c="0" n="2">
+            <na f="m/McGill:Monica" pid="56/2918">Monica McGill</na>
+            <na>Monica M. McGill</na>
+        </co>
+        <co c="0">
+            <na f="m/Minnes:Mia" pid="23/5958">Mia Minnes</na>
+        </co>
+        <co c="0">
+            <na f="m/Monge:Alvaro_E=" pid="m/AlvaroEMonge">Alvaro E. Monge</na>
+        </co>
+        <co c="0">
+            <na f="m/Murphy=Hill:Emerson_R=" pid="02/3722">Emerson R. Murphy-Hill</na>
+        </co>
+        <co c="0">
+            <na f="p/Pandita:Rahul" pid="05/9103">Rahul Pandita</na>
+        </co>
+        <co c="0" n="2">
+            <na f="p/Parnin:Chris" pid="46/2873">Chris Parnin</na>
+            <na>Christopher Parnin</na>
+        </co>
+        <co c="0">
+            <na f="p/P=eacute=rez=Qui=ntilde=ones:Manuel_A=" pid="61/3558">Manuel A. Pérez-Quiñones</na>
+        </co>
+        <co c="0">
+            <na f="p/Presler=Marshall:Kai" pid="242/2099">Kai Presler-Marshall</na>
+        </co>
+        <co c="0">
+            <na f="r/Rosato:Jennifer" pid="126/9852">Jennifer Rosato</na>
+        </co>
+        <co c="0">
+            <na f="s/Sadowski:Caitlin" pid="17/2324">Caitlin Sadowski</na>
+        </co>
+        <co c="0">
+            <na f="s/Schmidt:Jessica_Young" pid="121/3953">Jessica Young Schmidt</na>
+        </co>
+        <co c="0">
+            <na f="s/Sherriff:Mark" pid="39/1231">Mark Sherriff</na>
+        </co>
+        <co c="0">
+            <na f="s/Sheshadri:Adithya" pid="226/0559">Adithya Sheshadri</na>
+        </co>
+        <co c="0">
+            <na f="s/Smith:Aaron_J=" pid="195/8788">Aaron J. Smith</na>
+        </co>
+        <co c="0">
+            <na f="s/Smith_0001:Justin" pid="75/2200">Justin Smith 0001</na>
+        </co>
+        <co c="0">
+            <na f="s/Stephens=Martinez:Kristin" pid="142/3308">Kristin Stephens-Martinez</na>
+        </co>
+        <co c="0">
+            <na f="s/Stolee:Kathryn_T=" pid="26/694">Kathryn T. Stolee</na>
+        </co>
+        <co c="0" n="2">
+            <na f="s/Sudol=DeLyser:Leigh_Ann" pid="10/10140">Leigh Ann Sudol-DeLyser</na>
+            <na>Leigh Ann DeLyser</na>
+        </co>
+        <co c="0">
+            <na f="t/Thompson:Angelica" pid="341/5408">Angelica Thompson</na>
+        </co>
+        <co c="0">
+            <na f="v/Vellukunnel:Mickey" pid="195/8803">Mickey Vellukunnel</na>
+        </co>
+        <co c="0">
+            <na f="v/Vouk:Mladen_A=" pid="v/MladenAVouk">Mladen A. Vouk</na>
+        </co>
+        <co c="0">
+            <na f="w/Williams:Laurie_A=" pid="w/LaurieAWilliams">Laurie A. Williams</na>
+        </co>
+        <co c="0">
+            <na f="w/Winters:Michael" pid="159/0102">Michael Winters</na>
+        </co>
+        <co c="0">
+            <na f="w/Wright_0004:David" pid="42/2975-4">David Wright 0004</na>
+        </co>
+        <co c="0">
+            <na f="x/Xu:Yiqiao" pid="226/0963">Yiqiao Xu</na>
+        </co>
+        <co c="0">
+            <na f="x/Xue:Linting" pid="143/0319">Linting Xue</na>
+        </co>
+        <co c="-1">
+            <na f="z/Zahn:Matthew" pid="341/8479">Matthew Zahn</na>
+        </co>
+        <co c="0">
+            <na f="z/Zhang_0036:Jian" pid="07/314-36">Jian Zhang 0036</na>
+        </co>
+    </coauthors>
+</dblpperson>

@@ -1,0 +1,63 @@
+Authors,Title,Journal/Booktitle,Volume/Pages,DOI,Type
+"Yingjie Tian 0001, Weizhi Gao, Qin Zhang, Pu Sun, Dongkuan Xu",Improving long-tailed classification by disentangled variance transfer.,Internet Things,21(2023): 100687,https://doi.org/10.1016/j.iot.2023.100687,article
+"Bowen Lei, Dongkuan Xu, Ruqi Zhang, Shuren He, Bani K. Mallick","Balance is Essence: Accelerating Sparse Training via Adaptive Gradient
+                Correction.",CoRR,abs/2301.03573(2023): ,https://doi.org/10.48550/arXiv.2301.03573,article
+"Bowen Lei, Ruqi Zhang, Dongkuan Xu, Bani K. Mallick",Calibrating the Rigged Lottery: Making All Tickets Reliable.,CoRR,abs/2302.09369(2023): ,https://doi.org/10.48550/arXiv.2302.09369,article
+"Yue Xiang, Dongyao Zhu, Bowen Lei, Dongkuan Xu, Ruqi Zhang","Efficient Informed Proposals for Discrete Distributions via Newton's Series
+                Approximation.",CoRR,abs/2302.13929(2023): ,https://doi.org/10.48550/arXiv.2302.13929,article
+"Dongsheng Luo, Wei Cheng 0002, Yingheng Wang, Dongkuan Xu, Jingchao Ni, Wenchao Yu, Xuchao Zhang, Yanchi Liu, Yuncong Chen, Haifeng Chen, Xiang Zhang",Time Series Contrastive Learning with Information-Aware Augmentations.,CoRR,abs/2303.11911(2023): ,https://doi.org/10.48550/arXiv.2303.11911,article
+"Shaoyi Huang, Haowen Fang, Kaleel Mahmood, Bowen Lei, Nuo Xu, Bin Lei, Yue Sun, Dongkuan Xu, Wujie Wen, Caiwen Ding",Neurogenesis Dynamics-inspired Spiking Neural Network Training Acceleration.,CoRR,abs/2304.12214(2023): ,https://doi.org/10.48550/arXiv.2304.12214,article
+"Binfeng Xu, Zhiyuan Peng, Bowen Lei, Subhabrata Mukherjee, Yuchen Liu, Dongkuan Xu","ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language
+                Models.",CoRR,abs/2305.18323(2023): ,https://doi.org/10.48550/arXiv.2305.18323,article
+"Shaoyi Huang, Dongkuan Xu, Ian En-Hsu Yen, Yijue Wang, Sung-En Chang, Bingbing Li, Shiyang Chen, Mimi Xie, Sanguthevar Rajasekaran, Hang Liu 0001, Caiwen Ding","Sparse Progressive Distillation: Resolving Overfitting under
+                Pretrain-and-Finetune Paradigm.",ACL (1),2022: 190-200,https://doi.org/10.18653/v1/2022.acl-long.16,inproceedings
+"Shaoyi Huang, Ning Liu 0007, Yueying Liang, Hongwu Peng, Hongjia Li, Dongkuan Xu, Mimi Xie, Caiwen Ding",An Automatic and Efficient BERT Pruning for Edge AI Systems.,ISQED,2022: 1-6,https://doi.org/10.1109/ISQED54688.2022.9806197,inproceedings
+"Dongkuan Xu, Subhabrata Mukherjee, Xiaodong Liu, Debadeepta Dey, Wenhui Wang, Xiang Zhang, Ahmed Hassan Awadallah, Jianfeng Gao","Few-shot Task-agnostic Neural Architecture Search for Distilling Large Language
+                Models.",NeurIPS,2022: ,"
+                http://papers.nips.cc/paper_files/paper/2022/hash/b7c12689a89e98a61bcaa65285a41b7c-Abstract-Conference.html",inproceedings
+"Dongkuan Xu, Subhabrata Mukherjee, Xiaodong Liu 0003, Debadeepta Dey, Wenhui Wang, Xiang Zhang 0001, Ahmed Hassan Awadallah, Jianfeng Gao","AutoDistil: Few-shot Task-agnostic Neural Architecture Search for Distilling
+                Large Language Models.",CoRR,abs/2201.12507(2022): ,https://arxiv.org/abs/2201.12507,article
+"Shaoyi Huang, Ning Liu 0007, Yueying Liang, Hongwu Peng, Hongjia Li, Dongkuan Xu, Mimi Xie, Caiwen Ding",An Automatic and Efficient BERT Pruning for Edge AI Systems.,CoRR,abs/2206.10461(2022): ,https://doi.org/10.48550/arXiv.2206.10461,article
+"Ian En-Hsu Yen, Zhibin Xiao, Dongkuan Xu","S4: a High-sparsity, High-performance AI Accelerator.",CoRR,abs/2207.08006(2022): ,https://doi.org/10.48550/arXiv.2207.08006,article
+"Qin Zhang, Shangsi Chen, Dongkuan Xu, Qingqing Cao, Xiaojun Chen, Trevor Cohn, Meng Fang",A Survey for Efficient Open Domain Question Answering.,CoRR,abs/2211.07886(2022): ,https://doi.org/10.48550/arXiv.2211.07886,article
+"Shengkun Tang, Yaqing Wang, Zhenglun Kong, Tianchi Zhang 0004, Yao Li, Caiwen Ding, Yanzhi Wang, Yi Liang, Dongkuan Xu","You Need Multiple Exiting: Dynamic Early Exiting for Accelerating Unified Vision
+                Language Model.",CoRR,abs/2211.11152(2022): ,https://doi.org/10.48550/arXiv.2211.11152,article
+"Shaoyi Huang, Bowen Lei, Dongkuan Xu, Hongwu Peng, Yue Sun, Mimi Xie, Caiwen Ding",Dynamic Sparse Training via Balancing the Exploration-Exploitation Trade-off.,CoRR,abs/2211.16667(2022): ,https://doi.org/10.48550/arXiv.2211.16667,article
+"Lei Zhang, Jie Zhang, Bowen Lei, Subhabrata Mukherjee, Xiang Pan, Bo Zhao, Caiwen Ding, Yao Li, Dongkuan Xu",Accelerating Dataset Distillation via Model Augmentation.,CoRR,abs/2212.06152(2022): ,https://doi.org/10.48550/arXiv.2212.06152,article
+"Hua Wei 0001, Dongkuan Xu, Junjie Liang, Zhenhui Li",How Do We Move: Modeling Human Movement with System Dynamics.,AAAI,2021: 4445-4452,https://ojs.aaai.org/index.php/AAAI/article/view/16571,inproceedings
+"Dongkuan Xu, Junjie Liang, Wei Cheng 0002, Hua Wei, Haifeng Chen, Xiang Zhang 0001","Transformer-Style Relational Reasoning with Dynamic Memory Updating for Temporal
+                Network Modeling.",AAAI,2021: 4546-4554,https://ojs.aaai.org/index.php/AAAI/article/view/16583,inproceedings
+"Junjie Liang, Yanting Wu, Dongkuan Xu, Vasant G. Honavar",Longitudinal Deep Kernel Gaussian Process Regression.,AAAI,2021: 8556-8564,https://ojs.aaai.org/index.php/AAAI/article/view/17038,inproceedings
+"Dongkuan Xu, Wei Cheng 0002, Xin Dong 0010, Bo Zong, Wenchao Yu, Jingchao Ni, Dongjin Song, Xuchao Zhang, Haifeng Chen, Xiang Zhang 0001",Multi-Task Recurrent Modular Networks.,AAAI,2021: 10496-10504,https://ojs.aaai.org/index.php/AAAI/article/view/17256,inproceedings
+"Xin Dong 0010, Yaxin Zhu, Zuohui Fu, Dongkuan Xu, Gerard de Melo",Data Augmentation with Adversarial Training for Cross-Lingual NLI.,ACL/IJCNLP (1),2021: 5158-5167,https://doi.org/10.18653/v1/2021.acl-long.401,inproceedings
+"Dongkuan Xu, Ian En-Hsu Yen, Jinxi Zhao, Zhibin Xiao",Rethinking Network Pruning - under the Pre-train and Fine-tune Paradigm.,NAACL-HLT,2021: 2376-2382,https://doi.org/10.18653/v1/2021.naacl-main.188,inproceedings
+"Dongkuan Xu, Wei Cheng 0002, Dongsheng Luo, Haifeng Chen, Xiang Zhang 0001",InfoGCL: Information-Aware Graph Contrastive Learning.,NeurIPS,2021: 30414-30425,"
+                https://proceedings.neurips.cc/paper/2021/hash/ff1e68e74c6b16a1a7b5d958b95e120c-Abstract.html",inproceedings
+"Dongkuan Xu, Wei Cheng 0002, Jingchao Ni, Dongsheng Luo, Masanao Natsumeda, Dongjin Song, Bo Zong, Haifeng Chen, Xiang Zhang 0001","Deep Multi-Instance Contrastive Learning with Dual Attention for Anomaly
+                Precursor Detection.",SDM,2021: 91-99,https://doi.org/10.1137/1.9781611976700.11,inproceedings
+"Dongkuan Xu, Ian En-Hsu Yen, Jinxi Zhao, Zhibin Xiao",Rethinking Network Pruning - under the Pre-train and Fine-tune Paradigm.,CoRR,abs/2104.08682(2021): ,https://arxiv.org/abs/2104.08682,article
+"Shaoyi Huang, Dongkuan Xu, Ian En-Hsu Yen, Sung-En Chang, Bingbing Li, Shiyang Chen, Mimi Xie, Hang Liu 0001, Caiwen Ding","Sparse Progressive Distillation: Resolving Overfitting under
+                Pretrain-and-Finetune Paradigm.",CoRR,abs/2110.08190(2021): ,https://arxiv.org/abs/2110.08190,article
+"Dongkuan Xu, Wei Cheng 0002, Dongsheng Luo, Haifeng Chen, Xiang Zhang 0001",InfoGCL: Information-Aware Graph Contrastive Learning.,CoRR,abs/2110.15438(2021): ,https://arxiv.org/abs/2110.15438,article
+"Dongkuan Xu, Wei Cheng 0002, Bo Zong, Dongjin Song, Jingchao Ni, Wenchao Yu, Yanchi Liu, Haifeng Chen, Xiang Zhang 0001","Tensorized LSTM with Adaptive Shared Memory for Learning Trends in Multivariate
+                Time Series.",AAAI,2020: 1395-1402,https://ojs.aaai.org/index.php/AAAI/article/view/5496,inproceedings
+"Junjie Liang, Dongkuan Xu, Yiwei Sun, Vasant G. Honavar",LMLFM: Longitudinal Multi-Level Factorization Machine.,AAAI,2020: 4811-4818,https://ojs.aaai.org/index.php/AAAI/article/view/5916,inproceedings
+"Dongsheng Luo, Wei Cheng 0002, Dongkuan Xu, Wenchao Yu, Bo Zong, Haifeng Chen, Xiang Zhang 0001",Parameterized Explainer for Graph Neural Network.,NeurIPS,2020: ,"
+                https://proceedings.neurips.cc/paper/2020/hash/e37b08dd3015330dcbb5d6663667b8b8-Abstract.html",inproceedings
+"Xin Dong 0010, Yaxin Zhu, Yupeng Zhang, Zuohui Fu, Dongkuan Xu, Sen Yang 0002, Gerard de Melo","Leveraging Adversarial Training in Self-Learning for Cross-Lingual Text
+                Classification.",SIGIR,2020: 1541-1544,https://doi.org/10.1145/3397271.3401209,inproceedings
+"Junjie Liang, Yanting Wu, Dongkuan Xu, Vasant G. Honavar",Longitudinal Deep Kernel Gaussian Process Regression.,CoRR,abs/2005.11770(2020): ,https://arxiv.org/abs/2005.11770,article
+"Xin Dong 0010, Yaxin Zhu, Yupeng Zhang, Zuohui Fu, Dongkuan Xu, Sen Yang 0002, Gerard de Melo","Leveraging Adversarial Training in Self-Learning for Cross-Lingual Text
+                Classification.",CoRR,abs/2007.15072(2020): ,https://arxiv.org/abs/2007.15072,article
+"Dongsheng Luo, Wei Cheng 0002, Dongkuan Xu, Wenchao Yu, Bo Zong, Haifeng Chen, Xiang Zhang 0001",Parameterized Explainer for Graph Neural Network.,CoRR,abs/2011.04573(2020): ,https://arxiv.org/abs/2011.04573,article
+"Dongkuan Xu, Wei Cheng 0002, Dongsheng Luo, Yameng Gu, Xiao Liu, Jingchao Ni, Bo Zong, Haifeng Chen, Xiang Zhang 0001",Adaptive Neural Network for Node Classification in Dynamic Networks.,ICDM,2019: 1402-1407,https://doi.org/10.1109/ICDM.2019.00181,inproceedings
+"Dongkuan Xu, Wei Cheng 0002, Dongsheng Luo, Xiao Liu, Xiang Zhang 0001","Spatio-Temporal Attentive RNN for Node Classification in Temporal Attributed
+                Graphs.",IJCAI,2019: 3947-3953,https://doi.org/10.24963/ijcai.2019/548,inproceedings
+"Dongkuan Xu, Wei Cheng 0002, Bo Zong, Jingchao Ni, Dongjin Song, Wenchao Yu, Yuncong Chen, Haifeng Chen, Xiang Zhang 0001",Deep Co-Clustering.,SDM,2019: 414-422,https://doi.org/10.1137/1.9781611975673.47,inproceedings
+"Junjie Liang, Dongkuan Xu, Yiwei Sun, Vasant G. Honavar",LMLFM: Longitudinal Multi-Level Factorization Machine.,CoRR,abs/1911.04062(2019): ,http://arxiv.org/abs/1911.04062,article
+"Jingchao Ni, Shiyu Chang, Xiao Liu, Wei Cheng 0002, Haifeng Chen, Dongkuan Xu, Xiang Zhang 0001",Co-Regularized Deep Multi-Network Embedding.,WWW,2018: 469-478,https://doi.org/10.1145/3178876.3186113,inproceedings
+"Dongkuan Xu, Jia Wu 0001, Dewei Li, Yingjie Tian 0001, Xingquan Zhu 0001, Xindong Wu 0001",SALE: Self-adaptive LSH encoding for multi-instance learning.,Pattern Recognit.,71(2017): 460-482,https://doi.org/10.1016/j.patcog.2017.04.029,article
+"Dewei Li, Dongkuan Xu, Jingjing Tang, Yingjie Tian 0001",Metric learning for multi-instance classification with collapsed bags.,IJCNN,2017: 372-379,https://doi.org/10.1109/IJCNN.2017.7965878,inproceedings
+"Dongkuan Xu, Jia Wu 0001, Wei Zhang 0098, Yingjie Tian 0001","PIGMIL: Positive Instance Detection via Graph Updating for Multiple Instance
+                Learning.",CoRR,abs/1612.03550(2016): ,http://arxiv.org/abs/1612.03550,article
+"Dongkuan Xu, Yi Zhang, Cheng Cheng, Wei Xu 0008, Likuan Zhang",A Neural Network-Based Ensemble Prediction Using PMRS and ECM.,HICSS,2014: 1335-1343,https://doi.org/10.1109/HICSS.2014.172,inproceedings

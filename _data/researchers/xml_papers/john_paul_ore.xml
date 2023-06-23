@@ -1,0 +1,334 @@
+<dblpperson name="John-Paul Ore" pid="148/2225" n="18">
+    <person key="homepages/148/2225" mdate="2020-01-08">
+        <author pid="148/2225">John-Paul Ore</author>
+        <url>https://orcid.org/0000-0002-8122-3809</url>
+    </person>
+    <r>
+        <inproceedings key="conf/icra/AlbergoRO22" mdate="2022-10-02">
+            <author pid="302/4694">Nicholas Albergo</author>
+            <author pid="21/5417">Vivek Rathi</author>
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <title>Understanding Xacro Misunderstandings.</title>
+            <pages>6247-6252</pages>
+            <year>2022</year>
+            <booktitle>ICRA</booktitle>
+            <ee>https://doi.org/10.1109/ICRA46639.2022.9812349</ee>
+            <crossref>conf/icra/2022</crossref>
+            <url>db/conf/icra/icra2022.html#AlbergoRO22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/kbse/MoussaO22" mdate="2023-01-15">
+            <author orcid="0000-0002-7717-8910" pid="250/3865">Amr Moussa</author>
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <title>Maktub: Lightweight Robot System Test Creation and Automation.</title>
+            <pages>162:1-162:4</pages>
+            <year>2022</year>
+            <booktitle>ASE</booktitle>
+            <ee>https://doi.org/10.1145/3551349.3559531</ee>
+            <crossref>conf/kbse/2022</crossref>
+            <url>db/conf/kbse/ase2022.html#MoussaO22</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/jccee/AsadiHHO21" mdate="2023-05-01">
+            <author orcid="0000-0003-0665-1579" pid="217/1703">Khashayar Asadi</author>
+            <author orcid="0000-0002-2761-7137" pid="343/8221">Varun R. Haritsa</author>
+            <author orcid="0000-0002-2995-8381" pid="173/0351">Kevin K. Han</author>
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <title>Automated Object Manipulation Using Vision-Based Mobile Robotic System for
+                Construction Applications.</title>
+            <year>2021</year>
+            <volume>35</volume>
+            <journal>J. Comput. Civ. Eng.</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.1061/(asce)cp.1943-5487.0000946</ee>
+            <url>db/journals/jccee/jccee35.html#AsadiHHO21</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/tosem/OreDE21" mdate="2022-10-02">
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <author orcid="0000-0002-6369-4009" pid="75/119">Carrick Detweiler</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <title>An Empirical Study on Type Annotations: Accuracy, Speed, and Suggestion
+                Effectiveness.</title>
+            <pages>20:1-20:29</pages>
+            <year>2021</year>
+            <volume>30</volume>
+            <journal>ACM Trans. Softw. Eng. Methodol.</journal>
+            <number>2</number>
+            <ee>https://doi.org/10.1145/3439775</ee>
+            <url>db/journals/tosem/tosem30.html#OreDE21</url>
+        </article>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2109-09694" mdate="2021-09-27">
+            <author pid="302/4694">Nicholas Albergo</author>
+            <author pid="21/5417">Vivek Rathi</author>
+            <author pid="148/2225">John-Paul Ore</author>
+            <title>Understanding Xacro Misunderstandings.</title>
+            <year>2021</year>
+            <volume>abs/2109.09694</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2109.09694</ee>
+            <url>db/journals/corr/corr2109.html#abs-2109-09694</url>
+        </article>
+    </r>
+    <r>
+        <article key="journals/jfr/OreD18" mdate="2020-12-29">
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <author orcid="0000-0002-6369-4009" pid="75/119">Carrick Detweiler</author>
+            <title>Sensing water properties at precise depths from the air.</title>
+            <pages>1205-1221</pages>
+            <year>2018</year>
+            <volume>35</volume>
+            <journal>J. Field Robotics</journal>
+            <number>8</number>
+            <ee>https://doi.org/10.1002/rob.21807</ee>
+            <url>db/journals/jfr/jfr35.html#OreD18</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/OreDE18" mdate="2021-08-10">
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <author pid="75/119">Carrick Detweiler</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <title>Towards code-aware robotic simulation: vision paper.</title>
+            <pages>40-43</pages>
+            <year>2018</year>
+            <booktitle>RoSE@ICSE</booktitle>
+            <ee>https://doi.org/10.1145/3196558.3196566</ee>
+            <ee>https://ieeexplore.ieee.org/document/8445819</ee>
+            <crossref>conf/icse/2018rose</crossref>
+            <url>db/conf/icse/rose2018.html#OreDE18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/kbse/OreEDK18" mdate="2019-12-27">
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <author pid="75/119">Carrick Detweiler</author>
+            <author pid="225/0382">Lambros Karkazis</author>
+            <title>Assessing the type annotation burden.</title>
+            <pages>190-201</pages>
+            <year>2018</year>
+            <booktitle>ASE</booktitle>
+            <ee>https://doi.org/10.1145/3238147.3238173</ee>
+            <crossref>conf/kbse/2018</crossref>
+            <url>db/conf/kbse/ase2018.html#OreEDK18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigsoft/KateOZEX18" mdate="2020-08-25">
+            <author pid="228/5728">Sayali Kate</author>
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <author pid="95/3760-1">Xiangyu Zhang 0001</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <author pid="136/4569">Zhaogui Xu</author>
+            <title>Phys: probabilistic physical unit assignment and inconsistency detection.</title>
+            <pages>563-573</pages>
+            <year>2018</year>
+            <booktitle>ESEC/SIGSOFT FSE</booktitle>
+            <ee>https://doi.org/10.1145/3236024.3236035</ee>
+            <crossref>conf/sigsoft/2018</crossref>
+            <url>db/conf/sigsoft/fse2018.html#KateOZEX18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/fsr/OreD17" mdate="2018-02-06">
+            <author pid="148/2225">John-Paul Ore</author>
+            <author pid="75/119">Carrick Detweiler</author>
+            <title>Sensing Water Properties at Precise Depths from the Air.</title>
+            <pages>205-220</pages>
+            <year>2017</year>
+            <booktitle>FSR</booktitle>
+            <ee>https://doi.org/10.1007/978-3-319-67361-5_14</ee>
+            <crossref>conf/fsr/2017</crossref>
+            <url>db/conf/fsr/fsr2017.html#OreD17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/iros/OreED17" mdate="2019-12-27">
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <author pid="75/119">Carrick Detweiler</author>
+            <title>Dimensional inconsistencies in code and ROS messages: A study of 5.9M lines of
+                code.</title>
+            <pages>712-718</pages>
+            <year>2017</year>
+            <booktitle>IROS</booktitle>
+            <ee>https://doi.org/10.1109/IROS.2017.8202229</ee>
+            <crossref>conf/iros/2017</crossref>
+            <url>db/conf/iros/iros2017.html#OreED17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/issta/OreDE17" mdate="2019-12-27">
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <author pid="75/119">Carrick Detweiler</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <title>Lightweight detection of physical unit inconsistencies without program
+                annotations.</title>
+            <pages>341-351</pages>
+            <year>2017</year>
+            <booktitle>ISSTA</booktitle>
+            <ee>https://doi.org/10.1145/3092703.3092722</ee>
+            <crossref>conf/issta/2017</crossref>
+            <url>db/conf/issta/issta2017.html#OreDE17</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/issta/OreDE17a" mdate="2019-12-27">
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <author pid="75/119">Carrick Detweiler</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <title>Phriky-units: a lightweight, annotation-free physical unit inconsistency
+                detection tool.</title>
+            <pages>352-355</pages>
+            <year>2017</year>
+            <booktitle>ISSTA</booktitle>
+            <ee>https://doi.org/10.1145/3092703.3098219</ee>
+            <crossref>conf/issta/2017</crossref>
+            <url>db/conf/issta/issta2017.html#OreDE17a</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/jfr/OreEBD15" mdate="2021-10-14">
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <author orcid="0000-0001-8489-4002" pid="148/2319">Amy Burgin</author>
+            <author pid="75/119">Carrick Detweiler</author>
+            <title>Autonomous Aerial Water Sampling.</title>
+            <pages>1095-1113</pages>
+            <year>2015</year>
+            <volume>32</volume>
+            <journal>J. Field Robotics</journal>
+            <number>8</number>
+            <ee>https://doi.org/10.1002/rob.21591</ee>
+            <url>db/journals/jfr/jfr32.html#OreEBD15</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/icra/AnthonyBOOD15" mdate="2019-12-27">
+            <author pid="70/9717">David J. Anthony</author>
+            <author pid="136/0043">Elizabeth Basha</author>
+            <author pid="164/8638">Jared Ostdiek</author>
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <author pid="75/119">Carrick Detweiler</author>
+            <title>Surface classification for sensor deployment from UAV landings.</title>
+            <pages>3464-3470</pages>
+            <year>2015</year>
+            <booktitle>ICRA</booktitle>
+            <ee>https://doi.org/10.1109/ICRA.2015.7139678</ee>
+            <crossref>conf/icra/2015</crossref>
+            <url>db/conf/icra/icra2015.html#AnthonyBOOD15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icra/PalmerYODB15" mdate="2019-12-27">
+            <author pid="164/8370">Jacob Palmer</author>
+            <author pid="156/9570">Nicholas Yuen</author>
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <author pid="75/119">Carrick Detweiler</author>
+            <author pid="136/0043">Elizabeth Basha</author>
+            <title>On air-to-water radio communication between UAVs and water sensor networks.</title>
+            <pages>5311-5317</pages>
+            <year>2015</year>
+            <booktitle>ICRA</booktitle>
+            <ee>https://doi.org/10.1109/ICRA.2015.7139940</ee>
+            <crossref>conf/icra/2015</crossref>
+            <url>db/conf/icra/icra2015.html#PalmerYODB15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sensys/AnthonyODB14" mdate="2019-12-27">
+            <author pid="70/9717">David J. Anthony</author>
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <author pid="75/119">Carrick Detweiler</author>
+            <author pid="136/0043">Elizabeth Basha</author>
+            <title>Controlled sensor network installation with unmanned aerial vehicles.</title>
+            <pages>348-349</pages>
+            <year>2014</year>
+            <booktitle>SenSys</booktitle>
+            <ee>https://doi.org/10.1145/2668332.2668358</ee>
+            <crossref>conf/sensys/2014</crossref>
+            <url>db/conf/sensys/sensys2014.html#AnthonyODB14</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/fsr/OreEBZD13" mdate="2021-10-14">
+            <author orcid="0000-0002-8122-3809" pid="148/2225">John-Paul Ore</author>
+            <author pid="e/SebastianGElbaum">Sebastian G. Elbaum</author>
+            <author orcid="0000-0001-8489-4002" pid="148/2319">Amy Burgin</author>
+            <author pid="148/2307">Baoliang Zhao</author>
+            <author pid="75/119">Carrick Detweiler</author>
+            <title>Autonomous Aerial Water Sampling.</title>
+            <pages>137-151</pages>
+            <year>2013</year>
+            <booktitle>FSR</booktitle>
+            <ee>https://doi.org/10.1007/978-3-319-07488-7_10</ee>
+            <crossref>conf/fsr/2013</crossref>
+            <url>db/conf/fsr/fsr2013.html#OreEBZD13</url>
+        </inproceedings>
+    </r>
+    <coauthors n="19" nc="3">
+        <co c="2">
+            <na f="a/Albergo:Nicholas" pid="302/4694">Nicholas Albergo</na>
+        </co>
+        <co c="0">
+            <na f="a/Anthony:David_J=" pid="70/9717">David J. Anthony</na>
+        </co>
+        <co c="1">
+            <na f="a/Asadi:Khashayar" pid="217/1703">Khashayar Asadi</na>
+        </co>
+        <co c="0">
+            <na f="b/Basha:Elizabeth" pid="136/0043">Elizabeth Basha</na>
+        </co>
+        <co c="0">
+            <na f="b/Burgin:Amy" pid="148/2319">Amy Burgin</na>
+        </co>
+        <co c="0">
+            <na f="d/Detweiler:Carrick" pid="75/119">Carrick Detweiler</na>
+        </co>
+        <co c="0">
+            <na f="e/Elbaum:Sebastian_G=" pid="e/SebastianGElbaum">Sebastian G. Elbaum</na>
+        </co>
+        <co c="1">
+            <na f="h/Han:Kevin_K=" pid="173/0351">Kevin K. Han</na>
+        </co>
+        <co c="1">
+            <na f="h/Haritsa:Varun_R=" pid="343/8221">Varun R. Haritsa</na>
+        </co>
+        <co c="0">
+            <na f="k/Karkazis:Lambros" pid="225/0382">Lambros Karkazis</na>
+        </co>
+        <co c="0">
+            <na f="k/Kate:Sayali" pid="228/5728">Sayali Kate</na>
+        </co>
+        <co c="-1">
+            <na f="m/Moussa:Amr" pid="250/3865">Amr Moussa</na>
+        </co>
+        <co c="0">
+            <na f="o/Ostdiek:Jared" pid="164/8638">Jared Ostdiek</na>
+        </co>
+        <co c="0">
+            <na f="p/Palmer:Jacob" pid="164/8370">Jacob Palmer</na>
+        </co>
+        <co c="2">
+            <na f="r/Rathi:Vivek" pid="21/5417">Vivek Rathi</na>
+        </co>
+        <co c="0">
+            <na f="x/Xu:Zhaogui" pid="136/4569">Zhaogui Xu</na>
+        </co>
+        <co c="0">
+            <na f="y/Yuen:Nicholas" pid="156/9570">Nicholas Yuen</na>
+        </co>
+        <co c="0">
+            <na f="z/Zhang_0001:Xiangyu" pid="95/3760-1">Xiangyu Zhang 0001</na>
+        </co>
+        <co c="0">
+            <na f="z/Zhao:Baoliang" pid="148/2307">Baoliang Zhao</na>
+        </co>
+    </coauthors>
+</dblpperson>

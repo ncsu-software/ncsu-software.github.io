@@ -1,0 +1,87 @@
+Authors,Title,Journal/Booktitle,Volume/Pages,DOI,Type,Area,boast text,pdf,select
+"Keila Barbosa, Ronivaldo Ferreira, Gustavo Pinto 0001, Marcelo d'Amorim, Breno Miranda",Test Flakiness Across Programming Languages.,IEEE Trans. Software Eng.,49(2023): 2039-2052,https://doi.org/10.1109/TSE.2022.3208864,article,,,,TRUE
+"Brittany Reid, Marcelo d'Amorim, Markus Wagner 0007, Christoph Treude",NCQ: Code Reuse Support for Node.js Developers.,IEEE Trans. Software Eng.,49(2023): 3205-3225,https://doi.org/10.1109/TSE.2023.3248113,article,,,,TRUE
+"Lucas Cabral 0002, Breno Miranda, Igor Lima, Marcelo d'Amorim",RVprio: A tool for prioritizing runtime verification violations.,Softw. Test. Verification Reliab.,32(2022):,https://doi.org/10.1002/stvr.1813,article,,,,
+"Lucas Alcantara, Guilherme Padilha, Rui Abreu 0001, Marcelo d'Amorim",Syrius: Synthesis of Rules for Intrusion Detectors.,IEEE Trans. Reliab.,71(2022): 370-381,https://doi.org/10.1109/TR.2021.3061297,article,,,,
+"Facundo Molina, Marcelo d'Amorim, Nazareno Aguirre",Fuzzing Class Specifications.,ICSE,2022: 1008-1020,https://doi.org/10.1145/3510003.3510120,inproceedings,,,,TRUE
+"Sofia Reis, Rui Abreu 0001, Marcelo d'Amorim, Daniel Fortunato",Leveraging Practitioners' Feedback to Improve a Security Linter.,ASE,2022: 66:1-66:12,https://doi.org/10.1145/3551349.3560419,inproceedings,,,,
+"Andrea Stocco 0001, Paulo J. Nunes, Marcelo d'Amorim, Paolo Tonella",ThirdEye: Attention Maps for Safe Autonomous Driving Systems.,ASE,2022: 102:1-102:12,https://doi.org/10.1145/3551349.3556968,inproceedings,,,,TRUE
+"Brittany Reid, Markus Wagner 0007, Marcelo d'Amorim, Christoph Treude",Software Engineering User Study Recruitment on Prolific: An Experience Report.,CoRR,abs/2201.05348(2022):,https://arxiv.org/abs/2201.05348,article,,,,
+"Facundo Molina, Marcelo d'Amorim, Nazareno Aguirre",Fuzzing Class Specifications.,CoRR,abs/2201.10874(2022):,https://arxiv.org/abs/2201.10874,article,,,,
+"Patrick Bareiß, Beatriz Souza, Marcelo d'Amorim, Michael Pradel","Code Generation Tools (Almost) for Free? A Study of Few-Shot, Pre-Trained
+                Language Models on Code.",CoRR,abs/2206.01335(2022):,https://doi.org/10.48550/arXiv.2206.01335,article,,,,
+"Rohit Gheyi, Márcio Ribeiro 0001, Beatriz Souza, Marcio Augusto Guimarães, Leo Fernandes, Marcelo d'Amorim, Vander Alves, Leopoldo Teixeira, Baldoino Fonseca",Identifying method-level mutation subsumption relations using Z3.,Inf. Softw. Technol.,132(2021): 106496,https://doi.org/10.1016/j.infsof.2020.106496,article,,,,
+"Igor Lima, Jefferson Silva, Breno Miranda, Gustavo Pinto 0001, Marcelo d'Amorim","Exposing bugs in JavaScript engines through test transplantation and differential
+                testing.",Softw. Qual. J.,29(2021): 129-158,https://doi.org/10.1007/s11219-020-09537-8,article,,,,
+"Luis Melo, Igor Wiese, Marcelo d'Amorim",Using Docker to Assist Q & A Forum Users.,IEEE Trans. Software Eng.,47(2021): 2563-2574,https://doi.org/10.1109/TSE.2019.2956919,article,,,,
+"Daniela S. Costa, Carlos A. B. Mello, Marcelo d'Amorim","A comparative study on methods and tools for handwritten mathematical expression
+                recognition.",DocEng,2021: 26:1-26:4,https://doi.org/10.1145/3469096.3474936,inproceedings,,,,
+"Jordan Henkel, Denini Silva, Leopoldo Teixeira, Marcelo d'Amorim, Thomas W. Reps",Shipwright: A Human-in-the-Loop System for Dockerfile Repair.,ICSE (Companion Volume),2021: 198-199,https://doi.org/10.1109/ICSE-Companion52605.2021.00087,inproceedings,,,,
+"Jordan Henkel, Denini Silva, Leopoldo Teixeira, Marcelo d'Amorim, Thomas W. Reps",Shipwright: A Human-in-the-Loop System for Dockerfile Repair.,ICSE,2021: 1148-1160,https://doi.org/10.1109/ICSE43902.2021.00106,inproceedings,,,,TRUE
+"Shouvick Mondal, Denini Silva, Marcelo d'Amorim",Soundy Automated Parallelization of Test Execution.,ICSME,2021: 309-319,https://doi.org/10.1109/ICSME52107.2021.00034,inproceedings,,,,TRUE
+"Leopoldo Teixeira, Breno Miranda, Henrique Rebêlo, Marcelo d'Amorim","Demystifying the Challenges of Formally Specifying API Properties for Runtime
+                Verification.",ICST,2021: 82-93,https://doi.org/10.1109/ICST49551.2021.00020,inproceedings,,,,
+"Marcello Cordeiro, Denini Silva, Leopoldo Teixeira, Breno Miranda, Marcelo d'Amorim",Shaker: a Tool for Detecting More Flaky Tests Faster.,ASE,2021: 1281-1285,https://doi.org/10.1109/ASE51524.2021.9678918,inproceedings,,,,
+"Brittany Reid, Keila Barbosa, Marcelo d'Amorim, Markus Wagner 0007, Christoph Treude",NCQ: code reuse support for Node.js developers.,CoRR,abs/2101.00756(2021):,https://arxiv.org/abs/2101.00756,article,,,,
+"Jordan Henkel, Denini Silva, Leopoldo Teixeira, Marcelo d'Amorim, Thomas W. Reps",Shipwright: A Human-in-the-Loop System for Dockerfile Repair.,CoRR,abs/2103.02591(2021):,https://arxiv.org/abs/2103.02591,article,,,,
+"Igor Lima, Jeanderson Cândido, Marcelo d'Amorim",Practical detection of CMS plugin conflicts in large plugin sets.,Inf. Softw. Technol.,118(2020):,https://doi.org/10.1016/j.infsof.2019.106212,article,,,,
+"Marcelo d'Amorim, Rui Abreu 0001, Carlos Mello",Visual sketching: from image sketches to code.,ICSE (NIER),2020: 101-104,https://doi.org/10.1145/3377816.3381745,inproceedings,,,,
+"Denini Silva, Leopoldo Teixeira, Marcelo d'Amorim",Shake It! Detecting Flaky Tests Caused by Concurrency with Shaker.,ICSME,2020: 301-311,https://doi.org/10.1109/ICSME46990.2020.00037,inproceedings,,,,
+"Marcio Augusto Guimarães, Leonardo Fernandes, Márcio Ribeiro 0001, Marcelo d'Amorim, Rohit Gheyi",Optimizing Mutation Testing by Discovering Dynamic Mutant Subsumption Relations.,ICST,2020: 198-208,https://doi.org/10.1109/ICST46399.2020.00029,inproceedings,,,,
+"Breno Miranda, Igor Lima, Owolabi Legunsen, Marcelo d'Amorim",Prioritizing Runtime Verification Violations.,ICST,2020: 297-308,https://doi.org/10.1109/ICST46399.2020.00038,inproceedings,,,,
+"Gustavo Pinto 0001, Breno Miranda, Supun Dissanayake, Marcelo d'Amorim, Christoph Treude, Antonia Bertolino",What is the Vocabulary of Flaky Tests?,MSR,2020: 492-502,https://doi.org/10.1145/3379597.3387482,inproceedings,,,,TRUE
+"João Batista Pereira Matos Jr., Lucas Carvalho Cordeiro, Marcelo d'Amorim, Xiaowei Huang 0001",Generating Adversarial Inputs Using A Black-box Differential Technique.,CoRR,abs/2007.05315(2020):,https://arxiv.org/abs/2007.05315,article,,,,
+"Igor Lima, Jefferson Silva, Breno Miranda, Gustavo Pinto 0001, Marcelo d'Amorim","Exposing Bugs in JavaScript Engines through Test Transplantation and Differential
+                Testing.",CoRR,abs/2012.03759(2020):,https://arxiv.org/abs/2012.03759,article,,,,
+"Xiangyu Li 0001, Marcelo d'Amorim, Alessandro Orso",Intent-Preserving Test Repair.,ICST,2019: 217-227,https://doi.org/10.1109/ICST.2019.00030,inproceedings,,,,
+"Sofia Reis, Rui Abreu 0001, Marcelo d'Amorim","Demystifying the Combination of Dynamic Slicing and Spectrum-based Fault
+                Localization.",IJCAI,2019: 4760-4766,https://doi.org/10.24963/ijcai.2019/661,inproceedings,,,,
+"Davino Mauro Junior, Luis Melo, Hao Lu, Marcelo d'Amorim, Atul Prakash 0001","A Study of Vulnerability Analysis of Popular Smart Devices Through Their
+                Companion Apps.",IEEE Symposium on Security and Privacy Workshops,2019: 181-186,https://doi.org/10.1109/SPW.2019.00042,inproceedings,,,,
+"Davino Mauro Junior, Luis Melo, Harvey Lu, Marcelo d'Amorim, Atul Prakash 0001","Beware of the App! On the Vulnerability Surface of Smart Devices through their
+                Companion Apps.",CoRR,abs/1901.10062(2019):,http://arxiv.org/abs/1901.10062,article,,,,
+"Sabrina Souto, Marcelo d'Amorim",Time-space efficient regression testing for configurable systems.,J. Syst. Softw.,137(2018): 733-746,https://doi.org/10.1016/j.jss.2017.08.010,article,,,,
+"Xiangyu Li 0001, Shaowei Zhu 0001, Marcelo d'Amorim, Alessandro Orso",Enlightened debugging.,ICSE,2018: 82-92,https://doi.org/10.1145/3180155.3180242,inproceedings,,,,TRUE
+"Mattia Fazzini, Martin Prammer, Marcelo d'Amorim, Alessandro Orso",Automatically translating bug reports into test cases for mobile apps.,ISSTA,2018: 141-152,https://doi.org/10.1145/3213846.3213869,inproceedings,,,,TRUE
+"Tao Xie 0001, Yuanfang Cai, Xuanzhe Liu, Xiaoyin Wang, Mithun P. Acharya, Marcelo d'Amorim, Xiaoxing Ma",Preface.,J. Comput. Sci. Technol.,32(2017): 1057-1059,https://doi.org/10.1007/s11390-017-1782-3,article,,,,
+"Sabrina Souto, Marcelo d'Amorim, Rohit Gheyi",Balancing soundness and efficiency for practical testing of configurable systems.,ICSE,2017: 632-642,https://doi.org/10.1109/ICSE.2017.64,inproceedings,,,,
+"Alexandre Perez, Rui Abreu 0001, Marcelo d'Amorim",Prevalence of Single-Fault Fixes and Its Impact on Fault Localization.,ICST,2017: 12-22,https://doi.org/10.1109/ICST.2017.9,inproceedings,,,,
+"Jeanderson Cândido, Luis Melo, Marcelo d'Amorim","Test suite parallelization in open-source projects: a study on its usage and
+                impact.",ASE,2017: 838-848,https://doi.org/10.1109/ASE.2017.8115695,inproceedings,,,,
+"Sabrina Souto, Marcelo d'Amorim",Time-Space Efficient Regression Testing for Configurable Systems.,CoRR,abs/1702.03457(2017):,http://arxiv.org/abs/1702.03457,article,,,,
+"Xiangyu Li 0001, Marcelo d'Amorim, Alessandro Orso",Iterative User-Driven Fault Localization.,Haifa Verification Conference,2016: 82-98,https://doi.org/10.1007/978-3-319-49052-6_6,inproceedings,,,,
+"Paulo Barros, René Just, Suzanne Millstein, Paul Vines, Werner Dietl, Marcelo d'Amorim, Michael D. Ernst","Static Analysis of Implicit Control Flow: Resolving Java Reflection and Android
+                Intents (T).",ASE,2015: 669-679,https://doi.org/10.1109/ASE.2015.69,inproceedings,,,,
+"Mateus Borges, Antonio Filieri, Marcelo d'Amorim, Corina S. Pasareanu",Iterative distribution-aware sampling for probabilistic symbolic execution.,ESEC/SIGSOFT FSE,2015: 866-877,https://doi.org/10.1145/2786805.2786832,inproceedings,,,,
+"Sabrina Souto, Divya Gopinath, Marcelo d'Amorim, Darko Marinov, Sarfraz Khurshid, Don S. Batory",Faster bug detection for software product lines with incomplete feature models.,SPLC,2015: 151-160,https://doi.org/10.1145/2791060.2791093,inproceedings,,,,
+"Andrei Rimsa, Marcelo d'Amorim, Fernando Magno Quintão Pereira, Roberto da Silva Bigonha",Efficient static checker for tainted variable attacks.,Sci. Comput. Program.,80(2014): 91-105,https://doi.org/10.1016/j.scico.2013.03.012,article,,,,
+"Tianhai Liu, Mateus Araújo, Marcelo d'Amorim, Mana Taghdiri","A Comparative Study of Incremental Constraint Solving Approaches in Symbolic
+                Execution.",Haifa Verification Conference,2014: 284-299,https://doi.org/10.1007/978-3-319-13338-6_21,inproceedings,,,,
+"Mateus Borges, Antonio Filieri, Marcelo d'Amorim, Corina S. Pasareanu, Willem Visser",Compositional solution space quantification for probabilistic software analysis.,PLDI,2014: 123-132,https://doi.org/10.1145/2594291.2594329,inproceedings,,,,TRUE
+"Quoc-Sang Phan, Pasquale Malacaria, Corina S. Pasareanu, Marcelo d'Amorim",Quantifying information leaks using reliability analysis.,SPIN,2014: 105-108,https://doi.org/10.1145/2632362.2632367,inproceedings,,,,
+"José Campos, Rui Abreu 0001, Gordon Fraser 0001, Marcelo d'Amorim",Entropy-based test generation for improved fault localization.,ASE,2013: 257-267,https://doi.org/10.1109/ASE.2013.6693085,inproceedings,,,,
+"Chang Hwan Peter Kim, Darko Marinov, Sarfraz Khurshid, Don S. Batory, Sabrina Souto, Paulo Barros, Marcelo d'Amorim","SPLat: lightweight dynamic analysis for reducing combinatorics in testing
+                configurable systems.",ESEC/SIGSOFT FSE,2013: 257-267,https://doi.org/10.1145/2491411.2491459,inproceedings,,,,
+"Mateus Borges, Marcelo d'Amorim, Saswat Anand, David H. Bushnell, Corina S. Pasareanu",Symbolic Execution with Interval Solving and Meta-heuristic Search.,ICST,2012: 111-120,https://doi.org/10.1109/ICST.2012.91,inproceedings,,,,
+"Andrei Rimsa, Marcelo d'Amorim, Fernando Magno Quintão Pereira",Tainted Flow Analysis on e-SSA-Form Programs.,CC,2011: 124-143,https://doi.org/10.1007/978-3-642-19861-8_8,inproceedings,,,,
+"Elton Alves, Milos Gligoric 0001, Vilas Jagannath, Marcelo d'Amorim",Fault-localization using dynamic slicing and change impact analysis.,ASE,2011: 520-523,https://doi.org/10.1109/ASE.2011.6100114,inproceedings,,,,
+"Matheus Souza 0003, Mateus Borges, Marcelo d'Amorim, Corina S. Pasareanu",CORAL: Solving Complex Constraints for Symbolic PathFinder.,NASA Formal Methods,2011: 359-374,https://doi.org/10.1007/978-3-642-20398-5_26,inproceedings,,,,
+"Mitsuo Takaki, Diego Cavalcanti, Rohit Gheyi, Juliano Iyoda, Marcelo d'Amorim, Ricardo Bastos Cavalcante Prudêncio",Randomized constraint solvers: a comparative study.,Innov. Syst. Softw. Eng.,6(2010): 243-253,https://doi.org/10.1007/s11334-010-0124-1,article,,,,
+"Ahmed Sobeih, Marcelo d'Amorim, Mahesh Viswanathan 0001, Darko Marinov, Jennifer C. Hou",Assertion Checking in J-Sim Simulation Models of Network Protocols.,Simul.,86(2010): 651-673,https://doi.org/10.1177/0037549709349326,article,,,,
+"Cristiano Bertolini, Glaucia Peres, Marcelo d'Amorim, Alexandre Mota 0001","An Empirical Evaluation of Automated Black Box Testing Techniques for Crashing
+                GUIs.",ICST,2009: 21-30,https://doi.org/10.1109/ICST.2009.27,inproceedings,,,,
+"Mitsuo Takaki, Diego Cavalcanti, Rohit Gheyi, Juliano Iyoda, Marcelo d'Amorim, Ricardo Bastos Cavalcante Prudêncio",A Comparative Study of Randomized Constraint Solvers for Random-Symbolic Testing.,NASA Formal Methods,2009: 56-65,,inproceedings,,,,
+"Marcelo d'Amorim, Steven Lauterburg, Darko Marinov","Delta Execution for Efficient State-Space Exploration of Object-Oriented
+                Programs.",IEEE Trans. Software Eng.,34(2008): 597-613,https://doi.org/10.1109/TSE.2008.37,article,,,,
+"Tihomir Gvero, Milos Gligoric 0001, Steven Lauterburg, Marcelo d'Amorim, Darko Marinov, Sarfraz Khurshid",State extensions for java pathfinder.,ICSE,2008: 863-866,https://doi.org/10.1145/1368088.1368224,inproceedings,,,,
+"Marcelo d'Amorim, Steven Lauterburg, Darko Marinov","Delta execution for efficient state-space exploration of object-oriented
+                programs.",ISSTA,2007: 50-60,https://doi.org/10.1145/1273463.1273472,inproceedings,,,,
+"Marcelo d'Amorim, Ahmed Sobeih, Darko Marinov",Optimized Execution of Deterministic Blocks in Java PathFinder.,ICFEM,2006: 549-567,https://doi.org/10.1007/11901433_30,inproceedings,,,,
+"Marcelo d'Amorim, Carlos Pacheco, Tao Xie 0001, Darko Marinov, Michael D. Ernst","An Empirical Comparison of Automated Generation and Classification Techniques for
+                Object-Oriented Unit Testing.",ASE,2006: 59-68,https://doi.org/10.1109/ASE.2006.13,inproceedings,,,,
+"Marcelo d'Amorim, Grigore Rosu",An Equational Specification for the Scheme Language.,J. Univers. Comput. Sci.,11(2005): 1327-1348,https://doi.org/10.3217/jucs-011-07-1327,article,,,,
+"Marcelo d'Amorim, Klaus Havelund",Event-based runtime verification of java programs.,ACM SIGSOFT Softw. Eng. Notes,30(2005): 1-7,https://doi.org/10.1145/1082983.1083249,article,,,,
+"Marcelo d'Amorim, Grigore Rosu",Efficient Monitoring of omega-Languages.,CAV,2005: 364-378,https://doi.org/10.1007/11513988_36,inproceedings,,,,
+"Feng Chen 0006, Marcelo d'Amorim, Grigore Rosu",Checking and Correcting Behaviors of Java Programs at Runtime with Java-MOP.,RV@CAV,2005: 3-20,https://doi.org/10.1016/j.entcs.2006.02.002,inproceedings,,,,
+"Feng Chen 0006, Marcelo d'Amorim, Grigore Rosu",A Formal Monitoring-Based Framework for Software Development and Analysis.,ICFEM,2004: 357-372,https://doi.org/10.1007/978-3-540-30482-1_31,inproceedings,,,,
+"Marcelo d'Amorim, Carlos André Guimarães Ferraz","A Design for JTrader, an Internet Trading Service.",IICS,2001: 159-166,https://doi.org/10.1007/3-540-48206-7_14,inproceedings,,,,

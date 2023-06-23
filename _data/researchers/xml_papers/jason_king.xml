@@ -1,0 +1,269 @@
+<dblpperson name="Jason King" pid="129/8255" n="13">
+    <person key="homepages/129/8255" mdate="2013-05-21">
+        <author pid="129/8255">Jason King</author>
+    </person>
+    <r>
+        <article key="journals/siamdm/ChudnovskyKPRS21" mdate="2022-01-21">
+            <author orcid="0000-0002-8920-4944" pid="70/4508">Maria Chudnovsky</author>
+            <author pid="129/8255">Jason King</author>
+            <author pid="61/8036">Michal Pilipczuk</author>
+            <author orcid="0000-0001-7696-3848" pid="63/9303">Pawel Rzazewski</author>
+            <author pid="139/0817">Sophie Spirkl</author>
+            <title>Finding Large H-Colorable Subgraphs in Hereditary Graph Classes.</title>
+            <pages>2357-2386</pages>
+            <year>2021</year>
+            <volume>35</volume>
+            <journal>SIAM J. Discret. Math.</journal>
+            <number>4</number>
+            <ee>https://doi.org/10.1137/20M1367660</ee>
+            <url>db/journals/siamdm/siamdm35.html#ChudnovskyKPRS21</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/King21" mdate="2021-04-07">
+            <author pid="129/8255">Jason King</author>
+            <title>Combining Theory and Practice in Data Structures &amp; Algorithms Course Projects: An
+                Experience Report.</title>
+            <pages>959-965</pages>
+            <year>2021</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/3408877.3432476</ee>
+            <crossref>conf/sigcse/2021</crossref>
+            <url>db/conf/sigcse/sigcse2021.html#King21</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/esa/ChudnovskyKPRS20" mdate="2021-09-16">
+            <author pid="70/4508">Maria Chudnovsky</author>
+            <author pid="129/8255">Jason King</author>
+            <author pid="61/8036">Michal Pilipczuk</author>
+            <author orcid="0000-0001-7696-3848" pid="63/9303">Pawel Rzazewski</author>
+            <author pid="139/0817">Sophie Spirkl</author>
+            <title>Finding Large H-Colorable Subgraphs in Hereditary Graph Classes.</title>
+            <pages>35:1-35:17</pages>
+            <year>2020</year>
+            <booktitle>ESA</booktitle>
+            <ee type="oa">https://doi.org/10.4230/LIPIcs.ESA.2020.35</ee>
+            <crossref>conf/esa/2020</crossref>
+            <url>db/conf/esa/esa2020.html#ChudnovskyKPRS20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icst/HeckmanSK20" mdate="2020-08-12">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="121/3953">Jessica Young Schmidt</author>
+            <author pid="129/8255">Jason King</author>
+            <title>Integrating Testing Throughout the CS Curriculum.</title>
+            <pages>441-444</pages>
+            <year>2020</year>
+            <booktitle>ICST Workshops</booktitle>
+            <ee>https://doi.org/10.1109/ICSTW50294.2020.00079</ee>
+            <crossref>conf/icst/2020w</crossref>
+            <url>db/conf/icst/icstw2020.html#HeckmanSK20</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article publtype="informal" key="journals/corr/abs-2004-09425" mdate="2020-04-28">
+            <author pid="70/4508">Maria Chudnovsky</author>
+            <author pid="129/8255">Jason King</author>
+            <author pid="61/8036">Michal Pilipczuk</author>
+            <author pid="63/9303">Pawel Rzazewski</author>
+            <author pid="139/0817">Sophie Spirkl</author>
+            <title>Finding large $H$-colorable subgraphs in hereditary graph classes.</title>
+            <year>2020</year>
+            <volume>abs/2004.09425</volume>
+            <journal>CoRR</journal>
+            <ee type="oa">https://arxiv.org/abs/2004.09425</ee>
+            <url>db/journals/corr/corr2004.html#abs-2004-09425</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/bigdataconf/LorenzenAK18" mdate="2021-03-31">
+            <author pid="234/3041">Casey Lorenzen</author>
+            <author pid="48/925">Rajeev Agrawal</author>
+            <author pid="129/8255">Jason King</author>
+            <title>Determining Viability of Deep Learning on Cybersecurity Log Analytics.</title>
+            <pages>4806-4811</pages>
+            <year>2018</year>
+            <booktitle>IEEE BigData</booktitle>
+            <ee>https://doi.org/10.1109/BigData.2018.8622165</ee>
+            <crossref>conf/bigdataconf/2018</crossref>
+            <url>db/conf/bigdataconf/bigdataconf2018.html#LorenzenAK18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/HeckmanK18" mdate="2018-11-06">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="129/8255">Jason King</author>
+            <title>Developing Software Engineering Skills using Real Tools for Automated Grading.</title>
+            <pages>794-799</pages>
+            <year>2018</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/3159450.3159595</ee>
+            <crossref>conf/sigcse/2018</crossref>
+            <url>db/conf/sigcse/sigcse2018.html#HeckmanK18</url>
+        </inproceedings>
+    </r>
+    <r>
+        <article key="journals/ns/KingE16" mdate="2020-02-22">
+            <author pid="129/8255">Jason King</author>
+            <author pid="176/6477">Dan Evans</author>
+            <title>Key criteria for selecting a secure cloud wireless net work.</title>
+            <pages>17-20</pages>
+            <year>2016</year>
+            <volume>2016</volume>
+            <journal>Netw. Secur.</journal>
+            <number>1</number>
+            <ee>https://doi.org/10.1016/S1353-4858(16)30010-1</ee>
+            <url>db/journals/ns/ns2016.html#KingE16</url>
+        </article>
+    </r>
+    <r>
+        <inproceedings key="conf/hotsos/CarverBKBFGKMOS16" mdate="2020-09-07">
+            <author pid="c/JeffreyCCarver">Jeffrey C. Carver</author>
+            <author pid="178/9059">Morgan Burcham</author>
+            <author pid="134/4298">Sedef Akinli Koçak</author>
+            <author pid="55/2997">Ayse Bener</author>
+            <author pid="49/2990">Michael Felderer</author>
+            <author pid="125/4254">Matthias Gander</author>
+            <author pid="129/8255">Jason King</author>
+            <author pid="78/5541">Jouni Markkula</author>
+            <author pid="49/2801">Markku Oivo</author>
+            <author pid="171/2314">Clemens Sauerwein</author>
+            <author pid="w/LaurieAWilliams">Laurie A. Williams</author>
+            <title>Establishing a baseline for measuring advancement in the science of security: an
+                analysis of the 2015 IEEE security &amp; privacy proceedings.</title>
+            <pages>38-51</pages>
+            <year>2016</year>
+            <booktitle>HotSoS</booktitle>
+            <ee>https://doi.org/10.1145/2898375.2898380</ee>
+            <ee>https://www.wikidata.org/entity/Q57433825</ee>
+            <crossref>conf/hotsos/2016</crossref>
+            <url>db/conf/hotsos/hotsos2016.html#CarverBKBFGKMOS16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/HeckmanK16" mdate="2021-06-10">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="129/8255">Jason King</author>
+            <title>Teaching Software Engineering Skills in CS1.5: Incorporating Real-world Practices
+                and Tools (Abstract Only).</title>
+            <pages>696-697</pages>
+            <year>2016</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/2839509.2850562</ee>
+            <crossref>conf/sigcse/2016</crossref>
+            <url>db/conf/sigcse/sigcse2016.html#HeckmanK16</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/hotsos/KingPW15" mdate="2018-11-06">
+            <author pid="129/8255">Jason King</author>
+            <author pid="05/9103">Rahul Pandita</author>
+            <author pid="w/LaurieAWilliams">Laurie A. Williams</author>
+            <title>Enabling forensics by proposing heuristics to identify mandatory log events.</title>
+            <pages>6:1-6:11</pages>
+            <year>2015</year>
+            <booktitle>HotSoS</booktitle>
+            <ee>https://doi.org/10.1145/2746194.2746200</ee>
+            <crossref>conf/hotsos/2015</crossref>
+            <url>db/conf/hotsos/hotsos2015.html#KingPW15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/sigcse/HeckmanKW15" mdate="2018-11-06">
+            <author pid="62/6606">Sarah Heckman</author>
+            <author pid="129/8255">Jason King</author>
+            <author pid="159/0102">Michael Winters</author>
+            <title>Automating Software Engineering Best Practices Using an Open Source Continuous
+                Integration Framework (Abstract Only).</title>
+            <pages>677</pages>
+            <year>2015</year>
+            <booktitle>SIGCSE</booktitle>
+            <ee>https://doi.org/10.1145/2676723.2691921</ee>
+            <crossref>conf/sigcse/2015</crossref>
+            <url>db/conf/sigcse/sigcse2015.html#HeckmanKW15</url>
+        </inproceedings>
+    </r>
+    <r>
+        <inproceedings key="conf/icse/King04" mdate="2023-03-23">
+            <author pid="129/8255">Jason King</author>
+            <title>Measuring the forensic-ability of audit logs for nonrepudiation.</title>
+            <pages>1419-1422</pages>
+            <year>2013</year>
+            <booktitle>ICSE</booktitle>
+            <ee>https://doi.org/10.1109/ICSE.2013.6606732</ee>
+            <ee>https://doi.ieeecomputersociety.org/10.1109/ICSE.2013.6606732</ee>
+            <ee>http://dl.acm.org/citation.cfm?id=2487022</ee>
+            <crossref>conf/icse/2013</crossref>
+            <url>db/conf/icse/icse2013.html#King04</url>
+        </inproceedings>
+    </r>
+    <coauthors n="21" nc="3">
+        <co c="2">
+            <na f="a/Agrawal:Rajeev" pid="48/925">Rajeev Agrawal</na>
+        </co>
+        <co c="0" n="2">
+            <na f="b/Bener:Ayse_Basar" pid="55/2997">Ayse Basar Bener</na>
+            <na>Ayse Bener</na>
+        </co>
+        <co c="0">
+            <na f="b/Burcham:Morgan" pid="178/9059">Morgan Burcham</na>
+        </co>
+        <co c="0">
+            <na f="c/Carver:Jeffrey_C=" pid="c/JeffreyCCarver">Jeffrey C. Carver</na>
+        </co>
+        <co c="1">
+            <na f="c/Chudnovsky:Maria" pid="70/4508">Maria Chudnovsky</na>
+        </co>
+        <co c="-1">
+            <na f="e/Evans:Dan" pid="176/6477">Dan Evans</na>
+        </co>
+        <co c="0">
+            <na f="f/Felderer:Michael" pid="49/2990">Michael Felderer</na>
+        </co>
+        <co c="0">
+            <na f="g/Gander:Matthias" pid="125/4254">Matthias Gander</na>
+        </co>
+        <co c="0" n="2">
+            <na f="h/Heckman:Sarah_Smith" pid="62/6606">Sarah Smith Heckman</na>
+            <na>Sarah Heckman</na>
+        </co>
+        <co c="0">
+            <na f="k/Ko=ccedil=ak:Sedef_Akinli" pid="134/4298">Sedef Akinli Koçak</na>
+        </co>
+        <co c="2">
+            <na f="l/Lorenzen:Casey" pid="234/3041">Casey Lorenzen</na>
+        </co>
+        <co c="0">
+            <na f="m/Markkula:Jouni" pid="78/5541">Jouni Markkula</na>
+        </co>
+        <co c="0">
+            <na f="o/Oivo:Markku" pid="49/2801">Markku Oivo</na>
+        </co>
+        <co c="0">
+            <na f="p/Pandita:Rahul" pid="05/9103">Rahul Pandita</na>
+        </co>
+        <co c="1">
+            <na f="p/Pilipczuk:Michal" pid="61/8036">Michal Pilipczuk</na>
+        </co>
+        <co c="1">
+            <na f="r/Rzazewski:Pawel" pid="63/9303">Pawel Rzazewski</na>
+        </co>
+        <co c="0">
+            <na f="s/Sauerwein:Clemens" pid="171/2314">Clemens Sauerwein</na>
+        </co>
+        <co c="0">
+            <na f="s/Schmidt:Jessica_Young" pid="121/3953">Jessica Young Schmidt</na>
+        </co>
+        <co c="1">
+            <na f="s/Spirkl:Sophie" pid="139/0817">Sophie Spirkl</na>
+        </co>
+        <co c="0">
+            <na f="w/Williams:Laurie_A=" pid="w/LaurieAWilliams">Laurie A. Williams</na>
+        </co>
+        <co c="0">
+            <na f="w/Winters:Michael" pid="159/0102">Michael Winters</na>
+        </co>
+    </coauthors>
+</dblpperson>
