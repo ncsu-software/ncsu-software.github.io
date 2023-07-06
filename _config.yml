@@ -31,16 +31,16 @@ defaults:
       type: "services"
     values:
       layout: "service"
-  - scope:
-      path: ""
-      type: "team"
-    values:
-      layout: "team"
-  - scope:
-      path: ""
-      type: "about"
-    values:
-      layout: "about"
+  # - scope:
+  #     path: ""
+  #     type: "team"
+  #   values:
+  #     layout: "team"
+  # - scope:
+  #     path: ""
+  #     type: "about"
+  #   values:
+  #     layout: "about"
   - scope:
       path: ""
       type: "home"
@@ -60,9 +60,18 @@ defaults:
 sass:
   style: compressed # possible values: nested expanded compact compressed
 
+
+flexible_include:
+  die_on_file_error: true
+  die_on_path_denied: true
+  die_on_run_error: true
+  die_on_other_error: true
+
 plugins:
   - jekyll-environment-variables
   - jekyll-feed
+  - flexible_include
+
 
 exclude:
   - Gemfile

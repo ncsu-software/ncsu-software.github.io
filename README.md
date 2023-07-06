@@ -101,3 +101,20 @@ I've been building open source themes for all the main static site generators fo
 - [Jekyll Curate (Premium)](https://www.zerostatic.io/theme/jekyll-curate/)
 
 🇦🇺 **Made in Australia** by Robert Austin
+
+
+# Make
+
+## Windows
+- As Administrator Run
+    ```bash
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+    ```
+
+    ```bash
+    choco install make
+    ```
+ 
+# Adding API Key (JSON) for google drive access:
+    https://medium.com/@a.marenkov/how-to-get-credentials-for-google-sheets-456b7e88c430
+

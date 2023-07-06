@@ -9,11 +9,12 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    facets (3.1.0)
     ffi (1.15.5-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
-    google-protobuf (3.23.2-x64-mingw-ucrt)
+    google-protobuf (3.23.3-x64-mingw-ucrt)
     http_parser.rb (0.8.0)
-    i18n (1.13.0)
+    i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     jekyll (4.3.2)
       addressable (~> 2.4)
@@ -39,6 +40,17 @@ GEM
       sass-embedded (~> 1.54)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    jekyll_flexible_include (2.0.19)
+      jekyll_plugin_support (~> 0.6.0)
+      rugged
+    jekyll_plugin_logger (2.1.1)
+      jekyll (>= 3.5.0)
+    jekyll_plugin_support (0.6.2)
+      facets
+      jekyll (>= 3.5.0)
+      jekyll_plugin_logger
+      key-value-parser
+    key-value-parser (0.0.2)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -55,10 +67,11 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
-    rouge (4.1.1)
+    rouge (4.1.2)
+    rugged (1.6.3)
     safe_yaml (1.0.5)
-    sass-embedded (1.62.1-x64-mingw-ucrt)
-      google-protobuf (~> 3.21)
+    sass-embedded (1.63.6-x64-mingw-ucrt)
+      google-protobuf (~> 3.23)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
     unicode-display_width (2.4.2)
@@ -71,6 +84,7 @@ DEPENDENCIES
   jekyll (~> 4.2)
   jekyll-environment-variables
   jekyll-feed
+  jekyll_flexible_include
   webrick (~> 1.7)
 
 BUNDLED WITH

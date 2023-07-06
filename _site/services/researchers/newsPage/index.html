@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
+  <!-- Google Fonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Self host font -->
+  <!-- <link rel="preload" href="/assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin> -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  
+  <meta property="og:title" content="News"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content=""/>
+  
+  
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content=""/>
+  <meta name="twitter:creator" content=""/>
+
+</head>
+
+<body class='page '>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="">
+      <a href="/contact/">Contact</a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img width="120px" height="32px" alt="NC STATE" src="/images/logo/logo.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="/"><img width="32px" height="32px" alt="NC STATE" src="/images/logo/logo-mobile.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="">
+      <a href="/contact/">Contact</a>
+    </li>
+    
+  </ul>
+</div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+    <script>
+  function checkEmail(email){
+    const urlParams = new URLSearchParams(window.location.search);
+    const emailToCheck = urlParams.get('email');
+    return emailToCheck ===(email);
+  }
+  function getEmail(){
+    const urlParams = new URLSearchParams(window.location.search);
+    const email = urlParams.get('email');
+    console.log(`get email log: ${email}`)
+    return email
+  }
+    function onLoad(){
+    const urlParams = new URLSearchParams(window.location.search);
+    const email = urlParams.get('email');
+     console.log("Onload grants Page")
+    localStorage.setItem("email",email)
+  }
+
+  function compare(email1,email2){
+    return email1 ===(email2);
+  }
+  let html2;
+  let emailstored;
+</script>
+
+<div style="display: flex; flex-direction: column; align-items: center; border: 4px solid #2c3e50; padding: 30px; background-color: #f2f2f2; font-family: Arial, sans-serif;">
+<script type="text/javascript">
+onLoad();
+</script>
+    <h1 style="text-align: center; color: #2c3e50; font-size: 32px;">News</h1>
+  
+      <script>
+        if(compare(localStorage.getItem("email"),`skuttal@ncsu.edu`)){
+            html2=`
+  <div style="text-align: left; margin-bottom: 20px; border-bottom: 2px solid #CC0000; padding-bottom: 10px;">
+    <div style="font-weight: bold; margin-top: 5px; margin-left: 20px; text-decoration: underline;">
+      
+      <h3><a href="https://engineering.utulsa.edu/nsf-career-kuttal/">Computer science professor receives prestigious NSF CAREER award</a></h3>
+      <!-- <a href="https://engineering.utulsa.edu/nsf-career-kuttal/" style="color: #CC0000; font-size: 24px; text-decoration: none;">Computer science professor receives prestigious NSF CAREER award</a> -->
+      
+    </div>
+    <div style="margin-top: 5px; margin-left: 20px; color: #333;">
+      
+      In recent years, there has been remarkable growth in virtual assistant technologies like Alexa, Siri, and Google Assistant, which have become household names. However, the field of programming lacks a dedicated virtual assistant. Sandeep Kuttal, an Assistant Professor of Computer Science, is taking the lead in software engineering by developing a virtual assistant specifically designed for programmers.Kuttal's exceptional work has earned her the Faculty Early Career Development Program (CAREER) award from the National Science Foundation. The grant will support her project on Designing an Interactive Partner to Support Pair Programming.  This recognition follows her previous success in securing the Young Investigator Research grant from the Air Force Office of Scientific Research. John Hale, the Chairperson of Computer Science, expressed immense pride in Kuttal's achievements and acknowledged the groundbreaking research conducted at The University of Tulsa's Tandy School of Computer Science. He commended Kuttal's well-deserved recognition, highlighting her continuous success and the positive impact it has on the department.
+      
+    </div>
+    </div>`;
+      document.write(html2);
+      }
+    </script>
+  
+      <script>
+        if(compare(localStorage.getItem("email"),`skuttal@ncsu.edu`)){
+            html2=`
+  <div style="text-align: left; margin-bottom: 20px; border-bottom: 2px solid #CC0000; padding-bottom: 10px;">
+    <div style="font-weight: bold; margin-top: 5px; margin-left: 20px; text-decoration: underline;">
+      
+      <h3><a href="https://engineering.utulsa.edu/computer-science-kuttal-young-investigator/">Computer science professor awarded prestigious Young Investigator Award from the Air Force Office of Scientific Research</a></h3>
+      <!-- <a href="https://engineering.utulsa.edu/computer-science-kuttal-young-investigator/" style="color: #CC0000; font-size: 24px; text-decoration: none;">Computer science professor awarded prestigious Young Investigator Award from the Air Force Office of Scientific Research</a> -->
+      
+    </div>
+    <div style="margin-top: 5px; margin-left: 20px; color: #333;">
+      
+      Assistant Professor of Computer Science, Sandeep Kuttal, has been awarded a $450,000 grant by the Air Force Office of Scientific Research (AFOSR) through the Young Investigator Research Program (YIP). Out of over 215 winning research proposals submitted by scientists and engineers, Kuttal was one of the 36 recipients selected from 27 research institutions and businesses. Dean Jim Sorem of the College of Engineering and Natural Sciences (ENS) congratulated Professor Kuttal, acknowledging her exceptional research capabilities and mentorship qualities. He highlighted her interdisciplinary investigations in software engineering and human-computer interactions, predicting groundbreaking advancements in this rapidly evolving field.Kuttal's research program, titled -Supporting Information Foraging by Utilizing Agents' Collective Foraging Behavior; addresses the challenge of optimizing the organization and analysis of vast amounts of fragmented information to produce meaningful and applicable insights for specific goals. She uses the example of intelligence officials in the Department of Defense who struggle to manually sift through numerous sources to gather actionable intelligence.Kuttal's work aims to alleviate the burden on analysts by developing innovative approaches that leverage collective foraging behavior of agents to streamline information processing. This research has the potential to revolutionize the way information is gathered, analyzed, and utilized in various domains, including intelligence gathering and decision-making processes.
+      
+    </div>
+    </div>`;
+      document.write(html2);
+      }
+    </script>
+  
+      <script>
+        if(compare(localStorage.getItem("email"),`skuttal@ncsu.edu`)){
+            html2=`
+  <div style="text-align: left; margin-bottom: 20px; border-bottom: 2px solid #CC0000; padding-bottom: 10px;">
+    <div style="font-weight: bold; margin-top: 5px; margin-left: 20px; text-decoration: underline;">
+      
+      <h3><a href="https://newsroom.unl.edu/announce/cse/1761/10125">Spotlight on Sandeep Kuttal</a></h3>
+      <!-- <a href="https://newsroom.unl.edu/announce/cse/1761/10125" style="color: #CC0000; font-size: 24px; text-decoration: none;">Spotlight on Sandeep Kuttal</a> -->
+      
+    </div>
+    <div style="margin-top: 5px; margin-left: 20px; color: #333;">
+      
+      Sandeep Kuttal, a PhD student in computer engineering, is currently working as a research assistant in the ESQuaRed lab within the CSE Department. Her focus is on end user software engineering, a field that combines software engineering, Human-Computer Interaction, and Education. The goal is to design and develop environments that incorporate software engineering techniques to assist non-professional programmers in creating higher-quality software.The ESQuaRed lab is highly regarded in the software engineering community and has been recognized for its research work. The professors associated with the lab are successful researchers and excellent mentors, providing students with opportunities to work on cutting-edge software engineering problems.Sandeep originally got involved in the lab through her work with Dr. Rothermel, who introduced her to end user software engineering. Her current project involves providing debugging support to web mashups, aiming to automatically identify and assist with debugging errors in these end user environments. This project is an integral part of her thesis, alongside providing versioning and collaboration support for end users.Throughout her time in the lab, Sandeep has had valuable learning experiences and has had the opportunity to present her research at conferences, interact with renowned researchers, and gain insights into ongoing research worldwide. She is also a member of the EUSES and SCALE research groups, spanning multiple universities.In addition to her current project, Sandeep has worked on prototypes for end users in the mashup domain, specifically in Yahoo! Pipes, focusing on features like backtracking, variation management, testing support, and interactive visualizations. The efficacy and usability of these techniques were validated through user studies, resulting in conference publications and a journal article (currently under submission).
+      
+    </div>
+    </div>`;
+      document.write(html2);
+      }
+    </script>
+  
+      <script>
+        if(compare(localStorage.getItem("email"),`skuttal@ncsu.edu`)){
+            html2=`
+  <div style="text-align: left; margin-bottom: 20px; border-bottom: 2px solid #CC0000; padding-bottom: 10px;">
+    <div style="font-weight: bold; margin-top: 5px; margin-left: 20px; text-decoration: underline;">
+      
+      <h3><a href="https://sandeepkuttal.github.io/kuttal/Files/article.jpg">Kuttal recognized at conference of HCI</a></h3>
+      <!-- <a href="https://sandeepkuttal.github.io/kuttal/Files/article.jpg" style="color: #CC0000; font-size: 24px; text-decoration: none;">Kuttal recognized at conference of HCI</a> -->
+      
+    </div>
+    <div style="margin-top: 5px; margin-left: 20px; color: #333;">
+      
+      A research paper published by Assistant Professor of Computer Science Sandeep Kuttal received a best paper award at the conference for Human-Computer Interaction in May in San Jose, Calif. Kuttall collab- orated with researchers at Oregon State University to write : Foraging among an Overabundance of Similar Variants;. Of the 2,325 submissions, only 23, less than 1 percent, earned a best paper status
+      
+    </div>
+    </div>`;
+      document.write(html2);
+      }
+    </script>
+  
+      <script>
+        if(compare(localStorage.getItem("email"),`skuttal@ncsu.edu`)){
+            html2=`
+  <div style="text-align: left; margin-bottom: 20px; border-bottom: 2px solid #CC0000; padding-bottom: 10px;">
+    <div style="font-weight: bold; margin-top: 5px; margin-left: 20px; text-decoration: underline;">
+      
+      <h3><a href="https://content.techgig.com/professor-sandeep-kuttal-the-university-of-tulsa-wins-nsf-career-award/articleshow/82550280.cms">Professor Sandeep Kuttal - the University of Tulsa wins NSF career award</a></h3>
+      <!-- <a href="https://content.techgig.com/professor-sandeep-kuttal-the-university-of-tulsa-wins-nsf-career-award/articleshow/82550280.cms" style="color: #CC0000; font-size: 24px; text-decoration: none;">Professor Sandeep Kuttal - the University of Tulsa wins NSF career award</a> -->
+      
+    </div>
+    <div style="margin-top: 5px; margin-left: 20px; color: #333;">
+      
+      The National Foundation honoured Assistant Professor Sandeep Kuttal with a Career Award on April 19. Sandeep is a professor at the University of Tulsa. Kuttal is offering virtual assistants for programmers in the field of software engineering. She has supported the “Designing an interactive partner to support paid programming” project that leads to the award. Recently, Kuttal was honoured with Young Investigator Research from the Air Force as well following which she received a Career Award. Kuttal will work on the Alexa-like programming assistants with the help of her Career-supported research offering several insights into the programming carried out and learned. She will expand and analyse her ideas from software engineering, human-computer interaction ideas, and Artificial Intelligence.
+      
+    </div>
+    </div>`;
+      document.write(html2);
+      }
+    </script>
+  
+      <script>
+        if(compare(localStorage.getItem("email"),`skuttal@ncsu.edu`)){
+            html2=`
+  <div style="text-align: left; margin-bottom: 20px; border-bottom: 2px solid #CC0000; padding-bottom: 10px;">
+    <div style="font-weight: bold; margin-top: 5px; margin-left: 20px; text-decoration: underline;">
+      
+      <h3><a href="https://utulsa.edu/root-causes-digital-trade-offs-publications/">Of root causes and digital trade-offs</a></h3>
+      <!-- <a href="https://utulsa.edu/root-causes-digital-trade-offs-publications/" style="color: #CC0000; font-size: 24px; text-decoration: none;">Of root causes and digital trade-offs</a> -->
+      
+    </div>
+    <div style="margin-top: 5px; margin-left: 20px; color: #333;">
+      
+      A team of researchers from TU has been awarded Honorable Mention at the ACM CHI Conference on Human Factors in Computing Systems for their paper titled  'Trade-offs for Substituting a Human with an Agent in a Pair Programming Context: The Good, the Bad, and the Ugly.' This recognition is significant as only a small fraction, up to 5%, of submissions receive this honor. The paper was authored by Assistant Professor of Computer Science Sandeep Kuttal and three students: Kate Kwasny, Bali Ong, and Peter Robe. Kwasny and Ong specialize in computer simulation and gaming development, while Robe is pursuing a doctorate in computer science. The team will present their research paper at the virtual CHI conference in May, originally planned to take place in Yokohama, Japan. Additionally, their work will be published in the ACM digital library. Professor Kuttal expressed her gratitude for the collaboration with the exceptional students. Kate and Bali played pivotal roles in data analysis and writing the paper, while Peter contributed his expertise in data analysis. She also acknowledged TU for providing funding opportunities that allowed them to work on exciting research problems recognized by the research community.
+      
+    </div>
+    </div>`;
+      document.write(html2);
+      }
+    </script>
+  
+      <script>
+        if(compare(localStorage.getItem("email"),`skuttal@ncsu.edu`)){
+            html2=`
+  <div style="text-align: left; margin-bottom: 20px; border-bottom: 2px solid #CC0000; padding-bottom: 10px;">
+    <div style="font-weight: bold; margin-top: 5px; margin-left: 20px; text-decoration: underline;">
+      
+      <h3><a href="https://www.afrl.af.mil/News/Article-Display/Article/2406086/afosr-awards-grants-to-36-scientists-and-engineers-through-its-young-investigat/">AFOSR awards grants to 36 scientists and engineers through its Young Investigator Research Program</a></h3>
+      <!-- <a href="https://www.afrl.af.mil/News/Article-Display/Article/2406086/afosr-awards-grants-to-36-scientists-and-engineers-through-its-young-investigat/" style="color: #CC0000; font-size: 24px; text-decoration: none;">AFOSR awards grants to 36 scientists and engineers through its Young Investigator Research Program</a> -->
+      
+    </div>
+    <div style="margin-top: 5px; margin-left: 20px; color: #333;">
+      
+      The Air Force Office of Scientific Research (AFOSR) today announced it will award approximately $16.1 million in grants to 36 scientists and engineers from 27 research institutions and businesses who submitted winning research proposals through the Air Force's Young Investigator Research Program (YIP). The YIP is open to United States citizens and/or permanent residents' who are scientists and engineers at United States research institutions who received Ph.D. or equivalent degrees in the last seven years and show exceptional ability and promise for conducting basic research of military interests.The objective of this program is to foster creative basic research in science and engineering, enhance early career development of outstanding young investigators, and increase opportunities for the young investigators to recognize the Air Force mission and the related challenges in science and engineering.
+      
+    </div>
+    </div>`;
+      document.write(html2);
+      }
+    </script>
+  
+      <script>
+        if(compare(localStorage.getItem("email"),`skuttal@ncsu.edu`)){
+            html2=`
+  <div style="text-align: left; margin-bottom: 20px; border-bottom: 2px solid #CC0000; padding-bottom: 10px;">
+    <div style="font-weight: bold; margin-top: 5px; margin-left: 20px; text-decoration: underline;">
+      
+      <h3><a href="https://sandeepkuttal.github.io/kuttal/Files/Letter.jpg">United States Senate</a></h3>
+      <!-- <a href="https://sandeepkuttal.github.io/kuttal/Files/Letter.jpg" style="color: #CC0000; font-size: 24px; text-decoration: none;">United States Senate</a> -->
+      
+    </div>
+    <div style="margin-top: 5px; margin-left: 20px; color: #333;">
+      
+    </div>
+    </div>`;
+      document.write(html2);
+      }
+    </script>
+  
+</div>
+
+  </div>
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h2 class="footer-title">NC STATE</h2>
+          <ul>
+            
+            
+            <li class="">
+              <a href="/address/">Address</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <ul>
+            <li class="">
+              <a href="https://it.engr.ncsu.edu/services/github/">
+                <img src="/images/social/github.svg" alt="GitHub" style="width: 20px; height: 20px;">
+              </a>
+            </li>
+            <li class="">
+              <a href="https://twitter.com/cscncsu">
+                <img src="/images/social/twitter.svg" alt="Twitter" style="width: 20px; height: 20px;">
+              </a>
+            </li>
+          </ul>
+          <div class="footer-right">
+            <span class="footer-text" style="color: white;">&copy; 2023 NC State University. All rights reserved.</span>
+            <br>
+            <a class="zerostatic" href="https://www.csc.ncsu.edu/about.php" style="color: white;">About this site</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          
+            <div class="social">
+  
+    <a href="https://it.engr.ncsu.edu/services/github/" target="blank"><img src="/images/social/github.svg" title="Github" alt="Github" /></a>
+  
+    <a href="https://twitter.com/cscncsu" target="blank"><img src="/images/social/twitter.svg" title="Twitter" alt="Twitter" /></a>
+  
+</div>
+
+          
+          
+          <div class="copyright">© 2023 NC State University. All rights reserved. <br> <a class="zerostatic" href="https://www.csc.ncsu.edu/about.php"> About this site</a></div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+  
+</body>
+</html>
