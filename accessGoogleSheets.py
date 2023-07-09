@@ -55,6 +55,12 @@ sheet_data = [
         'sheet_id': '1nQWPQR_ZeW5YDSQYa0uUTMx0rkRNMYk_BW1PR6OKyXI',
         'sheet_name': 'researchPapers',
         'form_url':''
+    },
+    {
+        'gid':'617233608',
+        'sheet_id':'1nrxgtS2iWYBhK0SLR_O7Jy8LMm3wShrJRjXAjFG6Ueo',
+        'sheet_name':'SuccessStories',
+        'form_url':'https://forms.gle/yT5Mu6NWesQTHmHZA'
     }
 ]
 

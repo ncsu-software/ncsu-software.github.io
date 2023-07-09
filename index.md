@@ -1,5 +1,5 @@
 ---
-title: Jekyll Serif Theme
+title: NC State Software Engineering
 layout: home
 description: Index PAge Description in index.md
 intro_image: "images/illustrations/pointing.svg"

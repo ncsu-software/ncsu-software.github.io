@@ -6,12 +6,12 @@ about: Where are our previous students now
 ---
 <div>
   <ul style="list-style-type: none;">
-    {% for story in site.data.success_stories %}
+    {% for story in site.data.researchers.sheets.SuccessStories %}
       <li style="margin-bottom: 20px;">
         <div style="background-color: #f5f5f5; border-radius: 10px; padding: 10px;">
           <div style="display: flex; flex-direction: {% if forloop.index0 | modulo: 2 == 0 %}row{% else %}row-reverse{% endif %};">
             <div style="flex: 1;">
-              <img src="{{ story.image | relative_url }}" alt="{{ story.name }}" style="width: 200px; height: auto;">
+              <img src="{{ story.image | relative_url | replace: 'open?id=', 'uc?export=download&id=' }}" alt="{{ story.name }}" style="width: 200px; height: 200px;">
             </div>
             <div style="flex: 1; margin-left: 20px; margin-right: 200px;">
               <h2>{{ story.name }}</h2>
