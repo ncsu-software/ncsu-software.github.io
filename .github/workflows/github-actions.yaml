@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is fetching google sheets
 on: #[push]
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: '*/10 * * * *'
 
