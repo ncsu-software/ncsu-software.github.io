@@ -1,10 +1,10 @@
 name: WorkFlow to publish research papers and  fetch google sheets
-
-on:
-  push:
-    branches: [master]
-  schedule:
-    - cron: '*/10 * * * *'
+run-name: ${{ github.actor }} is fetching google sheets
+on: [push]
+  # push:
+  #   - branches: [master]
+  # schedule:
+  #   - cron: '*/10 * * * *'
 
 jobs:
   runMultipleCommands:
@@ -16,9 +16,15 @@ jobs:
       #       echo "Publishing Research Papers"
       #       python fetchXML.py
       #       echo "Completed Publishing Research Papers"
-      - name: Fetch Google Sheets
-        # uses: actions/checkout@v1
-        run: |
-            echo "Fetching Google Sheets Data"
-            python accessGoogleSheets.py
-            echo "Completed Work Flow"
+      - run: echo "This job was automatically triggered by a ${{github.event_name}} event."
+      # - name: Fetch Google Sheets
+      #   uses: actions/checkout@v1
+      #   run: |
+      #       echo "Fetching Google Sheets Data"
+      #       python accessGoogleSheets.py
+      #       echo "Completed Work Flow"
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4 
+        with:
+          python-version: '3.10' 
+      - run: python accessGoogleSheets.py
