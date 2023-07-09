@@ -36,7 +36,7 @@ with open(csv_file, "r") as file:
         if response.status_code == 200:
             xml_data = response.text
             # Parse the XML data
-            print(xml_data)
+            print("\n Researcher: ", email)
             root = ET.fromstring(xml_data)
 
             # Extract the necessary data
