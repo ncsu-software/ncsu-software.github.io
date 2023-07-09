@@ -1,0 +1,24 @@
+name: WorkFlow to publish research papers and  fetch google sheets
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: '*/10 * * * *'
+
+jobs:
+  runMultipleCommands:
+    runs-on: ubuntu-latest
+    steps:
+      # - name: create-json
+      #   uses: actions/checkout@v1
+      #   run: |
+      #       echo "Publishing Research Papers"
+      #       python fetchXML.py
+      #       echo "Completed Publishing Research Papers"
+      - name: Fetch Google Sheets
+        uses: actions/checkout@v1
+        run: |
+            echo "Fetching Google Sheets Data"
+            python accessGoogleSheets.py
+            echo "Completed Work Flow"

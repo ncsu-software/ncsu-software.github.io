@@ -118,7 +118,7 @@ researchPapers={
 
 
 # Set the path to your Google Sheets credentials JSON file
-credentials_path = 'se-website-391805-69c37c84110c.json'
+credentials_path = 'credentials.json'
 
 # Define the scope of the Google Sheets API
 scopes = [
