@@ -17,7 +17,7 @@ jobs:
       #       python fetchXML.py
       #       echo "Completed Publishing Research Papers"
       - name: Fetch Google Sheets
-        uses: actions/checkout@v1
+        # uses: actions/checkout@v1
         run: |
             echo "Fetching Google Sheets Data"
             python accessGoogleSheets.py
