@@ -163,3 +163,8 @@ make download-sheets-data
 - Grants Form: [Click here to access the form](https://forms.gle/gyRANV7n4viQTVCP8)
 - Employment Opportunity Form: [Click here to access the form](https://forms.gle/Mr2WEri7dKnR49947)
 - Current Students Form: [Click here to access the form](https://forms.gle/BqtMafJgW1c6NYXV7)
+
+## Research Papers
+
+write TRUE to the select column in this research papers sheet that you want to display
+- [Research Papers](https://docs.google.com/spreadsheets/d/1nQWPQR_ZeW5YDSQYa0uUTMx0rkRNMYk_BW1PR6OKyXI/edit#gid=739778209)
