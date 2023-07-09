@@ -1,5 +1,7 @@
 name: WorkFlow to publish research papers and  fetch google sheets
 run-name: ${{ github.actor }} is fetching google sheets
+permissions:
+  contents: write
 on: #[push]
   push:
     branches:
