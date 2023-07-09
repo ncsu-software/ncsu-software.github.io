@@ -34,18 +34,18 @@ jobs:
             echo "Fetching Google Sheets Data"
             python accessGoogleSheets.py
             echo "Completed Work Flow"
-  FetchResearchPaper:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "This job was automatically triggered by a ${{github.event_name}} event."
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4 
-        with:
-          python-version: '3.10' 
-      - run: |
-            pip install oauth2client
-            pip install gspread
-            pip install requests
-            echo "Fetching Research Papers Data"
-            python fetchXML.py
-            echo "Completed Work Flow"
+  # FetchResearchPaper:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - run: echo "This job was automatically triggered by a ${{github.event_name}} event."
+  #     - uses: actions/checkout@v3
+  #     - uses: actions/setup-python@v4 
+  #       with:
+  #         python-version: '3.10' 
+  #     - run: |
+  #           pip install oauth2client
+  #           pip install gspread
+  #           pip install requests
+  #           echo "Fetching Research Papers Data"
+  #           python fetchXML.py
+  #           echo "Completed Work Flow"
