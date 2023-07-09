@@ -46,6 +46,7 @@ jobs:
             pip install oauth2client
             pip install gspread
             pip install requests
+            pip install traceback
             echo "Fetching Research Papers Data"
             python fetchXML.py
             echo "Completed Work Flow"

@@ -4,7 +4,7 @@ import os
 import requests
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
-
+import traceback
 
 # Read URL from CSV file
 csv_file = "_data/researchers/sheets/ResearchersResponses.csv"  # Update with your CSV file path
@@ -88,7 +88,7 @@ with open(csv_file, "r") as file:
 
                         rows.append(row)
             except Exception as e:
-                print("\n\n\n\n\n$$$$$$$$$$$$$$$$$$$   ERROR: ",e)
+                traceback.print_exception(e)
                 
 
 header_columns=['EmailAddress','Authors','Title','Journal','Volume','DOI','Type','Area','boast text','pdf','select']
