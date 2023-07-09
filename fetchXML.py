@@ -34,58 +34,62 @@ with open(csv_file, "r") as file:
 
         # Check if request was successful (status code 200)
         if response.status_code == 200:
-            xml_data = response.text
-            # Parse the XML data
-            print("\n Researcher: ", email)
-            root = ET.fromstring(xml_data)
+            try:
+                xml_data = response.text
+                # Parse the XML data
+                print("\n Researcher: ", email)
+                root = ET.fromstring(xml_data)
 
-            # Extract the necessary data
+                # Extract the necessary data
 
-            r_elements = root.findall('r')
-            for r in r_elements:
-                article = r.find('article')
-                inproceedings = r.find('inproceedings')
+                r_elements = root.findall('r')
+                for r in r_elements:
+                    article = r.find('article')
+                    inproceedings = r.find('inproceedings')
 
-                if article is not None:
-                    author_names = []
-                    for author in article.findall('author'):
-                        author_names.append(author.text)
+                    if article is not None:
+                        author_names = []
+                        for author in article.findall('author'):
+                            author_names.append(author.text)
 
-                    title = article.find('title').text
-                    journal = article.find('journal').text
-                    volume = article.find('volume').text
-                    pages_element = article.find('pages')
-                    pages = pages_element.text if pages_element is not None else ""
-                    doi = article.find('ee')
-                    doi = doi.text if doi is not None else ""
-                    year = article.find('year').text
-                    row = [researcher_row['EmailAddress'],', '.join(author_names), title, journal, f"{volume}({year}): {pages}", doi, 'article',"","","",""]
+                        title = article.find('title').text
+                        journal = article.find('journal').text
+                        volume = article.find('volume').text
+                        pages_element = article.find('pages')
+                        pages = pages_element.text if pages_element is not None else ""
+                        doi = article.find('ee')
+                        doi = doi.text if doi is not None else ""
+                        year = article.find('year').text
+                        row = [researcher_row['EmailAddress'],', '.join(author_names), title, journal, f"{volume}({year}): {pages}", doi, 'article',"","","",""]
 
-                    # Check if row already exists based on matching columns
-                    if any(row[:7] == existing_row[:7] for existing_row in existing_rows):
-                        continue  # Skip adding the row if it already exists
+                        # Check if row already exists based on matching columns
+                        if any(row[:7] == existing_row[:7] for existing_row in existing_rows):
+                            continue  # Skip adding the row if it already exists
 
-                    rows.append(row)
+                        rows.append(row)
 
-                if inproceedings is not None:
-                    author_names = []
-                    for author in inproceedings.findall('author'):
-                        author_names.append(author.text)
+                    if inproceedings is not None:
+                        author_names = []
+                        for author in inproceedings.findall('author'):
+                            author_names.append(author.text)
 
-                    title = inproceedings.find('title').text
-                    booktitle = inproceedings.find('booktitle').text
-                    pages_element = inproceedings.find('pages')
-                    pages = pages_element.text if pages_element is not None else ""
-                    doi = inproceedings.find('ee')
-                    doi = doi.text if doi is not None else ""
-                    year = inproceedings.find('year').text
-                    row = [researcher_row['EmailAddress'],', '.join(author_names), title, booktitle, f"{year}: {pages}", doi, 'inproceedings',"","","",""]
+                        title = inproceedings.find('title').text
+                        booktitle = inproceedings.find('booktitle').text
+                        pages_element = inproceedings.find('pages')
+                        pages = pages_element.text if pages_element is not None else ""
+                        doi = inproceedings.find('ee')
+                        doi = doi.text if doi is not None else ""
+                        year = inproceedings.find('year').text
+                        row = [researcher_row['EmailAddress'],', '.join(author_names), title, booktitle, f"{year}: {pages}", doi, 'inproceedings',"","","",""]
 
-                    # Check if row already exists based on matching columns
-                    if any(row[:7] == existing_row[:7] for existing_row in existing_rows):
-                        continue
+                        # Check if row already exists based on matching columns
+                        if any(row[:7] == existing_row[:7] for existing_row in existing_rows):
+                            continue
 
-                    rows.append(row)
+                        rows.append(row)
+            except Exception as e:
+                print("\n\n\n\n\n$$$$$$$$$$$$$$$$$$$   ERROR: ",e)
+                
 
 header_columns=['EmailAddress','Authors','Title','Journal','Volume','DOI','Type','Area','boast text','pdf','select']
 
