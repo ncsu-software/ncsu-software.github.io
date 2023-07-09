@@ -33,12 +33,12 @@ jobs:
       - name: Update researchPapers.csv
         run: |
           # cp output/researchPapers.csv _data/researchers/sheets/researchPapers.csv
-          # git add _data/researchers/sheets/researchPapers.csv
+          git add .
           git config user.name "nagarajumadamshetti"
           git config user.email "nagarajumadamshetti@gmail.com"
           git diff
-          # git commit -m "Update researchPapers.csv"
-          # git push
+          git commit -m "Update sheets"
+          git push
   # FetchResearchPaper:
   #   runs-on: ubuntu-latest
   #   steps:
