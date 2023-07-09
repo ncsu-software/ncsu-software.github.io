@@ -59,11 +59,11 @@ onLoad();
    {% assign employment = {{this.getEmail()}} %}
 <p><a href="../currentStudentsPage" >Current Students</a></p>
    </ul>
-     {% for row in site.data.researchers.labMantras %}
+     {% for row in site.data.researchers.sheets.MantraResponses %}
     {% if row.isLab == "True" || row.isLab == "TRUE" %}
     <script>
         // console.log("inside lab page recent publications");
-        if(compare(localStorage.getItem("email"),`{{row.email}}`)){
+        if(compare(localStorage.getItem("email"),`{{row.EmailAddress}}`)){
         html2= `<strong>Mantra/Mission: {{row.mantra}}</strong>`;
         document.write(html2);
         }
@@ -71,11 +71,11 @@ onLoad();
      {% endif %}
   {% endfor %} 
    </div>
-{% assign labsData = site.data.researchers.labsData %}
+{% assign labsData = site.data.researchers.sheets.LabsResponses %}
 {% assign labs = labsData | group_by: 'labName' %}
 {% for lab in labs %}
 <script>
-if(compare(localStorage.getItem("email"), `{{ lab.items[0].email }}`)){
+if(compare(localStorage.getItem("email"), `{{ lab.items[0].EmailAddress }}`)){
         html2 = `
 <h2>{{ lab.name }}</h2>
           `;
@@ -84,14 +84,14 @@ if(compare(localStorage.getItem("email"), `{{ lab.items[0].email }}`)){
   </script>
   {% assign labImages = labsData | where: 'labName', lab.name %}
   {% for image in labImages %}
-    {% assign labEmail = image.email %}
+    {% assign labEmail = image.EmailAddress %}
     <script>
       if(compare(localStorage.getItem("email"), `{{ labEmail }}`)){
         html2 = `
           <div id="carousel-{{ lab.name }}" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item{% if forloop.first %} active{% endif %}">
-                <img src="{{ image.labImage }}"">
+                 <img src="{{ image.labImage | replace: 'open?id=', 'uc?export=download&id=' }}">
               </div>
             </div>
           </div>`;
@@ -103,11 +103,11 @@ if(compare(localStorage.getItem("email"), `{{ lab.items[0].email }}`)){
   <h2>Recent Publications</h2>
 <ul>
   {% assign rowIndex = 1 %}
-  {% for row in site.data.researchers.researchPapers %}
-    {% if row.select == "True" || row.select == "TRUE" %}
+  {% for row in site.data.researchers.sheets.researchPapers %}
+    {% if row.select == "TRUE"%}
     <script>
         // console.log("inside lab page recent publications");
-        if(compare(localStorage.getItem("email"),`{{row.email}}`)){
+        if(compare(localStorage.getItem("email"),`{{row.EmailAddress}}`)){
         html2= `<div style="text-align: left; margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 10px;"> <a href="{{ row.DOI }}" target="_blank" style="text-decoration: none; color: inherit; display: inline-block;"><div style="margin-left: 20px;">&bull; <span style="/*font-weight: bold*/;font-family: arial">{{ row.Authors | replace:',', ', ' }}:</span> </div><div style="/*font-weight: bold*/;font-family: arial; margin-top: 5px; margin-left: 20px;"> {{ row.Title }}</div><div style="font-size: 18px; margin-left: 20px;"> <span style="text-decoration: underline;">{{ row.Journal }}</span>, <span style="text-decoration: underline;">{{ row.Volume }}</span></div></a></div>`;
         document.write(html2);
         }

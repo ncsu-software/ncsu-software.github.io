@@ -70,8 +70,6 @@ flexible_include:
 plugins:
   - jekyll-environment-variables
   - jekyll-feed
-  - flexible_include
-
 
 exclude:
   - Gemfile

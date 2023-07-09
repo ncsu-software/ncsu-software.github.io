@@ -54,12 +54,12 @@ about: Future of Software Engineering through Advanced Research & innovation!
 onLoad();
 </script>
   <ul style="list-style-type: none;">
-    {% for story in site.data.researchers.researchersNew %}
+    {% for story in site.data.researchers.sheets.ResearchersResponses %}
       <li style="margin-bottom: 20px;">
         <div style="background-color: #f5f5f5; border-radius: 10px; padding: 10px; overflow: hidden; display: flex;">
           {% if story.ProfilePicture %}
             <div style="margin-right: 20px;">
-              <img src="{{ story.ProfilePicture }}" alt="{{ story.TitleAndName }}" style="max-width: 200px; height: auto;">
+              <img src="{{ story.ProfilePicture | replace: 'open?id=', 'uc?export=download&id=' }}" alt="{{ story.TitleAndName }}" style="max-width: 200px; height: auto;">
             </div>
           {% endif %}
           <div class="row-content">

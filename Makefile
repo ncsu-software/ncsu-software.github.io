@@ -18,19 +18,24 @@ install:
 update:
 	@bundle update
 
-# Update Research Papers
-update-papers:
+# upload-research-papers: 
+upload-research-papers:
 	@python fetchXML.py
+
+# download-form-data
+download-sheets-data:
+	@python accessGoogleSheets.py
 
 # Display help information
 help:
 	@echo "Available commands:"
-	@echo "  build     		: Build the Jekyll site"
-	@echo "  serve		: Serve the Jekyll site locally"
-	@echo "  clean     		: Remove the generated files"
-	@echo "  install   		: Install project dependencies"
-	@echo "  update    		: Update project dependencies"
-	@echo "  update-papers	: Update the research papers"
-	@echo "  help      		: Display this help message"
+	@echo "  build     				: Build the Jekyll site"
+	@echo "  serve				: Serve the Jekyll site locally"
+	@echo "  clean     				: Remove the generated files"
+	@echo "  install   				: Install project dependencies"
+	@echo "  update    				: Update project dependencies"
+	@echo "  help      				: Display this help message"
+	@echo "  upload-research-papers 		: Upload research papers"
+	@echo "  download-sheets-data 		: Download form sheets data"
 
-.PHONY: build serve clean install update update-papers help
+.PHONY: build serve clean install update upload-research-papers download-sheets-data help

@@ -1,33 +1,3 @@
-# Jekyll Serif Theme
-
-Serif is a modern business theme for Jekyll. It contains multiple content types for a typical brochure/marketing website. The theme is fully responsive, blazing fast and artfully illustrated.
-
-[Live Demo](https://jekyll-serif.netlify.app/) |
-[Zerostatic Themes](https://www.zerostatic.io)
-
-<a href="https://www.buymeacoffee.com/zerostatic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-![Jekyll Serif Theme screenshot](https://www.zerostatic.io/theme/jekyll-serif/jekyll-serif-screenshot.png)
-
-### Theme features
-
-- Jekyll 4.2+
-- Netlify & Github Pages ready
-- Services (Collection)
-- Team (Collection)
-- Features (Data)
-- SCSS
-- 100% Responsive design, animated hamburger and mobile slide in menu
-- Bootstrap 4.6 - _Only the bootstrap grid and utilites are imported by default. If you want to use more of the Boostrap library you can uncomment the `@import` in `style.scss`_
-- 100/100 Google Lighthouse speed score
-- 100/100 Google Lighthouse seo score
-- 100/100 Google Lighthouse accessibility score
-- 100/100 Google Lighthouse best practices score
-- Under 50KB without images or 80KB with images and illustrations ⚡
-- Under 20KB without Google fonts ⚡⚡⚡
-- Robust example content included
-- Royalty free illustrations included
-
 ## Installation
 
 ### Installing Ruby & Jekyll
@@ -68,41 +38,6 @@ Use Netlify to deploy this theme. This theme contains a valid and tested `netlif
 
 This theme has been tested to work with Github Pages (and Github Project Pages). When using Github Pages you will need to update the `baseurl` in the `_config.yml` otherwise all the css, images and paths will be broken.
 
-For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would have `baseurl: "/jekyll-serif-theme/"`
-
-## Extras
-
-### License
-
-- You cannot create ports of this theme
-- You cannot re-sell this theme
-
-### Credits
-
-- Beautiful royalty free Illustrations by Icons8 - https://icons8.com/illustrations/style--pixeltrue
-- Stock images by Unsplash - https://unsplash.com/
-- Feature icons by Noun Project - https://thenounproject.com/
-
-## Support My Work
-
-I've been building open source themes for all the main static site generators for over 4 years now. My premium themes allow me to continue to allocate time to maintain, improve and build new open source themes.
-
-1. Leave a star ⭐🙏🏻
-2. Make a contribution to this theme, add a feature, fix a bug, nothing is to small 
-2. Mention this theme on twitter [@zerostaticio](https://twitter.com/zerostaticio) 📢
-3. Purchase a premium theme 🔥
-
-### All Jekyll Themes by Zerostatic
-
-- [Jekyll Serif (Open Source)](https://www.zerostatic.io/theme/jekyll-serif/)
-- [Jekyll Atlantic (Open Source)](https://www.zerostatic.io/theme/jekyll-atlantic/)
-- [Jekyll Advance (Premium)](https://www.zerostatic.io/theme/jekyll-advance/)
-- [Jekyll Origin (Premium)](https://www.zerostatic.io/theme/jekyll-origin/)
-- [Jekyll Curate (Premium)](https://www.zerostatic.io/theme/jekyll-curate/)
-
-🇦🇺 **Made in Australia** by Robert Austin
-
-
 # Make
 
 ## Windows
@@ -118,3 +53,113 @@ I've been building open source themes for all the main static site generators fo
 # Adding API Key (JSON) for google drive access:
     https://medium.com/@a.marenkov/how-to-get-credentials-for-google-sheets-456b7e88c430
 
+
+# Authentication for GOOGLE API
+  <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="https://docs.gspread.org/en/latest/oauth2.html#authentication">Authentication</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://docs.gspread.org/en/latest/oauth2.html#enable-api-access-for-a-project">Enable API Access for a Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://docs.gspread.org/en/latest/oauth2.html#for-bots-using-service-account">For Bots: Using Service Account</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+</ul>
+
+            
+
+
+<u>
+<h2><strong> Enable API Access for a Project</strong></h2>
+</u>
+Head to Google Developers Console and create a new project (or select the one you already have).
+
+In the box labeled “Search for APIs and Services”, search for “Google Drive API” and enable it.
+
+In the box labeled “Search for APIs and Services”, search for “Google Sheets API” and enable it.
+
+
+<u>
+<h2><strong> For Bots: Using Service Account</strong></h2>
+</u>
+
+A service account is a special type of Google account intended to represent a non-human user that needs to authenticate and be authorized to access data in Google APIs [sic].
+
+Since it’s a separate account, by default it does not have access to any spreadsheet until you share it with this account. Just like any other Google account.
+
+Here’s how to get one:
+
+
+<u>
+<h4><strong>Enable API Access for a Project if you haven’t done it yet</strong></h4>
+</u>
+
+
+
+Go to “APIs & Services > Credentials” and choose “Create credentials > Service account key”.
+
+Fill out the form
+
+Click “Create” and “Done”.
+
+Press “Manage service accounts” above Service Accounts.
+
+Press on ⋮ near recently created service account and select “Manage keys” and then click on “ADD KEY > Create new key”.
+
+Select JSON key type and press “Create”.
+
+You will automatically download a JSON file with credentials. It may look like this:
+
+```bash
+{
+    "type": "service_account",
+    "project_id": "api-project-XXX",
+    "private_key_id": "2cd … ba4",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nNrDyLw … jINQh/9\n-----END PRIVATE KEY-----\n",
+    "client_email": "473000000000-yoursisdifferent@developer.gserviceaccount.com",
+    "client_id": "473 … hd.apps.googleusercontent.com",
+    ...
+}
+```
+
+Remember the path to the downloaded credentials file. Also, in the next step you’ll need the value of client_email from this file.
+
+Very important! Go to your spreadsheet and share it with a client_email from the step above. Just like you do with any other Google account. If you don’t do this, you’ll get a gspread.exceptions.SpreadsheetNotFound exception when trying to access this spreadsheet from your application or a script.
+
+Move the downloaded file to ~/.config/gspread/service_account.json. Windows users should put this file to %APPDATA%\gspread\service_account.json.
+
+Create a new Python file with this code:
+
+```bash
+import gspread
+
+gc = gspread.service_account()
+
+sh = gc.open("Example spreadsheet")
+
+print(sh.sheet1.get('A1'))
+```
+
+Ta-da!
+
+
+## Upload Research Papers
+
+```bash
+make upload-research-papers
+```
+
+## Download Google Sheets
+
+```bash
+make download-sheets-data
+```
+
+## Forms
+
+- Researchers form: [Click here to access the form](https://forms.gle/72LCSdHEs63TW8HX7)
+- News Form: [Click here to access the form](https://forms.gle/e4JEx8JXdhAzsvYh8)
+- Labs Form: [Click here to access the form](https://forms.gle/wWqiUWXdP4KmX3pk8)
+- Mantra Form: [Click here to access the form](https://forms.gle/L5Si1r8uYWhtBa4i8)
+- Grants Form: [Click here to access the form](https://forms.gle/gyRANV7n4viQTVCP8)
+- Employment Opportunity Form: [Click here to access the form](https://forms.gle/Mr2WEri7dKnR49947)
+- Current Students Form: [Click here to access the form](https://forms.gle/BqtMafJgW1c6NYXV7)

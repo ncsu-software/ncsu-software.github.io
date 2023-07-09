@@ -34,9 +34,9 @@ title: News
 onLoad();
 </script>
     <h1 style="text-align: center; color: #2c3e50; font-size: 32px;">{{ page.title }}</h1>
-  {% for row in site.data.researchers.newsData %}
+  {% for row in site.data.researchers.sheets.NewsResponses %}
       <script>
-        if(compare(localStorage.getItem("email"),`{{row.email}}`)){
+        if(compare(localStorage.getItem("email"),`{{row.EmailAddress}}`)){
             html2=`
   <div style="text-align: left; margin-bottom: 20px; border-bottom: 2px solid #CC0000; padding-bottom: 10px;">
     <div style="font-weight: bold; margin-top: 5px; margin-left: 20px; text-decoration: underline;">

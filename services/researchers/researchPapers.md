@@ -56,10 +56,10 @@ onLoad();
 <h1 style="text-align: center;">{{ page.title }}</h1>
 <ul>
   {% assign rowIndex = 1 %}
-  {% for row in site.data.researchers.researchPapers %}
+  {% for row in site.data.researchers.sheets.researchPapers %}
     <script>
         console.log("inside lab page recent publications");
-        if(compare(localStorage.getItem("email"),`{{row.email}}`)){
+        if(compare(localStorage.getItem("email"),`{{row.EmailAddress}}`)){
         html2= `<div style="text-align: left; margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 10px;"> <a href="{{ row.DOI }}" target="_blank" style="text-decoration: none; color: inherit; display: inline-block;"><div style="margin-left: 20px;">&bull; <span style="/*font-weight: bold*/;font-family: arial">{{ row.Authors | replace:',', ', ' }}:</span> </div><div style="/*font-weight: bold*/;font-family: arial; margin-top: 5px; margin-left: 20px;"> {{ row.Title }}</div><div style="font-size: 18px; margin-left: 20px;"> <span style="text-decoration: underline;">{{ row.Journal }}</span>, <span style="text-decoration: underline;">{{ row.Volume }}</span></div></a></div>`;
         document.write(html2);
         }

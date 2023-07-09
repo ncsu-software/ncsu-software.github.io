@@ -24,6 +24,7 @@ title: Grants
   }
 
   function compare(email1,email2){
+    console.log("Compare grants Page")
     return email1 ===(email2);
   }
   let html2;
@@ -35,10 +36,10 @@ title: Grants
 onLoad();
 </script>
   <h1 style="text-align: center;">{{ page.title }}</h1>
-  {% for row in site.data.researchers.grantsData %}
+  {% for row in site.data.researchers.sheets.GrantsResponses %}
       <script>
           console.log("inside grants page");
-        if(compare(localStorage.getItem("email"),`{{row.email}}`)){
+        if(compare(localStorage.getItem("email"),`{{row.EmailAddress}}`)){
             html2=`
             <div style="text-align: left; margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 10px;">
       <div style="font-weight: bold; margin-top: 5px; margin-left: 20px;">
