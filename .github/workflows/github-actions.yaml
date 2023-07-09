@@ -29,6 +29,15 @@ jobs:
 
       - name: Complete Workflow
         run: echo "Completed Workflow"
+        
+      - name: Update researchPapers.csv
+        run: |
+          cp output/researchPapers.csv _data/researchers/sheets/researchPapers.csv
+          git add _data/researchers/sheets/researchPapers.csv
+          git config user.name "nagarajumadamshetti"
+          git config user.email "nagarajumadamshetti@gmail.com"
+          git commit -m "Update researchPapers.csv"
+          git push
   # FetchResearchPaper:
   #   runs-on: ubuntu-latest
   #   steps:
