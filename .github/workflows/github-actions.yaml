@@ -29,6 +29,9 @@ jobs:
       - name: Fetch Google Sheets Data
         run: python accessGoogleSheets.py
 
+      - name: Publish research Papers
+        run: python fetchXML.py
+
       - name: Complete Workflow
         run: echo "Completed Workflow"
         
@@ -41,6 +44,7 @@ jobs:
           git diff
           git commit -m "Update sheets"
           git push
+
   # FetchResearchPaper:
   #   runs-on: ubuntu-latest
   #   steps:
