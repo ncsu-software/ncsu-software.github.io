@@ -88,7 +88,7 @@ with open(csv_file, "r") as file:
 
                         rows.append(row)
             except Exception as e:
-                traceback.print_exception(e)
+                print("\n\n\n\n\n$$$$$$$$$$$$$$$$$$$   ERROR: ",e)
                 
 
 header_columns=['EmailAddress','Authors','Title','Journal','Volume','DOI','Type','Area','boast text','pdf','select']
