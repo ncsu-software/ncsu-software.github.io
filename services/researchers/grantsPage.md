@@ -47,6 +47,11 @@ onLoad();
         <p>Sponsor: {{ row.Sponsor }}</p>
         <p>Year: {{ row.Year }}</p>
         <p>Amount: {{ row.Amount }}</p>
+      <div style="margin-top: 5px; margin-left: 20px; color: #333;">
+      {% if row.Summary %}
+      {{ row.Summary }}
+      {% endif %}
+    </div>
   </div>
       </div>`;
       document.write(html2);
