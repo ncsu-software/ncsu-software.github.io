@@ -7,7 +7,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 local_copy_directory = '_data/researchers/sheets/'
 
 # Define the Google Sheet IDs and corresponding sheet names
-sheet_data = [
+sheet_data_ncsu = [
     {
         'gid': '1472042545',
         'sheet_id': '15q4HlhUb1TGyfPMMf-DwDgu8K5Y7eZLrRyBxBr7sKG8',
@@ -64,13 +64,76 @@ sheet_data = [
     }
 ]
 
-researchPapers={
+sheet_data_tim = [
+    {
+        'gid': '405912709',
+        'sheet_id': '1oesk0RKJVRqEXaPrKDoT-3Oomm8k9MZ7VQ-7uxuLn5I',
+        'sheet_name': 'LabsResponses',
+        'form_url': "https://forms.gle/HdDWP5bT7fmWE7icA"
+    },
+    {
+        'gid': '20669916',
+        'sheet_id': '1QLtogU5tNE8IHQYQzC-DyTlTERpvC6RZ1ikQI9vWZ00',
+        'sheet_name': 'ResearchersResponses',
+        'form_url': "https://forms.gle/vy1PBRf58NDpCZiVA"
+    },
+    {
+        'gid': '998132793',
+        'sheet_id': '1c6lQF_9Gt9JTOe_bbyR6_gytqK8kEZQ0qxwQpwjGgzc',
+        'sheet_name': 'NewsResponses',
+        'form_url':'https://forms.gle/V2nKHTsRCiRAcyvt7'
+    },
+    {
+        'gid': '1233502210',
+        'sheet_id': '1DV4Xe2etq2Px9Tdm-XehISEh_Py-0YVPV3gYgmZpXH0',
+        'sheet_name': 'MantraResponses',
+        'form_url':'https://forms.gle/SggXF6wS2i4waBYg8'
+    },
+    {
+        'gid': '681879982',
+        'sheet_id': '103v_z42U_CObviCN10UNMz54rp3V_OFXTpwHfHTdKVk',
+        'sheet_name': 'GrantsResponses',
+        'form_url':'https://forms.gle/jDLQSozrX9HThHEm6'
+    },
+    {
+        'gid': '1324684805',
+        'sheet_id': '16nNcMC9Puv6gqOclJl1ngzEtUgyNOv8IUrsfGNjT2RQ',
+        'sheet_name': 'EmploymentOpportunityResponses',
+        'form_url':'https://forms.gle/XMvALAXaaUXVMKcc9'
+    },
+    {
+        'gid': '1802039923',
+        'sheet_id': '1nLjCmUG5ujiGfI1TVS8JqJPCbpACz6t_Jz3ijjIMtWg',
+        'sheet_name': 'CurrentStudentsResponses',
+        'form_url':'https://forms.gle/tzT1auzhpbPSHWDL7'
+    },
+    {
+        'gid': '800333832',
+        'sheet_id': '1UTVX6_wsak20TgdDfPv198mJ50MGH9HgtMDDWRGOtks',
+        'sheet_name': 'researchPapers',
+        'form_url':''
+    },
+    {
+        'gid':'651216284',
+        'sheet_id':'1YCzn_nrZIbc4GHQqswECauTjiDeFBodTIoXe968dMOk',
+        'sheet_name':'SuccessStories',
+        'form_url':'https://forms.gle/1gkHjwRXRfJbdqVN7'
+    }
+]
+
+researchPapers_NCSU={
     'gid': '739778209',
     'sheet_id': '1nQWPQR_ZeW5YDSQYa0uUTMx0rkRNMYk_BW1PR6OKyXI',
     'sheet_name': 'researchPapers',
     'form_url':''
 }
 
+researchPapers_tim={
+    'gid': '800333832',
+    'sheet_id': '1UTVX6_wsak20TgdDfPv198mJ50MGH9HgtMDDWRGOtks',
+    'sheet_name': 'researchPapers',
+    'form_url':''
+}
 
 # Function to upload a CSV file to Google Sheets
 def upload_csv_to_google_sheets(file_path, sheet_id):
@@ -111,7 +174,7 @@ credentials = ServiceAccountCredentials.from_json_keyfile_name(credentials_path,
 client = gspread.authorize(credentials)
 
 # Iterate over each Google Sheet in the sheet_data list
-for data in sheet_data:
+for data in sheet_data_tim:
     # Open the Google Sheet by its ID
     sheet = client.open_by_key(data['sheet_id'])
 

@@ -122,6 +122,13 @@ researchPapers={
 }
 
 
+researchPapers_tim={
+    'gid': '800333832',
+    'sheet_id': '1UTVX6_wsak20TgdDfPv198mJ50MGH9HgtMDDWRGOtks',
+    'sheet_name': 'researchPapers',
+    'form_url':''
+}
+
 # Set the path to your Google Sheets credentials JSON file
 credentials_path = 'credentials.json'
 
@@ -159,4 +166,4 @@ def upload_csv_to_google_sheets(file_path, sheet_id):
     print(f"CSV file '{file_path}' uploaded to Google Sheets.")
     
 
-upload_csv_to_google_sheets(csv_file_path,researchPapers['sheet_id'])
+upload_csv_to_google_sheets(csv_file_path,researchPapers_tim['sheet_id'])
