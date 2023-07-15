@@ -1,5 +1,20 @@
 # ALERT ALERT ALERT
 # The forms are transferred to a new account please wait until further notice and submit the data
+
+## Submission Guidelines:
+
+1. To ensure timely processing of your responses, please use your NCSU email to submit them.
+2. After submitting a form, you will receive the responses via email.
+3. If you need to update the information in the future, simply locate the email containing the form response and click on it.
+4. This will allow you to proceed and make changes to your previous response.
+### Submitting Multiple Entries
+If you need to submit multiple entries for a form, such as news submissions, please follow these instructions:
+
+* Submit the form multiple times, once for each entry.
+
+## Thank you for your cooperation!
+
+
 # Forms: WAIT DONT SUBMIT
 
 - Researchers form: [Click here to access the form](https://forms.gle/vy1PBRf58NDpCZiVA)
