@@ -35,13 +35,18 @@ jobs:
       - name: Complete Workflow
         run: echo "Completed Workflow"
         
-      - name: Update researchPapers.csv
+      - name: Check for Git Changes
+        id: git-check
         run: |
-          # cp output/researchPapers.csv _data/researchers/sheets/researchPapers.csv
+          git status --porcelain
+          echo "::set-output name=has_changes::$(git status --porcelain)"
+        
+      - name: Update researchPapers.csv
+        if: steps.git-check.outputs.has_changes != ''
+        run: |
           git add .
           git config user.name "nagarajumadamshetti"
           git config user.email "nagarajumadamshetti@gmail.com"
-          git diff
           git commit -m "Update sheets"
           git push
 
