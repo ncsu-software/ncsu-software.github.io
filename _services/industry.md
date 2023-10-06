@@ -8,7 +8,7 @@ about: Ask me how to innovate on time, on budget.
 <div id="For Industry" class="w3-container city" style="display: block;">
 <hr>
  <b>Ask me how</b>
- to innovate on time, on budget. 
+ to innovate on time, on budget. fire
  I've done this with many companies. For example:
  <ul>
               <li>
