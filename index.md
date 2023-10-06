@@ -8,7 +8,7 @@ intro_image_hide_on_mobile: true
 show_call_box: false
 ---
 
-<img src="images/group.jpeg" border="0" width="90%" >
+<img src="images/group.jpeg" width="200%" >
 
 # Software Engineering at NCSU
 
