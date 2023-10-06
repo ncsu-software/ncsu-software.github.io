@@ -14,13 +14,13 @@ about: Ask me how to innovate on time, on budget.
  For example:
 
 <center>
-<img height="60px" src="/images/logo/csiro.jpeg">
-<br><img height="60px" src="/images/logo/grammatech.png">
-<br><img height="60px" src="/images/logo/ibm.png">
-<br><img height="60px" src="/images/logo/lexisnexis.png">
-<br><img height="60px" src="/images/logo/logo-mobile.svg">
-<br><img height="60px" src="/images/logo/logo.svg">
-<br><img height="60px" src="/images/logo/msoft.png">
-<br><img height="60px" src="/images/logo/nasa.png">
+<img height="60px" src="images/logo/csiro.jpeg">
+<br><img height="60px" src="images/logo/grammatech.png">
+<br><img height="60px" src="images/logo/ibm.png">
+<br><img height="60px" src="images/logo/lexisnexis.png">
+<br><img height="60px" src="images/logo/logo-mobile.svg">
+<br><img height="60px" src="images/logo/logo.svg">
+<br><img height="60px" src="images/logo/msoft.png">
+<br><img height="60px" src="images/logo/nasa.png">
 </center>
 </div>
