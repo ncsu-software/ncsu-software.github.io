@@ -7,6 +7,7 @@ intro_image_absolute: false
 intro_image_hide_on_mobile: true
 show_call_box: false
 ---
+<img **src**="images/group-wo-bg.png" **alt**="group img">
 
 # Software Engineering at NCSU
 
