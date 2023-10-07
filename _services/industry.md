@@ -14,10 +14,10 @@ about: Ask me how to innovate on time, on budget.
  For example:
 
 <center>
-<img width="100px" src="https://ncsu.software/images/logo/csiro.jpeg">
-<br><img width="100px" src="https://ncsu.software/images/logo/grammatech.png">
-<br><img width="100px" src="https://ncsu.software/images/logo/ibm.png">
-<br><img width="100px" src="https://ncsu.software/images/logo/lexisnexis.png">
-<br><img width="100px" src="https://ncsu.software/images/logo/msoft.png">
-<br><img width="100px" src="https://ncsu.software/images/logo/nasa.png">
+<img width="250px" src="https://ncsu.software/images/logo/csiro.jpeg">
+<br><img width="250px" src="https://ncsu.software/images/logo/grammatech.png">
+<br><img width="250px" src="https://ncsu.software/images/logo/ibm.png">
+<br><img width="250px" src="https://ncsu.software/images/logo/lexisnexis.png">
+<br><img width="250px" src="https://ncsu.software/images/logo/msoft.png">
+<br><img width="250px" src="https://ncsu.software/images/logo/nasa.png">
 </center>
