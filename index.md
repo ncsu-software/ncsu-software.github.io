@@ -2,13 +2,11 @@
 title: NC State Software Engineering
 layout: home
 description: Index PAge Description in index.md
-intro_image: "images/illustrations/pointing.svg"
+intro_image: "images/empty.png"
 intro_image_absolute: false
 intro_image_hide_on_mobile: true
 show_call_box: false
 ---
-
-<br>
 
 <img src="images/group.jpeg" width="220%" class="center">
 
@@ -19,7 +17,7 @@ show_call_box: false
 
 Accelerate your SE  career, in industry, in research.
 
-<!-- <img src="images/illustrations/pointing.svg" width="100%" > -->
+<img src="images/illustrations/pointing.svg" width="100%" >
 
 
 # News
