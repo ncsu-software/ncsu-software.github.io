@@ -8,7 +8,7 @@ intro_image_hide_on_mobile: true
 show_call_box: false
 ---
 
-<img src="images/group.jpeg" width="200%" >
+<img src="images/group.jpeg" width="250%" >
 
 <br>
 
