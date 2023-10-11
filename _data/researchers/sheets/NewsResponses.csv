@@ -4,3 +4,10 @@ Timestamp,EmailAddress,link,heading,summary
 - Distinguished paper FSE'21
 - Next step:postdoc at Columbia with Baishakhi Ray"
 8/6/2023 18:09:17,tjmenzie@ncsu.edu,https://twitter.com/journalASE/status/1674098310586433538,"Automated SE journal (edited by Prof. Menzies (CSC, NCSU))'s impact has  doubled.  ","The impact factor of the Automated SE journal (edited by Prof. Menzies (CSC, NCSU))'s has  doubled fro  1.6 (last year) to 3.4 (now).  "
+10/8/2023 7:43:31,skuttal@ncsu.edu,http://www.ieee-scam.org/2023/#keynotes,Sandeep Kaur Kuttal Gave a Keynote at SCAM and VISSOFT,"IDEs as the Bridge: Connecting Humans and Code at the IEEE International Working Conference on Source Code Analysis & Manipulation (SCAM) and on Software Visualization (VISSOFT) Bogotá, Colombia, October 2023.
+
+
+Title: IDEs as the Bridge: Connecting Humans and Code
+
+Abstract: In the ever-evolving world of software development, human factors play a pivotal role in shaping how individuals engage in programming activities and, subsequently, how Integrated Development Environments (IDEs) should cater to human needs. This talk delves into the intricate interplay between human expertise, gender, and the programming process, highlighting their profound impact on tasks such as code creation, foraging (finding information), reuse, and debugging. We will discuss: (1) the influence of gender and expertise-aware approaches on code development and their implications for software engineering practices, emphasizing the significance of diversity and inclusion in technology; and (2) Human-AI interaction with conversational agents, their effects on programmers and coding workflows, and ways to enhance collaboration and productivity. Our focus will center on IDEs as the critical interface between humans and code.
+"
