@@ -76,7 +76,7 @@ show_call_box: false
                 <h1>News</h1>
                 <ul>
                     <li>
-                        <span class="date">10/23</span>, <strong>Dr. Marcelo D'Amorim is serving FSE 2024 as the General Chair!</strong>
+                        <span class="date">10/2023</span>, <strong>Dr. Marcelo D'Amorim is serving FSE 2024 as the General Chair!</strong>
                         <ul>
                             <li> Please consider participate the <i>ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering</i> (ESEC/FSE)! See you at Porto de Galinhas, Brazil! <a href="https://2024.esec-fse.org/">More Details</a></li>
                         </ul>
