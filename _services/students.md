@@ -1,7 +1,7 @@
 ---
 title: "For Students"
 date: 2018-12-28T15:14:39+10:00
-weight: 2
+weight: 4
 about: Learn about SE at NCSU
 ---
 <html>
@@ -12,8 +12,8 @@ about: Learn about SE at NCSU
 <body>
  <!-- <h3><a href="https://timm.fyi/">CSC Grad Office</a></h3> -->
  <h3><a href="https://www.csc.ncsu.edu/academics/graduate/contact.php">CSC Grad Office</a></h3>
- 
-  <ul>
+
+<ul>
     <li><a href="https://www.youtube.com/watch?v=LRoI-Rw4GBY">Why NC State?</a></li>
     <li><a href="http://tiny.cc/tim17phd">How 2 b a grad student?</a></li>
     <li><a href="http://www.ncsu.edu/grad/programs/how-to-apply/index.php">Apply here</a></li>

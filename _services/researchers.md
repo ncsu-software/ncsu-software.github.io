@@ -1,7 +1,7 @@
 ---
 title: "For Researchers"
 date: 2018-12-28T15:14:39+10:00
-weight: 4
+weight: 3
 about: Future of Software Engineering through Advanced Research & innovation!
 ---
 <style>
@@ -33,13 +33,14 @@ about: Future of Software Engineering through Advanced Research & innovation!
         display: flex;
         flex-wrap: wrap;
     }
-    
+  
     .inline-content p {
         margin-right: 20px;
     }
 
 
 </style>
+
 <script>
   function onLoad(){
     const urlParams = new URLSearchParams(window.location.search);
@@ -120,6 +121,3 @@ onLoad();
     }
   }
 </script>
-
-
-

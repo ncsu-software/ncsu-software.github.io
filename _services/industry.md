@@ -1,10 +1,9 @@
 ---
 title: "For Industry"
 date: 2018-12-28T15:14:39+10:00
-weight: 3
-about: Ask me how to innovate on time, on budget.  
+weight: 2
+about: Ask me how to innovate on time, on budget.
 ---
-
 <div id="For Industry" class="w3-container city" style="display: block;">
 <hr>
  <b>Ask us how</b>
