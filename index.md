@@ -16,11 +16,12 @@ show_call_box: false
         div.news {
                 height: 300px;
                 overflow: auto;
+                width: 90%;
             }
 
         /* Set the width of the container */
         .container {
-            width: 90%;
+            width: 100%;
         }
 
         /* Set the height of the images */
@@ -95,7 +96,7 @@ show_call_box: false
                         </ul>
                     </li>
                     <li>
-                        <span class="date">10/2023</span>, <strong>Our student Leon Shahnewaz (supervised by Dr. Sandeep Kuttal) presented a paper at VLHCC 2023</strong>
+                        <span class="date">10/2023</span>, <strong>Our student Leon Shahnewaz (supervised by Dr. Sandeep Kuttal) presented a paper at VLHCC 2023!</strong>
                         <ul>
                             Congratulations to our students Leon Shahnewaz, Mahzabin Tamanna, and Dr. Sandeep Kuttal! The paper is titled <i>Comparing Foraging Behavior Across Code Hosting and Q&amp;A Platforms through a Gender Lens</i> at IEEE Symposium on Visual Languages and Human-Centric Computing (VLHCC). Washington, DC, USA. <a href="https://sandeepkuttal.github.io/kuttal/index.html">More Details</a>
                         </ul>
