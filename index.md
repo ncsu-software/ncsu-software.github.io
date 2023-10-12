@@ -14,7 +14,7 @@ show_call_box: false
     <style>
         /* Set the width of the container */
         .container {
-            width: 100%;
+            width: 90%;
         }
 
         /* Set the height of the images */
