@@ -12,15 +12,9 @@ show_call_box: false
 <head>
     <style>
 
-        .news {
-            height: 300px;
-            overflow: auto;
-            width: 90%;
-        }
-
         /* Set the width of the container */
         .container {
-            width: 100%;
+            width: 90%;
         }
 
         /* Set the height of the images */
@@ -76,9 +70,8 @@ show_call_box: false
             </div>
             <img src="images/illustrations/pointing.svg" alt="Text and Image" style="width: 400px;">
         </div>
-    </div>
-    <!-- News Section -->
-    <div id="news">
+        <!-- News Section -->
+        <div class="segment">
             <div>
                 <h1>News</h1>
                 <ul>
@@ -114,5 +107,6 @@ show_call_box: false
                     </li>
                 </ul>
             </div>
+        </div>
     </div>
 </body>
