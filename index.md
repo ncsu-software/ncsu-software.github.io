@@ -9,15 +9,14 @@ intro_image_hide_on_mobile: true
 show_call_box: false
 ---
 
-<!-- <img src="images/group.jpeg" width="220%" class="center"> -->
 <head>
     <style>
 
-        div.news {
-                height: 300px;
-                overflow: auto;
-                width: 90%;
-            }
+        .news {
+            height: 300px;
+            overflow: auto;
+            width: 90%;
+        }
 
         /* Set the width of the container */
         .container {
@@ -78,8 +77,8 @@ show_call_box: false
             <img src="images/illustrations/pointing.svg" alt="Text and Image" style="width: 400px;">
         </div>
     </div>
-        <!-- News Section -->
-        <div id="news">
+    <!-- News Section -->
+    <div id="news">
             <div>
                 <h1>News</h1>
                 <ul>
