@@ -100,7 +100,7 @@ show_call_box: false
                         </ul>
                     </li>
                     <li>
-                        <span class="date">09/23</span>, <strong>Dr. Wesley K. G. Assunção Won Best Paper Award at SPLC 2023!</strong>
+                        <span class="date">09/2023</span>, <strong>Dr. Wesley K. G. Assunção Won Best Paper Award at SPLC 2023!</strong>
                         <ul>
                             Congratulations to Dr. Wesley K. G. Assunção and his co-authors from the Federal University of Paraná, on recently winning the Best Research Paper award at the 27th ACM International Systems and Software Product Line Conference (SPLC). <a href="https://wesleyklewerton.github.io/">More Details</a>
                         </ul>

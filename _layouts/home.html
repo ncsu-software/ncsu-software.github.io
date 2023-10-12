@@ -26,112 +26,54 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container pt-3 pb-3 pb-md-5">
     <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-        <div class="col-12 col-md-3 mb-1">
-          <div class="service service-summary">
-            <div class="service-content">
-              <h2 class="service-title">
-                {% if service.title == "Success Stories" %}
-                  {% assign is_success_stories = true %}
+      {% assign services = site.services | reverse %}
+      {% for service in services %}
+        {% if service.title == "For Students" %}
+          <div class="col-12 col-md-3 mb-1">
+            <div class="service service-summary">
+              <div class="service-content">
+                <h2 class="service-title">
                   <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-                {% else %}
-                  {% assign is_success_stories = false %}
-                  <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-                {% endif %}
-              </h2>
-              <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
+                </h2>
+                <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- {% comment %} Debug statement to check if the code enters the if condition {% endcomment %}
-        {% if is_success_stories %}
-          <p>The code entered the if condition for service: {{ service.title }}</p>
-        {% endif %} -->
-      {% endfor %}
-    </div>
-    <!-- <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
-      </div>
-    </div> -->
-  </div>
-</div>
-
-
-<!-- <div class="strip">
-  <div class="container pt-3 pb-3 pb-md-5">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-        <div class="col-12 col-md-3 mb-1">
-          <div class="service service-summary">
-            <div class="service-content">
-              <h2 class="service-title">
-                {% if service.type == "successstories" %}
-                  <a href="{{ 'success_stories.html' }}">{{ service.title }}</a>
-                {% else %}
+        {% elsif service.title == "For Researchers" %}
+          <div class="col-12 col-md-3 mb-1">
+            <div class="service service-summary">
+              <div class="service-content">
+                <h2 class="service-title">
                   <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-                {% endif %}
-              </h2>
-              <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
+                </h2>
+                <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
+              </div>
             </div>
           </div>
-        </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<!-- 
-<div class="strip">
-  <div class="container pt-3 pb-3 pb-md-5">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-3 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
+        {% elsif service.title == "For Industry" %}
+          <div class="col-12 col-md-3 mb-1">
+            <div class="service service-summary">
+              <div class="service-content">
+                <h2 class="service-title">
+                  <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+                </h2>
+                <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        {% elsif service.title == "Success Stories" %}
+          <div class="col-12 col-md-3 mb-1">
+            <div class="service service-summary">
+              <div class="service-content">
+                <h2 class="service-title">
+                  <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+                </h2>
+                <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
+              </div>
+            </div>
+          </div>
+        {% endif %}
       {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<!-- {% if site.data.features %}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
-        </div>
-      </div>
-      {% endfor %}
-
     </div>
   </div>
 </div>
-{% endif %} -->
