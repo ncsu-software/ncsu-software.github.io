@@ -26,9 +26,10 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container pt-3 pb-3 pb-md-5">
     <div class="row justify-content-start">
-      {% assign services = site.services | reverse %}
+      <!-- {% assign services = site.services | reverse %}
       {% for service in services %}
-        {% if service.title == "For Students" %}
+        {% if service.title == "For Students" %} -->
+        {% assign service = site.services.student %}
           <div class="col-12 col-md-3 mb-1">
             <div class="service service-summary">
               <div class="service-content">
@@ -39,7 +40,8 @@ bodyClass: "page-home"
               </div>
             </div>
           </div>
-        {% elsif service.title == "For Researchers" %}
+        <!-- {% elsif service.title == "For Researchers" %} -->
+        {% assign service = site.services.researchers %}
           <div class="col-12 col-md-3 mb-1">
             <div class="service service-summary">
               <div class="service-content">
@@ -50,7 +52,8 @@ bodyClass: "page-home"
               </div>
             </div>
           </div>
-        {% elsif service.title == "For Industry" %}
+        <!-- {% elsif service.title == "For Industry" %} -->
+        {% assign service = site.services.industry %}
           <div class="col-12 col-md-3 mb-1">
             <div class="service service-summary">
               <div class="service-content">
@@ -61,7 +64,8 @@ bodyClass: "page-home"
               </div>
             </div>
           </div>
-        {% elsif service.title == "Success Stories" %}
+        <!-- {% elsif service.title == "Success Stories" %} -->
+        {% assign service = site.services.successstories %}
           <div class="col-12 col-md-3 mb-1">
             <div class="service service-summary">
               <div class="service-content">
@@ -72,8 +76,8 @@ bodyClass: "page-home"
               </div>
             </div>
           </div>
-        {% endif %}
-      {% endfor %}
+        <!-- {% endif %}
+      {% endfor %} -->
     </div>
   </div>
 </div>
