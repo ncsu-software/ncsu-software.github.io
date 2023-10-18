@@ -84,8 +84,8 @@ show_call_box: false
                         <ul>
                             <img src="images/phd-hire.jpg" alt="Text and Image" style="width: 800px;">
                             <br>
-                            We are actively looking for brilliant minds to join us to dream the future of SE and make it happen. Join Software Engineering at NCSU, We Want YOU For Grad School!
-                             <a href="https://ncsu.software/services/students/">More Details</a>
+                            We are actively looking for brilliant minds to join us to dream the future of SE and make it happen. Join Software Engineering at NCSU, We Want YOU For Grad School! <a href="https://docs.google.com/presentation/d/e/2PACX-1vQ1hO-ENY6xTgjz-QklVUK4PItG1qx-Ex56D5B2rzP-moNYbkSYuVQOY3Xjv4NpcMlrXflw2Wnci8HP/pub?start=false&loop=false&delayms=3000">Slides</a>
+                             <a href="https://ncsu.software/services/students/">More Details</a> 
                         </ul>
                     </li>
                     <br>
