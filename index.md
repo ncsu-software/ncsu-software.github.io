@@ -12,7 +12,7 @@ show_call_box: false
 <head>
     <style>
         .scrollable-div {
-            height: 300px; /* Set your preferred height here */
+            height: 400px; /* Set your preferred height here */
             overflow-y: scroll; /* Enable vertical scrolling */
         }
 
@@ -79,6 +79,15 @@ show_call_box: false
             <div class="scrollable-div">
                 <h1>News</h1>
                 <ul>
+                    <li>
+                        <span class="date">10/2023</span>, <strong>Team work on PhD in SE Recruiting Event!</strong>
+                        <ul>
+                            <img src="images/phd-hire.jpg" alt="Text and Image" style="width: 400px;">
+                            We are always looking for brilliant minds to work with us on the future of SE. Join Software Engineering at NCSU, We Want YOU For Grad School!
+                             <a href="https://ncsu.software/services/students/">More Details</a>
+                        </ul>
+                    </li>
+
                     <li>
                         <span class="date">10/2023</span>, <strong>Dr. Marcelo D'Amorim is serving FSE 2024 as the General Chair!</strong>
                         <ul>
