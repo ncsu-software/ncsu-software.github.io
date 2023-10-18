@@ -88,6 +88,7 @@ show_call_box: false
                              <a href="https://ncsu.software/services/students/">More Details</a>
                         </ul>
                     </li>
+                    <br>
                     <li>
                         <span class="date">10/2023</span>, <strong>Dr. Marcelo D'Amorim is serving FSE 2024 as the General Chair!</strong>
                         <ul>
