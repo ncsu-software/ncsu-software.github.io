@@ -83,13 +83,12 @@ show_call_box: false
                     <li>
                         <span class="date">10/2023</span>, <strong>Team work on PhD in SE Recruiting Event!</strong>
                         <ul>
-                            <img src="images/phd-hire.jpg" alt="Text and Image" style="width: 400px;">
+                            <img src="images/phd-hire.jpg" alt="Text and Image" style="width: 600px;">
                             <br>
-                            We are always looking for brilliant minds to work with us on the future of SE. Join Software Engineering at NCSU, We Want YOU For Grad School!
+                            We are actively looking for brilliant minds to join us to dream the future of SE and make it happen. Join Software Engineering at NCSU, We Want YOU For Grad School!
                              <a href="https://ncsu.software/services/students/">More Details</a>
                         </ul>
                     </li>
-
                     <li>
                         <span class="date">10/2023</span>, <strong>Dr. Marcelo D'Amorim is serving FSE 2024 as the General Chair!</strong>
                         <ul>
