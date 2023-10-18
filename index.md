@@ -75,9 +75,8 @@ show_call_box: false
             <img src="images/illustrations/pointing.svg" alt="Text and Image" style="width: 400px;">
         </div>
         <!-- News Section -->
+        <br><h1>News</h1><br>
         <div class="segment">
-            <h1>News</h1>
-            <br>
             <div class="scrollable-div">    
                 <ul>
                     <li>
