@@ -76,8 +76,8 @@ show_call_box: false
         </div>
         <!-- News Section -->
         <div class="segment">
-            <div class="scrollable-div">
-                <h1>News</h1>
+            <h1>News</h1>
+            <div class="scrollable-div">    
                 <ul>
                     <li>
                         <span class="date">10/2023</span>, <strong>Team work on PhD in SE Recruiting Event!</strong>
