@@ -77,12 +77,14 @@ show_call_box: false
         <!-- News Section -->
         <div class="segment">
             <h1>News</h1>
+            <br>
             <div class="scrollable-div">    
                 <ul>
                     <li>
                         <span class="date">10/2023</span>, <strong>Team work on PhD in SE Recruiting Event!</strong>
                         <ul>
                             <img src="images/phd-hire.jpg" alt="Text and Image" style="width: 400px;">
+                            <br>
                             We are always looking for brilliant minds to work with us on the future of SE. Join Software Engineering at NCSU, We Want YOU For Grad School!
                              <a href="https://ncsu.software/services/students/">More Details</a>
                         </ul>
