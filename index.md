@@ -12,7 +12,7 @@ show_call_box: false
 <head>
     <style>
         .scrollable-div {
-            height: 400px; /* Set your preferred height here */
+            height: 600px; /* Set your preferred height here */
             overflow-y: scroll; /* Enable vertical scrolling */
         }
 
