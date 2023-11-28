@@ -80,6 +80,13 @@ show_call_box: false
             <div class="scrollable-div">    
                 <ul>
                     <li>
+                        <span class="date">12/2023</span>, <strong>Dr. Sandeep Kuttal will give an ACM TechTalk!</strong>
+                        <ul>
+                            Great job from Dr. Sandeep Kuttal! The talk is titled <i>Towards Seamless Collaboration: Redefining Human-AI Interaction in Programming</i>. Stay tuned for more details!
+                        </ul>
+                    </li>
+                    <br>
+                    <li>
                         <span class="date">10/2023</span>, <strong>Team work on PhD in SE Recruiting Event!</strong>
                         <ul>
                             <img src="images/phd-hire.jpg" alt="Text and Image" style="width: 800px;">
@@ -100,6 +107,13 @@ show_call_box: false
                         <span class="date">10/2023</span>, <strong>Dr. Sandeep Kuttal gave a keynote at SCAM and VISSOFT 2023!</strong>
                         <ul>
                             Great job from Dr. Sandeep Kuttal! The talk is titled <i>IDEs as the Bridge: Connecting Humans and Code</i> at the IEEE International Working Conference on Source Code Analysis &amp; Manipulation (SCAM) and on Software Visualization (VISSOFT). Bogotá, Colombia, October 2023. <a href="https://sandeepkuttal.github.io/kuttal/index.html">More Details</a>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>
+                        <span class="date">10/2023</span>, <strong>Our student Shandler A. Mason (supervised by Dr. Sandeep Kuttal) presented a paper at VLHCC 2023!</strong>
+                        <ul>
+                            Congratulations to our student Shandler A. Mason! The paper is titled <i>Investigating Interracial Pair Coordination During Remote Pair Programming</i> at IEEE Symposium on Visual Languages and Human-Centric Computing (VLHCC). Washington, DC, USA. <a href="https://sandeepkuttal.github.io/kuttal/index.html">More Details</a>
                         </ul>
                     </li>
                     <br>
