@@ -80,9 +80,11 @@ show_call_box: false
             <div class="scrollable-div">    
                 <ul>
                     <li>
-                        <span class="date">12/2023</span>, <strong>Dr. Sandeep Kuttal will give an ACM TechTalk!</strong>
+                        <span class="date">12/2023</span>, <strong>Dr. Sandeep Kuttal gave an ACM TechTalk!</strong>
                         <ul>
-                            Great job from Dr. Sandeep Kuttal! The talk is titled <i>Towards Seamless Collaboration: Redefining Human-AI Interaction in Programming</i>. Stay tuned for more details!
+                            <img src="images/photos/sandeep-acm-talk.png" alt="Text and Image" style="width: 800px;">
+                            <br>
+                            Great job from Dr. Sandeep Kuttal! The talk is titled <i>Towards Seamless Collaboration: Redefining Human-AI Interaction in Programming</i>. <a href="https://events.zoom.us/ejl/AsffhYrgkZXeKDjiW-zn04TPNkI3O1eUffiGu7CLObljJmEsCkFQ~A-g0TO_W9WO_ys4C-TjCOW0v2Y4npevpX-kb25MXKCU1vfxmwD-d7gz1JgRFxdORv89-xkUG8RYipelsEjEk-cKf7Hjn-RQ/home">Video</a> 
                         </ul>
                     </li>
                     <br>
