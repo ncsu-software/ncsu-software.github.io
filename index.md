@@ -80,6 +80,15 @@ show_call_box: false
             <div class="scrollable-div">    
                 <ul>
                     <li>
+                        <span class="date">03/2024</span>, <strong>Dr. Wesley K. G. Assunção won Distinguished Paper Award!</strong>
+                        <ul>
+                            <img src="images/wesley-paper-award.jpeg" alt="Text and Image" style="width: 800px;">
+                            <br>
+                            Great job from Dr. Sandeep Kuttal! The awarded work is titled <i>Exploring Dependencies Among Inconsistencies to Enhance the Consistency Maintenance of Models</i>. <a href="https://wesleyklewerton.github.io/publications/SANER24.pdf">Paper</a> 
+                        </ul>
+                    </li>
+                    <br>
+                    <li>
                         <span class="date">12/2023</span>, <strong>Dr. Sandeep Kuttal gave an ACM TechTalk!</strong>
                         <ul>
                             <img src="images/photos/sandeep-acm-talk.png" alt="Text and Image" style="width: 800px;">
