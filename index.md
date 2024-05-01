@@ -82,7 +82,7 @@ show_call_box: false
                     <li>
                         <span class="date">04/2024</span>, <strong>Team has fun at ICSE 2024!</strong>
                         <ul>
-                            <img src="images/icse2024.jpg" alt="Text and Image" style="width: 800px;">
+                            <img src="images/icse.jpeg" alt="team" style="width: 800px;">
                         </ul>
                     </li>
                     <br>
