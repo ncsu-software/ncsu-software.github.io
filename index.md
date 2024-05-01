@@ -80,6 +80,13 @@ show_call_box: false
             <div class="scrollable-div">    
                 <ul>
                     <li>
+                        <span class="date">04/2024</span>, <strong>Team has fun at ICSE 2024!</strong>
+                        <ul>
+                            <img src="images/icse2024.jpg" alt="Text and Image" style="width: 800px;">
+                        </ul>
+                    </li>
+                    <br>
+                    <li>
                         <span class="date">03/2024</span>, <strong>Dr. Wesley K. G. Assunção won Distinguished Paper Award!</strong>
                         <ul>
                             <img src="images/wesley-paper-award.jpeg" alt="Text and Image" style="width: 800px;">
