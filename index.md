@@ -80,6 +80,14 @@ show_call_box: false
             <div class="scrollable-div">    
                 <ul>
                     <li>
+                        <span class="date">04/2024</span>, <strong>Our student Justin Middleton (supervised by Dr. John-Paul Ore and Dr. Kathryn Stolee) presented a paper at ICSE 2024!</strong>
+                        <ul>
+                            <img src="images/justin.jpeg" alt="team" style="width: 800px;"><br>
+                            Congratulations to our student Justin Middleton! The paper is titled <i>Barriers for Students During Code Change Comprehension</i> at IEEE/ACM 46th International Conference on Software Engineering <a href="https://dl.acm.org/doi/abs/10.1145/3597503.3639227">More Details</a>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>
                         <span class="date">04/2024</span>, <strong>Team has fun at ICSE 2024!</strong>
                         <ul>
                             <img src="images/icse.jpeg" alt="team" style="width: 800px;">
