@@ -82,7 +82,7 @@ show_call_box: false
                 <li>
                         <span class="date">07/2024</span>, <strong>Dr. Wesley K. G. Assunção won SIGSOFT Distinguished Paper Award at FSE 2024!</strong>
                         <ul>
-                            <!-- <img src="images/justin.jpeg" alt="team" style="width: 800px;"><br> -->
+                            <img src="images/photos/wesley-award.jpeg" alt="Text and Image" style="width: 800px;"><br>
                             Congratulations to Dr. Wesley K. G. Assunção! The paper is titled <i>Understanding Developers' Discussions and Perceptions on Non-Functional Requirements: The Case of the Spring Ecosystem</i> at 32nd International Conference on the Foundations of Software Engineering (FSE) <a href="https://andersonjso.github.io/preprints/fse24oliveira.pdf">More Details</a>
                         </ul>
                     </li>
