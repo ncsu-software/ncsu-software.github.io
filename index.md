@@ -80,6 +80,14 @@ show_call_box: false
             <div class="scrollable-div">    
                 <ul>
                 <li>
+                        <span class="date">10/2024</span>, <strong>Hiking event during fall break!</strong>
+                        <ul>
+                            <img src="images/photos/hiking.jpeg" alt="Text and Image" style="width: 800px;"><br>
+                            10k steps accomplishment achieved!
+                        </ul>
+                    </li>
+                    <br>
+                <li>
                         <span class="date">07/2024</span>, <strong>Dr. Wesley K. G. Assunção won SIGSOFT Distinguished Paper Award at FSE 2024!</strong>
                         <ul>
                             <img src="images/photos/wesley-award.jpeg" alt="Text and Image" style="width: 800px;"><br>

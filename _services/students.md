@@ -16,7 +16,7 @@ about: Learn about SE at NCSU
 <ul>
     <li><a href="https://www.youtube.com/watch?v=LRoI-Rw4GBY">Why NC State?</a></li>
     <li><a href="http://tiny.cc/tim17phd">How 2 b a grad student?</a></li>
-    <li><a href="http://www.ncsu.edu/grad/programs/how-to-apply/index.php">Apply here</a></li>
+    <li><a href="https://applygrad.ncsu.edu/apply/">Apply here</a></li>
   </ul>
   <p>To help you out, we list below some answers to frequently asked questions. If the following does not answer your questions, then please feel free to email <a href="mailto:csc_gradadmissions@ncsu.edu">csc_gradadmissions@ncsu.edu</a> and we will do our best to reply to your queries.</p>
   <img src="http://collegeinformations.com/wp-content/uploads/2012/06/Graduate-Studies.jpg" align="right">
