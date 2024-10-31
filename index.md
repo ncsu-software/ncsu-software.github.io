@@ -80,6 +80,15 @@ show_call_box: false
             <div class="scrollable-div">    
                 <ul>
                 <li>
+                        <span class="date">10/2024</span>, <strong>Dr. Tim Menzies won ACM SIGSOFT Distinguished Reviewer Award!</strong>
+                        <ul>
+                            <img src="images/photos/tim-reviewer-award.jpg" alt="Text and Image" style="width: 800px;">
+                            <br>
+                            Excellent Dr. Tim Menzies! High quality reviews show great respect to hard work!<a href="https://conf.researchr.org/info/ase-2024/awards">Source</a> 
+                        </ul>
+                    </li>
+                    <br>    
+                <li>
                         <span class="date">10/2024</span>, <strong>Hiking event during fall break!</strong>
                         <ul>
                             <img src="images/photos/hiking.jpeg" alt="Text and Image" style="width: 800px;"><br>
