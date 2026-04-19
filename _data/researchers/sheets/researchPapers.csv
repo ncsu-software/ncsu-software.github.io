@@ -1277,3 +1277,5 @@ bxu22@ncsu.edu,"Shihao Dong, Yeke Chen, Zeren Luo, Jiahui Zhang, Bowen Xu, Jingh
 tjmenzie@ncsu.edu,"Amirali Rayegan, Tim Menzies",Can Causality Cure Confusion Caused By Correlation (in Software Analytics)?,CoRR,abs/2602.16091(2026): ,https://doi.org/10.48550/arXiv.2602.16091,article
 mdamori@ncsu.edu,"Xingcheng Chen, Matteo Biagiola, Vincenzo Riccio, Marcelo d'Amorim, Andrea Stocco 0001",XMutant: XAI-based fuzzing for deep learning systems.,Empir. Softw. Eng.,31(2026): 102,https://doi.org/10.1007/s10664-025-10792-1,article
 mdamori@ncsu.edu,"Yue Zhang 0051, Uchswas Paul, Marcelo d'Amorim, Akond Rahman",Configuration Defects in Kubernetes.,IEEE Trans. Software Eng.,52(2026): 1125-1144,https://doi.org/10.1109/TSE.2026.3659785,article
+tjmenzie@ncsu.edu,"Tim Menzies, Kishan Kumar Ganguly",From Verification to Herding: Exploiting Software's Sparsity of Influence.,CoRR,abs/2603.10478(2026): ,https://doi.org/10.48550/arXiv.2603.10478,article,,,,
+tjmenzie@ncsu.edu,"Lohith Senthilkumar, Tim Menzies",From Brittle to Robust: Improving LLM Annotations for SE Optimization.,CoRR,abs/2603.22474(2026): ,https://doi.org/10.48550/arXiv.2603.22474,article,,,,
