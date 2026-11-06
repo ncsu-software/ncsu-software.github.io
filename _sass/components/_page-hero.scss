@@ -1,0 +1,28 @@
+.page-hero {
+  padding: 48px 0 40px;
+  background: linear-gradient(180deg, #ffffff 0%, $white-offset 100%);
+  border-bottom: 1px solid $border;
+  @include media-breakpoint-up(md) {
+    padding: 72px 0 56px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    @include media-breakpoint-up(md) {
+      font-size: 52px;
+    }
+  }
+  .page-hero-lead {
+    font-size: 1.15rem;
+    max-width: 34em;
+    margin-bottom: 0;
+  }
+}
+
+.section-compact {
+  padding: 56px 0;
+  @include media-breakpoint-up(md) {
+    padding: 72px 0;
+  }
+}

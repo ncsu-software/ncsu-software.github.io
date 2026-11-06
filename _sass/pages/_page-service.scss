@@ -1,13 +1,251 @@
-.page-service {
-  .content {
-    > p {
-      &:first-of-type {
-        font-size: 1.6rem;
-        line-height: 1.4;
-        margin-bottom: 40px;
-        font-weight: regular;
-        color: rgb(104, 104, 104);
-      }
+// Students: quick links and FAQ
+.link-cards {
+  display: grid;
+  gap: 16px;
+  @include media-breakpoint-up(sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.link-card {
+  display: block;
+  padding: 24px 22px;
+  background: #ffffff;
+  border: 1px solid $border;
+  border-radius: 12px;
+  color: $black;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  &:hover {
+    color: $black;
+    text-decoration: none;
+    transform: translateY(-3px);
+    border-color: $primary;
+    box-shadow: 0 12px 24px rgba(29, 29, 39, 0.08);
+    h3::after {
+      transform: translateX(4px);
     }
+  }
+  .link-card-kicker {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $primary;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-family: $font-family-heading;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    &::after {
+      content: "\2192";
+      display: inline-block;
+      margin-left: 6px;
+      color: $primary;
+      transition: transform 0.2s ease;
+    }
+  }
+  p {
+    font-size: 0.92rem;
+    color: $steel;
+    margin: 0;
+  }
+}
+
+.faq {
+  max-width: 820px;
+  details {
+    background: #ffffff;
+    border: 1px solid $border;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    &[open] summary::after {
+      transform: rotate(45deg);
+    }
+  }
+  summary {
+    position: relative;
+    padding: 20px 56px 20px 24px;
+    font-weight: 600;
+    font-size: 1.05rem;
+    cursor: pointer;
+    list-style: none;
+    &::-webkit-details-marker {
+      display: none;
+    }
+    &::after {
+      content: "+";
+      position: absolute;
+      right: 24px;
+      top: 50%;
+      margin-top: -14px;
+      font-size: 1.5rem;
+      line-height: 28px;
+      color: $primary;
+      transition: transform 0.2s ease;
+    }
+  }
+  details p {
+    padding: 0 24px;
+    color: $steel;
+    &:last-child {
+      padding-bottom: 20px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Researchers: faculty grid
+.faculty-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  @include media-breakpoint-up(md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.faculty-card,
+.alum-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid $border;
+  border-radius: 12px;
+  color: $black;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center 20%;
+    background: $white-offset;
+  }
+}
+.faculty-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  img {
+    filter: grayscale(0.35);
+    transition: filter 0.3s ease;
+  }
+  &:hover {
+    color: $black;
+    text-decoration: none;
+    transform: translateY(-4px);
+    border-color: $primary;
+    box-shadow: 0 16px 32px rgba(29, 29, 39, 0.1);
+    img {
+      filter: none;
+    }
+  }
+}
+.faculty-body,
+.alum-body {
+  padding: 16px 18px 20px;
+  h3 {
+    font-family: $font-family-heading;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 4px;
+  }
+}
+.faculty-role {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: $primary;
+  margin-bottom: 8px;
+}
+.faculty-areas {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: $steel;
+  margin: 0;
+}
+.theme-people a {
+  color: $black;
+  &:hover {
+    color: $primary;
+  }
+}
+
+// Industry: ways to engage
+.engage-grid {
+  display: grid;
+  gap: 20px;
+  @include media-breakpoint-up(md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.engage-card {
+  padding: 28px 26px;
+  border-top: 3px solid $primary;
+  background: $white-offset;
+  border-radius: 0 0 12px 12px;
+  .engage-index {
+    display: block;
+    font-family: $font-family-heading;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(204, 0, 0, 0.25);
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+  h3 {
+    font-family: $font-family-heading;
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  p {
+    margin: 0;
+    color: $steel;
+  }
+}
+
+// Success stories
+.alumni-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  @include media-breakpoint-up(md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.alum-org {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $primary;
+  margin-bottom: 6px;
+}
+.alum-role {
+  font-size: 0.88rem;
+  color: $steel;
+  margin-bottom: 12px;
+}
+.alum-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 0;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+// Address page
+.address-content {
+  margin-bottom: 24px;
+  h1 {
+    margin-top: 0;
   }
 }

@@ -1,0 +1,1 @@
+{% assign match = site.people | where: "name", include.name | first %}{% if match %}<a href="{{ match.url | relative_url }}">{{ include.name }}</a>{% else %}{{ include.name }}{% endif %}

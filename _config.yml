@@ -17,6 +17,10 @@ collections:
   services:
     output: true
     sort_by: weight
+  people:
+    output: true
+    permalink: /people/:name/
+    sort_by: sort_key
   team:
     output: true
   successstories:

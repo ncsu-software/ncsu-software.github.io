@@ -1,0 +1,14 @@
+{% comment %}Old per-researcher pages (?email=...) now forward to the researcher's profile.{% endcomment %}
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <p class="page-hero-lead">This page has moved. <a href="{{ '/services/researchers/' | relative_url }}">See all researchers</a>.</p>
+  </div>
+</section>
+<script>
+  (function () {
+    var profiles = { {% for person in site.people %}{% for email in person.emails %}"{{ email }}": "{{ person.url | relative_url }}",{% endfor %}{% endfor %} };
+    var email = new URLSearchParams(window.location.search).get("email");
+    window.location.replace(profiles[email] || "{{ '/services/researchers/' | relative_url }}");
+  })();
+</script>

@@ -73,7 +73,7 @@ bodyClass: "page-home"
       <article class="theme">
         <h3>{{ theme.title }}</h3>
         <p>{{ theme.summary }}</p>
-        <p class="theme-people">{{ theme.people | join: " · " }}</p>
+        <p class="theme-people">{% for name in theme.people %}{% include person-link.html name=name %}{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
       </article>
       {% endfor %}
     </div>
@@ -92,7 +92,7 @@ bodyClass: "page-home"
         <h3>Do research with us</h3>
         <ol class="steps">
           <li>Browse our <a href="#research">research themes</a> and the <a href="{{ '/services/researchers/' | relative_url }}">labs and publications</a> behind them.</li>
-          <li>Find a faculty member whose work excites you in the <a href="{{ '/contact/' | relative_url }}">researcher directory</a>, and reach out directly.</li>
+          <li>Find a faculty member whose work excites you among <a href="{{ '/services/researchers/' | relative_url }}">our researchers</a>, and reach out directly.</li>
           <li>Thinking about grad school? See <a href="{{ '/services/students/' | relative_url }}">For Students</a> or email <a href="mailto:csc_gradadmissions@ncsu.edu">csc_gradadmissions@ncsu.edu</a>.</li>
         </ol>
       </div>
@@ -129,7 +129,7 @@ bodyClass: "page-home"
     <div class="cta-inner">
       <h2>Build the future of software with us.</h2>
       <div class="cta-actions">
-        <a class="button button-light" href="{{ '/contact/' | relative_url }}">Meet our faculty</a>
+        <a class="button button-light" href="{{ '/services/researchers/' | relative_url }}">Meet our faculty</a>
         <a class="button button-ghost" href="{{ '/services/students/' | relative_url }}">Graduate study</a>
       </div>
     </div>

@@ -3,14 +3,12 @@ layout: default
 bodyClass: "page-service"
 ---
 
-<div class="container pb-6 pt-6 pt-md-2 pb-md-10">
-  <div class="row justify-content-start">
-    <div class="col-12 col-md-12">
-      <div class="service service-single">
-        <!-- <h1 class="title">{{page.title}}</h1> style="color: #CC0000"-->
-        <h2 > NCSU SOFTWARE</h2>
-        <div class="content">{{content}}</div>
-      </div>
-    </div>
+<section class="page-hero">
+  <div class="container">
+    {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+    <h1>{{ page.heading | default: page.title }}</h1>
+    {% if page.lead %}<p class="page-hero-lead">{{ page.lead }}</p>{% endif %}
   </div>
-</div>
+</section>
+
+{{ content }}
