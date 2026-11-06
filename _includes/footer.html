@@ -1,55 +1,42 @@
-<footer class="footer">
+<div class="footer">
   <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <h2 class="footer-title">{{ site.title }}</h2>
-        <p>Software Engineering at NC State University. Accelerate your SE career, in industry, in research.</p>
-        <ul class="footer-social">
-          <li>
-            <a href="https://it.engr.ncsu.edu/services/github/" aria-label="GitHub">
-              <img src="{{ '/images/social/github.svg' | relative_url }}" alt="GitHub" width="20" height="20">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/cscncsu" aria-label="Twitter">
-              <img src="{{ '/images/social/twitter.svg' | relative_url }}" alt="Twitter" width="20" height="20">
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>Explore</h3>
-        <ul>
-          <li><a href="{{ '/services/students/' | relative_url }}">For Students</a></li>
-          <li><a href="{{ '/services/researchers/' | relative_url }}">For Researchers</a></li>
-          <li><a href="{{ '/services/industry/' | relative_url }}">For Industry</a></li>
-          <li><a href="{{ '/services/successstories/' | relative_url }}">Success Stories</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>Visit</h3>
-        <address>
-          Department of Computer Science<br>
-          Engineering Building II<br>
-          890 Oval Drive, Campus Box 8206<br>
-          Raleigh, NC 27695
-        </address>
-        <ul>
-          {% assign footermenu = site.data.menus.footer | sort: 'weight' %}
-          {% for item in footermenu %}
-          <li><a href="{{ item.url | relative_url }}">{{ item.name }}</a></li>
-          {% endfor %}
-          <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
-        </ul>
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h2 class="footer-title">{{site.title}}</h2>
+          <ul>
+            {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
+            {% for item in footermenu %}
+            <li class="{% if item.url == page.url %}active{% endif %}">
+              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>&copy; {{ site.time | date: '%Y' }} NC State University. All rights reserved.</span>
-      <span class="footer-legal">
-        <a href="https://accessibility.ncsu.edu/">Accessibility</a>
-        <a href="https://www.ncsu.edu/privacy/">Privacy</a>
-        <a href="https://www.csc.ncsu.edu/about.php">About this site</a>
-      </span>
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <ul>
+            <li class="{% if item.url == page.url %}active{% endif %}">
+              <a href="https://it.engr.ncsu.edu/services/github/">
+                <img src="/images/social/github.svg" alt="GitHub" style="width: 20px; height: 20px;">
+              </a>
+            </li>
+            <li class="{% if item.url == page.url %}active{% endif %}">
+              <a href="https://twitter.com/cscncsu">
+                <img src="/images/social/twitter.svg" alt="Twitter" style="width: 20px; height: 20px;">
+              </a>
+            </li>
+          </ul>
+          <div class="footer-right">
+            <span class="footer-text" style="color: white;">&copy; 2023 NC State University. All rights reserved.</span>
+            <br>
+            <a class="zerostatic" href="https://www.csc.ncsu.edu/about.php" style="color: white;">About this site</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</footer>
+</div>

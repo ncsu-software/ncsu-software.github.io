@@ -7,50 +7,26 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 0;
     > li {
       list-style: none;
-      font-size: 0.95rem;
+      font-size: 1rem;
       > a {
-        position: relative;
-        padding: 10px 8px;
-        @include media-breakpoint-up(lg) {
-          padding: 10px 12px;
-        }
+        padding: 10px 12px 10px 12px;
         display: inline-block;
-        font-weight: 500;
+        font-weight: normal;
         text-decoration: none;
-        color: $black;
-        transition: color 0.15s ease;
-        &::after {
-          content: "";
-          position: absolute;
-          left: 8px;
-          right: 8px;
-          @include media-breakpoint-up(lg) {
-            left: 12px;
-            right: 12px;
-          }
-          bottom: 4px;
-          height: 2px;
-          background: $primary;
-          transform: scaleX(0);
-          transition: transform 0.2s ease;
-        }
+        color: $primary;
         &:hover {
-          color: $primary;
-          text-decoration: none;
-          &::after {
-            transform: scaleX(1);
-          }
+          text-decoration: underline;
         }
       }
       &.active {
         > a {
-          color: $primary;
-          font-weight: 600;
-          &::after {
-            transform: scaleX(1);
+          font-weight: bold;
+          text-decoration: none;
+          &:hover {
+            text-decoration: none;
+            transition: all 225ms ease-in 0s;
           }
         }
       }

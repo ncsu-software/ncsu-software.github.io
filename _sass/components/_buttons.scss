@@ -1,56 +1,25 @@
 .button {
   white-space: nowrap;
   display: inline-block;
-  height: 46px;
-  line-height: 44px;
-  padding: 0 22px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  //box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   background: $primary;
-  border: 1px solid $primary;
-  border-radius: 6px;
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 0.01em;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
   color: #ffffff;
   text-decoration: none;
+  -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
   &:hover {
     color: #ffffff;
-    background-color: $primary-dark;
-    border-color: $primary-dark;
+    background-color: lighten($primary, 10%);
     transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgba(204, 0, 0, 0.2);
+    //box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     text-decoration: none;
-  }
-}
-.button-outline {
-  background: transparent;
-  color: $black;
-  border-color: $border;
-  &:hover {
-    color: $primary;
-    background: #ffffff;
-    border-color: $primary;
-    box-shadow: none;
-  }
-}
-.button-light {
-  background: #ffffff;
-  border-color: #ffffff;
-  color: $primary;
-  &:hover {
-    background: $white-offset;
-    border-color: $white-offset;
-    color: $primary-dark;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-  }
-}
-.button-ghost {
-  background: transparent;
-  border-color: rgba(255, 255, 255, 0.6);
-  color: #ffffff;
-  &:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: #ffffff;
-    box-shadow: none;
   }
 }

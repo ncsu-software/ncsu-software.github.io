@@ -1,9 +1,11 @@
 <div class='header'>
   <div class="container">
-    <a class="wordmark" href="{{ '/' | relative_url }}">
-      <img class="wordmark-logo" width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="NC State" src="{{ site.logo.desktop | relative_url }}" />
-      <span class="wordmark-text">Software Engineering</span>
-    </a>
+    <div class="logo">
+      <a href="/"><img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="/"><img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}" alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
+    </div>
     {% include main-menu.html %}
     {% include hamburger.html %}
   </div>

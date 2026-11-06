@@ -2,21 +2,18 @@ main:
   - name: "Home"
     url: "/"
     weight: 1
-  - name: "Students"
-    url: "/services/students/"
-    weight: 2
-  - name: "Research"
-    url: "/services/researchers/"
-    weight: 3
-  - name: "Industry"
-    url: "/services/industry/"
-    weight: 4
-  - name: "Success Stories"
-    url: "/services/successstories/"
-    weight: 5
+  # - name: "Services"
+  #   url: "/services/"
+  #   weight: 2
+  # - name: "Team"
+  #   url: "/team/"
+  #   weight: 3
+  # - name: "About"
+  #   url: "/about/"
+  #   weight: 4
   - name: "Contact"
     url: "/contact/"
-    weight: 6
+    weight: 5
 
 
 footer:
