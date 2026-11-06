@@ -3,46 +3,43 @@ title: "For Students"
 date: 2018-12-28T15:14:39+10:00
 weight: 4
 about: Learn about SE at NCSU
-eyebrow: "Graduate study"
-heading: "Study software engineering with us"
-lead: "Everything you need to plan a graduate application, and how to reach the faculty you want to work with."
+eyebrow: "Students"
+heading: "Our students"
+lead: "Papers, awards, defenses, graduations. Here is what our students have been up to."
 ---
-
 <section class="section section-compact">
   <div class="container">
+    {% include student-highlights.html items=site.data.student_highlights %}
+  </div>
+</section>
+
+<section class="section section-tinted section-compact" id="join">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Join us</p>
+      <h2>Study software engineering at NC State</h2>
+    </div>
     <div class="link-cards">
       <a class="link-card" href="https://applygrad.ncsu.edu/apply/">
         <span class="link-card-kicker">Start here</span>
         <h3>Apply to NC State</h3>
-        <p>The Graduate School's online application.</p>
       </a>
       <a class="link-card" href="https://www.csc.ncsu.edu/academics/graduate/contact.php">
         <span class="link-card-kicker">Questions</span>
         <h3>CSC Graduate Office</h3>
-        <p>Admissions, deadlines and program requirements.</p>
       </a>
       <a class="link-card" href="https://www.youtube.com/watch?v=LRoI-Rw4GBY">
         <span class="link-card-kicker">Video</span>
         <h3>Why NC State?</h3>
-        <p>A short introduction to the university.</p>
       </a>
       <a class="link-card" href="http://tiny.cc/tim17phd">
         <span class="link-card-kicker">Guide</span>
         <h3>How to be a grad student</h3>
-        <p>Practical advice for the years ahead.</p>
       </a>
     </div>
-  </div>
-</section>
-
-<section class="section section-tinted section-compact">
-  <div class="container">
-    <div class="section-heading">
-      <p class="eyebrow">Frequently asked</p>
-      <h2>Before you apply</h2>
-    </div>
+    <h3 class="subheading">Before you apply</h3>
     <div class="faq">
-      <details open>
+      <details>
         <summary>When do I need to apply?</summary>
         <p>American universities admit new graduate students to start in mid-August or mid-January, and applications open months before those dates. Plan your application at least a year before you want to start.</p>
       </details>
@@ -68,7 +65,7 @@ lead: "Everything you need to plan a graduate application, and how to reach the 
     <div class="cta-inner">
       <h2>Find the advisor whose work excites you.</h2>
       <div class="cta-actions">
-        <a class="button button-light" href="{{ '/services/researchers/' | relative_url }}">Browse our faculty</a>
+        <a class="button button-light" href="{{ '/people/' | relative_url }}">Meet our faculty</a>
         <a class="button button-ghost" href="{{ '/services/successstories/' | relative_url }}">Where our alumni are now</a>
       </div>
     </div>

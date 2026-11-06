@@ -5,7 +5,7 @@ weight: 1
 about: Where are our previous students now
 eyebrow: "Alumni"
 heading: "Where our graduates are now"
-lead: "Our PhD alumni lead research and teaching at universities and industry labs across the country."
+lead: "Our PhD alumni, now leading research and teaching."
 ---
 
 <section class="section section-compact">
@@ -34,8 +34,8 @@ lead: "Our PhD alumni lead research and teaching at universities and industry la
     <div class="cta-inner">
       <h2>Your story could be next.</h2>
       <div class="cta-actions">
-        <a class="button button-light" href="{{ '/services/students/' | relative_url }}">Graduate study</a>
-        <a class="button button-ghost" href="{{ '/services/researchers/' | relative_url }}">Meet our faculty</a>
+        <a class="button button-light" href="{{ '/services/students/#join' | relative_url }}">Graduate study</a>
+        <a class="button button-ghost" href="{{ '/people/' | relative_url }}">Meet our faculty</a>
       </div>
     </div>
   </div>

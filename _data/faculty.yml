@@ -1,0 +1,41 @@
+# Faculty on the People page. Keep "blurb" to a few words.
+# photo is optional; without one, initials are shown.
+- name: "Wesley K. G. Assunção"
+  blurb: "Software modernization and model-driven engineering"
+  website: "https://wesleyklewerton.github.io/"
+  photo: "/images/people/wesley-assuncao.jpg"
+  emails: ["wguezas@ncsu.edu"]
+- name: "Marcelo D'Amorim"
+  blurb: "Software testing and analysis, AI for SE"
+  website: "https://damorim.github.io"
+  photo: "/images/people/marcelo-damorim.jpg"
+  emails: ["mdamori@ncsu.edu"]
+- name: "Sarah Heckman"
+  blurb: "Software engineering education"
+  website: "https://www.csc.ncsu.edu/people/sesmith5"
+  emails: ["sesmith5@ncsu.edu"]
+- name: "Sandeep Kaur Kuttal"
+  blurb: "Human aspects of programming and human-AI collaboration"
+  website: "https://sandeepkuttal.github.io/kuttal/"
+  photo: "/images/people/sandeep-kuttal.jpg"
+  emails: ["skuttal@ncsu.edu"]
+- name: "Tim Menzies"
+  blurb: "Software analytics and AI for SE, for good"
+  website: "http://timm.fyi"
+  photo: "/images/people/tim-menzies.jpg"
+  emails: ["tjmenzie@ncsu.edu", "timm@ieee.org"]
+- name: "John-Paul Ore"
+  blurb: "Software engineering for robotics"
+  website: "https://robotcodelab.com/"
+  photo: "/images/people/john-paul-ore.jpg"
+  emails: ["jwore@ncsu.edu"]
+- name: "Kathryn Stolee"
+  blurb: "Code search, program analysis and human factors"
+  website: "https://kstolee.github.io/"
+  photo: "/images/people/kathryn-stolee.jpg"
+  emails: ["ktstolee@ncsu.edu"]
+- name: "Bowen Xu"
+  blurb: "LLMs of code and AI security for SE"
+  website: "https://www.bowenxu.me/"
+  photo: "/images/people/bowen-xu.png"
+  emails: ["bxu22@ncsu.edu"]

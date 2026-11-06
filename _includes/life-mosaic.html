@@ -1,0 +1,8 @@
+<div class="mosaic">
+  {% for item in include.items %}
+  <figure class="mosaic-item{% if item.wide %} mosaic-wide{% endif %}">
+    <img src="{{ item.photo | relative_url }}" alt="{{ item.caption }}" loading="lazy" />
+    <figcaption>{{ item.caption }}{% if item.date %} <span>{{ item.date }}</span>{% endif %}</figcaption>
+  </figure>
+  {% endfor %}
+</div>

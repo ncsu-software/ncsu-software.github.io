@@ -1,0 +1,16 @@
+<div class="faculty-grid">
+  {% for person in site.data.faculty %}
+  {% assign words = person.name | split: " " %}
+  <a class="faculty-card" href="{{ person.website }}">
+    {% if person.photo %}
+    <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}" loading="lazy" width="320" height="320" />
+    {% else %}
+    <span class="faculty-initials" aria-hidden="true">{{ words.first | slice: 0 }}{{ words.last | slice: 0 }}</span>
+    {% endif %}
+    <span class="faculty-body">
+      <span class="faculty-name">{{ person.name }}</span>
+      <span class="faculty-blurb">{{ person.blurb }}</span>
+    </span>
+  </a>
+  {% endfor %}
+</div>

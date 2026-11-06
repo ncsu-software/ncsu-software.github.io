@@ -1,0 +1,19 @@
+# Photos for the Life page, newest first. Add a file under images/life/
+# and an entry here. "wide: true" lets a photo span two columns.
+- photo: "/images/life/hiking-2024.jpg"
+  caption: "Fall-break hike: 10k steps, achieved"
+  date: "Oct 2024"
+  wide: true
+- photo: "/images/life/icse-2024.jpg"
+  caption: "The team at ICSE 2024"
+  date: "Apr 2024"
+- photo: "/images/life/justin-icse-2024.jpg"
+  caption: "Justin on stage at ICSE 2024"
+  date: "Apr 2024"
+- photo: "/images/life/phd-recruiting-2023.jpg"
+  caption: "PhD in SE recruiting event"
+  date: "Oct 2023"
+  wide: true
+- photo: "/images/life/group.jpg"
+  caption: "The group"
+  wide: true

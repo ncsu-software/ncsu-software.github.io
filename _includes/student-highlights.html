@@ -1,0 +1,12 @@
+<div class="highlight-grid">
+  {% for h in include.items %}
+  <{% if h.link %}a href="{{ h.link }}"{% else %}div{% endif %} class="spotlight">
+    {% if h.photo %}<img src="{{ h.photo | relative_url }}" alt="{{ h.title }}" loading="lazy" />{% else %}<span class="spotlight-placeholder" aria-hidden="true">{{ h.kind }}</span>{% endif %}
+    <span class="spotlight-body">
+      <span class="spotlight-kind">{{ h.kind }}{% if h.date %} · {{ h.date }}{% endif %}</span>
+      <span class="spotlight-title">{{ h.title }}</span>
+      {% if h.detail %}<span class="spotlight-detail">{{ h.detail }}</span>{% endif %}
+    </span>
+  </{% if h.link %}a{% else %}div{% endif %}>
+  {% endfor %}
+</div>

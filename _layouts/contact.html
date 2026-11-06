@@ -8,30 +8,11 @@ bodyClass: "page-contact"
   <div class="container">
     <p class="eyebrow">Get in touch</p>
     <h1>{{ page.title }}</h1>
-    <p class="page-hero-lead">Reach our faculty directly, or contact the Department of Computer Science offices below.</p>
+    <p class="page-hero-lead">Department of Computer Science offices. To reach a faculty member, see <a href="{{ '/people/' | relative_url }}">People</a>.</p>
   </div>
 </section>
 
 <section class="section section-compact">
-  <div class="container">
-    <div class="section-heading">
-      <p class="eyebrow">Faculty</p>
-      <h2>Researcher directory</h2>
-    </div>
-    <div class="people">
-      {% for person in page.people %}
-      {% assign words = person.name | split: " " %}
-      <a class="person-card" href="{{ person.url }}">
-        <span class="person-avatar" aria-hidden="true">{{ words.first | slice: 0 }}{{ words.last | slice: 0 }}</span>
-        <span class="person-name">{{ person.name }}</span>
-        <span class="person-arrow" aria-hidden="true">&rarr;</span>
-      </a>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="section section-tinted section-compact">
   <div class="container">
     <div class="section-heading">
       <p class="eyebrow">Department of Computer Science</p>

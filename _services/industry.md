@@ -54,7 +54,7 @@ lead: "We work with industry all the time, turning hard software problems into r
     <div class="cta-inner">
       <h2>Ask us how.</h2>
       <div class="cta-actions">
-        <a class="button button-light" href="{{ '/services/researchers/' | relative_url }}">Find an expert</a>
+        <a class="button button-light" href="{{ '/people/' | relative_url }}">Find an expert</a>
         <a class="button button-ghost" href="{{ '/contact/' | relative_url }}">Contact us</a>
       </div>
     </div>
