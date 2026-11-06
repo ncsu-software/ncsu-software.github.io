@@ -15,7 +15,8 @@ lead: "Our faculty work across AI for software engineering, testing and analysis
       <h2>Meet the researchers</h2>
     </div>
     <div class="faculty-grid">
-      {% for person in site.people %}
+      {% assign faculty = site.people | sort: "sort_key" %}
+      {% for person in faculty %}
       <a class="faculty-card" href="{{ person.url | relative_url }}">
         <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}" loading="lazy" width="320" height="320" />
         <div class="faculty-body">
