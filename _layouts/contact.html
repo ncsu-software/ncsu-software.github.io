@@ -4,70 +4,110 @@ layout: default
 bodyClass: "page-contact"
 ---
 
-<div class="container pb-6 pt-6 pt-md-5 pb-md-10">
-    <div class="row justify-content-start">
-        <div class="col-12 col-md-8">
-            <div class="service service-single">
-                <h1 class="title">{{page.title}}</h1>
-                <!-- {% include call.html show_button=false %} -->
-                <div class="content mt-4">
-                    <h2>Researcher Directory</h2>
-                    <p>
-                        <a href="https://www.engr.ncsu.edu/people/gerother/">Gregg Rothermel</a><br>
-                        <a href="https://www.csc.ncsu.edu/people/tjmenzie">Tim Menzies</a><br>
-                        <a href="https://www.csc.ncsu.edu/people/ktstolee">Kathryn (Katie) Stolee</a><br>
-                        <a href="https://www.csc.ncsu.edu/people/mdamori">Marcelo D'Amorim</a><br>
-                        <a href="https://www.csc.ncsu.edu/people/skuttal">Sandeep Kaur Kuttal</a><br>
-                        <a href="https://www.csc.ncsu.edu/people/sesmith5">Sarah Heckman</a><br>
-                        <a href="https://www.csc.ncsu.edu/people/wguezas">Wesley K. G. Assunção</a><br>
-                        <a href="https://www.csc.ncsu.edu/people/jwore">John-Paul Ore</a><br>
-                        <a href="https://www.csc.ncsu.edu/people/bxu22">Bowen Xu</a>
-                    </p>
-                    <h2>Main Office</h2>
-                    <p>
-                        Local Address<br>
-                        Main Office<br>
-                        North Carolina State University<br>
-                        Department of Computer Science<br>
-                        890 Oval Drive, Box 8206<br>
-                        Engineering Building II<br>
-                        Raleigh, NC 27695-8206<br>
-                        Phone: 919-515-2858<br>
-                        Fax: 919-515-7896
-                    </p>
-                    <h2>Graduate Program Office</h2>
-                    <p>
-                        North Carolina State University<br>
-                        Department of Computer Science<br>
-                        890 Oval Drive, Box 8206<br>
-                        Engineering Building II<br>
-                        Raleigh, NC 27695-8206<br>
-                        Phone: 919-515-8662
-                    </p>
-                    <h2>Mail & Delivery Information</h2>
-                    <p>
-                        US Postal Service<br>
-                        Department of Computer Science<br>
-                        NC State University<br>
-                        Campus Box 8206<br>
-                        Raleigh, NC 27695-8206
-                    </p>
-                    <p>
-                        Fedex/UPS/Airborne-DHL/Other<br>
-                        Department of Computer Science<br>
-                        NC State University<br>
-                         890 Oval Drive<br>
-                        3320 Engineering Building II<br>
-                        Raleigh, NC 27606
-                    </p>
-                    <h2>Other Contacts</h2>
-                    <p>
-                        For questions about our undergraduate program and admissions please fill out this form.<br>
-                        For questions about our graduate program and admissions contact csc_gradadmissions@ncsu.edu.<br>
-                        For Information Technology support questions contact csc_help@ncsu.edu. Do not send "Admission inquiries" to this email address because you will not receive a response.
-                    </p>
-                </div>
-            </div>
-        </div>
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Get in touch</p>
+    <h1>{{ page.title }}</h1>
+    <p class="page-hero-lead">Reach our faculty directly, or contact the Department of Computer Science offices below.</p>
+  </div>
+</section>
+
+<section class="section section-compact">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Faculty</p>
+      <h2>Researcher directory</h2>
     </div>
-</div>
+    <div class="people">
+      {% for person in page.people %}
+      {% assign words = person.name | split: " " %}
+      <a class="person-card" href="{{ person.url }}">
+        <span class="person-avatar" aria-hidden="true">{{ words.first | slice: 0 }}{{ words.last | slice: 0 }}</span>
+        <span class="person-name">{{ person.name }}</span>
+        <span class="person-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-tinted section-compact">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Department of Computer Science</p>
+      <h2>Offices &amp; addresses</h2>
+    </div>
+    <div class="office-grid">
+      <div class="office-card">
+        <h3>Main Office</h3>
+        <address>
+          North Carolina State University<br>
+          Department of Computer Science<br>
+          890 Oval Drive, Box 8206<br>
+          Engineering Building II<br>
+          Raleigh, NC 27695-8206
+        </address>
+        <ul class="office-meta">
+          <li><span>Phone</span><a href="tel:+19195152858">919-515-2858</a></li>
+          <li><span>Fax</span>919-515-7896</li>
+        </ul>
+      </div>
+      <div class="office-card">
+        <h3>Graduate Program Office</h3>
+        <address>
+          North Carolina State University<br>
+          Department of Computer Science<br>
+          890 Oval Drive, Box 8206<br>
+          Engineering Building II<br>
+          Raleigh, NC 27695-8206
+        </address>
+        <ul class="office-meta">
+          <li><span>Phone</span><a href="tel:+19195158662">919-515-8662</a></li>
+          <li><span>Email</span><a href="mailto:csc_gradadmissions@ncsu.edu">csc_gradadmissions@ncsu.edu</a></li>
+        </ul>
+      </div>
+      <div class="office-card">
+        <h3>Mail &amp; Delivery</h3>
+        <p class="office-label">US Postal Service</p>
+        <address>
+          Department of Computer Science<br>
+          NC State University<br>
+          Campus Box 8206<br>
+          Raleigh, NC 27695-8206
+        </address>
+        <p class="office-label">FedEx / UPS / DHL / Other</p>
+        <address>
+          Department of Computer Science<br>
+          NC State University<br>
+          890 Oval Drive<br>
+          3320 Engineering Building II<br>
+          Raleigh, NC 27606
+        </address>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-compact">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Other contacts</p>
+      <h2>Who to ask</h2>
+    </div>
+    <div class="contact-list">
+      <div class="contact-item">
+        <h3>Undergraduate program &amp; admissions</h3>
+        <p>For questions about our undergraduate program and admissions, please fill out the department's inquiry form.</p>
+      </div>
+      <div class="contact-item">
+        <h3>Graduate program &amp; admissions</h3>
+        <p><a href="mailto:csc_gradadmissions@ncsu.edu">csc_gradadmissions@ncsu.edu</a></p>
+      </div>
+      <div class="contact-item">
+        <h3>IT support</h3>
+        <p><a href="mailto:csc_help@ncsu.edu">csc_help@ncsu.edu</a></p>
+        <p class="contact-note">Please don't send admission inquiries to this address — they won't receive a response.</p>
+      </div>
+    </div>
+  </div>
+</section>

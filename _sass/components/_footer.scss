@@ -1,7 +1,6 @@
 .footer {
   background: $footer-background-color;
   color: rgba(255, 255, 255, 0.72);
-  border-top: 4px solid $primary;
   padding-top: 56px;
   padding-bottom: 24px;
   .footer-grid {
@@ -82,5 +81,10 @@
     padding-top: 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.12);
     font-size: 0.85rem;
+  }
+  .footer-legal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
   }
 }

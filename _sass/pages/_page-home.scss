@@ -181,3 +181,226 @@
     }
   }
 }
+
+
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  margin-top: 56px;
+  list-style: none;
+  background: $border;
+  border: 1px solid $border;
+  border-radius: 12px;
+  overflow: hidden;
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 20px 22px;
+    background: #ffffff;
+  }
+  .highlight-value {
+    font-family: $font-family-heading;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $primary;
+  }
+  .highlight-label {
+    font-size: 0.9rem;
+    color: $steel;
+  }
+}
+
+.section-heading-split {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 12px;
+}
+.text-link {
+  font-weight: 600;
+  color: $primary;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.themes {
+  display: grid;
+  gap: 1px;
+  background: $border;
+  border: 1px solid $border;
+  border-radius: 12px;
+  overflow: hidden;
+  @include media-breakpoint-up(sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.theme {
+  position: relative;
+  padding: 28px 26px;
+  background: #ffffff;
+  transition: background 0.2s ease;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: $primary;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s ease;
+  }
+  &:hover {
+    background: $white-offset;
+    &::before {
+      transform: scaleX(1);
+    }
+  }
+  h3 {
+    font-family: $font-family-heading;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 0.95rem;
+    margin-bottom: 14px;
+  }
+  .theme-people {
+    margin: 0;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: $black;
+  }
+}
+
+.audiences {
+  display: grid;
+  gap: 20px;
+  @include media-breakpoint-up(md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.audience {
+  padding: 32px 28px;
+  background: #ffffff;
+  border: 1px solid $border;
+  border-radius: 14px;
+  .audience-tag {
+    display: inline-block;
+    margin-bottom: 14px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: rgba(204, 0, 0, 0.08);
+    color: $primary;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-family: $font-family-heading;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  a {
+    color: $primary;
+    font-weight: 500;
+  }
+}
+.audience-dark {
+  background: $footer-dark;
+  border-color: $footer-dark;
+  h3 {
+    color: #ffffff;
+  }
+  .audience-tag {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+  }
+  .steps li {
+    color: rgba(255, 255, 255, 0.75);
+    &::before {
+      background: $primary;
+      color: #ffffff;
+    }
+  }
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.4);
+    text-underline-offset: 3px;
+  }
+}
+.steps {
+  list-style: none;
+  counter-reset: step;
+  li {
+    position: relative;
+    counter-increment: step;
+    padding-left: 44px;
+    margin-bottom: 16px;
+    line-height: 1.6;
+    color: $steel;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &::before {
+      content: counter(step);
+      position: absolute;
+      left: 0;
+      top: -1px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: rgba(204, 0, 0, 0.08);
+      color: $primary;
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+  }
+}
+
+.cta-band {
+  padding: 64px 0;
+  background: linear-gradient(120deg, $primary 0%, $primary-dark 100%);
+  .cta-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 1.2;
+    max-width: 18em;
+    @include media-breakpoint-up(md) {
+      font-size: 36px;
+    }
+  }
+  .cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}

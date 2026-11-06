@@ -7,13 +7,16 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 4px;
+    gap: 0;
     > li {
       list-style: none;
       font-size: 0.95rem;
       > a {
         position: relative;
-        padding: 10px 14px;
+        padding: 10px 8px;
+        @include media-breakpoint-up(lg) {
+          padding: 10px 12px;
+        }
         display: inline-block;
         font-weight: 500;
         text-decoration: none;
@@ -22,8 +25,12 @@
         &::after {
           content: "";
           position: absolute;
-          left: 14px;
-          right: 14px;
+          left: 8px;
+          right: 8px;
+          @include media-breakpoint-up(lg) {
+            left: 12px;
+            right: 12px;
+          }
           bottom: 4px;
           height: 2px;
           background: $primary;

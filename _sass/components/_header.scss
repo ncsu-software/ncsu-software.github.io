@@ -27,3 +27,34 @@
     }
   }
 }
+
+.wordmark {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: $black;
+  text-decoration: none;
+  &:hover {
+    color: $black;
+    text-decoration: none;
+  }
+  .wordmark-logo {
+    width: auto;
+    height: 24px;
+    @include media-breakpoint-up(sm) {
+      height: 28px;
+    }
+  }
+  .wordmark-text {
+    padding-left: 12px;
+    border-left: 1px solid $border;
+    font-family: $font-family-heading;
+    font-size: 1rem;
+    font-weight: 700;
+    @include media-breakpoint-up(sm) {
+      font-size: 1.15rem;
+    }
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+}

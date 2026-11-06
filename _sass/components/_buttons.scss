@@ -33,3 +33,24 @@
     box-shadow: none;
   }
 }
+.button-light {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: $primary;
+  &:hover {
+    background: $white-offset;
+    border-color: $white-offset;
+    color: $primary-dark;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+}
+.button-ghost {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.6);
+  color: #ffffff;
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #ffffff;
+    box-shadow: none;
+  }
+}

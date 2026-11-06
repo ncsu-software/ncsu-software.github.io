@@ -12,7 +12,7 @@ bodyClass: "page-home"
         <p class="hero-tagline">{{ page.hero_tagline }}</p>
         <div class="hero-actions">
           <a class="button" href="{{ '/services/students/' | relative_url }}">Join us</a>
-          <a class="button button-outline" href="{{ '/services/researchers/' | relative_url }}">Explore our research</a>
+          <a class="button button-outline" href="#research">Explore our research</a>
         </div>
       </div>
       {% if page.hero_image %}
@@ -21,6 +21,16 @@ bodyClass: "page-home"
       </div>
       {% endif %}
     </div>
+    {% if page.highlights %}
+    <ul class="highlights">
+      {% for item in page.highlights %}
+      <li>
+        <span class="highlight-value">{{ item.value }}</span>
+        <span class="highlight-label">{{ item.label }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
   </div>
 </section>
 
@@ -49,10 +59,60 @@ bodyClass: "page-home"
   </div>
 </section>
 
+<section class="section" id="research">
+  <div class="container">
+    <div class="section-heading section-heading-split">
+      <div>
+        <p class="eyebrow">Research</p>
+        <h2>What we work on</h2>
+      </div>
+      <a class="text-link" href="{{ '/services/researchers/' | relative_url }}">Publications &amp; labs <span aria-hidden="true">&rarr;</span></a>
+    </div>
+    <div class="themes">
+      {% for theme in site.data.research_themes %}
+      <article class="theme">
+        <h3>{{ theme.title }}</h3>
+        <p>{{ theme.summary }}</p>
+        <p class="theme-people">{{ theme.people | join: " · " }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-tinted">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Join us</p>
+      <h2>How to get involved</h2>
+    </div>
+    <div class="audiences">
+      <div class="audience">
+        <p class="audience-tag">For students</p>
+        <h3>Do research with us</h3>
+        <ol class="steps">
+          <li>Browse our <a href="#research">research themes</a> and the <a href="{{ '/services/researchers/' | relative_url }}">labs and publications</a> behind them.</li>
+          <li>Find a faculty member whose work excites you in the <a href="{{ '/contact/' | relative_url }}">researcher directory</a>, and reach out directly.</li>
+          <li>Thinking about grad school? See <a href="{{ '/services/students/' | relative_url }}">For Students</a> or email <a href="mailto:csc_gradadmissions@ncsu.edu">csc_gradadmissions@ncsu.edu</a>.</li>
+        </ol>
+      </div>
+      <div class="audience audience-dark">
+        <p class="audience-tag">For industry</p>
+        <h3>Innovate with us</h3>
+        <ol class="steps">
+          <li>See how we partner with companies and agencies on <a href="{{ '/services/industry/' | relative_url }}">For Industry</a>.</li>
+          <li>Bring us a hard problem: match it to a research theme above and contact that faculty member.</li>
+          <li>Recruit our graduates; read where they are now in <a href="{{ '/services/successstories/' | relative_url }}">Success Stories</a>.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="container">
     <div class="section-heading">
-      <p class="eyebrow">Industry</p>
+      <p class="eyebrow">Partners</p>
       <h2>We work with industry, all the time</h2>
     </div>
     <div class="partners">
@@ -60,6 +120,18 @@ bodyClass: "page-home"
       {% for logo in partners %}
       <div class="partner"><img src="{{ '/images/logo/' | append: logo | relative_url }}" alt="{{ logo | split: '.' | first }} logo" loading="lazy" /></div>
       {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <div class="cta-inner">
+      <h2>Build the future of software with us.</h2>
+      <div class="cta-actions">
+        <a class="button button-light" href="{{ '/contact/' | relative_url }}">Meet our faculty</a>
+        <a class="button button-ghost" href="{{ '/services/students/' | relative_url }}">Graduate study</a>
+      </div>
     </div>
   </div>
 </section>
