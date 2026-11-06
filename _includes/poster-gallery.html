@@ -1,0 +1,161 @@
+{% assign posters = site.data.posters %}
+{% if posters and posters.size > 0 %}
+{% assign topic_list = "" %}
+{% assign people_list = "" %}
+{% for poster in posters %}
+  {% for topic in poster.topics %}{% assign topic_list = topic_list | append: topic | append: "|" %}{% endfor %}
+  {% for person in poster.people %}{% assign people_list = people_list | append: person | append: "|" %}{% endfor %}
+{% endfor %}
+{% assign all_topics = topic_list | split: "|" | uniq | sort %}
+{% assign all_people = people_list | split: "|" | uniq | sort %}
+<section class="posters" id="posters">
+  <div class="posters-heading">
+    <p class="eyebrow">Research posters</p>
+    <h2>Poster gallery</h2>
+  </div>
+
+  <div class="poster-filters">
+    {% if all_topics.size > 0 %}
+    <label class="poster-filter">
+      <span>Topic</span>
+      <select data-filter="topic">
+        <option value="">All topics</option>
+        {% for topic in all_topics %}<option value="{{ topic | escape }}">{{ topic }}</option>{% endfor %}
+      </select>
+    </label>
+    {% endif %}
+    {% if all_people.size > 0 %}
+    <label class="poster-filter">
+      <span>Person</span>
+      <select data-filter="person">
+        <option value="">Everyone</option>
+        {% for person in all_people %}<option value="{{ person | escape }}">{{ person }}</option>{% endfor %}
+      </select>
+    </label>
+    {% endif %}
+    <button type="button" class="poster-reset" hidden>Clear filters</button>
+    <p class="poster-count" aria-live="polite"></p>
+  </div>
+
+  <div class="poster-grid">
+    {% for poster in posters %}
+    <article class="poster-card"
+      data-topics="|{{ poster.topics | join: '|' | escape }}|"
+      data-people="|{{ poster.people | join: '|' | escape }}|">
+      <button type="button" class="poster-open"
+        data-image="{{ poster.image | relative_url }}"
+        data-title="{{ poster.title | escape }}"
+        data-venue="{{ poster.venue | escape }}"
+        data-pdf="{% if poster.pdf %}{{ poster.pdf | relative_url }}{% endif %}"
+        data-link="{{ poster.link }}">
+        <span class="poster-thumb">
+          <img src="{{ poster.image | relative_url }}" alt="Poster: {{ poster.title | escape }}" loading="lazy" />
+        </span>
+        <span class="poster-meta">
+          {% if poster.venue %}<span class="poster-venue">{{ poster.venue }}</span>{% endif %}
+          <span class="poster-title">{{ poster.title }}</span>
+        </span>
+      </button>
+      <div class="poster-tags">
+        {% for topic in poster.topics %}<button type="button" class="tag tag-topic" data-topic="{{ topic | escape }}">{{ topic }}</button>{% endfor %}
+        {% for person in poster.people %}<button type="button" class="tag tag-person" data-person="{{ person | escape }}">{{ person }}</button>{% endfor %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  <p class="poster-empty" hidden>No posters match these filters.</p>
+
+  <dialog class="poster-lightbox" aria-label="Poster viewer">
+    <button type="button" class="poster-close" aria-label="Close">&times;</button>
+    <div class="poster-lightbox-body">
+      <img class="poster-lightbox-img" src="" alt="" />
+      <div class="poster-lightbox-info">
+        <p class="poster-venue"></p>
+        <h3 class="poster-lightbox-title"></h3>
+        <div class="poster-tags poster-lightbox-tags"></div>
+        <div class="poster-lightbox-actions">
+          <a class="button poster-pdf" href="#" target="_blank" rel="noopener">Open PDF</a>
+          <a class="button button-outline poster-link" href="#" target="_blank" rel="noopener">View paper</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+</section>
+
+<script>
+  (function () {
+    var root = document.getElementById('posters');
+    var cards = root.querySelectorAll('.poster-card');
+    var topicSelect = root.querySelector('[data-filter="topic"]');
+    var personSelect = root.querySelector('[data-filter="person"]');
+    var reset = root.querySelector('.poster-reset');
+    var count = root.querySelector('.poster-count');
+    var empty = root.querySelector('.poster-empty');
+    var dialog = root.querySelector('.poster-lightbox');
+    var img = dialog.querySelector('.poster-lightbox-img');
+
+    function applyFilters() {
+      var topic = topicSelect ? topicSelect.value : '';
+      var person = personSelect ? personSelect.value : '';
+      var shown = 0;
+      cards.forEach(function (card) {
+        var match = (!topic || card.dataset.topics.indexOf('|' + topic + '|') !== -1) &&
+                    (!person || card.dataset.people.indexOf('|' + person + '|') !== -1);
+        card.hidden = !match;
+        if (match) shown++;
+      });
+      reset.hidden = !topic && !person;
+      empty.hidden = shown > 0;
+      count.textContent = shown + ' of ' + cards.length + ' posters';
+    }
+
+    function filterBy(kind, value) {
+      var select = kind === 'topic' ? topicSelect : personSelect;
+      if (!select) return;
+      select.value = value;
+      applyFilters();
+      if (dialog.open) dialog.close();
+      root.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    [topicSelect, personSelect].forEach(function (s) { if (s) s.addEventListener('change', applyFilters); });
+    reset.addEventListener('click', function () {
+      if (topicSelect) topicSelect.value = '';
+      if (personSelect) personSelect.value = '';
+      applyFilters();
+    });
+
+    // Tag chips (on cards and in the viewer) filter the gallery.
+    root.addEventListener('click', function (e) {
+      var tag = e.target.closest('.tag');
+      if (!tag) return;
+      if (tag.dataset.topic) filterBy('topic', tag.dataset.topic);
+      else if (tag.dataset.person) filterBy('person', tag.dataset.person);
+    });
+
+    function setLink(el, href) {
+      el.hidden = !href;
+      if (href) el.href = href;
+    }
+
+    cards.forEach(function (card) {
+      card.querySelector('.poster-open').addEventListener('click', function () {
+        var d = this.dataset;
+        img.src = d.image;
+        img.alt = 'Poster: ' + d.title;
+        dialog.querySelector('.poster-venue').textContent = d.venue;
+        dialog.querySelector('.poster-lightbox-title').textContent = d.title;
+        dialog.querySelector('.poster-lightbox-tags').innerHTML = card.querySelector('.poster-tags').innerHTML;
+        setLink(dialog.querySelector('.poster-pdf'), d.pdf);
+        setLink(dialog.querySelector('.poster-link'), d.link);
+        dialog.showModal();
+      });
+    });
+
+    dialog.querySelector('.poster-close').addEventListener('click', function () { dialog.close(); });
+    dialog.addEventListener('click', function (e) { if (e.target === dialog) dialog.close(); });
+
+    applyFilters();
+  })();
+</script>
+{% endif %}

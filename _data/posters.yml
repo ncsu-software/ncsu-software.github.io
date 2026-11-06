@@ -1,0 +1,20 @@
+# Research posters shown in the gallery on the research page (/services/researchers/).
+# The gallery is hidden while this list is empty.
+#
+# To add a poster:
+#   1. Put an image of it (JPG or PNG, roughly 1200px on the long side) in images/posters/
+#   2. Optionally put the full PDF there too
+#   3. Add an entry below, newest first. Only title and image are required.
+#
+# topics: reuse the theme titles from _data/research_themes.yml where they fit,
+#         so the same topic is spelled the same way on every poster.
+# people: faculty and students on the poster, spelled the same way each time.
+#
+# - title: "Barriers for Students During Code Change Comprehension"
+#   venue: "ICSE 2024"
+#   year: 2024
+#   image: "images/posters/icse24-middleton.jpg"
+#   pdf: "images/posters/icse24-middleton.pdf"
+#   link: "https://dl.acm.org/doi/abs/10.1145/3597503.3639227"
+#   topics: ["Human Factors & Inclusive Design", "Testing & Program Analysis"]
+#   people: ["Justin Middleton", "John-Paul Ore", "Kathryn Stolee"]

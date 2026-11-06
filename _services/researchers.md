@@ -50,6 +50,8 @@ about: Future of Software Engineering through Advanced Research & innovation!
   }
 </script>
 
+{% include poster-gallery.html %}
+
 <div onLoad="onLoad()">
 <script type="text/javascript">
 onLoad();
