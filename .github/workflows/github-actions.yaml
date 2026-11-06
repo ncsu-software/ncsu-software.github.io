@@ -26,6 +26,11 @@ jobs:
           pip install oauth2client
           pip install gspread
 
+      - name: Write Google credentials from secret
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+        run: printf '%s' "$GOOGLE_CREDENTIALS" > credentials.json
+
       - name: Fetch Google Sheets Data
         run: python accessGoogleSheets.py
 
