@@ -1,11 +1,13 @@
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 15;
   color: $primary;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  // box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
-  border-bottom: 1px solid $white-offset;
+  background-color: rgba(255, 255, 255, 0.92);
+  backdrop-filter: saturate(180%) blur(10px);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+  border-top: 4px solid $primary;
+  border-bottom: 1px solid $border;
   padding: 10px 0px;
   .container {
     display: flex;

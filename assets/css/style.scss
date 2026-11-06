@@ -5,10 +5,12 @@
 $primary: #cc0000;
 $primary-dark: #a01b16;
 $secondary: #f88379;
-$black: #2f2f41;
+$black: #1d1d27;
 $white: #ffffff;
-$white-offset: #fff6f8;
-$steel: #5c5a5a;
+$white-offset: #f6f3f1;
+$steel: #55535a;
+$border: #e7e3e0;
+$footer-dark: #1d1d27;
 
 // Links
 $link-color: $primary;
@@ -17,11 +19,11 @@ $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: 'Roboto Condensed', -apple-system;
+$font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 $font-family-heading: "Playfair Display", serif, -apple-system;
 
 // Footer
-$footer-background-color: $primary;
+$footer-background-color: $footer-dark;
 $footer-text-color: $white;
 $sub-footer-background-color: darken($primary, 10%);
 $sub-footer-text-color: $white;
@@ -63,10 +65,10 @@ $sub-footer-text-color: $white;
 
 body {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.55;
   font-family: $font-family-base;
-  @include media-breakpoint-up(md) {
-    font-size: 16px;
-    line-height: 1.3;
-  }
+  color: $black;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
 }
+

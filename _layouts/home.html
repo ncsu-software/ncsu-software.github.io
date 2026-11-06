@@ -3,81 +3,67 @@ layout: default
 bodyClass: "page-home"
 ---
 
-<div class="intro">
+<section class="hero">
   <div class="container">
-    <div class="row justify-content-start align-items-center">
-      <!-- <div class="col-6 col-md-7 col-lg-6 order-2 order-md-1"> -->
-        <div>
-        {{ content }}
-        {% if page.show_call_box %}
-          {% include call.html show_button=true %}
-        {% endif %}
+    <div class="hero-grid">
+      <div class="hero-text">
+        {% if page.hero_eyebrow %}<p class="eyebrow">{{ page.hero_eyebrow }}</p>{% endif %}
+        <h1>{{ page.hero_title }}</h1>
+        <p class="hero-tagline">{{ page.hero_tagline }}</p>
+        <div class="hero-actions">
+          <a class="button" href="{{ '/services/students/' | relative_url }}">Join us</a>
+          <a class="button button-outline" href="{{ '/services/researchers/' | relative_url }}">Explore our research</a>
+        </div>
       </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+      {% if page.hero_image %}
+      <div class="hero-media">
+        <img src="{{ page.hero_image | relative_url }}" alt="NC State Software Engineering group photo" />
       </div>
       {% endif %}
     </div>
   </div>
-</div>
+</section>
 
+{{ content }}
 
-<div class="strip">
-  <div class="container pt-3 pb-3 pb-md-5">
-    <div class="row justify-content-start">
-      <!-- {% assign services = site.services | reverse %}
-      {% for service in services %}
-        {% if service.title == "For Students" %} -->
-        {% assign service = site.services.student %}
-          <div class="col-12 col-md-3 mb-1">
-            <div class="service service-summary">
-              <div class="service-content">
-                <h2 class="service-title">
-                  <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-                </h2>
-                <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
-              </div>
-            </div>
-          </div>
-        <!-- {% elsif service.title == "For Researchers" %} -->
-        {% assign service = site.services.researchers %}
-          <div class="col-12 col-md-3 mb-1">
-            <div class="service service-summary">
-              <div class="service-content">
-                <h2 class="service-title">
-                  <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-                </h2>
-                <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
-              </div>
-            </div>
-          </div>
-        <!-- {% elsif service.title == "For Industry" %} -->
-        {% assign service = site.services.industry %}
-          <div class="col-12 col-md-3 mb-1">
-            <div class="service service-summary">
-              <div class="service-content">
-                <h2 class="service-title">
-                  <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-                </h2>
-                <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
-              </div>
-            </div>
-          </div>
-        <!-- {% elsif service.title == "Success Stories" %} -->
-        {% assign service = site.services.successstories %}
-          <div class="col-12 col-md-3 mb-1">
-            <div class="service service-summary">
-              <div class="service-content">
-                <h2 class="service-title">
-                  <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-                </h2>
-                <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
-              </div>
-            </div>
-          </div>
-        <!-- {% endif %}
-      {% endfor %} -->
+<section class="section section-tinted">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Get started</p>
+      <h2>Find your path</h2>
+    </div>
+    <div class="pathways">
+      {% assign order = "students,researchers,industry,successstories" | split: "," %}
+      {% for slug in order %}
+        {% assign service = site.services | where_exp: "s", "s.url contains slug" | first %}
+        {% if service %}
+        <a class="pathway-card" href="{{ service.url | relative_url }}">
+          <span class="pathway-index">0{{ forloop.index }}</span>
+          <h3>{{ service.title }}</h3>
+          <p>{{ service.about | markdownify | strip_html | truncate: 100 }}</p>
+          <span class="pathway-link">Learn more <span aria-hidden="true">&rarr;</span></span>
+        </a>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
-</div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Industry</p>
+      <h2>We work with industry, all the time</h2>
+    </div>
+    <div class="partners">
+      {% assign partners = "csiro.jpeg,grammatech.png,ibm.png,lexisnexis.png,msoft.png,nasa.png" | split: "," %}
+      {% for logo in partners %}
+      <div class="partner"><img src="{{ '/images/logo/' | append: logo | relative_url }}" alt="{{ logo | split: '.' | first }} logo" loading="lazy" /></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% if page.show_call_box %}
+  {% include call.html show_button=true %}
+{% endif %}
