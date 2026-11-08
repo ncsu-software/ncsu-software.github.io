@@ -1,6 +1,6 @@
 # Research themes shown on the homepage. Grouped from each researcher's
 # CoreResearchAreas in _data/researchers/sheets/ResearchersResponses.csv.
-- title: "AI for Software Engineering"
+- title: "AI and Software Engineering"
   summary: "Large language models of code, neural type inference, and AI security for SE."
   people: ["Bowen Xu", "Marcelo D'Amorim", "Wesley K. G. Assunção", "John-Paul Ore"]
 - title: "Testing & Program Analysis"

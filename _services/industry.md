@@ -23,7 +23,7 @@ lead: "We work with industry all the time, turning hard software problems into r
       <div class="engage-card">
         <span class="engage-index">02</span>
         <h3>Collaborate</h3>
-        <p>Share data, tools or case studies. Our research themes span AI for SE, testing, analytics and human factors.</p>
+        <p>Share data, tools or case studies. Our research themes span AI and SE, testing, analytics and human factors.</p>
       </div>
       <div class="engage-card">
         <span class="engage-index">03</span>
