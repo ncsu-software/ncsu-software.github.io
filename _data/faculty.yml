@@ -13,6 +13,7 @@
 - name: "Sarah Heckman"
   blurb: "Software engineering education"
   website: "https://www.csc.ncsu.edu/people/sesmith5"
+  photo: "/images/people/sarah-heckman.jpg"
   emails: ["sesmith5@ncsu.edu"]
 - name: "Sandeep Kaur Kuttal"
   blurb: "Human aspects of programming and human-AI collaboration"
