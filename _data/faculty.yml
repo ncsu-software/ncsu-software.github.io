@@ -1,0 +1,10 @@
+# sidebar sub-list under "Faculty & Labs" (see _includes/head_custom.html).
+# no url => link to the faculty page.
+- {name: "Bowen Xu",          url: "https://ncsu-softmax.github.io/"}
+- {name: "John-Paul Ore",     url: "https://jpwco.com/"}
+- {name: "Katie Stolee",      url: "https://kstolee.github.io/"}
+- {name: "Marcelo D'Amorim"}
+- {name: "Sandeep Kuttal",    url: "https://skuttal.github.io/skk/research.html"}
+- {name: "Sarah Heckman",     url: "https://sheckman.github.io/"}
+- {name: "Tim Menzies",       url: "https://timm.fyi/irl.html"}
+- {name: "Wesley Assunção",   url: "https://wesleyklewerton.github.io/"}

@@ -1,4 +1,6 @@
-_site/*
-NAGSTODO
-credentials.json
-se-website-*.json
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+vendor/
+.DS_Store

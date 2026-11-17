@@ -1,84 +1,18 @@
-baseurl: '/'
-permalink: pretty
-title: 'NC STATE'
-
-logo:
-  mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
-
-home: 
-  limit_services: 4
-
-collections:
-  services:
-    output: true
-    sort_by: weight
-  team:
-    output: true
-  successstories:
-    output: true
-    sort_by: weight
-  research_papers:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "services"
-    values:
-      layout: "service"
-  # - scope:
-  #     path: ""
-  #     type: "team"
-  #   values:
-  #     layout: "team"
-  # - scope:
-  #     path: ""
-  #     type: "about"
-  #   values:
-  #     layout: "about"
-  - scope:
-      path: ""
-      type: "home"
-    values:
-      layout: "home"
-  - scope:
-      path: ""
-      type: "contact"
-    values:
-      layout: "contact"
-  - scope:
-      path: ""
-      type: "address"
-    values:
-      layout: "address"
-
-sass:
-  style: compressed # possible values: nested expanded compact compressed
-
-
-flexible_include:
-  die_on_file_error: true
-  die_on_path_denied: true
-  die_on_run_error: true
-  die_on_other_error: true
-
+title: NC State Software Engineering
+url: https://ncsu.software
+baseurl: ""
+remote_theme: just-the-docs/just-the-docs@v0.8.2
 plugins:
-  - jekyll-environment-variables
-  - jekyll-feed
-
+  - jekyll-remote-theme
+  - jekyll-include-cache
+search_enabled: true
+mermaid:
+  version: "9.4.3"
+color_scheme: wolfpack
+logo: "/img/logo.png"
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - LICENSE.md
-  - LICENSE
-  - README.md
+  - vendor
+  - intray
+  - TODO.md
+  - page.md
+  - Makefile

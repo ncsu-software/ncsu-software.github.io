@@ -1,8 +1,9 @@
 source "https://rubygems.org"
-
-
-gem 'jekyll_flexible_include'
-gem "webrick", "~> 1.7"
-gem "jekyll", "~> 4.2"
-gem "jekyll-environment-variables"
-gem "jekyll-feed"
+gem "github-pages", "~> 232", group: :jekyll_plugins
+# stdlib gems that old jekyll assumes but ruby 3.4+ no longer bundles
+gem "webrick"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"
+gem "faraday-retry"

@@ -1,0 +1,33 @@
+<link rel="apple-touch-icon" href="{{ '/img/apple-touch-icon.png' | relative_url }}">
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+{% comment %} sidebar: indented sub-lists under "Faculty & Labs" (from _data/faculty.yml)
+   and "Student Life" (alumni, internships).
+   NB: theme minifies HTML to one line, so no // comments inside the script. {% endcomment %}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  function sub(page, items) {
+    var a = document.querySelector('#site-nav a.nav-list-link[href="' + page + '"]');
+    /* on the page itself the theme strips href from the active link */
+    if (!a && location.pathname === page) a = document.querySelector('#site-nav a.nav-list-link.active');
+    if (!a) return;
+    var ul = document.createElement("ul");
+    ul.className = "nav-people";
+    items.forEach(function (p) {
+      var li = document.createElement("li"), l = document.createElement("a");
+      l.textContent = p.name;
+      l.href = p.url || page;
+      li.appendChild(l);
+      ul.appendChild(li);
+    });
+    a.parentNode.appendChild(ul);
+  }
+  sub("{{ '/faculty.html' | relative_url }}", {{ site.data.faculty | jsonify }});
+  sub("{{ '/students.html' | relative_url }}", [
+    {name: "Alumni", url: "{{ '/alumni.html' | relative_url }}"},
+    {name: "Internships", url: "{{ '/internships.html' | relative_url }}"},
+    {name: "Why Live in Raleigh?", url: "{{ '/raleigh.html' | relative_url }}"},
+    {name: "Pick Your Professor", url: "{{ '/pick.html' | relative_url }}"}
+  ]);
+});
+</script>

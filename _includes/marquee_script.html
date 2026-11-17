@@ -1,0 +1,40 @@
+{%- comment -%} Photo slideshow behavior for every .marquee on the page: crossfade every 5s, pause on hover, arrows and dots. No // comments here: the theme minifies pages onto one line. {%- endcomment -%}
+<script>
+(function () {
+  var boxes = document.querySelectorAll(".marquee");
+  for (var b = 0; b < boxes.length; b++) { setup(boxes[b]); }
+  function setup(box) {
+    if (box.getAttribute("data-ready")) { return; }
+    box.setAttribute("data-ready", "1");
+    var figs = box.querySelectorAll("figure");
+    var dots = box.querySelector(".marquee-dots");
+    var cur = 0, timer = null;
+    function show(n) {
+      cur = (n + figs.length) % figs.length;
+      for (var i = 0; i < figs.length; i++) {
+        figs[i].classList.toggle("on", i === cur);
+        dots.children[i].classList.toggle("on", i === cur);
+      }
+    }
+    function stop() { if (timer) { clearInterval(timer); timer = null; } }
+    function start() {
+      stop();
+      timer = setInterval(function () { show(cur + 1); }, 5000);
+    }
+    function dot(k) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.setAttribute("aria-label", "Photo " + (k + 1));
+      btn.addEventListener("click", function () { show(k); start(); });
+      dots.appendChild(btn);
+    }
+    for (var i = 0; i < figs.length; i++) { dot(i); }
+    box.querySelector(".prev").addEventListener("click", function () { show(cur - 1); start(); });
+    box.querySelector(".next").addEventListener("click", function () { show(cur + 1); start(); });
+    box.addEventListener("mouseenter", stop);
+    box.addEventListener("mouseleave", start);
+    show(0);
+    start();
+  }
+})();
+</script>

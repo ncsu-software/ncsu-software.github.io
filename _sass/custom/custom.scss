@@ -1,0 +1,639 @@
+// red = accent (icons) and clickable (links); titles take the logo's navy
+$navy: #021D3B;
+.fa-solid, .fa-regular, .fa-brands {
+  color: #CC0000;
+}
+.fa-solid.badge40 { // 40x40 red disc, white glyph, sits above its label
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 0.25rem auto 0.5rem;
+  border-radius: 50%;
+  background: #CC0000;
+  color: #fff;
+  font-size: 20px;
+  box-shadow: 0 2px 6px rgba(204, 0, 0, 0.35);
+}
+.fa-solid.gold { // big gold award, floated right of an award-winning paper
+  float: right;
+  margin: 0 0 0.25rem 1rem;
+  font-size: 2.75rem;
+  line-height: 1;
+  color: #D4A017;
+  filter: drop-shadow(0 1px 2px rgba(120, 85, 0, 0.35));
+}
+h1, h2 {
+  color: $navy;
+}
+th {
+  color: $navy;
+}
+
+// table cells start at the top (so short columns, e.g. honors, don't float mid-row)
+td {
+  vertical-align: top;
+}
+
+// dot lists inside table cells: tight, no gaps between items
+// (kramdown escapes <ul> in table cells, so items are <span class="dot">)
+.dot {
+  display: block;
+  position: relative;
+  padding-left: 1.1em;
+  &::before {
+    content: "\2022";
+    position: absolute;
+    left: 0.15em;
+    color: #CC0000;
+    font-weight: bold;
+  }
+}
+
+// .plain tables (faculty): no borders, no header row, centered pics
+.table-wrapper:has(table.plain) {
+  box-shadow: none;
+}
+table.plain {
+  thead { display: none; }
+  td {
+    border: 0;
+    background: none;
+    vertical-align: middle;
+  }
+  td:first-child {
+    text-align: center;
+    min-width: 7rem;
+  }
+}
+
+// sidebar logo: big, and the header must GROW to hold it (the theme
+// pins header height to 4rem, so content overflows onto the nav)
+a.site-title {
+  padding: 0.5rem;
+}
+.site-logo {
+  background-position: center;
+}
+// phone width: theme squeezes the logo into a 4rem header; give it room
+@media (max-width: 49.99rem) {
+  .site-logo {
+    height: 10rem;
+  }
+}
+@media (min-width: 50rem) {
+  .site-header {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+  }
+  a.site-title {
+    height: auto;
+  }
+  .site-logo {
+    width: 100%;
+    height: 15rem;
+  }
+}
+
+// sidebar sub-lists (faculty names, student-life pages) -- indented, tight lines
+.nav-list .nav-people {
+  list-style: none;
+  margin: 0 0 0.35rem;
+  padding: 0 0 0 2.75rem;
+  li {
+    margin: 0;
+    &::before { display: none; }
+  }
+  a {
+    display: block;
+    padding: 0;
+    font-size: 0.8rem;
+    line-height: 1.35;
+    color: $navy;
+    &:hover { color: #CC0000; }
+  }
+}
+
+// faculty headshots: uniform square, center-cropped
+img.headshot {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center top; // tall portraits: keep the head, crop the torso
+}
+
+// landing page: faint navy wash on the pitch and service tables
+.hero td,
+.service td {
+  background: rgba(2, 29, 59, 0.07);
+}
+
+// "we're hiring" starburst: red certificate icon, white label, links to
+// the open professor posting; floats right of each page's h1
+a.hiring {
+  float: right;
+  position: relative;
+  display: block;
+  width: 7rem;
+  height: 7rem;
+  margin: 0 0 0.5rem 1rem;
+  text-align: center;
+  .fa-certificate {
+    display: block;
+    font-size: 7rem;
+    line-height: 1;
+    color: #CC0000;
+    filter: drop-shadow(0 2px 5px rgba(204, 0, 0, 0.4));
+  }
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-12deg);
+    color: #fff;
+    font-weight: 800;
+    font-size: 0.9rem;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+  }
+  &:hover .fa-certificate { color: #a50000; }
+}
+
+// LOUDER hiring burst: half again bigger, gently pulsing
+@keyframes hiring-pulse {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  50%      { transform: scale(1.09) rotate(-3deg); }
+}
+a.hiring {
+  width: 10.5rem;
+  height: 10.5rem;
+  animation: hiring-pulse 1.8s ease-in-out infinite;
+  .fa-certificate { font-size: 10.5rem; }
+  span { font-size: 1.35rem; }
+}
+
+// hiring burst: centered, not floated right
+a.hiring {
+  float: none;
+  margin: 0 auto 1rem;
+}
+
+// hiring burst: back to the right edge
+a.hiring {
+  float: right;
+  margin: 0 0 0.5rem 1rem;
+}
+
+// gold microphone, centered above the keynotes entry in honors
+.fa-solid.keynote-ico {
+  display: block;
+  text-align: center;
+  margin: 0.25rem auto 0.4rem;
+  font-size: 2.6rem;
+  line-height: 1;
+  color: #D4A017;
+  filter: drop-shadow(0 1px 2px rgba(120, 85, 0, 0.35));
+}
+
+// .bands: faint navy wash on even rows, to separate per-person groups
+table.bands tr:nth-child(even) td {
+  background: rgba(2, 29, 59, 0.07);
+}
+
+// p1 icons 50% bigger: badge discs 40->60px, other header icons 1.5em
+.fa-solid.badge40 {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+}
+th .fa-solid:not(.badge40) {
+  font-size: 1.5em;
+}
+
+// keynote slide thumbnails: stacked, with air between
+table.bands td a img {
+  display: block;
+  margin: 0.5rem 0;
+  max-width: 100%;
+  border: 1px solid rgba(2, 29, 59, 0.2);
+}
+
+// keynotes: headshots hug the top of their row (plain sets middle)
+table.bands td {
+  vertical-align: top;
+}
+
+// p1 section icons, round two: big enough to anchor each section
+.fa-solid.badge40 {
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
+}
+th .fa-solid:not(.badge40) {
+  font-size: 2.2em;
+  vertical-align: middle;
+  margin-right: 0.35rem;
+}
+
+// p1: gray panel behind the keynotes block; service table back to white
+.keybox {
+  display: block;
+  background: rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  padding: 0.6rem 0.7rem;
+  margin-top: 0.5rem;
+}
+.service td {
+  background: #fff;
+}
+
+// keynote mic: inline, label sits beside it (was block/centered)
+.fa-solid.keynote-ico {
+  display: inline-block;
+  margin: 0 0.5rem 0 0;
+  vertical-align: middle;
+  text-align: left;
+}
+
+// keynotes header: icon + label centered as one unit, black rule under
+.keyhead {
+  display: block;
+  text-align: center;
+  padding-bottom: 0.35rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #000;
+}
+
+// p1 "work with us": AI item with a big gold "AI" (same gold and size
+// as the keynote mic) at right, vertically centered; black rule under;
+// tools as an indented dot list
+.airow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.35rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #000;
+}
+.aihead {
+  vertical-align: middle;
+  font-size: 2.6rem;
+  font-weight: bold;
+  line-height: 1;
+  color: #D4A017;
+  filter: drop-shadow(0 1px 2px rgba(120, 85, 0, 0.35));
+}
+
+// p1 tools strip: full width under the top table (kept out of col 3,
+// which it made far deeper than cols 1-2); dots flow in three columns
+.tools {
+  background: rgba(2, 29, 59, 0.07);
+  border-radius: 4px;
+  padding: 0.6rem 0.9rem;
+  margin: -0.5rem 0 1.5rem;
+  font-size: 0.875rem;
+}
+.toolhead {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #021D3B;
+  .fa-solid { color: #CC0000; margin-right: 0.3rem; }
+}
+.toolcols {
+  display: block;
+  columns: 3;
+  column-gap: 1.5rem;
+  .dot { break-inside: avoid; }
+}
+@media (max-width: 50rem) {
+  .toolcols { columns: 1; }
+}
+
+// p1 photo marquee: full-width slideshow under the title (clears the
+// hiring badge). First figure is the default; script in README.md
+// crossfades every 5s, pauses on hover, dots jump to a photo.
+.marquee {
+  position: relative;
+  clear: both;
+  width: 70%;
+  aspect-ratio: 16 / 9;
+  margin: 0.5rem auto 1.25rem;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #021D3B;
+  figure {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+  figure.on {
+    opacity: 1;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.5rem 0.9rem 0.6rem;
+    color: #fff;
+    font-size: x-small;
+    font-weight: 600;
+    background: linear-gradient(transparent, rgba(2, 29, 59, 0.85));
+  }
+}
+// reduced-motion setting: photos still rotate, but swap with no fade
+@media (prefers-reduced-motion: reduce) {
+  .marquee figure {
+    transition: none;
+  }
+}
+.marquee-dots {
+  position: absolute;
+  right: 0.8rem;
+  bottom: 0.7rem;
+  display: flex;
+  gap: 0.4rem;
+  button {
+    width: 0.7rem;
+    height: 0.7rem;
+    padding: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+  }
+  button.on {
+    background: #fff;
+  }
+}
+
+// marquee left/right arrows: translucent navy discs, vertically centered
+.marquee-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(2, 29, 59, 0.55);
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  &:hover {
+    background: rgba(2, 29, 59, 0.85);
+  }
+  &.prev { left: 0.6rem; }
+  &.next { right: 0.6rem; }
+}
+
+// phone width: marquee back to full width (70% is too small there)
+@media (max-width: 49.99rem) {
+  .marquee {
+    width: 100%;
+  }
+}
+
+// hiring burst: lifted to 10px below the top of the screen, over the
+// search bar; out of the text flow so the title gets the full width
+a.hiring {
+  float: none;
+  position: absolute;
+  top: 10px;
+  right: 2rem;
+  margin: 0;
+  z-index: 200;
+}
+// phone width: burst would cover the logo and menu button up there, so
+// it goes back into the page, floated right of the title
+@media (max-width: 49.99rem) {
+  a.hiring {
+    position: relative;
+    float: right;
+    top: auto;
+    right: auto;
+    margin: 0 0 0.5rem 1rem;
+  }
+}
+
+// p1 balance: top-table icon discs a little smaller, marquee a little larger
+.fa-solid.badge40 {
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+}
+@media (min-width: 50rem) {
+  .marquee {
+    width: 80%;
+  }
+}
+
+// student life: grids of little square face tiles. Named tiles carry
+// name + lab; .mini tiles are anonymous crops from group photos.
+.faces {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.75rem 0 1rem;
+  img {
+    display: block;
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+}
+.face {
+  display: block;
+  width: 96px;
+  font-size: 0.7rem;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  color: #021D3B;
+  b { display: block; margin-top: 0.25rem; }
+  span { display: block; color: #666; }
+}
+.faces.mini {
+  gap: 0.35rem;
+  img {
+    width: 56px;
+    height: 56px;
+    border-radius: 4px;
+  }
+}
+
+// student life: a lab's own student tiles, floated right of its text
+// (.col = single column); each new section starts below the float
+.faces.right {
+  float: right;
+  max-width: 312px;
+  justify-content: flex-end;
+  margin: 0 0 0.5rem 1.25rem;
+}
+.faces.right.col {
+  flex-direction: column;
+  max-width: 96px;
+}
+.main-content h2 {
+  clear: both;
+}
+@media (max-width: 49.99rem) {
+  .faces.right,
+  .faces.right.col {
+    float: none;
+    flex-direction: row;
+    max-width: none;
+    justify-content: flex-start;
+    margin: 0.75rem 0 1rem;
+  }
+}
+// AI row: no bullet, text flush left (it floated oddly beside the tall "AI")
+.airow .dot {
+  padding-left: 0;
+}
+.airow .dot::before {
+  content: none;
+}
+
+// p1 partners strip: organization names as uniform navy pills
+// (no panel: sits on the white gutter between the tables, centered)
+.partners {
+  text-align: center;
+  margin: -0.25rem 0 1.25rem;
+  font-size: 0.875rem;
+}
+.partnerhead {
+  margin-right: 0.5rem;
+  font-weight: 600;
+  color: #021D3B;
+}
+.chip {
+  display: inline-block;
+  margin: 0.15rem 0.35rem 0.15rem 0;
+  padding: 0.15rem 0.7rem;
+  border-radius: 999px;
+  border: 1.5px solid #021D3B;
+  background: rgba(2, 29, 59, 0.12);
+  color: #021D3B;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+// partner pills: a little color -- cycle the site's red, gold, navy
+.partners .chip:nth-child(3n) {
+  border-color: #CC0000;
+  background: rgba(204, 0, 0, 0.10);
+  color: #990000;
+}
+.partners .chip:nth-child(3n + 1) {
+  border-color: #D4A017;
+  background: rgba(212, 160, 23, 0.18);
+  color: #6b4e00;
+}
+
+// pick your professor: Venn + detail card + topic matrix (_includes/pick.html)
+.pick-hint {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: $navy;
+  text-align: center;
+  margin: 0.5rem 0 1rem;
+  .fa-solid { margin-right: 0.4rem; }
+}
+.pick-venn {
+  display: block;
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+  text { font-size: 15px; fill: $navy; }
+  .vh { font-size: 17px; font-weight: 700; }
+  .vs { font-size: 13px; fill: #666; }
+  #pick-names g { cursor: pointer; }
+  #pick-names g:hover text { text-decoration: underline; }
+  #pick-names g.sel text { fill: #CC0000; font-weight: 700; }
+}
+.pick-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: #555;
+  margin: 0.4rem 0 0.8rem;
+  b { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; }
+  .dot-n { background: #378ADD; border-radius: 50%; }
+  .dot-s { background: #EF9F27; border-radius: 50%; }
+}
+#pick-card {
+  border: 1px solid rgba(2, 29, 59, 0.2);
+  border-radius: 8px;
+  padding: 0.8rem 1.1rem;
+  min-height: 9rem;
+  max-width: 680px;
+  margin: 0 auto 1.5rem;
+  .nm { font-size: 1.15rem; font-weight: 700; color: $navy; }
+  img.headshot { float: left; margin: 0.2rem 1rem 0.5rem 0; border-radius: 6px; }
+  &::after { content: ""; display: block; clear: both; }
+  .muted, &> .muted { color: #666; font-size: 0.85rem; }
+  p { margin: 0.4rem 0; }
+}
+.pick-matrix .l1, .pick-legend .l1 { background: #FCEBEB; }
+.pick-matrix .l2, .pick-legend .l2 { background: #F09595; }
+.pick-matrix .l3, .pick-legend .l3 { background: #A32D2D; }
+.table-wrapper:has(table.pick-matrix) { box-shadow: none; }
+table.pick-matrix {
+  border-collapse: separate;
+  border-spacing: 3px;
+  width: auto !important;
+  min-width: 0 !important;     // theme forces tables to 100%
+  max-width: 100%;
+  margin: 0 auto;
+  table-layout: auto;
+  font-size: 0.8rem;
+  th, td { border: 0; padding: 0; background: none; min-width: 0 !important; } // theme: 120px cells
+  th { cursor: pointer; color: $navy; font-weight: 600; }
+  th.p { height: 7.5rem; width: 1.4rem; vertical-align: bottom; }
+  th.p span { display: inline-block; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; }
+  th.on { color: #CC0000; }
+  td.t { text-align: right; padding-right: 0.5rem; cursor: pointer; white-space: nowrap; }
+  td.t.on { color: #CC0000; font-weight: 700; }
+  .sum { width: 1.6rem; text-align: center; color: #999; font-size: 0.75rem; vertical-align: middle; }
+  th.sum { vertical-align: bottom; cursor: default; }
+  td.c { height: 1.4rem; width: 1.4rem; border-radius: 4px; background: rgba(2, 29, 59, 0.04); }
+  td.c.l1 { background: #FCEBEB; }
+  td.c.l2 { background: #F09595; }
+  td.c.l3 { background: #A32D2D; }
+  tr.dim td.c, td.c.dim { opacity: 0.15; }
+}
+
+// .tight: compact table rows (e.g. alumni roster)
+table.tight td, table.tight th {
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+}
+
+// site url in small type under the sidebar logo
+a.site-title {
+  flex-direction: column;
+}
+a.site-title::after {
+  content: "http://ncsu.software";
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+  color: rgba(2, 29, 59, 0.55);
+}

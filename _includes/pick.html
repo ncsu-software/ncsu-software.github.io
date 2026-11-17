@@ -1,0 +1,54 @@
+{% comment %} Pick Your Professor: topic matrix + detail card.
+   Data: _data/topics.yml. NB: theme minifies HTML to one line, so no // comments in the script. {% endcomment %}
+<p class="pick-hint"><i class="fa-solid fa-hand-pointer"></i> Click a topic or a name to focus it</p>
+<table id="pick-matrix" class="pick-matrix"></table>
+<div class="pick-legend">
+  <span><b class="l1"></b> some</span><span><b class="l2"></b> active</span><span><b class="l3"></b> core</span>
+  <span>Rows sorted by total interest.</span>
+</div>
+<div id="pick-card"><span class="muted">Click a name to see their lab, focus, and core topics.</span></div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var D = {{ site.data.topics | jsonify }};
+  var P = D.profs, IMG = "{{ '/img/' | relative_url }}";
+  var card = document.getElementById("pick-card");
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); };
+  var fr = null, fc = null, m = document.getElementById("pick-matrix");
+  function show(j) {
+    var p = P[j], kind = {n: "neural AI", s: "symbolic AI", ns: "neural and symbolic AI"}[p.ai];
+    card.innerHTML = '<img class="headshot" src="' + IMG + esc(p.img) + '" alt="' + esc(p.name) + '"><div class="nm">' + esc(p.name) + '</div><div class="muted">' + esc(p.lab) + ' · ' + esc(p.zone) +
+      (kind ? ' · ' + kind : '') + '</div><p>' + esc(p.text) + '</p><div>' +
+      p.tags.map(function (t) { return '<span class="chip">' + esc(t) + '</span>'; }).join('') +
+      '</div><p><a href="' + esc(p.url) + '">Visit the lab site</a></p>';
+  }
+  var sum = function (v) { return v.reduce(function (a, b) { return a + b; }, 0); };
+  var T = D.topics.slice().sort(function (a, b) { return sum(b.s) - sum(a.s); });
+  var h = '<thead><tr><th></th><th class="sum">sum</th>' + P.map(function (p, j) {
+    return '<th class="p" data-j="' + j + '"><span>' + esc(p.name) + '</span></th>'; }).join('') + '</tr></thead><tbody>';
+  T.forEach(function (r, i) {
+    h += '<tr data-i="' + i + '"><td class="t">' + esc(r.t) + '</td><td class="sum">' + sum(r.s) + '</td>' +
+      r.s.map(function (x, j) { return '<td class="c' + (x ? ' l' + x : '') + '" data-j="' + j + '" title="' +
+        esc(P[j].name) + ': ' + ["none", "some", "active", "core"][x] + '"></td>'; }).join('') + '</tr>';
+  });
+  m.innerHTML = h + '</tbody>';
+  function draw() {
+    m.querySelectorAll("tr[data-i]").forEach(function (r) {
+      var i = +r.dataset.i;
+      r.classList.toggle("dim", fc !== null ? T[i].s[fc] === 0 : (fr !== null && i !== fr));
+      r.querySelector(".t").classList.toggle("on", i === fr);
+    });
+    m.querySelectorAll("td.c").forEach(function (c) {
+      var j = +c.dataset.j;
+      c.classList.toggle("dim", (fr !== null && T[fr].s[j] === 0) || (fc !== null && j !== fc));
+    });
+    m.querySelectorAll("th.p").forEach(function (t) {
+      var j = +t.dataset.j; t.classList.toggle("on", j === fc || (fr !== null && T[fr].s[j] === 3));
+    });
+  }
+  m.addEventListener("click", function (e) {
+    var t = e.target.closest("td.t"), p = e.target.closest("th.p");
+    if (t) { var i = +t.parentNode.dataset.i; fr = (fr === i ? null : i); fc = null; draw(); }
+    if (p) { var j = +p.dataset.j; fc = (fc === j ? null : j); fr = null; show(j); draw(); }
+  });
+});</script>
