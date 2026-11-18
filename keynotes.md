@@ -4,11 +4,7 @@ nav_order: 1.5
 description: "Invited talks and keynotes by NC State software engineering faculty."
 ---
 
-<a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
-   title="We're hiring: open-call Professor position, NC State Computer Science">
-  <i class="fa-solid fa-certificate"></i>
-  <span>FACULTY<br>APPLY</span>
-</a>
+{% include badges.html %}
 
 # <i class="fa-solid fa-microphone-lines"></i> Keynotes & Talks
 

@@ -5,11 +5,7 @@ nav_order: 1
 description: "Where NC State software engineering graduates go."
 ---
 
-<a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
-   title="We're hiring: open-call Professor position, NC State Computer Science">
-  <i class="fa-solid fa-certificate"></i>
-  <span>FACULTY<br>APPLY</span>
-</a>
+{% include badges.html %}
 
 [&larr; Student Life](students.html)
 

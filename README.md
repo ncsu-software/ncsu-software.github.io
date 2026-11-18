@@ -5,17 +5,7 @@ permalink: /
 description: "NCSU SE: the software engineering group at NC State University: eight research labs, a top-five US SE group by research output. Study with us, work with us, and use our tools and data."
 ---
 
-<a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
-   title="We're hiring: open-call Professor position, NC State Computer Science">
-  <i class="fa-solid fa-certificate"></i>
-  <span>FACULTY<br>APPLY</span>
-</a>
-<a class="deadline" hidden data-from="09-01" data-until="12-15"
-   href="https://csc.ncsu.edu/academics/graduate/application-deadlines/"
-   title="PhD and international grad applications due December 15">
-  <i class="fa-solid fa-certificate"></i>
-  <span>STUDENTS<br>APPLY<br>BY DEC 15</span>
-</a>
+{% include badges.html %}
 
 # <i class="fa-solid fa-paw"></i> NCSU SE:<br>Software Engineering @ NC State
 

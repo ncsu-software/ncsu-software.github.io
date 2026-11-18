@@ -4,11 +4,7 @@ nav_order: 6
 description: "The eight software engineering labs at NC State and the faculty who lead them."
 ---
 
-<a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
-   title="We're hiring: open-call Professor position, NC State Computer Science">
-  <i class="fa-solid fa-certificate"></i>
-  <span>FACULTY<br>APPLY</span>
-</a>
+{% include badges.html %}
 
 # <i class="fa-solid fa-people-group"></i> Faculty & Labs
 

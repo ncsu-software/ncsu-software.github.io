@@ -5,11 +5,7 @@ nav_order: 2
 description: "Internship information for NC State software engineering students."
 ---
 
-<a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
-   title="We're hiring: open-call Professor position, NC State Computer Science">
-  <i class="fa-solid fa-certificate"></i>
-  <span>FACULTY<br>APPLY</span>
-</a>
+{% include badges.html %}
 
 [&larr; Student Life](students.html)
 

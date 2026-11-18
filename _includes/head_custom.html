@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   sub("{{ '/faculty.html' | relative_url }}", {{ site.data.faculty | jsonify }});
   sub("{{ '/students.html' | relative_url }}", [
+    {name: "Apply for Grad School", url: "https://csc.ncsu.edu/academics/graduate/application-deadlines/"},
     {name: "Alumni", url: "{{ '/alumni.html' | relative_url }}"},
     {name: "Internships", url: "{{ '/internships.html' | relative_url }}"},
     {name: "Why Live in Raleigh?", url: "{{ '/raleigh.html' | relative_url }}"},

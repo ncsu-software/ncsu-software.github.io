@@ -4,11 +4,7 @@ nav_order: 5
 description: "Student life in software engineering at NC State: applying, advising, and the graduate experience."
 ---
 
-<a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
-   title="We're hiring: open-call Professor position, NC State Computer Science">
-  <i class="fa-solid fa-certificate"></i>
-  <span>FACULTY<br>APPLY</span>
-</a>
+{% include badges.html %}
 
 # <i class="fa-solid fa-medal"></i> Student Life
 
@@ -34,6 +30,14 @@ continents, and occasionally climb a mountain. Highlights by lab
 |----------------|---------------|--------------|
 | <span class="dot">[HFXE Lab](#hfxe) (Sandeep Kuttal)</span><span class="dot">[The Evolve Group](#evolve) (Wesley Assunção)</span><span class="dot">[Irrational Research Lab](#irl) (Tim Menzies)</span><span class="dot">[SoftMax Lab](#softmax) (Bowen Xu)</span> | <span class="dot">Our students go **EVERYWHERE**.</span><span class="dot">See [where they are now](alumni.html).</span> | <span class="dot">Industry chases our students for summer positions.</span><span class="dot">See [who went where](internships.html).</span> |
 {: .hero}
+
+## Apply for grad school
+{: #apply}
+
+PhD (and all international) applications for Fall are due
+**December 15**, recommendation letters included. US master's: May 1
+for Fall, October 15 for Spring. Full list:
+[CSC application deadlines](https://csc.ncsu.edu/academics/graduate/application-deadlines/).
 
 ## HFXE Lab (Sandeep Kuttal), 2026
 {: #hfxe}
