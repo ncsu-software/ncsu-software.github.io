@@ -685,3 +685,12 @@ a.deadline {
   list-style: disc;
   li::marker { color: #000; font-size: 0.8em; }
 }
+
+// sidebar footer: three separate blocks, each with a heading line
+.side-info .side-block {
+  margin-bottom: 0.6rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  line-height: 1.35;
+  b { display: block; color: #CC0000; margin-bottom: 0.1rem; }
+}
