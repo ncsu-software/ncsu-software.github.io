@@ -5,6 +5,8 @@ nav_order: 1
 description: "Why live in Raleigh — the area for prospective NC State students."
 ---
 
+{% include badges.html %}
+
 # <i class="fa-solid fa-tree-city"></i> Why Live in Raleigh?
 
 **It's affordable.** Cost of living sits at the national
