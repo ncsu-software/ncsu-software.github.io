@@ -37,7 +37,10 @@ Then it is a short walk south to Koch Hall.
     .bindTooltip('<b>We are here.</b><br>CS dept. WiSER Lab.<br>3228 Koch Hall', { permanent: true, direction: 'right', offset: [12, 0] });
   L.marker(park, { icon: pin('#1a5fb4') }).addTo(map)
     .bindTooltip('<b>Visitor parking</b><br>Partners Way Deck', { permanent: true, direction: 'left', offset: [-12, 0] });
-  L.polyline([park, lab], { color: '#555', weight: 3, dashArray: '6 6' }).addTo(map);
+  // walking route: west of Golden LEAF, round the Oval Dr circle, along Koch Hall's NE side
+  var walk = [park, [35.77263, -78.67455], [35.77241, -78.67380], [35.77226, -78.67380],
+              [35.77212, -78.67355], [35.77186, -78.67314], lab];
+  L.polyline(walk, { color: '#555', weight: 3, dashArray: '6 6' }).addTo(map);
   map.fitBounds([lab, park], { padding: [80, 80] });
 })();
 </script>
