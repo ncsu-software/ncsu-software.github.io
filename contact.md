@@ -35,7 +35,7 @@ Then it is a short walk south to Koch Hall.
             ';border:3px solid #fff;box-shadow:0 0 4px rgba(0,0,0,.5)"></div>' });
   };
   L.marker(lab, { icon: pin('#CC0000') }).addTo(map)
-    .bindTooltip('<b>We are here.</b><br>WiSER Lab.<br>3228 Koch Hall', { permanent: true, direction: 'right', offset: [12, 0] });
+    .bindTooltip('<b>We are here.</b><br>CS dept. WiSER Lab.<br>3228 Koch Hall', { permanent: true, direction: 'right', offset: [12, 0] });
   L.marker(park, { icon: pin('#1a5fb4') }).addTo(map)
     .bindTooltip('<b>Visitor parking</b><br>Partners Way Deck', { permanent: true, direction: 'left', offset: [-12, 0] });
   L.polyline([park, lab], { color: '#555', weight: 3, dashArray: '6 6' }).addTo(map);
