@@ -8,7 +8,7 @@ description: "Guidance on picking your advisor among NC State software engineeri
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
    title="We're hiring: open-call Professor position, NC State Computer Science">
   <i class="fa-solid fa-certificate"></i>
-  <span>WE'RE<br>HIRING</span>
+  <span>FACULTY<br>APPLY</span>
 </a>
 
 # <i class="fa-solid fa-signs-post"></i> Pick Your Professor

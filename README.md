@@ -8,13 +8,13 @@ description: "NCSU SE: the software engineering group at NC State University: ei
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
    title="We're hiring: open-call Professor position, NC State Computer Science">
   <i class="fa-solid fa-certificate"></i>
-  <span>WE'RE<br>HIRING</span>
+  <span>FACULTY<br>APPLY</span>
 </a>
 <a class="deadline" hidden data-from="09-01" data-until="12-15"
    href="https://csc.ncsu.edu/academics/graduate/application-deadlines/"
    title="PhD and international grad applications due December 15">
   <i class="fa-solid fa-certificate"></i>
-  <span>APPLY BY<br>DEC 15</span>
+  <span>STUDENTS<br>APPLY<br>BY DEC 15</span>
 </a>
 
 # <i class="fa-solid fa-paw"></i> NCSU SE:<br>Software Engineering @ NC State

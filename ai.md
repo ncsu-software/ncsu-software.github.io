@@ -7,7 +7,7 @@ description: "How the NC State software engineering group uses and studies AI in
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
    title="We're hiring: open-call Professor position, NC State Computer Science">
   <i class="fa-solid fa-certificate"></i>
-  <span>WE'RE<br>HIRING</span>
+  <span>FACULTY<br>APPLY</span>
 </a>
 
 # <i class="fa-solid fa-robot"></i> AI & SE @ NC State

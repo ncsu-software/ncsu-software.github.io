@@ -7,7 +7,7 @@ description: "Invited talks and keynotes by NC State software engineering facult
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
    title="We're hiring: open-call Professor position, NC State Computer Science">
   <i class="fa-solid fa-certificate"></i>
-  <span>WE'RE<br>HIRING</span>
+  <span>FACULTY<br>APPLY</span>
 </a>
 
 # <i class="fa-solid fa-microphone-lines"></i> Keynotes & Talks

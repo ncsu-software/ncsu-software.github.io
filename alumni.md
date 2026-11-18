@@ -8,7 +8,7 @@ description: "Where NC State software engineering graduates go."
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
    title="We're hiring: open-call Professor position, NC State Computer Science">
   <i class="fa-solid fa-certificate"></i>
-  <span>WE'RE<br>HIRING</span>
+  <span>FACULTY<br>APPLY</span>
 </a>
 
 [&larr; Student Life](students.html)

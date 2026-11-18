@@ -7,7 +7,7 @@ description: "Student life in software engineering at NC State: applying, advisi
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
    title="We're hiring: open-call Professor position, NC State Computer Science">
   <i class="fa-solid fa-certificate"></i>
-  <span>WE'RE<br>HIRING</span>
+  <span>FACULTY<br>APPLY</span>
 </a>
 
 # <i class="fa-solid fa-medal"></i> Student Life
