@@ -694,18 +694,5 @@ a.deadline {
   li::marker { color: #000; font-size: 0.8em; }
 }
 
-// page footer (main pane): find us / contact / issues. Lives here, not in
-// the sidebar, so the nav gets the full sidebar height under the logo.
-.side-info {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 2rem;
-  font-size: 0.8rem;
-  line-height: 1.35;
-  .side-block {
-    flex: 1 1 12rem;
-    b { display: block; color: #CC0000; margin-bottom: 0.1rem; }
-  }
-}
 // sidebar footer is now empty: hide it so it takes no space
 .side-bar .site-footer { display: none; }
