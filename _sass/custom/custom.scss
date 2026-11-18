@@ -694,3 +694,14 @@ a.deadline {
   line-height: 1.35;
   b { display: block; color: #CC0000; margin-bottom: 0.1rem; }
 }
+
+// narrow view: theme pins the footer to the bottom of the full-height
+// sidebar, where it lands on top of page text. Show it under the menu
+// only when the menu is open, in normal flow.
+@media (max-width: 49.99rem) {
+  .side-bar .site-footer {
+    position: static;
+    padding: 0.5rem 1rem 1rem;
+  }
+  .side-bar .site-nav:not(.nav-open) ~ .site-footer { display: none; }
+}
