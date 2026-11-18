@@ -23,7 +23,7 @@ Then it is a short walk south to Koch Hall.
 <script>
 (function () {
   var lab  = [35.77147, -78.67376];   // Koch Hall CS wing (was Engineering Building II), 890 Oval Dr
-  var park = [35.77357, -78.67463];   // Partners Way Parking Deck, 851 Partners Way
+  var park = [35.77336, -78.67435];   // Partners Way Parking Deck entrance, on Partners Way
   var map = L.map('campus-map', { scrollWheelZoom: false });
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
