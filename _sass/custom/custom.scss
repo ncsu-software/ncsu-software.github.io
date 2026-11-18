@@ -637,8 +637,3 @@ a.site-title::after {
   letter-spacing: 0.06em;
   color: rgba(2, 29, 59, 0.55);
 }
-
-// desktop: keep the title clear of the absolutely-placed hiring burst
-@media (min-width: 50rem) {
-  a.hiring ~ h1 { padding-right: 12rem; }
-}
