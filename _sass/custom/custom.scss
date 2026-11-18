@@ -87,7 +87,9 @@ a.site-title {
     height: auto;
     min-height: 0;
     max-height: none;
+    flex-shrink: 0;  // never squeeze the logo; the nav scrolls instead
   }
+  .side-bar .site-footer { flex-shrink: 0; }
   a.site-title {
     height: auto;
   }
