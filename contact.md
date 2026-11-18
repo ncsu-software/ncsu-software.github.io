@@ -46,8 +46,3 @@ Then it is a short walk south to Koch Hall.
 ## <i class="fa-solid fa-envelope"></i> Contact us
 
 Email [timm@ieee.org](mailto:timm@ieee.org).
-
-## <i class="fa-brands fa-github"></i> Typo? Idea?
-
-[Report an issue](https://github.com/ncsu-software/ncsu-software.github.io/issues)
-on GitHub.

@@ -694,5 +694,13 @@ a.deadline {
   li::marker { color: #000; font-size: 0.8em; }
 }
 
-// sidebar footer is now empty: hide it so it takes no space
-.side-bar .site-footer { display: none; }
+// sidebar footer: one tiny line (typo / issue link)
+.side-bar .site-footer.side-typo {
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  padding: 0.25rem 1rem 0.5rem;
+}
+@media (max-width: 49.99rem) {
+  .side-bar .site-footer.side-typo { position: static; }
+  .side-bar .site-nav:not(.nav-open) ~ .site-footer { display: none; }
+}
