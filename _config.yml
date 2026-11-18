@@ -5,6 +5,7 @@ remote_theme: just-the-docs/just-the-docs@v0.8.2
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-sitemap
 search_enabled: true
 mermaid:
   version: "9.4.3"

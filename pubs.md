@@ -1,6 +1,7 @@
 ---
 title: News & Publications
 nav_order: 4.5
+description: "Recent papers, publications, and news from NC State software engineering."
 ---
 
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"

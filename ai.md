@@ -1,6 +1,7 @@
 ---
 title: "AI & SE @ NC State"
 nav_order: 4
+description: "How the NC State software engineering group uses and studies AI in software engineering."
 ---
 
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"

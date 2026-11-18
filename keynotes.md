@@ -1,6 +1,7 @@
 ---
 title: Keynotes & Talks
 nav_order: 1.5
+description: "Invited talks and keynotes by NC State software engineering faculty."
 ---
 
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"

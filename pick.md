@@ -2,6 +2,7 @@
 title: Pick Your Professor
 parent: Student Life
 nav_order: 2
+description: "Guidance on picking your advisor among NC State software engineering faculty."
 ---
 
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"

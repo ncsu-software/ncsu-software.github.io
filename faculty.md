@@ -1,6 +1,7 @@
 ---
 title: Faculty & Labs
 nav_order: 6
+description: "The eight software engineering labs at NC State and the faculty who lead them."
 ---
 
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"

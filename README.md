@@ -2,6 +2,7 @@
 title: Home
 nav_order: 1
 permalink: /
+description: "The software engineering group at NC State University: eight research labs, a top-five US SE group by research output. Study with us, work with us, and use our tools and data."
 ---
 
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"

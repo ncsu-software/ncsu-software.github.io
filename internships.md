@@ -2,6 +2,7 @@
 title: Internships
 nav_exclude: true
 nav_order: 2
+description: "Internship information for NC State software engineering students."
 ---
 
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"

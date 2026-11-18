@@ -2,6 +2,7 @@
 title: Why Live in Raleigh?
 parent: Student Life
 nav_order: 1
+description: "Why live in Raleigh — the area for prospective NC State students."
 ---
 
 # <i class="fa-solid fa-tree-city"></i> Why Live in Raleigh?

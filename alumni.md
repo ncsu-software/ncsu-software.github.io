@@ -2,6 +2,7 @@
 title: Alumni
 nav_exclude: true
 nav_order: 1
+description: "Where NC State software engineering graduates go."
 ---
 
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"

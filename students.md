@@ -1,6 +1,7 @@
 ---
 title: Student Life
 nav_order: 5
+description: "Student life in software engineering at NC State: applying, advising, and the graduate experience."
 ---
 
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
