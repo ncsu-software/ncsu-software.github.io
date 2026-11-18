@@ -679,3 +679,9 @@ a.deadline {
     margin: 0 0 0.5rem 0.5rem;
   }
 }
+
+// Student Life sub-menu: small black bullets
+.nav-list .nav-people.dots {
+  list-style: disc;
+  li::marker { color: #000; font-size: 0.8em; }
+}

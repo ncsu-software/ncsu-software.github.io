@@ -36,13 +36,13 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("[data-from][data-until]").forEach(function (e) {
     if (md >= e.dataset.from && md <= e.dataset.until) e.hidden = false;
   });
-  function sub(page, items) {
+  function sub(page, items, cls) {
     var a = document.querySelector('#site-nav a.nav-list-link[href="' + page + '"]');
     /* on the page itself the theme strips href from the active link */
     if (!a && location.pathname === page) a = document.querySelector('#site-nav a.nav-list-link.active');
     if (!a) return;
     var ul = document.createElement("ul");
-    ul.className = "nav-people";
+    ul.className = "nav-people" + (cls ? " " + cls : "");
     items.forEach(function (p) {
       var li = document.createElement("li"), l = document.createElement("a");
       l.textContent = p.name;
@@ -59,6 +59,6 @@ document.addEventListener("DOMContentLoaded", function () {
     {name: "Internships", url: "{{ '/internships.html' | relative_url }}"},
     {name: "Why Live in Raleigh?", url: "{{ '/raleigh.html' | relative_url }}"},
     {name: "Pick Your Professor", url: "{{ '/pick.html' | relative_url }}"}
-  ]);
+  ], "dots");
 });
 </script>
