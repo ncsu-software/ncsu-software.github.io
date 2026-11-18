@@ -10,8 +10,7 @@ description: "How to find, visit, and contact the NC State Software Engineering 
 
 ## Find us
 
-Lab 3228, Koch Hall, NC State
-([map](https://www.google.com/maps/search/?api=1&query=Engineering+Building+II%2C+890+Oval+Dr%2C+Raleigh%2C+NC+27606)).
+CS dept. WiSER Lab. Room 3228, Koch Hall, NC State.
 
 **Parking:** use the Partners Way deck, lower levels
 ([visitor rates](https://transportation.ncsu.edu/visitor-parking/)).
