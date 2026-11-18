@@ -11,7 +11,7 @@ profs:
      url: "https://jpwco.com/",
      text: "Can we trust what the LLM wrote? Dependable code for real machines, such as unit-mismatch bugs in robots.",
      tags: ["trust in LLM code", "robotics", "testing"]}
-  - {k: ks, img: "katie.png", name: "Katie Stolee", lab: "The Perspective People", zone: "All three", ai: n, x: 340, y: 235,
+  - {k: ks, img: "katie.png", name: "Katie Stolee", lab: "The Perspective People", zone: "AI and analytics + code quality + people", ai: n, x: 340, y: 235,
      url: "https://kstolee.github.io/",
      text: "How developers search, understand, and reuse code, now with AI beside them, plus tools that do it better.",
      tags: ["code search and reuse", "program repair", "developer experience", "human-AI programming"]}
@@ -31,7 +31,7 @@ profs:
      url: "https://timm.fyi/irl.html",
      text: "AI and analytics for SE in general, with LLMs as one part. Data mining, optimization, and active learning that get good results from little data, few labels, and little code, while staying explainable and fair.",
      tags: ["data mining", "optimization", "active learning", "explainable and fair AI", "frugal AI"]}
-  - {k: wa, img: "wesley.jpg", name: "Wesley Assunção", lab: "The Evolve Group", zone: "All three", ai: ns, x: 340, y: 262,
+  - {k: wa, img: "wesley.jpg", name: "Wesley Assunção", lab: "The Evolve Group", zone: "AI and analytics + code quality + people", ai: ns, x: 340, y: 262,
      url: "https://wesleyklewerton.github.io/",
      text: "Big, old software that needs upgrading: AI agents and search-based methods for maintenance, product lines, and modernization, plus some of the socio-technical side.",
      tags: ["AI agents", "search-based SE", "legacy modernization", "socio-technical"]}
