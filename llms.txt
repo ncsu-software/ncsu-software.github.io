@@ -1,0 +1,29 @@
+---
+permalink: /llms.txt
+layout: none
+sitemap: false
+---
+# {{ site.title }}
+
+> The software engineering group in the Department of Computer Science at North
+> Carolina State University: eight research labs studying how to build better
+> software, spanning AI & SE, human factors, testing, program analysis, and
+> search-based software engineering. By research output, a top-five SE group in
+> the US (CSRankings).
+
+Site: {{ site.url }}
+
+## Pages
+{%- assign llm_pages = site.html_pages | where_exp: "p", "p.description" | sort: "url" -%}
+{%- for p in llm_pages %}
+- [{{ p.title }}]({{ p.url | absolute_url }}): {{ p.description }}
+{%- endfor %}
+
+## Faculty
+{%- for f in site.data.faculty %}
+- {{ f.name }}{% if f.url %} — {{ f.url }}{% else %} — {{ '/faculty.html' | absolute_url }}{% endif %}
+{%- endfor %}
+
+## Admissions
+
+- Graduate admissions: https://csc.ncsu.edu/academics/graduate/future-graduate-students/
