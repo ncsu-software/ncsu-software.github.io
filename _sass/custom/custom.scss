@@ -637,3 +637,45 @@ a.site-title::after {
   letter-spacing: 0.06em;
   color: rgba(2, 29, 59, 0.55);
 }
+
+// "apply by Dec 15" badge: smaller gold burst, left of the hiring burst,
+// no pulse. Shown each year from data-from to data-until (MM-DD) by
+// head_custom.html, so it never goes stale.
+a.deadline {
+  position: absolute;
+  top: 40px;
+  right: 13.5rem;
+  z-index: 200;
+  display: block;
+  width: 6.5rem;
+  height: 6.5rem;
+  text-align: center;
+  .fa-certificate {
+    display: block;
+    font-size: 6.5rem;
+    line-height: 1;
+    color: #D4A017;
+    filter: drop-shadow(0 2px 4px rgba(120, 85, 0, 0.4));
+  }
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-12deg);
+    color: #fff;
+    font-weight: 800;
+    font-size: 0.8rem;
+    line-height: 1.15;
+    white-space: nowrap;
+  }
+  &[hidden] { display: none; }
+}
+@media (max-width: 49.99rem) {
+  a.deadline {
+    position: relative;
+    float: right;
+    top: auto;
+    right: auto;
+    margin: 0 0 0.5rem 0.5rem;
+  }
+}

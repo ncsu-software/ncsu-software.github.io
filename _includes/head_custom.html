@@ -32,6 +32,10 @@
    NB: theme minifies HTML to one line, so no // comments inside the script. {% endcomment %}
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  var md = new Date().toISOString().slice(5, 10);
+  document.querySelectorAll("[data-from][data-until]").forEach(function (e) {
+    if (md >= e.dataset.from && md <= e.dataset.until) e.hidden = false;
+  });
   function sub(page, items) {
     var a = document.querySelector('#site-nav a.nav-list-link[href="' + page + '"]');
     /* on the page itself the theme strips href from the active link */
