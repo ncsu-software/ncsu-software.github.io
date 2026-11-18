@@ -2,7 +2,7 @@
 title: Home
 nav_order: 1
 permalink: /
-description: "The software engineering group at NC State University: eight research labs, a top-five US SE group by research output. Study with us, work with us, and use our tools and data."
+description: "NCSU SE: the software engineering group at NC State University: eight research labs, a top-five US SE group by research output. Study with us, work with us, and use our tools and data."
 ---
 
 <a class="hiring" href="https://jobs.ncsu.edu/postings/237085"
@@ -11,7 +11,7 @@ description: "The software engineering group at NC State University: eight resea
   <span>WE'RE<br>HIRING</span>
 </a>
 
-# <i class="fa-solid fa-paw"></i> SE @ ComSci, NC State
+# <i class="fa-solid fa-paw"></i> NCSU SE: Software Engineering @ NC State
 
 <div class="marquee" id="marquee">
   <figure class="on"><img src="img/marquee/wiser_lab_dinner.jpg" alt="WISER lab dinner"><figcaption>WISER lab dinner</figcaption></figure>
