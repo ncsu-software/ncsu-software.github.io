@@ -1,0 +1,38 @@
+name: accessibility
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: bundle exec jekyll build
+        env:
+          PAGES_REPO_NWO: ${{ github.repository }}
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: install scanner
+        run: npm install
+        working-directory: tools/a11y
+      - name: serve the built site
+        run: |
+          python3 -m http.server 4100 --bind 127.0.0.1 -d _site &
+          for i in $(seq 1 20); do curl -sf -o /dev/null http://127.0.0.1:4100/ && break; sleep 1; done
+      # WCAG 2.1 AA scan: axe-core in four viewport/motion states, plus the
+      # keyboard, focus, naming and behaviour checks axe cannot make.
+      - name: scan
+        run: node scan.js
+        working-directory: tools/a11y
+        env:
+          CHROME_PATH: /usr/bin/google-chrome

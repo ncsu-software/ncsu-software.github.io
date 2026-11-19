@@ -1,0 +1,12 @@
+{
+  "name": "ncsu-soft-a11y",
+  "private": true,
+  "description": "WCAG 2.1 AA scan for the built site; run with 'make a11y'",
+  "scripts": {
+    "scan": "node scan.js"
+  },
+  "dependencies": {
+    "axe-core": "^4.10.0",
+    "puppeteer-core": "^24.0.0"
+  }
+}

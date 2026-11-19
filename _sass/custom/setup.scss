@@ -1,0 +1,16 @@
+// Typography, per https://brand.ncsu.edu/designing-for-nc-state/typography/
+// Roboto is the university's primary family ("used most prominently in any
+// design ... always for extended body copy"); Roboto Slab is the secondary
+// face, used below for captions and pull quotes. Both ship from Google Fonts
+// (linked in _includes/head_custom.html) and need no licence.
+//
+// This file is imported before the theme's own modules, so plain assignments
+// here win over the theme defaults.
+
+$body-font-family: "Roboto", system-ui, -apple-system, blinkmacsystemfont,
+  "Segoe UI", "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji";
+$mono-font-family: "Roboto Mono", "SFMono-Regular", menlo, consolas, monospace;
+
+// brand asks for 130-160% leading
+$body-line-height: 1.5;
+$content-line-height: 1.6;
