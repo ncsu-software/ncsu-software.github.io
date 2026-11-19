@@ -28,9 +28,21 @@ view: ## build+serve locally, open browser on the top page when ready
 	PATH="$$(ls -d /opt/homebrew/opt/ruby@3.3/bin /opt/homebrew/opt/ruby@3.4/bin 2>/dev/null | head -1):$$PATH" \
 	  bundle exec jekyll serve
 
+Ruby = PATH="$$(ls -d /opt/homebrew/opt/ruby@3.3/bin /opt/homebrew/opt/ruby@3.4/bin 2>/dev/null | head -1):$$PATH"
+
+a11y: ## build, then scan every page for WCAG 2.1 AA problems (see accessibility.md)
+	rm -rf _site        # a stale _site keeps deleted pages in the nav
+	$(Ruby) bundle exec jekyll build
+	[ -d tools/a11y/node_modules ] || (cd tools/a11y && npm install)
+	python3 -m http.server 4100 --bind 127.0.0.1 -d _site >/dev/null 2>&1 & \
+	  srv=$$!; sleep 2; \
+	  (cd tools/a11y && node scan.js); rc=$$?; \
+	  kill $$srv; exit $$rc
+
 all: ## stamp README's header (after front matter, before first h1) on every *.md
 	for f in *.md; do \
 	  [ "$$f" = "README.md" ] && continue; \
+	  [ "$$f" = "accessibility.md" ] && continue; \
 	  { gawk 'NR==1 && /^---$$/{fm=1} fm{print} fm && NR>1 && /^---$$/{exit}' $$f; \
 	    gawk 'NR==1 && /^---$$/{fm=1; next} fm && /^---$$/{fm=0; next} fm{next} /^# /{exit} {print}' README.md; \
 	    gawk '/^# /{p=1}p' $$f; } > $$f.tmp \
@@ -50,7 +62,7 @@ sh: $(Rc)/init.lua $(Rc)/bashrc ## tuned bash (config from this Makefile)
 	env -u MAKEFLAGS -u MFLAGS -u MAKELEVEL here=$(Top) rc=$(Rc) \
 	  bash --rcfile $(Rc)/bashrc -i || true
 
-.PHONY: help pull push view all vi sh
+.PHONY: help pull push view a11y all vi sh
 
 # ---------------------------------------------- bash config (make sh)
 #sh # tuned interactive bash; enter via `make sh`, which sets

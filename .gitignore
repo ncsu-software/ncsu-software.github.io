@@ -4,3 +4,5 @@ _site/
 .bundle/
 vendor/
 .DS_Store
+tools/a11y/node_modules/
+tools/a11y/package-lock.json

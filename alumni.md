@@ -9,7 +9,7 @@ description: "Where NC State software engineering graduates go."
 
 [&larr; Student Life](students.html)
 
-# <i class="fa-solid fa-user-graduate"></i> Alumni
+# <i class="fa-solid fa-user-graduate" aria-hidden="true"></i> Alumni
 
 Where our graduates went next. (Faculty: send us more!)
 
@@ -22,13 +22,13 @@ Where our graduates went next. (Faculty: send us more!)
 
 - **Shandler Mason** (PhD 2026, HFXE Lab) joined Norfolk State as
   tenure-track faculty
-  ([feature](https://engr.ncsu.edu/news/2026/04/29/shandler-mason-human-centered-software-engineering/)).
+  ([feature](https://engr.ncsu.edu/news/2026/04/29/shandler-mason-human-centered-software-engineering/){: aria-label="feature: Shandler Mason joins Norfolk State faculty"}).
   Her remote-collaboration paper took an **Honorable Mention at
   ACM DIS 2026**
   ([NC State News](https://news.ncsu.edu/2026/05/improving-online-collaboration/)).
 - **Shahnewaz Leon** (PhD 2026, HFXE Lab): his "Where Will They
   Click Next?" earned an **Honorable Mention at ACM CHI 2026**
-  ([feature](https://csc.ncsu.edu/2026/04/shahnewaz-leon-sandeep-kuttal-receive-honorable-mention-at-acm-chi/)).
+  ([feature](https://csc.ncsu.edu/2026/04/shahnewaz-leon-sandeep-kuttal-receive-honorable-mention-at-acm-chi/){: aria-label="feature: Shahnewaz Leon, CHI 2026 Honorable Mention"}).
 - **Sandeep Sthapit** (PhD 2026, HFXE Lab) joined a liberal arts
   college as teaching faculty.
 

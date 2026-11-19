@@ -6,7 +6,7 @@ description: "How to find, visit, and contact the NC State Software Engineering 
 
 {% include badges.html %}
 
-# <i class="fa-solid fa-location-dot"></i> Contact / Visit
+# <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Contact / Visit
 
 ## Find us
 
@@ -28,25 +28,29 @@ Then it is a short walk south to Koch Hall.
     maxZoom: 19,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
-  var pin = function (color) {
+  // 4.1.2: Leaflet gives every marker role=button, so the name rides inside the
+  // icon's own html (Leaflet rebuilds the outer element, and it does not exist
+  // at all until the map has a view)
+  var pin = function (color, name) {
     return L.divIcon({ className: '', iconSize: [22, 22], iconAnchor: [11, 11],
       html: '<div style="width:22px;height:22px;border-radius:50%;background:' + color +
-            ';border:3px solid #fff;box-shadow:0 0 4px rgba(0,0,0,.5)"></div>' });
+            ';border:3px solid #fff;box-shadow:0 0 4px rgba(0,0,0,.5)"></div>' +
+            '<span class="sr-only">' + name + '</span>' });
   };
-  L.marker(lab, { icon: pin('#CC0000') }).addTo(map)
+  L.marker(lab, { icon: pin('#CC0000', 'WiSER Lab, 3228 Koch Hall') }).addTo(map)
     .bindTooltip('<b>We are here.</b><br>CS dept. WiSER Lab.<br>3228 Koch Hall', { permanent: true, direction: 'right', offset: [12, 0] });
-  L.marker(park, { icon: pin('#1a5fb4') }).addTo(map)
+  L.marker(park, { icon: pin('#4156A1', 'Visitor parking, Partners Way Deck') }).addTo(map)
     .bindTooltip('<b>Visitor parking</b><br>Partners Way Deck', { permanent: true, direction: 'left', offset: [-12, 0] });
   // walking route: west of Golden LEAF, round the Oval Dr circle, in the entrance
   // by the Engineering II bus stop, then inside to the lab
   var door = [35.77206, -78.67363];
   var walk = [park, [35.77263, -78.67455], [35.77241, -78.67380], [35.77226, -78.67380],
               door, lab];
-  L.polyline(walk, { color: '#555', weight: 3, dashArray: '6 6' }).addTo(map);
+  L.polyline(walk, { color: '#000', weight: 3, dashArray: '6 6' }).addTo(map);
   map.fitBounds([lab, park], { padding: [80, 80] });
 })();
 </script>
 
-## <i class="fa-solid fa-envelope"></i> Contact us
+## <i class="fa-solid fa-envelope" aria-hidden="true"></i> Contact us
 
 Email [timm@ieee.org](mailto:timm@ieee.org).

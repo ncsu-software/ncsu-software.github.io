@@ -6,7 +6,7 @@ description: "Student life in software engineering at NC State: applying, advisi
 
 {% include badges.html %}
 
-# <i class="fa-solid fa-medal"></i> Student Life
+# <i class="fa-solid fa-medal" aria-hidden="true"></i> Student Life
 
 <div class="marquee">
   <figure class="on"><img src="img/marquee/graduation.jpg" alt="PhD graduation day"><figcaption>PhD graduation day</figcaption></figure>
@@ -26,7 +26,7 @@ Our students defend PhDs, win paper awards, intern on three
 continents, and occasionally climb a mountain. Highlights by lab
 (every lab: send us your wins!).
 
-| <i class="fa-solid fa-flask badge40"></i> labs | <i class="fa-solid fa-user-graduate badge40"></i> alumni | <i class="fa-solid fa-briefcase badge40"></i> internships |
+| <i class="fa-solid fa-flask badge40" aria-hidden="true"></i> labs | <i class="fa-solid fa-user-graduate badge40" aria-hidden="true"></i> alumni | <i class="fa-solid fa-briefcase badge40" aria-hidden="true"></i> internships |
 |----------------|---------------|--------------|
 | <span class="dot">[HFXE Lab](#hfxe) (Sandeep Kuttal)</span><span class="dot">[The Evolve Group](#evolve) (Wesley Assunção)</span><span class="dot">[Irrational Research Lab](#irl) (Tim Menzies)</span><span class="dot">[SoftMax Lab](#softmax) (Bowen Xu)</span> | <span class="dot">Our students go **EVERYWHERE**.</span><span class="dot">See [where they are now](alumni.html).</span> | <span class="dot">Industry chases our students for summer positions.</span><span class="dot">See [who went where](internships.html).</span> |
 {: .hero}
@@ -49,21 +49,21 @@ for Fall, October 15 for Spring. Full list:
 
 - Shandler Mason earned her PhD and joined Norfolk State as
   tenure-track faculty
-  ([feature](https://engr.ncsu.edu/news/2026/04/29/shandler-mason-human-centered-software-engineering/));
+  ([feature](https://engr.ncsu.edu/news/2026/04/29/shandler-mason-human-centered-software-engineering/){: aria-label="feature: Shandler Mason joins Norfolk State faculty"});
   her remote-collaboration paper took an **Honorable Mention at
   ACM DIS 2026**
   ([NC State News](https://news.ncsu.edu/2026/05/improving-online-collaboration/)).
 - Shahnewaz Leon defended his PhD; his "Where Will They Click
   Next?" earned an **Honorable Mention at ACM CHI 2026**
-  ([feature](https://csc.ncsu.edu/2026/04/shahnewaz-leon-sandeep-kuttal-receive-honorable-mention-at-acm-chi/)).
+  ([feature](https://csc.ncsu.edu/2026/04/shahnewaz-leon-sandeep-kuttal-receive-honorable-mention-at-acm-chi/){: aria-label="feature: Shahnewaz Leon, CHI 2026 Honorable Mention"}).
 - Sandeep Sthapit defended his PhD and joined a liberal arts
   college as teaching faculty.
 - Saba Khanmohammadi finished her master's, stayed for the PhD
-  ([feature](https://csc.ncsu.edu/2026/10/saba-khanmohammadi-from-masters-to-ph-d/)),
+  ([feature](https://csc.ncsu.edu/2026/10/saba-khanmohammadi-from-masters-to-ph-d/){: aria-label="feature: Saba Khanmohammadi, IBM internships"}),
   won a **Provost Doctoral Fellowship**, and interned at IBM —
   twice.
 - Manali Tekes completed an international internship in Germany
-  ([feature](https://csc.ncsu.edu/2026/10/manali-tekes-internship-abroad/));
+  ([feature](https://csc.ncsu.edu/2026/10/manali-tekes-internship-abroad/){: aria-label="feature: Manali Teke, internship in Germany"});
   lab students presented **seven papers at HCII 2026**.
 
 ## The Evolve Group (Wesley Assunção)

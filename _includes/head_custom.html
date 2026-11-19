@@ -1,4 +1,11 @@
 <link rel="apple-touch-icon" href="{{ '/img/apple-touch-icon.png' | relative_url }}">
+{% comment %} NC State's typefaces: Roboto for everything, Roboto Slab for
+   captions and pull quotes. https://brand.ncsu.edu/designing-for-nc-state/typography/
+{% endcomment %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Roboto+Slab:wght@400;700&display=swap">
 <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 {% if page.url == "/" %}
@@ -32,6 +39,40 @@
    NB: theme minifies HTML to one line, so no // comments inside the script. {% endcomment %}
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  /* 2.4.4: the theme emits an empty href for a parent page that is not marked
+     has_children, which leaves a "Student Life" link that goes nowhere. Point it
+     at the matching nav entry, or drop the link and keep the text. */
+  document.querySelectorAll(".breadcrumb-nav-list a").forEach(function (a) {
+    if (a.getAttribute("href")) { return; }
+    var want = a.textContent.trim(), hit = null;
+    document.querySelectorAll("#site-nav a.nav-list-link").forEach(function (n) {
+      if (!hit && n.textContent.trim() === want && n.getAttribute("href")) { hit = n.getAttribute("href"); }
+    });
+    if (hit) { a.setAttribute("href", hit); return; }
+    var s = document.createElement("span");
+    s.textContent = want;
+    a.parentNode.replaceChild(s, a);
+  });
+  /* 2.1.1: a table that overflows (narrow windows, 400% zoom) scrolls
+     sideways, so the scroll container has to be reachable by keyboard. Only
+     tag the ones actually scrolling, so the tab ring stays short. */
+  function scrollables() {
+    document.querySelectorAll(".table-wrapper").forEach(function (w) {
+      var scrolls = w.scrollWidth > w.clientWidth + 1;
+      if (scrolls) {
+        w.setAttribute("tabindex", "0");
+        w.setAttribute("role", "region");
+        w.setAttribute("aria-label", "Table, scrolls sideways");
+      } else {
+        w.removeAttribute("tabindex");
+        w.removeAttribute("role");
+        w.removeAttribute("aria-label");
+      }
+    });
+  }
+  scrollables();
+  window.addEventListener("resize", scrollables);
+
   var md = new Date().toISOString().slice(5, 10);
   document.querySelectorAll("[data-from][data-until]").forEach(function (e) {
     if (md >= e.dataset.from && md <= e.dataset.until) e.hidden = false;

@@ -6,7 +6,7 @@ description: "The eight software engineering labs at NC State and the faculty wh
 
 {% include badges.html %}
 
-# <i class="fa-solid fa-people-group"></i> Faculty & Labs
+# <i class="fa-solid fa-people-group" aria-hidden="true"></i> Faculty & Labs
 
 
 Alphabetical, by first name. (Bios are drafts — each prof should

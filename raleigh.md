@@ -7,7 +7,7 @@ description: "Why live in Raleigh — the area for prospective NC State students
 
 {% include badges.html %}
 
-# <i class="fa-solid fa-tree-city"></i> Why Live in Raleigh?
+# <i class="fa-solid fa-tree-city" aria-hidden="true"></i> Why Live in Raleigh?
 
 **It's affordable.** Cost of living sits at the national
 average
@@ -28,7 +28,7 @@ threading the city.
 
 <img src="img/raleigh/greenway.jpg" alt="Walking a leafy Raleigh greenway trail" width="420">
 <br><small>On the greenway
-([photo](https://commons.wikimedia.org/wiki/File:Girl_walking_dog_at_Lake_Johnson.jpg):
+([photo](https://commons.wikimedia.org/wiki/File:Girl_walking_dog_at_Lake_Johnson.jpg){: aria-label="photo: Lake Johnson greenway, on Wikimedia Commons"}:
 Wikimedia Commons, CC BY-SA 4.0)</small>
 
 **Water and woods, minutes away.** [Lake
@@ -40,7 +40,7 @@ bracket the Triangle.
 
 <img src="img/raleigh/lake_lynn.jpg" alt="Fall colors over Lake Lynn, Raleigh" width="420">
 <br><small>Lake Lynn in fall
-([photo](https://commons.wikimedia.org/wiki/File:Lake_Lynn_Raleigh.jpg):
+([photo](https://commons.wikimedia.org/wiki/File:Lake_Lynn_Raleigh.jpg){: aria-label="photo: Lake Lynn, on Wikimedia Commons"}:
 Wikimedia Commons, CC BY-SA 3.0)</small>
 
 **A real downtown.** Free state museums ([Natural
@@ -55,7 +55,7 @@ clubs across Glenwood South.
 
 <img src="img/raleigh/hopscotch.jpg" alt="Crowd at Hopscotch Music Festival, City Plaza, downtown Raleigh" width="420">
 <br><small>Hopscotch Music Festival, City Plaza
-([photo](https://commons.wikimedia.org/wiki/File:City_Plaza,_Hopscotch_Music_Festival_(21700983598).jpg):
+([photo](https://commons.wikimedia.org/wiki/File:City_Plaza,_Hopscotch_Music_Festival_(21700983598).jpg){: aria-label="photo: Hopscotch Music Festival, on Wikimedia Commons"}:
 Wikimedia Commons, CC BY-SA 2.0)</small>
 
 **A booming tech hub.** The [Research
@@ -67,7 +67,7 @@ Raleigh the fifth most-educated city in America.
 
 <img src="img/raleigh/skyline.jpg" alt="Downtown Raleigh skyline behind blooming crepe myrtles" width="420">
 <br><small>Crepe myrtles against the skyline
-([photo](https://commons.wikimedia.org/wiki/File:Raleigh_skyline_along_S_Saunders_st.jpg):
+([photo](https://commons.wikimedia.org/wiki/File:Raleigh_skyline_along_S_Saunders_st.jpg){: aria-label="photo: Raleigh skyline, on Wikimedia Commons"}:
 Wikimedia Commons, CC BY-SA 4.0)</small>
 
 **Beaches, mountains, and the world.** Wrightsville Beach is two
@@ -82,5 +82,5 @@ Dublin, and Reykjavik.
 
 <img src="img/raleigh/blue_ridge.jpg" alt="Fall color on endless ridgelines along the Blue Ridge Parkway" width="420">
 <br><small>Blue Ridge Parkway, west of Asheville
-([photo](https://commons.wikimedia.org/wiki/File:Autumn_along_Blue_Ridge_Parkway.jpg):
+([photo](https://commons.wikimedia.org/wiki/File:Autumn_along_Blue_Ridge_Parkway.jpg){: aria-label="photo: Blue Ridge Parkway, on Wikimedia Commons"}:
 Wikimedia Commons, CC BY-SA 4.0)</small>

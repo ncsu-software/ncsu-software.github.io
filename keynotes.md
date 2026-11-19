@@ -6,7 +6,7 @@ description: "Invited talks and keynotes by NC State software engineering facult
 
 {% include badges.html %}
 
-# <i class="fa-solid fa-microphone-lines"></i> Keynotes & Talks
+# <i class="fa-solid fa-microphone-lines" aria-hidden="true"></i> Keynotes & Talks
 
 Recent keynotes and invited addresses, 2023&ndash;26. Click a slide to get the full deck.
 

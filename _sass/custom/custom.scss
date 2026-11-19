@@ -1,7 +1,50 @@
-// red = accent (icons) and clickable (links); titles take the logo's navy
-$navy: #021D3B;
+// NC State palette, https://brand.ncsu.edu/designing-for-nc-state/color/
+// Primary (red predominates, per the guide), then the expanded palette. The
+// secondaries are varied across the page -- partner pills, map pins, legends --
+// which is what the guide asks for ("varying our secondary colors reduces
+// their prominence").
+$red: #CC0000; // Wolfpack Red
+$red-dk: #990000; // Reynolds Red
+$ink: #000000; // Wolfpack Black
+$yellow: #FAC800; // Hunt Yellow -- brand rule: black type over it, never white
+$flame: #D14905; // Pyroman Flame
+$green: #6F7D1C; // Genomic Green
+$aqua: #008473; // Carmichael Aqua
+$blue: #427E93; // Innovation Blue
+$indigo: #4156A1; // Bio-Indigo
+
+// Hunt Yellow is 1.5:1 on white. Where gold has to work as plain text (the
+// "AI" mark), it uses this shade instead: 5.9:1. Icons use the mixin below.
+$gold: #7A6200;
+
+// Honour marks (award rosette, keynote mic) wear Hunt Yellow, same as the
+// "grad students apply" burst. Hunt Yellow alone is 1.5:1 on white, so the
+// glyph is outlined in the dark shade (5.9:1): the shape stays legible against
+// the page while the fill stays on-brand. Each mark also has text beside it
+// ("Award-winning paper.", "Keynotes"), so no meaning rides on colour.
+@mixin hunt-gold {
+  color: $yellow;
+  -webkit-text-stroke: 1.25px $gold;
+  paint-order: stroke fill;
+  filter: drop-shadow(0 1px 2px rgba(120, 85, 0, 0.35));
+}
+
+// Brand asks for a 16px floor on the web; the theme drops to 14px on narrow
+// screens. Rems everywhere else scale with this.
+html {
+  font-size: 1rem !important;
+}
+
+// Roboto Slab is the secondary face: captions, pull quotes, "facts that stand
+// apart from body copy".
+figcaption,
+.keyhead,
+.partnerhead,
+.pick-legend {
+  font-family: "Roboto Slab", "Roboto", georgia, serif;
+}
 .fa-solid, .fa-regular, .fa-brands {
-  color: #CC0000;
+  color: $red;
 }
 .fa-solid.badge40 { // 40x40 red disc, white glyph, sits above its label
   display: flex;
@@ -11,24 +54,23 @@ $navy: #021D3B;
   height: 40px;
   margin: 0.25rem auto 0.5rem;
   border-radius: 50%;
-  background: #CC0000;
+  background: $red;
   color: #fff;
   font-size: 20px;
-  box-shadow: 0 2px 6px rgba(204, 0, 0, 0.35);
+  box-shadow: 0 2px 6px rgba(204, 0, 0, 0.3);
 }
-.fa-solid.gold { // big gold award, floated right of an award-winning paper
+.fa-solid.gold { // big award, floated right of an award-winning paper
   float: right;
   margin: 0 0 0.25rem 1rem;
   font-size: 2.75rem;
   line-height: 1;
-  color: #D4A017;
-  filter: drop-shadow(0 1px 2px rgba(120, 85, 0, 0.35));
+  @include hunt-gold;
 }
 h1, h2 {
-  color: $navy;
+  color: $ink;
 }
 th {
-  color: $navy;
+  color: $ink;
 }
 
 // table cells start at the top (so short columns, e.g. honors, don't float mid-row)
@@ -46,7 +88,7 @@ td {
     content: "\2022";
     position: absolute;
     left: 0.15em;
-    color: #CC0000;
+    color: $red;
     font-weight: bold;
   }
 }
@@ -119,8 +161,8 @@ a.site-title {
     padding: 0;
     font-size: 0.8rem;
     line-height: 1.35;
-    color: $navy;
-    &:hover { color: #CC0000; }
+    color: $ink;
+    &:hover { color: $red; }
   }
 }
 
@@ -132,10 +174,10 @@ img.headshot {
   object-position: center top; // tall portraits: keep the head, crop the torso
 }
 
-// landing page: faint navy wash on the pitch and service tables
+// landing page: faint black wash on the pitch and service tables
 .hero td,
 .service td {
-  background: rgba(2, 29, 59, 0.07);
+  background: rgba(0, 0, 0, 0.05);
 }
 
 // "we're hiring" starburst: red certificate icon, white label, links to
@@ -152,7 +194,7 @@ a.hiring {
     display: block;
     font-size: 7rem;
     line-height: 1;
-    color: #CC0000;
+    color: $red;
     filter: drop-shadow(0 2px 5px rgba(204, 0, 0, 0.4));
   }
   span {
@@ -166,7 +208,7 @@ a.hiring {
     line-height: 1.15;
     letter-spacing: 0.02em;
   }
-  &:hover .fa-certificate { color: #a50000; }
+  &:hover .fa-certificate { color: $red-dk; }
 }
 
 // LOUDER hiring burst: half again bigger, gently pulsing
@@ -177,9 +219,14 @@ a.hiring {
 a.hiring {
   width: 10.5rem;
   height: 10.5rem;
-  animation: hiring-pulse 1.8s ease-in-out infinite;
+  // WCAG 2.2.2: motion that starts on its own must stop inside 5s (or carry a
+  // pause control). Two beats = 3.6s, then it rests.
+  animation: hiring-pulse 1.8s ease-in-out 2;
   .fa-certificate { font-size: 10.5rem; }
   span { font-size: 1.35rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  a.hiring { animation: none; }
 }
 
 // hiring burst: centered, not floated right
@@ -194,20 +241,19 @@ a.hiring {
   margin: 0 0 0.5rem 1rem;
 }
 
-// gold microphone, centered above the keynotes entry in honors
+// microphone, centered above the keynotes entry in honors
 .fa-solid.keynote-ico {
   display: block;
   text-align: center;
   margin: 0.25rem auto 0.4rem;
   font-size: 2.6rem;
   line-height: 1;
-  color: #D4A017;
-  filter: drop-shadow(0 1px 2px rgba(120, 85, 0, 0.35));
+  @include hunt-gold;
 }
 
-// .bands: faint navy wash on even rows, to separate per-person groups
+// .bands: faint black wash on even rows, to separate per-person groups
 table.bands tr:nth-child(even) td {
-  background: rgba(2, 29, 59, 0.07);
+  background: rgba(0, 0, 0, 0.05);
 }
 
 // p1 icons 50% bigger: badge discs 40->60px, other header icons 1.5em
@@ -225,7 +271,7 @@ table.bands td a img {
   display: block;
   margin: 0.5rem 0;
   max-width: 100%;
-  border: 1px solid rgba(2, 29, 59, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.18);
 }
 
 // keynotes: headshots hug the top of their row (plain sets middle)
@@ -285,19 +331,26 @@ th .fa-solid:not(.badge40) {
   margin-bottom: 0.5rem;
   border-bottom: 2px solid #000;
 }
+// The "AI" mark wears the same Hunt Yellow as the deadline burst. It is live
+// text inside a link, not an icon, so it cannot hide behind a stroke: brand
+// rule and 1.4.3 agree here -- black type on the yellow (11.9:1).
 .aihead {
+  display: inline-block;
   vertical-align: middle;
+  padding: 0.02em 0.22em;
+  border-radius: 0.15em;
+  background: $yellow;
+  color: $ink;
   font-size: 2.6rem;
   font-weight: bold;
   line-height: 1;
-  color: #D4A017;
   filter: drop-shadow(0 1px 2px rgba(120, 85, 0, 0.35));
 }
 
 // p1 tools strip: full width under the top table (kept out of col 3,
 // which it made far deeper than cols 1-2); dots flow in three columns
 .tools {
-  background: rgba(2, 29, 59, 0.07);
+  background: rgba(0, 0, 0, 0.05);
   border-radius: 4px;
   padding: 0.6rem 0.9rem;
   margin: -0.5rem 0 1.5rem;
@@ -306,8 +359,8 @@ th .fa-solid:not(.badge40) {
 .toolhead {
   display: block;
   margin-bottom: 0.35rem;
-  color: #021D3B;
-  .fa-solid { color: #CC0000; margin-right: 0.3rem; }
+  color: #000000;
+  .fa-solid { color: $red; margin-right: 0.3rem; }
 }
 .toolcols {
   display: block;
@@ -330,7 +383,7 @@ th .fa-solid:not(.badge40) {
   margin: 0.5rem auto 1.25rem;
   border-radius: 6px;
   overflow: hidden;
-  background: #021D3B;
+  background: #000000;
   figure {
     position: absolute;
     inset: 0;
@@ -352,18 +405,39 @@ th .fa-solid:not(.badge40) {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 1.5rem 0.9rem 0.6rem;
+    padding: 1.5rem 0.9rem 0.6rem 3rem;  // left gap: the pause button sits there
     color: #fff;
     font-size: x-small;
     font-weight: 600;
-    background: linear-gradient(transparent, rgba(2, 29, 59, 0.85));
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
   }
 }
-// reduced-motion setting: photos still rotate, but swap with no fade
+// reduced-motion setting: no fade, and the script starts the slideshow paused
+// (the play button still rotates it by hand)
 @media (prefers-reduced-motion: reduce) {
   .marquee figure {
     transition: none;
   }
+}
+
+// 2.4.7: the theme's search box shows focus only as a faint background shift;
+// give it a ring like every other control has
+.search-input:focus {
+  outline: 2px solid $red;
+  outline-offset: -2px;
+}
+
+// text for screen readers only (e.g. a name for an otherwise empty table head)
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
 }
 .marquee-dots {
   position: absolute;
@@ -377,15 +451,42 @@ th .fa-solid:not(.badge40) {
     padding: 0;
     border: 1px solid #fff;
     border-radius: 50%;
-    background: transparent;
-    cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);  // 1.4.11: a bare white ring vanishes on
+    cursor: pointer;                     // pale photos; the black fill anchors it
   }
   button.on {
     background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.8);
   }
 }
 
-// marquee left/right arrows: translucent navy discs, vertically centered
+// 2.4.7: the marquee controls sit on photos, so give focus its own visible ring
+.marquee button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+// 2.2.2: keyboard/touch-reachable stop for the auto-advancing slideshow
+.marquee-pause {
+  position: absolute;
+  left: 0.6rem;
+  bottom: 0.7rem;
+  z-index: 2;
+  width: 1.9rem;
+  height: 1.9rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.68);
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1;
+  cursor: pointer;
+  &:hover { background: rgba(0, 0, 0, 0.9); }
+}
+
+// marquee left/right arrows: translucent black discs, vertically centered
 .marquee-arrow {
   position: absolute;
   top: 50%;
@@ -395,13 +496,13 @@ th .fa-solid:not(.badge40) {
   padding: 0;
   border: 0;
   border-radius: 50%;
-  background: rgba(2, 29, 59, 0.55);
+  background: rgba(0, 0, 0, 0.6);
   color: #fff;
   font-size: 1.25rem;
   line-height: 1;
   cursor: pointer;
   &:hover {
-    background: rgba(2, 29, 59, 0.85);
+    background: rgba(0, 0, 0, 0.85);
   }
   &.prev { left: 0.6rem; }
   &.next { right: 0.6rem; }
@@ -470,7 +571,7 @@ a.hiring {
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  color: #021D3B;
+  color: #000000;
   b { display: block; margin-top: 0.25rem; }
   span { display: block; color: #666; }
 }
@@ -516,7 +617,7 @@ a.hiring {
   content: none;
 }
 
-// p1 partners strip: organization names as uniform navy pills
+// p1 partners strip: organization names as pills
 // (no panel: sits on the white gutter between the tables, centered)
 .partners {
   text-align: center;
@@ -526,52 +627,51 @@ a.hiring {
 .partnerhead {
   margin-right: 0.5rem;
   font-weight: 600;
-  color: #021D3B;
+  color: #000000;
 }
 .chip {
   display: inline-block;
   margin: 0.15rem 0.35rem 0.15rem 0;
   padding: 0.15rem 0.7rem;
   border-radius: 999px;
-  border: 1.5px solid #021D3B;
-  background: rgba(2, 29, 59, 0.12);
-  color: #021D3B;
+  border: 1.5px solid #000000;
+  background: rgba(0, 0, 0, 0.08);
+  color: #000000;
   font-weight: 700;
   white-space: nowrap;
 }
 
-// partner pills: a little color -- cycle the site's red, gold, navy
-.partners .chip:nth-child(3n) {
-  border-color: #CC0000;
-  background: rgba(204, 0, 0, 0.10);
-  color: #990000;
+// partner pills: cycle the expanded palette, as the brand guide asks ("try to
+// include several of its colors"). Tint for the fill, full strength for the
+// rule, black for the type -- so every pill clears 4.5:1 whatever its colour.
+.partners .chip {
+  color: $ink;
 }
-.partners .chip:nth-child(3n + 1) {
-  border-color: #D4A017;
-  background: rgba(212, 160, 23, 0.18);
-  color: #6b4e00;
+.partners .chip:nth-child(4n + 1) {
+  border-color: $red;
+  background: rgba(204, 0, 0, 0.10);
+}
+.partners .chip:nth-child(4n + 2) {
+  border-color: $indigo;
+  background: rgba(65, 86, 161, 0.12);
+}
+.partners .chip:nth-child(4n + 3) {
+  border-color: $aqua;
+  background: rgba(0, 132, 115, 0.12);
+}
+.partners .chip:nth-child(4n) {
+  border-color: $yellow;
+  background: rgba(250, 200, 0, 0.22);
 }
 
 // pick your professor: Venn + detail card + topic matrix (_includes/pick.html)
 .pick-hint {
   font-size: 1.6rem;
   font-weight: 800;
-  color: $navy;
+  color: $ink;
   text-align: center;
   margin: 0.5rem 0 1rem;
   .fa-solid { margin-right: 0.4rem; }
-}
-.pick-venn {
-  display: block;
-  width: 100%;
-  max-width: 680px;
-  margin: 0 auto;
-  text { font-size: 15px; fill: $navy; }
-  .vh { font-size: 17px; font-weight: 700; }
-  .vs { font-size: 13px; fill: #666; }
-  #pick-names g { cursor: pointer; }
-  #pick-names g:hover text { text-decoration: underline; }
-  #pick-names g.sel text { fill: #CC0000; font-weight: 700; }
 }
 .pick-legend {
   display: flex;
@@ -581,26 +681,30 @@ a.hiring {
   font-size: 0.8rem;
   color: #555;
   margin: 0.4rem 0 0.8rem;
-  b { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; }
-  .dot-n { background: #378ADD; border-radius: 50%; }
-  .dot-s { background: #EF9F27; border-radius: 50%; }
+  b {
+    display: inline-block; width: 14px; height: 14px; border-radius: 3px;
+    vertical-align: -2px; text-align: center; line-height: 14px;
+    font-size: 9px; font-weight: 400; color: $ink;
+  }
+  b.l3 { color: #fff; }
 }
 #pick-card {
-  border: 1px solid rgba(2, 29, 59, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.18);
   border-radius: 8px;
   padding: 0.8rem 1.1rem;
   min-height: 9rem;
   max-width: 680px;
   margin: 0 auto 1.5rem;
-  .nm { font-size: 1.15rem; font-weight: 700; color: $navy; }
+  .nm { font-size: 1.15rem; font-weight: 700; color: $ink; }
   img.headshot { float: left; margin: 0.2rem 1rem 0.5rem 0; border-radius: 6px; }
   &::after { content: ""; display: block; clear: both; }
   .muted, &> .muted { color: #666; font-size: 0.85rem; }
   p { margin: 0.4rem 0; }
 }
-.pick-matrix .l1, .pick-legend .l1 { background: #FCEBEB; }
-.pick-matrix .l2, .pick-legend .l2 { background: #F09595; }
-.pick-matrix .l3, .pick-legend .l3 { background: #A32D2D; }
+// matrix levels: tints of Wolfpack Red, deepening to Reynolds Red
+.pick-matrix .l1, .pick-legend .l1 { background: #F7DBDB; }
+.pick-matrix .l2, .pick-legend .l2 { background: #EB9999; }
+.pick-matrix .l3, .pick-legend .l3 { background: $red-dk; }
 .table-wrapper:has(table.pick-matrix) { box-shadow: none; }
 table.pick-matrix {
   border-collapse: separate;
@@ -612,19 +716,36 @@ table.pick-matrix {
   table-layout: auto;
   font-size: 0.8rem;
   th, td { border: 0; padding: 0; background: none; min-width: 0 !important; } // theme: 120px cells
-  th { cursor: pointer; color: $navy; font-weight: 600; }
+  th { cursor: pointer; color: $ink; font-weight: 600; }
   th.p { height: 7.5rem; width: 1.4rem; vertical-align: bottom; }
   th.p span { display: inline-block; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; }
-  th.on { color: #CC0000; }
+  th.on { color: $red; }
   td.t { text-align: right; padding-right: 0.5rem; cursor: pointer; white-space: nowrap; }
-  td.t.on { color: #CC0000; font-weight: 700; }
-  .sum { width: 1.6rem; text-align: center; color: #999; font-size: 0.75rem; vertical-align: middle; }
+  td.t.on { color: $red; font-weight: 700; }
+  .sum { width: 1.6rem; text-align: center; color: #6b6b6b; font-size: 0.75rem; vertical-align: middle; } // #999 was 2.9:1
   th.sum { vertical-align: bottom; cursor: default; }
-  td.c { height: 1.4rem; width: 1.4rem; border-radius: 4px; background: rgba(2, 29, 59, 0.04); }
-  td.c.l1 { background: #FCEBEB; }
-  td.c.l2 { background: #F09595; }
-  td.c.l3 { background: #A32D2D; }
+  // 2.1.1: the clickable row/column heads are keyboard targets, so they need a
+  // focus ring of their own
+  td.t:focus-visible, th.p:focus-visible {
+    outline: 2px solid $red;
+    outline-offset: 1px;
+  }
+  // 1.4.1: shade alone used to encode some/active/core; each level now also
+  // carries its own glyph
+  td.c {
+    height: 1.4rem; width: 1.4rem; border-radius: 4px;
+    background: rgba(0, 0, 0, 0.04);
+    text-align: center; vertical-align: middle;
+    font-size: 0.7rem; line-height: 1; color: $ink;
+  }
+  td.c.l3 { color: #fff; }
+  td.c.l1 { background: #F7DBDB; }
+  td.c.l2 { background: #EB9999; }
+  td.c.l3 { background: $red-dk; }
   tr.dim td.c, td.c.dim { opacity: 0.15; }
+  // filtered-out cells fade to 15%, which no glyph can survive at 4.5:1, so the
+  // glyph steps out and only the (decorative) wash stays
+  tr.dim td.c span, td.c.dim span { visibility: hidden; }
 }
 
 // .tight: compact table rows (e.g. alumni roster)
@@ -643,7 +764,7 @@ a.site-title::after {
   text-align: center;
   font-size: 1rem;
   letter-spacing: 0.06em;
-  color: rgba(2, 29, 59, 0.55);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 // "apply by Dec 15" badge: smaller gold burst, left of the hiring burst,
@@ -662,7 +783,7 @@ a.deadline {
     display: block;
     font-size: 6.5rem;
     line-height: 1;
-    color: #D4A017;
+    color: $yellow;
     filter: drop-shadow(0 2px 4px rgba(120, 85, 0, 0.4));
   }
   span {
@@ -670,7 +791,7 @@ a.deadline {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-12deg);
-    color: #fff;
+    color: $ink;       // brand rule: black type over Hunt Yellow (11.9:1)
     font-weight: 800;
     font-size: 0.66rem;
     line-height: 1.05;
@@ -699,6 +820,7 @@ a.deadline {
   flex-shrink: 0;
   font-size: 0.7rem;
   padding: 0.25rem 1rem 0.5rem;
+  color: #4b4953;   // theme grey (#959396) is 2.8:1 on the sidebar; this is 8:1
 }
 @media (max-width: 49.99rem) {
   .side-bar .site-footer.side-typo { position: static; }

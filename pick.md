@@ -7,7 +7,7 @@ description: "Guidance on picking your advisor among NC State software engineeri
 
 {% include badges.html %}
 
-# <i class="fa-solid fa-signs-post"></i> Pick Your Professor
+# <i class="fa-solid fa-signs-post" aria-hidden="true"></i> Pick Your Professor
 
 Our faculty overlap. Find where your interests sit, then click for details.
 

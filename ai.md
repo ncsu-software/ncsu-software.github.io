@@ -6,7 +6,7 @@ description: "How the NC State software engineering group uses and studies AI in
 
 {% include badges.html %}
 
-# <i class="fa-solid fa-robot"></i> AI & SE @ NC State
+# <i class="fa-solid fa-robot" aria-hidden="true"></i> AI & SE @ NC State
 
 **AI, carefully**: AI enthusiasm plus engineering rigor. That is
 how a top-five software engineering group uses AI. Reading our

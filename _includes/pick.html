@@ -1,9 +1,9 @@
 {% comment %} Pick Your Professor: topic matrix + detail card.
    Data: _data/topics.yml. NB: theme minifies HTML to one line, so no // comments in the script. {% endcomment %}
-<p class="pick-hint"><i class="fa-solid fa-hand-pointer"></i> Click a topic or a name to focus it</p>
+<p class="pick-hint"><i class="fa-solid fa-hand-pointer" aria-hidden="true"></i> Pick a topic or a name to focus it (click, or Tab to it and press Enter)</p>
 <table id="pick-matrix" class="pick-matrix"></table>
 <div class="pick-legend">
-  <span><b class="l1"></b> some</span><span><b class="l2"></b> active</span><span><b class="l3"></b> core</span>
+  <span><b class="l1" aria-hidden="true">&middot;</b> some</span><span><b class="l2" aria-hidden="true">+</b> active</span><span><b class="l3" aria-hidden="true">&#9679;</b> core</span>
   <span>Rows sorted by total interest.</span>
 </div>
 <div id="pick-card"><span class="muted">Click a name to see their lab, focus, and core topics.</span></div>
@@ -24,19 +24,24 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   var sum = function (v) { return v.reduce(function (a, b) { return a + b; }, 0); };
   var T = D.topics.slice().sort(function (a, b) { return sum(b.s) - sum(a.s); });
-  var h = '<thead><tr><th></th><th class="sum">sum</th>' + P.map(function (p, j) {
-    return '<th class="p" data-j="' + j + '"><span>' + esc(p.name) + '</span></th>'; }).join('') + '</tr></thead><tbody>';
+  var LEVEL = ["none", "some", "active", "core"];
+  var GLYPH = ["", "&middot;", "+", "&#9679;"];
+  var h = '<thead><tr><th><span class="sr-only">Topic</span></th><th class="sum">sum</th>' + P.map(function (p, j) {
+    return '<th class="p" data-j="' + j + '" tabindex="0" role="button" aria-pressed="false"><span>' + esc(p.name) + '</span></th>'; }).join('') + '</tr></thead><tbody>';
   T.forEach(function (r, i) {
-    h += '<tr data-i="' + i + '"><td class="t">' + esc(r.t) + '</td><td class="sum">' + sum(r.s) + '</td>' +
-      r.s.map(function (x, j) { return '<td class="c' + (x ? ' l' + x : '') + '" data-j="' + j + '" title="' +
-        esc(P[j].name) + ': ' + ["none", "some", "active", "core"][x] + '"></td>'; }).join('') + '</tr>';
+    h += '<tr data-i="' + i + '"><td class="t" tabindex="0" role="button" aria-pressed="false">' + esc(r.t) + '</td><td class="sum">' + sum(r.s) + '</td>' +
+      r.s.map(function (x, j) { var lab = esc(P[j].name) + ': ' + LEVEL[x];
+        return '<td class="c' + (x ? ' l' + x : '') + '" data-j="' + j + '" title="' + lab + '" aria-label="' + lab +
+          '"><span aria-hidden="true">' + GLYPH[x] + '</span></td>'; }).join('') + '</tr>';
   });
   m.innerHTML = h + '</tbody>';
   function draw() {
     m.querySelectorAll("tr[data-i]").forEach(function (r) {
       var i = +r.dataset.i;
       r.classList.toggle("dim", fc !== null ? T[i].s[fc] === 0 : (fr !== null && i !== fr));
-      r.querySelector(".t").classList.toggle("on", i === fr);
+      var t = r.querySelector(".t");
+      t.classList.toggle("on", i === fr);
+      t.setAttribute("aria-pressed", i === fr ? "true" : "false");
     });
     m.querySelectorAll("td.c").forEach(function (c) {
       var j = +c.dataset.j;
@@ -44,11 +49,19 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     m.querySelectorAll("th.p").forEach(function (t) {
       var j = +t.dataset.j; t.classList.toggle("on", j === fc || (fr !== null && T[fr].s[j] === 3));
+      t.setAttribute("aria-pressed", j === fc ? "true" : "false");
     });
   }
-  m.addEventListener("click", function (e) {
-    var t = e.target.closest("td.t"), p = e.target.closest("th.p");
-    if (t) { var i = +t.parentNode.dataset.i; fr = (fr === i ? null : i); fc = null; draw(); }
-    if (p) { var j = +p.dataset.j; fc = (fc === j ? null : j); fr = null; show(j); draw(); }
+  function hit(target) {
+    var t = target.closest("td.t"), p = target.closest("th.p");
+    if (t) { var i = +t.parentNode.dataset.i; fr = (fr === i ? null : i); fc = null; draw(); return true; }
+    if (p) { var j = +p.dataset.j; fc = (fc === j ? null : j); fr = null; show(j); draw(); return true; }
+    return false;
+  }
+  m.addEventListener("click", function (e) { hit(e.target); });
+  /* 2.1.1: the row and column heads are role=button, so Enter and Space must work too */
+  m.addEventListener("keydown", function (e) {
+    if (e.key !== "Enter" && e.key !== " " && e.key !== "Spacebar") { return; }
+    if (hit(e.target)) { e.preventDefault(); }
   });
 });</script>

@@ -6,13 +6,13 @@ description: "Recent papers, publications, and news from NC State software engin
 
 {% include badges.html %}
 
-# <i class="fa-solid fa-book-open"></i> News & Publications
+# <i class="fa-solid fa-book-open" aria-hidden="true"></i> News & Publications
 
 A couple of recent favorites per faculty member (alphabetical by
 first name). For the full story, see each lab's own site — and for the
 big picture, see [AI & SE @ NC State](ai.html).
 
-- <i class="fa-solid fa-award gold" title="Award-winning paper"></i> **Bowen Xu**: [Understanding Codebase like a Professional!
+- <i class="fa-solid fa-award gold" aria-hidden="true"></i><span class="sr-only">Award-winning paper. </span> **Bowen Xu**: [Understanding Codebase like a Professional!
   Human-AI Collaboration for Code
   Comprehension](https://arxiv.org/abs/2504.04553), ICPC 2026 —
   **ACM SIGSOFT Distinguished Paper Award**.
@@ -38,11 +38,11 @@ big picture, see [AI & SE @ NC State](ai.html).
   ICSE 2026.
 - **Marcelo D'Amorim**: Configuration Defects in Kubernetes,
   IEEE Transactions on Software Engineering, 2026.
-- <i class="fa-solid fa-award gold" title="Award-winning paper"></i> **Sandeep Kuttal**: [Where Will They Click Next? A Social
+- <i class="fa-solid fa-award gold" aria-hidden="true"></i><span class="sr-only">Award-winning paper. </span> **Sandeep Kuttal**: [Where Will They Click Next? A Social
   Foraging Model for Collaborating
   Teams](https://doi.org/10.1145/3772318.3791506), CHI 2026 —
   **Honorable Mention** (top of 7,500+ submissions).
-- <i class="fa-solid fa-award gold" title="Award-winning paper"></i> **Sandeep Kuttal**: [Equity by Design: A New HCI Method for
+- <i class="fa-solid fa-award gold" aria-hidden="true"></i><span class="sr-only">Award-winning paper. </span> **Sandeep Kuttal**: [Equity by Design: A New HCI Method for
   Surfacing Inclusivity
   Issues](https://news.ncsu.edu/2026/05/improving-online-collaboration/),
   DIS 2026 — **Honorable Mention**.

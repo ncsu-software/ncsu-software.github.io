@@ -1,4 +1,12 @@
+// NC State colours, per https://brand.ncsu.edu/designing-for-nc-state/color/
+// Primary: Wolfpack Red #CC0000 (must predominate), Wolfpack Black, White.
+// Red carries every link and button; black carries headings and body text.
+// The expanded palette lives in _sass/custom/custom.scss, where several of its
+// colours are varied across the page, as the brand guide asks.
 @import "./color_schemes/light";
 
-$link-color: #CC0000;
+$link-color: #CC0000; // Wolfpack Red
 $btn-primary-color: #CC0000;
+$body-heading-color: #000000; // Wolfpack Black
+$body-text-color: #212121; // shade of Wolfpack Black, 16:1 on white
+$nav-child-link-color: #212121;

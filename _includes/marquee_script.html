@@ -1,4 +1,4 @@
-{%- comment -%} Photo slideshow behavior for every .marquee on the page: crossfade every 5s, pause on hover, arrows and dots. No // comments here: the theme minifies pages onto one line. {%- endcomment -%}
+{%- comment -%} Photo slideshow behavior for every .marquee on the page: crossfade every 5s, arrows, dots, and a pause/play button (WCAG 2.2.2: auto-advancing content needs a stop control that works without a mouse). Rotation also pauses while the box has hover or keyboard focus, and never starts under prefers-reduced-motion. No // comments here: the theme minifies pages onto one line. {%- endcomment -%}
 <script>
 (function () {
   var boxes = document.querySelectorAll(".marquee");
@@ -8,31 +8,48 @@
     box.setAttribute("data-ready", "1");
     var figs = box.querySelectorAll("figure");
     var dots = box.querySelector(".marquee-dots");
-    var cur = 0, timer = null;
+    var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var cur = 0, timer = null, paused = calm;
+    var pause = document.createElement("button");
+    pause.type = "button";
+    pause.className = "marquee-pause";
+    box.appendChild(pause);
+    function label() {
+      pause.innerHTML = paused ? "&#9654;" : "&#10073;&#10073;";
+      pause.setAttribute("aria-label", paused ? "Play the photo slideshow" : "Pause the photo slideshow");
+      pause.setAttribute("aria-pressed", paused ? "true" : "false");
+    }
     function show(n) {
       cur = (n + figs.length) % figs.length;
       for (var i = 0; i < figs.length; i++) {
         figs[i].classList.toggle("on", i === cur);
         dots.children[i].classList.toggle("on", i === cur);
+        dots.children[i].setAttribute("aria-pressed", i === cur ? "true" : "false");
       }
     }
     function stop() { if (timer) { clearInterval(timer); timer = null; } }
     function start() {
       stop();
+      if (paused) { return; }
       timer = setInterval(function () { show(cur + 1); }, 5000);
     }
     function dot(k) {
       var btn = document.createElement("button");
       btn.type = "button";
       btn.setAttribute("aria-label", "Photo " + (k + 1));
+      btn.setAttribute("aria-pressed", "false");
       btn.addEventListener("click", function () { show(k); start(); });
       dots.appendChild(btn);
     }
     for (var i = 0; i < figs.length; i++) { dot(i); }
     box.querySelector(".prev").addEventListener("click", function () { show(cur - 1); start(); });
     box.querySelector(".next").addEventListener("click", function () { show(cur + 1); start(); });
+    pause.addEventListener("click", function () { paused = !paused; label(); start(); });
     box.addEventListener("mouseenter", stop);
     box.addEventListener("mouseleave", start);
+    box.addEventListener("focusin", stop);
+    box.addEventListener("focusout", start);
+    label();
     show(0);
     start();
   }
