@@ -19,6 +19,7 @@ photos); p1 news/honors with real receipts; local preview (make
 view); Drive intray->done workflow.
 
 ## open
+- make WiSEr lab (3228 Koch) prominent?
 - claim-to-fame clause per faculty on p1 (needs faculty input)
 - bios: each prof edits their own paragraph on faculty.html
 - student life: six labs still owe wins (intray!)
