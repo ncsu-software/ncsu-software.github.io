@@ -32,6 +32,10 @@ big picture, see [AI & SE @ NC State](ai.html).
 - **Katie Stolee** & **Wesley Assunção**: [Test Code Review in the
   Era of GitHub Actions: A Replication
   Study](https://arxiv.org/abs/2603.15935), 2026.
+- <i class="fa-solid fa-award gold" aria-hidden="true"></i><span class="sr-only">Award-winning paper. </span> **Marcelo D'Amorim**: [Evaluating the Effectiveness of
+  Coverage-Guided Fuzzing for Testing Deep Learning Library
+  APIs](https://arxiv.org/abs/2509.14626), ICST 2026 —
+  **IEEE Computer Society TCSE Best Student Paper Award**.
 - **Marcelo D'Amorim**: [Testing Deep Learning Libraries via
   Neurosymbolic Constraint
   Learning](https://damorim.github.io/publications/Naziri_ETAL_ICSE26_1.pdf),
