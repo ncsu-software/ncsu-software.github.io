@@ -68,8 +68,12 @@ Colour and typography follow the university brand:
 [typography](https://brand.ncsu.edu/designing-for-nc-state/typography/).
 Wolfpack Red leads, Wolfpack Black carries headings and body copy, and several
 expanded-palette colours are varied across partner pills, map pins and the
-topic matrix. Type is Roboto throughout, with Roboto Slab for captions, at a
-16px floor and 150% leading.
+topic matrix. Type is Roboto throughout, with Roboto Slab for captions, at the
+theme's sizes (16px on a desktop, 14px on a phone) and 140% leading, inside the
+brand's 130-160% range. The brand's 16px floor is a recommendation rather than
+a rule, and WCAG sets no minimum size: what AA requires is that text survives
+200% zoom and reflows at 320px, both of which `make a11y` checks on every
+page.
 
 Two brand colours cannot be used as-is for small text and are handled the way
 the brand guide allows:
