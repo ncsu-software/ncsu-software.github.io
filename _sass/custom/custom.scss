@@ -841,3 +841,64 @@ a.deadline {
   .side-bar .site-footer.side-typo { position: static; }
   .side-bar .site-nav:not(.nav-open) ~ .site-footer { display: none; }
 }
+
+// ---------------------------------------------------------------------
+// WISER banner across the top of the main column (components/header.html),
+// above the search bar. The sidebar header shrinks to the grey site url,
+// so the menu starts near the top of the screen.
+$wb-height: 5.5rem;
+a.wiser-banner {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 0.75rem 2rem;
+  border-bottom: 1px solid $border-color;
+  background: #fff;
+  color: $ink;
+  text-decoration: none;
+  &:hover, &:focus { text-decoration: none; }
+  @media (min-width: 50rem) { height: $wb-height; }
+  .wb-mark {
+    flex-shrink: 0;
+    padding-right: 1.25rem;
+    border-right: 2px solid #bdbdbd;
+    color: $red;
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 1;
+    letter-spacing: -0.01em;
+  }
+  .wb-text { display: flex; flex-direction: column; line-height: 1.25; }
+  .wb-name { font-weight: 700; font-size: 1.45rem; }
+  .wb-sub  { font-size: 1rem; color: #4b4953; }
+}
+// small screens: same banner, scaled down; tagline wraps or drops
+@media (max-width: 49.99rem) {
+  a.wiser-banner {
+    gap: 0.75rem;
+    padding: 0.6rem 1rem;
+    .wb-mark { font-size: 1.8rem; padding-right: 0.75rem; }
+    .wb-name { font-size: 1.05rem; }
+    .wb-sub  { font-size: 0.8rem; }
+  }
+}
+@media (max-width: 26rem) {
+  a.wiser-banner .wb-sub { display: none; }
+}
+
+// sidebar header: just the grey url, menu right below it
+.site-header a.site-title {
+  padding: 0.75rem 1rem 0.25rem;
+}
+.site-url {
+  font-family: $mono-font-family;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #4b4953;
+}
+
+// badges: drop below the banner (desktop; on phones they sit in the page)
+@media (min-width: 50rem) {
+  a.hiring   { top: calc(#{$wb-height} + 10px); }
+  a.deadline { top: calc(#{$wb-height} + 40px); }
+}
