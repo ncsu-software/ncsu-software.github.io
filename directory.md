@@ -12,15 +12,15 @@ description: "Who's who among NC State software engineering students, by lab."
 Who works on what, lab by lab. Student here and not listed (or
 something is wrong)? See [add yourself](#add).
 
-{% assign photos = site.static_files | where_exp: "f", "f.relative_path contains '/img/students/'" | map: "relative_path" %}
+{% assign photos = site.static_files | where_exp: "f", "f.relative_path contains 'img/students/'" | map: "name" %}
 {% for lab in site.data.students.labs %}
 {% assign folks = site.data.students.people | where: "lab", lab.key | sort: "name" %}
 {% if folks.size > 0 %}
 <h2 id="{{ lab.key }}">{{ lab.name }} <small>({{ lab.prof }})</small></h2>
 <div class="dir">
 {% for p in folks %}
-{% assign want = "/img/students/" | append: p.slug | append: ".jpg" %}
-{% if photos contains want %}{% assign src = want | relative_url %}{% else %}{% assign src = "/img/students/placeholder.svg" | relative_url %}{% endif %}
+{% assign want = p.slug | append: ".jpg" %}
+{% if photos contains want %}{% assign src = "/img/students/" | append: want | relative_url %}{% else %}{% assign src = "/img/students/placeholder.svg" | relative_url %}{% endif %}
 <div class="dir-card" id="{{ p.slug }}">
   <img src="{{ src }}" alt="{{ p.name }}" loading="lazy">
   <div>

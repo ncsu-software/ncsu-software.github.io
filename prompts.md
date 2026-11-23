@@ -55,8 +55,8 @@ entries.
 
 > Read the Google Docs in Drive folder
 > https://drive.google.com/drive/folders/1itxDXsxfMofSIjq0TxuG7X9s5ua5DQAa
-> that changed since `<date>`. Skip any doc that still says
-> "your 4-10 lines here".
+> (and its `doing` subfolder) that changed since `<date>`. Skip any
+> doc that still says "your 4-10 lines here".
 >
 > For each filled-in doc, add or update an entry in
 > `_data/students.yml` in the repo
@@ -68,9 +68,16 @@ entries.
 > Photos must be `img/students/<slug>.jpg`, square, about 240x240.
 > List any photo I need to add myself.
 >
-> Commit to a new branch and push. Then give me two lists: students
-> now listed (with emails, if Drive shows them), and students whose
-> docs are still empty, grouped by lab.
+> Commit to a new branch and push. After I merge, check the live
+> [directory](https://ncsu.software/directory.html) shows each new
+> entry with its photo.
+>
+> Then move each processed doc and its photo into `students/done`
+> in Drive (ask me first; if you cannot move files, list them for me
+> to move).
+>
+> Last, draft the two broadcast emails in [prompt 8](#email) for me
+> to send.
 
 ## 2. Add news, honors, or a paper
 {: #news}
@@ -132,10 +139,15 @@ entries.
 ## 8. Email students about the directory
 {: #email}
 
+Usually run as the last step of [prompt 1](#directory).
+
 > Using the `students` Drive folder and `_data/students.yml`, draft
-> two emails for me to send (do not send them):
+> two broadcast emails for me to send (do not send them):
 > (1) to students now in the [directory](https://ncsu.software/directory.html):
 > check your entry, report fixes as GitHub issues;
 > (2) to students not yet in it: how to add themselves (doc, photo,
 > move to `students/doing`), with links to the directory and the
 > Drive folder. Give a recipient list for each, grouped by lab.
+> Drive docs are shared domain-wide, so student emails may not be
+> visible: if so, address email (2) to the lab faculty and ask them
+> to forward it.
