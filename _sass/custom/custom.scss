@@ -832,6 +832,11 @@ a.deadline {
   padding: 0.25rem 1rem 0.5rem;
   color: #4b4953;   // theme grey (#959396) is 2.8:1 on the sidebar; this is 8:1
 }
+.side-bar .site-footer.side-typo .side-logo {
+  display: block;
+  margin-top: 0.5rem;
+  img { display: block; width: 100%; height: auto; }
+}
 @media (max-width: 49.99rem) {
   .side-bar .site-footer.side-typo { position: static; }
   .side-bar .site-nav:not(.nav-open) ~ .site-footer { display: none; }

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="104" viewBox="0 0 560 104">
+  <rect x="1" y="1" width="558" height="102" rx="6" fill="#fff" stroke="#d0d0d0" stroke-width="2"/>
+  <text x="22" y="64" font-family="Liberation Sans, Arial, Helvetica, sans-serif"
+        font-size="36" font-weight="700" fill="#cc0000">{WISER}</text>
+  <line x1="176" y1="22" x2="176" y2="82" stroke="#bdbdbd" stroke-width="2"/>
+  <text x="196" y="47" font-family="Liberation Sans, Arial, Helvetica, sans-serif"
+        font-size="21" font-weight="700" fill="#222">Software Engineering @ NC State</text>
+  <text x="196" y="75" font-family="Liberation Sans, Arial, Helvetica, sans-serif"
+        font-size="18" fill="#777">http://ncsu.software</text>
+</svg>
