@@ -23,6 +23,7 @@ something is wrong)? See [add yourself](#add).
   <img src="{{ src }}" alt="{{ p.name }}" loading="lazy">
   <div>
     <b>{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b>{% if p.note %} <span class="dir-note">({{ p.note }})</span>{% endif %}
+    <span class="dir-links">{% if p.email %}<a href="mailto:{{ p.email }}">{{ p.email }}</a>{% endif %}{% if p.email and p.url %} &middot; {% endif %}{% if p.url %}<a href="{{ p.url }}" aria-label="{{ p.name }} home page">home page</a>{% endif %}</span>
     <p>{{ p.bio }}</p>
   </div>
 </div>
@@ -37,7 +38,9 @@ something is wrong)? See [add yourself](#add).
 1. Open the [students folder](https://drive.google.com/drive/folders/1itxDXsxfMofSIjq0TxuG7X9s5ua5DQAa)
    (NC State login) and find the Google Doc with your name.
    No doc? Copy any other one and rename it `first-last`.
-2. Fill in the doc in place: name, 4 to 10 lines about you, web page.
+2. Fill in the doc in place: name, **NC State email**, **home page
+   URL** (GitHub page, personal site, or LinkedIn), and 4 to 10
+   lines about you.
 3. Put a square head-and-shoulders photo next to it, named
    `first-last.jpg`, at least 240x240.
 4. Move the doc and photo into `students/doing`.

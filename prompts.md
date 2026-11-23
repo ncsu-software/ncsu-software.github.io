@@ -37,8 +37,11 @@ prompt, fill in the `<...>` parts, and paste.
    shared `students` folder).
 4. **Know the rules.** Pages are plain Markdown (Jekyll,
    just-the-docs theme). Facts need a link ("receipts, not
-   adjectives"). Changes go to a branch; a maintainer merges to
-   `main`, which publishes to [ncsu.software](https://ncsu.software).
+   adjectives"). Collaborators push straight to `main`; GitHub
+   rebuilds [ncsu.software](https://ncsu.software) in about a
+   minute and runs an accessibility scan (see the Actions tab).
+   Every prompt below says "push to main" so the assistant does not
+   stop at a branch or pull request.
 
 Then check it works:
 
@@ -56,19 +59,21 @@ entries.
 > Read the Google Docs in Drive folder
 > https://drive.google.com/drive/folders/1itxDXsxfMofSIjq0TxuG7X9s5ua5DQAa
 > (and its `doing` subfolder) that changed since `<date>`. Skip any
-> doc that still says "your 4-10 lines here".
+> doc that still says "your 4-10 lines here". Email and home page
+> are required: list docs missing either.
 >
 > For each filled-in doc, add or update an entry in
 > `_data/students.yml` in the repo
 > github.com/ncsu-software/ncsu-software.github.io: name, slug
-> (first-last), lab key, URL, and the bio cut to 3-5 lines, third
+> (first-last), lab key, email, home page URL, and the bio cut to 3-5 lines, third
 > person, plain English, no emoji. Keep every fact the student gave;
 > add none.
 >
 > Photos must be `img/students/<slug>.jpg`, square, about 240x240.
 > List any photo I need to add myself.
 >
-> Commit to a new branch and push. After I merge, check the live
+> Commit and push to main (no branch, no pull request). When the
+> GitHub Actions build finishes, check the live
 > [directory](https://ncsu.software/directory.html) shows each new
 > entry with its photo.
 >
@@ -87,7 +92,7 @@ entries.
 > `<what happened, who, when>`. Receipt: `<URL>`.
 > Match the style of nearby items: one or two lines, the venue or
 > award in bold, a link to the source. No adjectives the source does
-> not support. Push to a new branch and show me the diff.
+> not support. Show me the diff, then commit and push to main.
 
 ## 3. Edit your faculty bio
 {: #bio}
@@ -96,7 +101,7 @@ entries.
 > paragraph on `faculty.md` (I am `<name>`). Rewrite it from this:
 > `<your notes or CV link>`. Keep it the same length as the other
 > bios, plain English, with links for each claim. Push to a new
-> branch and show me the before and after.
+> main, and show me the before and after.
 
 ## 4. Add your lab's wins to Student Life
 {: #wins}
@@ -107,7 +112,7 @@ entries.
 > wins: `<defenses, awards, internships, papers, with links>`. Add
 > face tiles for students who already have photos in
 > `img/students/`. Link the section to the lab's part of
-> `directory.html`. Push to a new branch.
+> `directory.html`. Commit and push to main.
 
 ## 5. Add an internship or alumni entry
 {: #alumni}
@@ -115,16 +120,16 @@ entries.
 > In github.com/ncsu-software/ncsu-software.github.io, add
 > `<student>` (`<lab>`, `<degree and year>`) to
 > `<internships.md or alumni.md>`: `<company/role or where they are
-> now>`. Receipt: `<URL>`. Match the existing format. Push to a new
-> branch.
+> now>`. Receipt: `<URL>`. Match the existing format. Commit and
+> push to main.
 
 ## 6. Fix an open issue
 {: #issues}
 
 > Read the open issues at
 > https://github.com/ncsu-software/ncsu-software.github.io/issues.
-> List each with a one-line plan. Then fix issue `#<n>` on a new
-> branch, push it, and draft a comment for the issue that says what
+> List each with a one-line plan. Then fix issue `#<n>`, push to
+> main, and draft a comment for the issue that says what
 > changed. Do not close the issue or post the comment yourself.
 
 ## 7. Check accessibility
@@ -133,7 +138,7 @@ entries.
 > In github.com/ncsu-software/ncsu-software.github.io, read
 > `accessibility.md` and the a11y scanner in `tools/a11y`. Check the
 > pages I changed (`<files>`) against WCAG 2.1 AA: alt text, heading
-> order, link text, color contrast. Fix what you can on a new branch
+> order, link text, color contrast. Fix what you can, push to main,
 > and list anything you could not check.
 
 ## 8. Email students about the directory
