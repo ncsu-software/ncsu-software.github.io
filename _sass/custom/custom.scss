@@ -895,8 +895,11 @@ a.wiser-banner {
   clip: rect(0 0 0 0); white-space: nowrap;
 }
 
-// bottom-left email logo: never wider than it is on desktop
+// bottom-left email logo: desktop only (hidden on narrow screens)
 .side-bar .site-footer.side-typo .side-logo { max-width: 14rem; }
+@media (max-width: 49.99rem) {
+  .side-bar .site-footer.side-typo .side-logo { display: none; }
+}
 
 // badges: drop below the banner (desktop; on phones they sit in the page)
 @media (min-width: 50rem) {
