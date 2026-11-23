@@ -25,6 +25,7 @@ description: "Student life in software engineering at NC State: applying, advisi
 Our students defend PhDs, win paper awards, intern on three
 continents, and occasionally climb a mountain. Highlights by lab
 (every lab: send us your wins!).
+Who's who: the [student directory](directory.html).
 
 | <i class="fa-solid fa-flask badge40" aria-hidden="true"></i> labs | <i class="fa-solid fa-user-graduate badge40" aria-hidden="true"></i> alumni | <i class="fa-solid fa-briefcase badge40" aria-hidden="true"></i> internships |
 |----------------|---------------|--------------|

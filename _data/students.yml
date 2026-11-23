@@ -1,0 +1,106 @@
+# Student directory (directory.md). One entry per student.
+# Source: Drive folder "students" (one Google Doc + photo per student).
+# photo: img/students/<slug>.jpg ; if that file is missing, a placeholder shows.
+# lab: must match a key in `labs` below.
+
+labs:
+  - {key: evolve,      name: "The Evolve Group",           prof: "Wesley Assunção"}
+  - {key: hfxe,        name: "HFXE Lab",                   prof: "Sandeep Kuttal"}
+  - {key: irl,         name: "Irrational Research Lab",    prof: "Tim Menzies"}
+  - {key: perspective, name: "The Perspective People",     prof: "Katie Stolee"}
+  - {key: softmax,     name: "SoftMax Lab",                prof: "Bowen Xu"}
+  - {key: sset,        name: "Super SE Teaching Lab",      prof: "Sarah Heckman"}
+  - {key: swat,        name: "SWAT: SoftWare Analysis and Testing", prof: "Marcelo d'Amorim"}
+
+people:
+  - name: "Hui Sun"
+    slug: hui-sun
+    lab: evolve
+    url: https://sunhui26yeah.github.io/
+    bio: >-
+      Fourth-year PhD student. When an LLM or coding agent says two
+      pieces of code behave the same, can we trust it? Hui studies this
+      through code migration: how well LLMs judge cross-language
+      equivalence, and how often agents that port ML projects from GPUs
+      to TPUs report a "successful" migration that is actually wrong.
+      Interned with Google's Core ML team; joins Google full-time
+      (Core ML Frameworks & Compiler) after graduating. Off hours:
+      swimming, camping, hiking.
+
+  - name: "Kelvon Dixon"
+    slug: kelvon-dixon
+    lab: evolve
+    url: https://kkdixon.github.io/
+    bio: >-
+      Undergraduate in computer science who came to programming late
+      and quickly came to love the problem-solving and creativity of
+      building real applications. Research focus: software
+      maintainability. Off hours: video games and badminton.
+
+  - name: "Xingyue (Amber) Shi"
+    slug: xingyue-shi
+    lab: evolve
+    url: https://www.linkedin.com/in/xingyue-shi-39b50b2a7/
+    bio: >-
+      PhD student working on AI for software engineering: making
+      LLM-based SE agents more reliable and efficient on real-world
+      development tasks. Earlier research in graph machine learning,
+      computer vision, and HPC. From Shenzhen, China. Loves badminton.
+
+  - name: "Hannah Estes"
+    slug: hannah-estes
+    lab: perspective
+    url: https://hannahestes.github.io/
+    bio: >-
+      Studies the human and organizational factors that shape software:
+      how AI, team communication, and coordination affect the products
+      we build. Her research looks at how software product managers and
+      software engineers work together, where alignment succeeds and
+      where it creates friction. Also builds educational opportunities
+      for future PMs and engineers. Off hours: local coffee and food
+      spots, and anything outside.
+
+  - name: "Weiyuan Ding"
+    slug: weiyuan-ding
+    lab: softmax
+    url: https://thefatblue.github.io/
+    bio: >-
+      PhD student (joined as a master's student in 2025 and stayed on).
+      Works on how far we can trust LLMs on software engineering tasks
+      (EvaLooop, AEGIS), and lately on causal inference. From China;
+      undergrad at Peking University. Usually out taking photos.
+
+  - name: "Yinan Wu"
+    slug: yinan-wu
+    lab: softmax
+    note: "co-advised with Katie Stolee"
+    url: https://yinanwusoymilk.github.io/
+    bio: >-
+      PhD student researching human-AI collaboration in software
+      engineering, drawing on HCI and psychology to understand what
+      developers do, how, and why. From Chongqing, China. Loves
+      travel, TV, walks in nature, trying new food, and making coffee
+      and tea.
+
+  - name: "Tiva Rocco"
+    slug: tiva-rocco
+    lab: sset
+    url: https://tiva710.github.io/
+    bio: >-
+      Works in CS/SE education: equitable assessment of individual
+      contributions, and educational data mining. BS in CS from
+      CSU Monterey Bay; originally from Hollister, California. Enjoys
+      good food with good people, nice views, and long walks.
+
+  - name: "M M Abid Naziri"
+    slug: abid-naziri
+    lab: swat
+    url: https://abidnazirisami.github.io/
+    bio: >-
+      Finds bugs in complex software: systems whose inputs must meet
+      intricate constraints or whose correct behavior is hard to
+      specify. Builds techniques that generate test inputs and oracles
+      for foundational software such as deep-learning libraries,
+      compilers, and LLM-serving engines, where one bug can reach
+      thousands of downstream apps. From Bangladesh. Off hours: video
+      games, friends, and the occasional bit of music.
