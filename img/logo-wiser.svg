@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" role="img" aria-label="WISER: Wolfpack Innovations in Software Engineering Research. NCSU SE, Software Engineering at NC State. http://ncsu.software">
+<rect x="75" y="14" width="100" height="100" rx="18" fill="#CC0000"/>
+<text x="125" y="80" font-family="Roboto Mono, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="44" font-weight="700" fill="#ffffff" text-anchor="middle">{W}</text>
+<circle cx="166" cy="24" r="5" fill="#ffffff"/>
+<text x="125" y="152" font-family="Roboto Mono, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="32" font-weight="700" fill="#CC0000" text-anchor="middle">WISER</text>
+<g font-family="Roboto, Helvetica, Arial, DejaVu Sans, sans-serif" text-anchor="middle">
+<text x="125" y="172" font-size="11" fill="#111">Wolfpack Innovations in SE Research</text>
+<text x="125" y="190" font-size="12" font-weight="700" fill="#111">NCSU SE</text>
+<text x="125" y="206" font-size="11" fill="#555">Software Engineering @ NC State</text>
+</g>
+<line x1="45" y1="218" x2="205" y2="218" stroke="#bbbbbb" stroke-width="1"/>
+<text x="125" y="236" font-family="Roboto Mono, Menlo, Consolas, DejaVu Sans Mono, monospace" font-size="11" fill="#888" text-anchor="middle">http://ncsu.software</text>
+</svg>

@@ -10,7 +10,7 @@ search_enabled: true
 mermaid:
   version: "9.4.3"
 color_scheme: wolfpack
-logo: "/img/logo.png"
+logo: "/img/logo-wiser.svg"   # old wolves logo kept at img/logo.png
 exclude:
   - vendor
   - intray

@@ -771,17 +771,9 @@ table.tight td, table.tight th {
   padding-bottom: 0.15rem;
 }
 
-// site url in small type under the sidebar logo
+// (site url now lives inside the WISER logo itself)
 a.site-title {
   flex-direction: column;
-}
-a.site-title::after {
-  content: "http://ncsu.software";
-  display: block;
-  text-align: center;
-  font-size: 1rem;
-  letter-spacing: 0.06em;
-  color: rgba(0, 0, 0, 0.6);
 }
 
 // "apply by Dec 15" badge: smaller gold burst, left of the hiring burst,
