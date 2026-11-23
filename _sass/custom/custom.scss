@@ -115,7 +115,7 @@ a.site-title {
 // phone width: theme squeezes the logo into a 4rem header; give it room
 @media (max-width: 49.99rem) {
   .site-logo {
-    height: 10rem;
+    height: 12rem;
   }
 }
 @media (min-width: 50rem) {
@@ -137,7 +137,8 @@ a.site-title {
   }
   .site-logo {
     width: 100%;
-    height: 15rem;
+    height: 19rem;
+    background-size: contain;
   }
 }
 
