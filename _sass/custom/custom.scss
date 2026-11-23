@@ -886,16 +886,17 @@ a.wiser-banner {
   a.wiser-banner .wb-sub { display: none; }
 }
 
-// sidebar header: just the grey url, menu right below it
-.site-header a.site-title {
-  padding: 0.75rem 1rem 0.25rem;
+// sidebar header: empty on desktop, just a little space above the menu
+@media (min-width: 50rem) {
+  .site-header a.site-title { padding: 0; height: 0.75rem; min-height: 0; }
 }
-.site-url {
-  font-family: $mono-font-family;
-  font-size: 0.85rem;
-  font-weight: 400;
-  color: #4b4953;
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
 }
+
+// bottom-left email logo: never wider than it is on desktop
+.side-bar .site-footer.side-typo .side-logo { max-width: 14rem; }
 
 // badges: drop below the banner (desktop; on phones they sit in the page)
 @media (min-width: 50rem) {
