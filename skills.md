@@ -1,14 +1,14 @@
 ---
-title: Prompts
+title: Skills
 nav_exclude: true
-description: "Copy-paste AI prompts for maintaining ncsu.software: setup, student directory, news, bios, lab wins, issues, accessibility."
+description: "Copy-paste AI skills for maintaining ncsu.software: setup, student directory, news, bios, lab wins, issues, accessibility."
 ---
 
-# Prompts for editing this site
+# Skills for editing this site
 
 This site is maintained with help from an AI assistant (we use
 [Claude](https://claude.ai)). Do the one-time setup, then copy a
-prompt, fill in the `<...>` parts, and paste.
+skill (a prompt), fill in the `<...>` parts, and paste.
 
 **Index**
 
@@ -40,7 +40,7 @@ prompt, fill in the `<...>` parts, and paste.
    adjectives"). Collaborators push straight to `main`; GitHub
    rebuilds [ncsu.software](https://ncsu.software) in about a
    minute and runs an accessibility scan (see the Actions tab).
-   Every prompt below says "push to main" so the assistant does not
+   Every skill below says "push to main" so the assistant does not
    stop at a branch or pull request.
 
 Then check it works:
@@ -81,7 +81,7 @@ entries.
 > in Drive (ask me first; if you cannot move files, list them for me
 > to move).
 >
-> Last, draft the two broadcast emails in [prompt 8](#email) for me
+> Last, draft the two broadcast emails in [skill 8](#email) for me
 > to send.
 
 ## 2. Add news, honors, or a paper
@@ -144,7 +144,7 @@ entries.
 ## 8. Email students about the directory
 {: #email}
 
-Usually run as the last step of [prompt 1](#directory).
+Usually run as the last step of [skill 1](#directory).
 
 > Using the `students` Drive folder and `_data/students.yml`, draft
 > two broadcast emails for me to send (do not send them):
