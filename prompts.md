@@ -100,7 +100,7 @@ entries.
 > In github.com/ncsu-software/ncsu-software.github.io, find my
 > paragraph on `faculty.md` (I am `<name>`). Rewrite it from this:
 > `<your notes or CV link>`. Keep it the same length as the other
-> bios, plain English, with links for each claim. Push to a new
+> bios, plain English, with links for each claim. Commit and push to
 > main, and show me the before and after.
 
 ## 4. Add your lab's wins to Student Life
