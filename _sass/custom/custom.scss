@@ -130,10 +130,35 @@ a.site-title {
   }
   // tighter sidebar: small gap under logo, compact top-level nav rows
   .site-nav { padding-top: 0.5rem; }
+  // the big divisions: red bars, full width of the sidebar, always
+  // expanded one level (the theme hides children until clicked)
+  .site-nav > .nav-list > .nav-list-item > .nav-list-link {
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+  .site-nav > .nav-list > .nav-list-item {
+    margin: 0;
+    > .nav-list { display: block; margin: 0; }  // children always visible
+    > .nav-list-expander { display: none; }
+  }
+  .site-nav .nav-list .nav-list-item { margin: 0; }
+  .site-nav > .nav-list > .nav-list-item:nth-child(n+2) > .nav-list-link {
+    display: block;
+    width: 100%;
+    margin: 0.4rem 0 0;
+    background: none !important;
+    background-image: none !important;
+    color: $ink !important;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-top: 2px solid $red;
+    &:hover, &.active, &:focus { color: $red-dk !important; }
+  }
   .nav-list .nav-list-item .nav-list-link {
-    min-height: 1.5rem;
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
+    min-height: 1.25rem;
+    line-height: 1.25rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .site-logo {
     width: 100%;
@@ -142,18 +167,19 @@ a.site-title {
   }
 }
 
-// sidebar sub-lists (faculty names, student-life pages) -- indented, tight lines
+// sidebar sub-lists (faculty names, extra student links): same look as
+// the theme's own child rows -- same indent, same size, no bullets
 .nav-list .nav-people {
   list-style: none;
-  margin: 0 0 0.35rem;
-  padding: 0 0 0 2.75rem;
-  li {
-    margin: 0;
+  margin: 0;
+  padding: 0 0 0 0.75rem;   // same as the theme's nested .nav-list,
+  li {                      // so these sit one level deeper than
+    margin: 0;              // their parent link, like real children
     &::before { display: none; }
   }
   a {
     display: block;
-    padding: 0;
+    padding: 0 0 0 2rem;            // theme's .nav-list-link gutter
     font-size: 0.8rem;
     line-height: 1.35;
     color: $ink;
@@ -819,11 +845,6 @@ a.deadline {
   }
 }
 
-// Student Life sub-menu: small black bullets
-.nav-list .nav-people.dots {
-  list-style: disc;
-  li::marker { color: #000; font-size: 0.8em; }
-}
 
 // sidebar footer: one tiny line (typo / issue link)
 .side-bar .site-footer.side-typo {
@@ -886,9 +907,19 @@ a.wiser-banner {
   a.wiser-banner .wb-sub { display: none; }
 }
 
-// sidebar header: empty on desktop, just a little space above the menu
+// sidebar header: the NC State brick, top of the left-hand side
+.nav-brick {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 @media (min-width: 50rem) {
-  .site-header a.site-title { padding: 0; height: 0.75rem; min-height: 0; }
+  .site-header a.site-title {
+    padding: 0.75rem 0 0.25rem; height: auto; min-height: 0;
+  }
+}
+@media (max-width: 49.99rem) {
+  .nav-brick { width: auto; height: 1.9rem; }
 }
 .visually-hidden {
   position: absolute; width: 1px; height: 1px; overflow: hidden;

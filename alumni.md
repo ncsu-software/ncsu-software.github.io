@@ -1,13 +1,13 @@
 ---
 title: Alumni
-nav_exclude: true
-nav_order: 1
+nav_order: 4
 description: "Where NC State software engineering graduates go."
+parent: For Students
 ---
 
 {% include badges.html %}
 
-[&larr; Student Life](students.html)
+[&larr; For Students](students.html)
 
 # <i class="fa-solid fa-user-graduate" aria-hidden="true"></i> Alumni
 

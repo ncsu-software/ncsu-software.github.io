@@ -1,7 +1,8 @@
 ---
 title: "AI & SE @ NC State"
-nav_order: 4
+nav_order: 2
 description: "How the NC State software engineering group uses and studies AI in software engineering."
+parent: Home
 ---
 
 {% include badges.html %}

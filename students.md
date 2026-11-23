@@ -1,7 +1,8 @@
 ---
-title: Student Life
-nav_order: 5
+title: "For Students"
+nav_order: 3
 description: "Student life in software engineering at NC State: applying, advising, and the graduate experience."
+has_children: true
 ---
 
 {% include badges.html %}

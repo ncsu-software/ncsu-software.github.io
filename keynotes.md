@@ -1,7 +1,8 @@
 ---
-title: Keynotes & Talks
-nav_order: 1.5
+title: "Keynotes & Talks"
+nav_order: 2
 description: "Invited talks and keynotes by NC State software engineering faculty."
+parent: For Researchers
 ---
 
 {% include badges.html %}

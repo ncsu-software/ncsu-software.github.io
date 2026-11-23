@@ -1,13 +1,13 @@
 ---
 title: Internships
-nav_exclude: true
-nav_order: 2
+nav_order: 5
 description: "Internship information for NC State software engineering students."
+parent: For Students
 ---
 
 {% include badges.html %}
 
-[&larr; Student Life](students.html)
+[&larr; For Students](students.html)
 
 # <i class="fa-solid fa-briefcase" aria-hidden="true"></i> Internships
 

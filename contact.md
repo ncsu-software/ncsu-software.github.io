@@ -1,7 +1,8 @@
 ---
 title: Contact / Visit
-nav_order: 7
+nav_order: 1
 description: "How to find, visit, and contact the NC State Software Engineering group."
+parent: Home
 ---
 
 {% include badges.html %}

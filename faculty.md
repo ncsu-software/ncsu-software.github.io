@@ -1,7 +1,8 @@
 ---
-title: Faculty & Labs
-nav_order: 6
+title: "Faculty & Labs"
+nav_order: 3
 description: "The eight software engineering labs at NC State and the faculty who lead them."
+parent: For Researchers
 ---
 
 {% include badges.html %}

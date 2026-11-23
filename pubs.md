@@ -1,7 +1,8 @@
 ---
-title: News & Publications
-nav_order: 4.5
+title: "News & Publications"
+nav_order: 1
 description: "Recent papers, publications, and news from NC State software engineering."
+parent: For Researchers
 ---
 
 {% include badges.html %}
