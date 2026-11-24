@@ -96,7 +96,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   sub("{{ '/faculty.html' | relative_url }}", {{ site.data.faculty | jsonify }});
   sub("{{ '/students.html' | relative_url }}", [
-    {name: "Apply for Grad School", url: "https://csc.ncsu.edu/academics/graduate/application-deadlines/"}
+    {name: "Apply for Grad School", url: "https://csc.ncsu.edu/academics/graduate/application-deadlines/"},
+    {name: "Student Drive folder", url: "https://drive.google.com/drive/folders/1itxDXsxfMofSIjq0TxuG7X9s5ua5DQAa"}
   ]);
 });
 </script>

@@ -1,7 +1,13 @@
 <footer class="site-footer side-typo">
   <i class="fa-brands fa-github" aria-hidden="true"></i>
-  <a href="https://github.com/ncsu-software/ncsu-software.github.io/issues">Issues</a> ::
-  <a href="{{ '/skills.html' | relative_url }}">Skills</a> ::
+  <a href="https://github.com/ncsu-software/ncsu-software.github.io/issues">Issues</a> |
+{% comment %} NB: no /u/2/ in the Drive URL -- that segment means "the third
+   Google account signed in on THIS browser", so it resolves to a different
+   (or no) account for everyone else. {% endcomment %}
+  <a href="https://drive.google.com/drive/folders/1Vl-guuURRJ6mT1gpYiJbhFDAQ8dhxXWa"
+     title="Add yourself: our Google Drive folder"
+     aria-label="Add yourself: our Google Drive folder">+</a> |
+  <a href="{{ '/skills.html' | relative_url }}">Skills</a> |
   <a href="{{ '/accessibility.html' | relative_url }}">Accessibility</a>
   <a class="side-sig" href="{{ '/' | relative_url }}"><img src="{{ '/img/wiser-email-signature.png' | relative_url }}" alt="WISER: Software Engineering @ NC State, ncsu.software"></a>
 </footer>

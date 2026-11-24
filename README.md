@@ -9,7 +9,7 @@ has_toc: false
 
 {% include badges.html %}
 
-# <i class="fa-solid fa-paw" aria-hidden="true"></i> SE @ NC&nbsp;State
+# <i class="fa-solid fa-paw" aria-hidden="true"></i> SE @ NCSU
 
 <div class="marquee" id="marquee">
   <figure class="on"><img src="img/marquee/wiser_lab_dinner.jpg" alt="WISER lab dinner"><figcaption>WISER lab dinner</figcaption></figure>

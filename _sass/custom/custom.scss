@@ -122,42 +122,54 @@ a.site-title {
     height: auto;
     padding: 0.2rem 0.75rem 0.85rem;   // graphic starts high, so it can be bigger
   }
-  // tighter sidebar: small gap under the block, compact top-level nav rows
   .site-nav { padding-top: 0.5rem; }
-  // the big divisions: red bars, full width of the sidebar, always
-  // expanded one level (the theme hides children until clicked)
-  .site-nav > .nav-list > .nav-list-item > .nav-list-link {
-    font-weight: 700;
-    font-size: 0.95rem;
-  }
-  .site-nav > .nav-list > .nav-list-item {
-    margin: 0;
-    > .nav-list { display: block; margin: 0; }  // children always visible
-    > .nav-list-expander { display: none; }
-  }
-  .site-nav .nav-list .nav-list-item { margin: 0; }
-  .site-nav > .nav-list > .nav-list-item:nth-child(n+2) > .nav-list-link {
-    display: block;
-    width: 100%;
-    // air above the red rule, and air between the rule and its label:
-    // the divisions read as sections rather than a stack of rows
-    margin: 0.9rem 0 0;
-    padding-top: 0.5rem;
-    padding-bottom: 0.2rem;
-    background: none !important;
-    background-image: none !important;
-    color: $ink !important;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    border-top: 2px solid $red;
-    &::after { content: ":"; }  // "FOR INDUSTRY:" -- a heading, not a link
-    &:hover, &.active, &:focus { color: $red-dk !important; }
-  }
-  .nav-list .nav-list-item .nav-list-link {
-    min-height: 1.3rem;   // tighter rows: 21px, not the theme's 24px
-    line-height: 1.3rem;
-    padding-top: 0;
-    padding-bottom: 0;
+}
+
+// The sidebar menu, at EVERY width. These used to be desktop-only, which
+// left the narrow-window menu in the theme's default state: children
+// collapsed behind an expander arrow, so opening the menu showed four
+// section names and nothing else. Always-expanded is the whole point of
+// this nav -- every page visible, one level deep -- so it applies here
+// regardless of window size.
+.site-nav > .nav-list > .nav-list-item > .nav-list-link {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.site-nav > .nav-list > .nav-list-item {
+  margin: 0;
+  > .nav-list { display: block; margin: 0; }  // children always visible
+  > .nav-list-expander { display: none; }     // nothing left to expand
+}
+.site-nav .nav-list .nav-list-item { margin: 0; }
+.site-nav > .nav-list > .nav-list-item:nth-child(n+2) > .nav-list-link {
+  display: block;
+  width: 100%;
+  // air above the red rule, and air between the rule and its label:
+  // the divisions read as sections rather than a stack of rows
+  margin: 1.1rem 0 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.2rem;
+  background: none !important;
+  background-image: none !important;
+  color: $ink !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-top: 2px solid $red;
+  &::after { content: ":"; }  // "FOR INDUSTRY:" -- a heading, not a link
+  &:hover, &.active, &:focus { color: $red-dk !important; }
+}
+// Tighter rows than the theme at both widths: it ships 3rem on phones and
+// 2rem on desktop, which with every section expanded makes a very long
+// menu. NB: this takes the rows under the 24x24px of WCAG 2.2 target size
+// -- out of scope per accessibility.md, which targets 2.1 AA.
+.nav-list .nav-list-item .nav-list-link {
+  min-height: 1.6rem;   // 25.6px: tight, but still clears a 24px touch target
+  line-height: 1.6rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  @media (min-width: 50rem) {
+    min-height: 1.15rem;
+    line-height: 1.15rem;
   }
 }
 
@@ -193,13 +205,13 @@ a.site-title {
   a {
     display: block;
     padding: 0 2rem 0 3rem;         // depth 3: hung off a child row
-    min-height: 3rem;               // phone metrics, as the theme has them
-    line-height: 2.5rem;
+    min-height: 1.6rem;             // same row box as .nav-list-link above
+    line-height: 1.6rem;
     color: $ink;
     &:hover { color: $red; }
     @media (min-width: 50rem) {
-      min-height: 1.3rem;
-      line-height: 1.3rem;
+      min-height: 1.15rem;
+      line-height: 1.15rem;
     }
   }
 }
@@ -556,18 +568,21 @@ th .fa-solid:not(.badge40) {
   }
 }
 
-// hiring burst: lifted to 10px below the top of the screen, over the
-// search bar; out of the text flow so the title gets the full width
+// Bursts sit OUT of the text flow, pulled up into the search-bar band.
+// Floating them instead reserves their full 10.5rem of height, which left
+// a dead white band under the first heading -- so they stay absolute, and
+// ride high enough that they overlap the search bar rather than the body
+// copy. Overlapping the search bar is deliberate; covering the text is not.
 a.hiring {
   float: none;
   position: absolute;
-  top: 10px;
+  top: 8px;         // clear of y=0, so the burst's top points are not cut
   right: 2rem;
   margin: 0;
   z-index: 200;
 }
-// phone width: burst would cover the logo and menu button up there, so
-// it goes back into the page, floated right of the title
+// phone width: up there the burst would cover the menu button, so it goes
+// back into the page, floated right of the title
 @media (max-width: 49.99rem) {
   a.hiring {
     position: relative;
@@ -800,18 +815,46 @@ table.pick-matrix {
   width: auto !important;
   min-width: 0 !important;     // theme forces tables to 100%
   max-width: 100%;
-  margin: 0 auto;
+  margin: 1.6rem auto 0;   // air above the angled names
   table-layout: auto;
   font-size: 0.8rem;
   th, td { border: 0; padding: 0; background: none; min-width: 0 !important; } // theme: 120px cells
   th { cursor: pointer; color: $ink; font-weight: 600; }
-  th.p { height: 7.5rem; width: 1.4rem; vertical-align: bottom; }
-  th.p span { display: inline-block; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; }
+  // Names run at 45 degrees rather than straight up: diagonal text stays on
+  // the normal horizontal baseline so it reads at a head-tilt, where
+  // writing-mode: vertical-rl rotates every letter and has to be read
+  // letter-by-letter. Anchored at the middle of its own column and rising
+  // to the right, so each name points back down at the column it labels.
+  // Height = the longest name (~100px) over root(2), plus a little.
+  th.p {
+    height: 7rem;
+    width: 1.4rem;
+    padding: 0;
+    position: relative;
+    vertical-align: bottom;
+  }
+  th.p span {
+    position: absolute;
+    bottom: 0.2rem;
+    left: 50%;
+    transform-origin: 0 50%;
+    transform: rotate(-45deg);
+    display: inline-block;
+    white-space: nowrap;
+  }
   th.on { color: $red; }
-  td.t { text-align: right; padding-right: 0.5rem; cursor: pointer; white-space: nowrap; }
+  // topic labels now sit to the RIGHT of the grid, so they read left-aligned
+  // off the last column, and at 0.7rem rather than the table's 0.8rem
+  td.t {
+    text-align: left;
+    padding-left: 0.45rem;
+    font-size: 0.7rem;
+    line-height: 1.1;
+    cursor: pointer;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
   td.t.on { color: $red; font-weight: 700; }
-  .sum { width: 1.6rem; text-align: center; color: #6b6b6b; font-size: 0.75rem; vertical-align: middle; } // #999 was 2.9:1
-  th.sum { vertical-align: bottom; cursor: default; }
   // 2.1.1: the clickable row/column heads are keyboard targets, so they need a
   // focus ring of their own
   td.t:focus-visible, th.p:focus-visible {
@@ -851,8 +894,8 @@ a.site-title {
 // no pulse. Shown each year from data-from to data-until (MM-DD) by
 // head_custom.html, so it never goes stale.
 a.deadline {
-  position: absolute;
-  top: 40px;
+  position: absolute;   // out of the flow, like the hiring burst
+  top: 12px;
   right: 13.5rem;
   z-index: 200;
   display: block;
@@ -879,6 +922,7 @@ a.deadline {
   }
   &[hidden] { display: none; }
 }
+// phone width: back into the page, floated beside the hiring burst
 @media (max-width: 49.99rem) {
   a.deadline {
     position: relative;
@@ -888,7 +932,6 @@ a.deadline {
     margin: 0 0 0.5rem 0.5rem;
   }
 }
-
 
 // sidebar footer: one tiny line (typo / issue link), centred over the brick
 .side-bar .site-footer.side-typo {
@@ -938,9 +981,9 @@ a.deadline {
     display: block;
     order: -1;
     // sized so the top of {WISER} lands level with the "SE @ NC State"
-    // heading in the main column: the art is 0.914 wide:tall, so every
-    // extra rem of width pushes the mark down 14.6px
-    width: 7.25rem;
+    // heading in the main column. What matters is the art's HEIGHT, so the
+    // width follows its aspect: this file is 0.655 tall per unit wide.
+    width: 10.12rem;
     max-width: 100%;
     height: auto;
     margin: 0 auto -0.1rem;   // tucked up against the mark below it

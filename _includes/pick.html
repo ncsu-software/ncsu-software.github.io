@@ -25,13 +25,17 @@ document.addEventListener("DOMContentLoaded", function () {
   var T = D.topics.slice().sort(function (a, b) { return sum(b.s) - sum(a.s); });
   var LEVEL = ["none", "some", "active", "core"];
   var GLYPH = ["", "&middot;", "+", "&#9679;"];
-  var h = '<thead><tr><th><span class="sr-only">Topic</span></th><th class="sum">sum</th>' + P.map(function (p, j) {
-    return '<th class="p" data-j="' + j + '" tabindex="0" role="button" aria-pressed="false"><span>' + esc(p.name) + '</span></th>'; }).join('') + '</tr></thead><tbody>';
+  /* topic labels sit on the RIGHT of the grid, so the header row ends with
+     the corner cell rather than starting with it */
+  var h = '<thead><tr>' + P.map(function (p, j) {
+    return '<th class="p" data-j="' + j + '" tabindex="0" role="button" aria-pressed="false"><span>' + esc(p.name) + '</span></th>'; }).join('') +
+    '<th><span class="sr-only">Topic</span></th></tr></thead><tbody>';
   T.forEach(function (r, i) {
-    h += '<tr data-i="' + i + '"><td class="t" tabindex="0" role="button" aria-pressed="false">' + esc(r.t) + '</td><td class="sum">' + sum(r.s) + '</td>' +
+    h += '<tr data-i="' + i + '">' +
       r.s.map(function (x, j) { var lab = esc(P[j].name) + ': ' + LEVEL[x];
         return '<td class="c' + (x ? ' l' + x : '') + '" data-j="' + j + '" title="' + lab + '" aria-label="' + lab +
-          '"><span aria-hidden="true">' + GLYPH[x] + '</span></td>'; }).join('') + '</tr>';
+          '"><span aria-hidden="true">' + GLYPH[x] + '</span></td>'; }).join('') +
+      '<td class="t" tabindex="0" role="button" aria-pressed="false">' + esc(r.t) + '</td></tr>';
   });
   m.innerHTML = h + '</tbody>';
   function draw() {

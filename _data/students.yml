@@ -43,6 +43,7 @@ people:
   - name: "Xingyue (Amber) Shi"
     slug: xingyue-shi
     nophoto: true
+    email: xshi22@ncsu.edu
     lab: evolve
     url: https://www.linkedin.com/in/xingyue-shi-39b50b2a7/
     bio: >-
@@ -113,3 +114,28 @@ people:
       compilers, and LLM-serving engines, where one bug can reach
       thousands of downstream apps. From Bangladesh. Off hours: video
       games, friends, and the occasional bit of music.
+
+  - name: "Hua Yang"
+    slug: hua-yang
+    email: hyang45@ncsu.edu
+    lab: softmax
+    url: https://huayangttt.github.io/
+    bio: >-
+      Third-year PhD student from Chengdu, China. Works on trustworthy
+      AI, large language models, and software engineering, with a
+      focus on AI privacy and security. Previously interned at
+      ByteDance. Off hours: travelling and meeting new cultures,
+      working out, tennis, and trying different foods.
+
+  - name: "Sen Fang"
+    slug: sen-fang
+    email: sfang9@ncsu.edu
+    lab: softmax
+    url: https://tomasandersonfang.github.io/
+    bio: >-
+      PhD student who started at NC State in 2024. Works on LLMs for
+      code and security: LLM agents that find software vulnerabilities
+      (AEGIS), and benchmarks for that area (VEXED, CodeQL-Bench). Has
+      also studied how robust code LLMs really are (EvaLooop,
+      quantized LLMs). Outside the lab he cooks, looks at the stars,
+      and has played Dota 2 for about 20 years (Invoker main).
