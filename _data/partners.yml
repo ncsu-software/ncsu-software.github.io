@@ -1,0 +1,64 @@
+# Industry partners, rendered as a grid by partners.md.
+#
+# name:  the short label (also the text of the fallback badge)
+# full:  expansion, shown as the cell's tooltip and as the logo's alt text
+# logo:  path under /img/partners/. Blank falls back to the badge, so the
+#        page is complete either way -- ITPRO, LAS, SEI and Tecgraf have no
+#        published mark we could source, and keep their badge.
+#        The rest came from each company's current logo as recorded on
+#        Wikidata (property P154, preferred rank = the mark in use today).
+#        These are the companies' trademarks, used here to say who we work
+#        with; several of them (NASA, Meta, Google, Microsoft) restrict logo
+#        use that implies endorsement, so swap in whatever a company sends
+#        us if they ask.
+- name: ArcelorMittal
+  full: ArcelorMittal Brazil S.A.
+  logo: /img/partners/arcelormittal.svg
+- name: AVL
+  full: AVL List GmbH (Austria)
+  logo: /img/partners/avl.jpg
+- name: eBay
+  full:
+  logo: /img/partners/ebay.svg
+- name: ENGEL
+  full: ENGEL Austria GmbH
+  logo: /img/partners/engel.gif
+- name: Google
+  full:
+  logo: /img/partners/google.svg
+- name: IBM
+  full:
+  logo: /img/partners/ibm.svg
+- name: ITPRO
+  full: ITPRO – Consulting & Software GmbH (Austria)
+  logo:
+- name: JPL
+  full:
+  logo: /img/partners/jpl.svg
+- name: L3Harris
+  full:
+  logo: /img/partners/l3harris.svg
+- name: LAS
+  full:
+  logo:
+- name: LexisNexis
+  full:
+  logo: /img/partners/lexisnexis.svg
+- name: Meta
+  full:
+  logo: /img/partners/meta.svg
+- name: Microsoft
+  full:
+  logo: /img/partners/microsoft.svg
+- name: NASA
+  full:
+  logo: /img/partners/nasa.svg
+- name: SEI
+  full:
+  logo:
+- name: Tecgraf
+  full: Tecgraf Institute (Brazil)
+  logo:
+- name: Volvo Group
+  full:
+  logo: /img/partners/volvo.svg

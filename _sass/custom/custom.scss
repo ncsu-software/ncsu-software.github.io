@@ -17,6 +17,12 @@ $indigo: #4156A1; // Bio-Indigo
 // "AI" mark), it uses this shade instead: 5.9:1. Icons use the mixin below.
 $gold: #7A6200;
 
+// Height of the top band, used twice: the WISER banner across the main
+// column and the sidebar header that holds the brick. Same height on both
+// means the brick sits level with the banner type and the two bottom rules
+// meet across the page.
+$wb-height: 5.5rem;
+
 // Honour marks (award rosette, keynote mic) wear Hunt Yellow, same as the
 // "grad students apply" burst. Hunt Yellow alone is 1.5:1 on white, so the
 // glyph is outlined in the dark shade (5.9:1): the shape stays legible against
@@ -104,25 +110,28 @@ table.plain {
   }
 }
 
-// sidebar logo: big, and the header must GROW to hold it (the theme
-// pins header height to 4rem, so content overflows onto the nav)
+// sidebar header: the brick sits in a.site-title, and the header must GROW
+// to hold it (the theme pins header height to 4rem, so content would
+// overflow onto the nav). NB: the theme's .site-logo is unused here --
+// title.html is overridden to emit an <img class="nav-brick">.
+//
+// The padding here is the brand's clear space, not decoration:
+// https://brand.ncsu.edu/logos/ wants at least the width of the "N" in
+// "NC State" between the logo and any text or design element. In the 4x1
+// file that "N" is 59 of 1080px, so the clear space is 5.5% of however
+// wide the brick renders -- 12.7px at the 232px desktop width below,
+// 11.1px at the 203px phone width. 0.75rem (12px) clears both.
 a.site-title {
-  padding: 0.5rem;
-}
-.site-logo {
-  background-position: center;
-}
-// phone width: theme squeezes the logo into a 4rem header; give it room
-@media (max-width: 49.99rem) {
-  .site-logo {
-    height: 16rem;
-  }
+  padding: 0.75rem;
 }
 @media (min-width: 50rem) {
+  // same band as the WISER banner opposite, so the brick lines up with the
+  // banner type and the two bottom rules meet across the page
   .site-header {
     height: auto;
-    min-height: 0;
+    min-height: $wb-height;
     max-height: none;
+    align-items: center;
     flex-shrink: 0;  // never squeeze the logo; the nav scrolls instead
   }
   a.site-title {
@@ -145,47 +154,63 @@ a.site-title {
   .site-nav > .nav-list > .nav-list-item:nth-child(n+2) > .nav-list-link {
     display: block;
     width: 100%;
-    margin: 0.4rem 0 0;
+    // air above the red rule, and air between the rule and its label:
+    // the divisions read as sections rather than a stack of rows
+    margin: 1.25rem 0 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
     background: none !important;
     background-image: none !important;
     color: $ink !important;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     border-top: 2px solid $red;
+    &::after { content: ":"; }  // "FOR INDUSTRY:" -- a heading, not a link
     &:hover, &.active, &:focus { color: $red-dk !important; }
   }
   .nav-list .nav-list-item .nav-list-link {
-    min-height: 1.25rem;
-    line-height: 1.25rem;
+    min-height: 1.5rem;
+    line-height: 1.5rem;
     padding-top: 0;
     padding-bottom: 0;
   }
-  .site-logo {
-    width: 100%;
-    height: 26rem;
-    background-size: contain;
+}
+
+// One indent scale for the whole sidebar. The theme stacks two gutters --
+// 0.75rem of container padding on a nested .nav-list plus 2rem on every
+// .nav-list-link -- so depth 2 and depth 3 landed on the same 2.75rem and
+// the faculty names sat flush with "Faculty & Labs". Zero the container
+// gutter and set one padding per depth instead: 1rem / 2rem / 3rem.
+.site-nav {
+  .nav-list .nav-list-item > .nav-list { padding-left: 0; }
+  > .nav-list > .nav-list-item > .nav-list-link { padding-left: 1rem; }
+  > .nav-list > .nav-list-item > .nav-list > .nav-list-item > .nav-list-link {
+    padding-left: 2rem;
   }
 }
 
 // sidebar sub-lists (faculty names, extra student links): same look as
-// the theme's own child rows -- same indent, same size, no bullets
+// the theme's own child rows -- same size, no bullets, one level deeper
 .nav-list .nav-people {
   list-style: none;
   margin: 0;
-  padding: 0 0 0 0.75rem;   // same as the theme's nested .nav-list,
-  li {                      // so these sit one level deeper than
-    margin: 0;              // their parent link, like real children
+  padding: 0;
+  li {
+    margin: 0;
     &::before { display: none; }
   }
   a {
     display: block;
-    padding: 0 0 0 2rem;            // theme's .nav-list-link gutter
+    padding: 0 2rem 0 3rem;         // depth 3: hung off a child row
     font-size: 0.8rem;
     line-height: 1.35;
     color: $ink;
     &:hover { color: $red; }
   }
 }
+// ...but a sub-list hung off a *section* row (the "Apply for Grad School"
+// link under FOR STUDENTS) is depth 2, level with that section's own rows.
+.site-nav > .nav-list > .nav-list-item > .nav-people a { padding-left: 2rem; }
 
 // faculty headshots: uniform square, center-cropped
 img.headshot {
@@ -661,15 +686,9 @@ h2 small { font-weight: normal; font-size: 0.75em; }
   content: none;
 }
 
-// p1 partners strip: organization names as pills
-// (no panel: sits on the white gutter between the tables, centered)
-.partners {
-  text-align: center;
-  margin: -0.25rem 0 1.25rem;
-  font-size: 0.875rem;
-}
+// heading over the partner grid
 .partnerhead {
-  margin-right: 0.5rem;
+  margin: 0 0 0.5rem;
   font-weight: 600;
   color: #000000;
 }
@@ -685,25 +704,63 @@ h2 small { font-weight: normal; font-size: 0.75em; }
   white-space: nowrap;
 }
 
+// partner grid (_data/partners.yml): one cell per partner, big enough to
+// hold a logo. A partner with no cleared logo keeps the old pill badge, so
+// the grid reads the same whether we hold permission for a mark or not.
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  gap: 0.75rem;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+.partner-grid .partner-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 5.25rem;
+  margin: 0;
+  padding: 0.6rem;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background: #fff;
+  text-align: center;
+  &::before { display: none; }   // kramdown bullet
+  // Logos sit in a common box, never stretched. The height cap is generous
+  // because square-ish marks (NASA, ArcelorMittal) are bound by it while
+  // wordmarks (Volvo, Microsoft) are bound by width -- a tight cap shrinks
+  // the square ones to nothing next to the wide ones.
+  img {
+    max-width: 100%;
+    max-height: 4rem;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
 // partner pills: cycle the expanded palette, as the brand guide asks ("try to
 // include several of its colors"). Tint for the fill, full strength for the
 // rule, black for the type -- so every pill clears 4.5:1 whatever its colour.
-.partners .chip {
+// The cycle keys off the cell, not the pill: each pill is an only child now.
+.partner-grid .chip {
   color: $ink;
+  white-space: normal;
 }
-.partners .chip:nth-child(4n + 1) {
+.partner-grid .partner-cell:nth-child(4n + 1) .chip {
   border-color: $red;
   background: rgba(204, 0, 0, 0.10);
 }
-.partners .chip:nth-child(4n + 2) {
+.partner-grid .partner-cell:nth-child(4n + 2) .chip {
   border-color: $indigo;
   background: rgba(65, 86, 161, 0.12);
 }
-.partners .chip:nth-child(4n + 3) {
+.partner-grid .partner-cell:nth-child(4n + 3) .chip {
   border-color: $aqua;
   background: rgba(0, 132, 115, 0.12);
 }
-.partners .chip:nth-child(4n) {
+.partner-grid .partner-cell:nth-child(4n) .chip {
   border-color: $yellow;
   background: rgba(250, 200, 0, 0.22);
 }
@@ -853,7 +910,7 @@ a.deadline {
   padding: 0.25rem 1rem 0.5rem;
   color: #4b4953;   // theme grey (#959396) is 2.8:1 on the sidebar; this is 8:1
 }
-.side-bar .site-footer.side-typo .side-logo {
+.side-bar .site-footer.side-typo .side-sig {
   display: block;
   margin-top: 0.5rem;
   img { display: block; width: 100%; height: auto; }
@@ -865,9 +922,8 @@ a.deadline {
 
 // ---------------------------------------------------------------------
 // WISER banner across the top of the main column (components/header.html),
-// above the search bar. The sidebar header shrinks to the grey site url,
-// so the menu starts near the top of the screen.
-$wb-height: 5.5rem;
+// above the search bar. Its height is $wb-height, shared with the sidebar
+// header so the brick and this type sit on the same band.
 a.wiser-banner {
   display: flex;
   align-items: center;
@@ -907,19 +963,25 @@ a.wiser-banner {
   a.wiser-banner .wb-sub { display: none; }
 }
 
-// sidebar header: the NC State brick, top of the left-hand side
+// sidebar header: the NC State brick, top of the left-hand side.
+// Brand floor for the 4x1 logo is 200px wide on screen; min-width holds
+// that whatever the sidebar does.
 .nav-brick {
   display: block;
   width: 100%;
+  min-width: 200px;
   height: auto;
 }
 @media (min-width: 50rem) {
+  // 16.5rem sidebar less 0.75rem clear space each side = 232px of brick
   .site-header a.site-title {
-    padding: 0.75rem 0 0.25rem; height: auto; min-height: 0;
+    padding: 0.75rem; height: auto; min-height: 0;
   }
 }
 @media (max-width: 49.99rem) {
-  .nav-brick { width: auto; height: 1.9rem; }
+  // 2rem tall x the file's 6.35 aspect = 203px wide, just over the floor
+  // (1.9rem gave 193px, under it)
+  .nav-brick { width: auto; min-width: 0; height: 2rem; }
 }
 .visually-hidden {
   position: absolute; width: 1px; height: 1px; overflow: hidden;
@@ -927,9 +989,9 @@ a.wiser-banner {
 }
 
 // bottom-left email logo: desktop only (hidden on narrow screens)
-.side-bar .site-footer.side-typo .side-logo { max-width: 14rem; }
+.side-bar .site-footer.side-typo .side-sig { max-width: 14rem; }
 @media (max-width: 49.99rem) {
-  .side-bar .site-footer.side-typo .side-logo { display: none; }
+  .side-bar .site-footer.side-typo .side-sig { display: none; }
 }
 
 // badges: drop below the banner (desktop; on phones they sit in the page)

@@ -4,6 +4,7 @@ nav_order: 1
 permalink: /
 description: "NCSU SE: the software engineering group at NC State University: eight research labs, a top-five US SE group by research output. Study with us, work with us, and use our tools and data."
 has_children: true
+has_toc: false
 ---
 
 {% include badges.html %}

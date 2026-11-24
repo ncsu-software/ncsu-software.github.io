@@ -1,5 +1,5 @@
 ---
-title: "AI & SE @ NC State"
+title: "AI & SE"
 nav_order: 2
 description: "How the NC State software engineering group uses and studies AI in software engineering."
 parent: Home

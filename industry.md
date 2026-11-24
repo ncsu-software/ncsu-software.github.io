@@ -1,7 +1,8 @@
 ---
 title: For Industry
-nav_order: 2
+nav_order: 3
 has_children: true
+has_toc: false
 description: "Work with NC State software engineering: our industry partners, and the tools and data we ship."
 ---
 

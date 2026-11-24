@@ -1,5 +1,5 @@
 ---
-title: "Keynotes & Talks"
+title: Keynotes
 nav_order: 2
 description: "Invited talks and keynotes by NC State software engineering faculty."
 parent: For Researchers

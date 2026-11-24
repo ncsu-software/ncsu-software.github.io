@@ -10,25 +10,38 @@
   href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Roboto+Slab:wght@400;700&display=swap">
 <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+{% comment %} We are a research group inside NC State's Department of Computer
+   Science, not an organization in our own right, so the markup describes the
+   page and names the university as the organization. The faculty are people
+   the page is about, not "members" of a body called NCSU SE.
+{% endcomment %}
 {% if page.url == "/" %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
+  "@type": "WebPage",
   "name": "NC State Software Engineering",
-  "alternateName": ["WISER", "Wolfpack Innovations in Software Engineering Research", "NCSU SE", "NC State SE", "NCSU Software Engineering", "SE @ NC State", "SE @ Computer Science, NC State University"],
   "url": "https://ncsu.software",
-  "logo": "https://ncsu.software/img/logo-wiser.png",
   "description": "The software engineering group in the Department of Computer Science at North Carolina State University: eight research labs studying how to build better software. By research output, a top-five SE group in the US (CSRankings).",
-  "parentOrganization": {
+  "keywords": "WISER, Wolfpack Innovations in Software Engineering Research, NCSU SE, NC State SE, NCSU Software Engineering, SE @ NC State, SE @ Computer Science, NC State University",
+  "about": {
     "@type": "CollegeOrUniversity",
     "name": "North Carolina State University",
-    "url": "https://www.ncsu.edu"
+    "url": "https://www.ncsu.edu",
+    "department": {
+      "@type": "EducationalOrganization",
+      "name": "Department of Computer Science",
+      "url": "https://csc.ncsu.edu"
+    }
   },
-  "member": [
+  "mentions": [
     {% for f in site.data.faculty %}{
       "@type": "Person",
-      "name": {{ f.name | jsonify }}{% if f.url %},
+      "name": {{ f.name | jsonify }},
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "North Carolina State University"
+      }{% if f.url %},
       "url": {{ f.url | jsonify }}{% endif %}
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}

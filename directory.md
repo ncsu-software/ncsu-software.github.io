@@ -1,5 +1,5 @@
 ---
-title: Student Directory
+title: Directory
 parent: For Students
 nav_order: 3
 description: "Who's who among NC State software engineering students, by lab."

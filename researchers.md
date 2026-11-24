@@ -3,6 +3,7 @@ title: For Researchers
 nav_order: 4
 description: "NC State software engineering for the research community: labs, publications, talks, and how we use AI."
 has_children: true
+has_toc: false
 ---
 
 {% include badges.html %}

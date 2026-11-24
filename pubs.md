@@ -1,5 +1,5 @@
 ---
-title: "News & Publications"
+title: Publications
 nav_order: 1
 description: "Recent papers, publications, and news from NC State software engineering."
 parent: For Researchers

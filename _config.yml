@@ -10,7 +10,10 @@ search_enabled: true
 mermaid:
   version: "9.4.3"
 color_scheme: wolfpack
-logo: "/img/logo-wiser.svg?v=3"   # old wolves logo kept at img/logo.png
+# jekyll-seo-tag publishes this as the organization's logo in JSON-LD, so it
+# has to be the brick, not a mark of our own (brand.ncsu.edu/brand-architecture).
+# Nothing renders it: _includes/title.html is overridden to emit the brick.
+logo: "/img/ncstate-brick-4x1-red.png"
 exclude:
   - vendor
   - intray
