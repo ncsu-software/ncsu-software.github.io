@@ -1097,7 +1097,9 @@ table.rankchart {
   // in that flex cell, narrowing the window shrank every bar towards zero and
   // they all ended up the same length. A plain column means each bar stays a
   // true percentage of it at any width.
-  .c-name  { width: 26%; }
+  // abbreviated names, so a fixed width sized to the longest ("Concordia
+  // (CA)") beats a percentage -- no slack, and the bars get the rest
+  .c-name  { width: 7rem; }
   .c-bar   { width: auto; }    // the widest column: the bars get the slack
   .c-count { width: 3rem; }
   .c-fac   { width: 3.5rem; }
@@ -1106,13 +1108,15 @@ table.rankchart {
   abbr[title] { text-decoration: none; cursor: help; }
   tbody th {
     font-weight: 400;      // the institution name is a row header, not a shout
-    text-align: right;     // names sit against the bars they label
+    text-align: left;      // col 3: names start where the bars end
     white-space: nowrap;
   }
   thead th:not(.r):not(.n) { text-align: left; }
   .r { text-align: right; color: #4b4953; }
   .n { text-align: right; white-space: nowrap; }
-  td.barcell { padding-right: 0.5rem; }
+  // col 5: bars grow rightwards from a shared zero on the left, so lengths
+  // are read against one baseline rather than ragged left edges
+  td.barcell { padding-left: 0.5rem; padding-right: 0; }
   td.barcell .bar {
     display: block;
     height: 0.65rem;

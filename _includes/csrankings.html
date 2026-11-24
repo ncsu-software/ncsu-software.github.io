@@ -1,14 +1,14 @@
 {%- comment -%} CSRankings, Software engineering, North America, 2015-2026.
-  Source: https://csrankings.org/#/fromyear/2015/toyear/2026/index?none&northamerica (publication data from DBLP,
-  November 2026). A real table, not a screenshot: the numbers are selectable,
-  searchable, and the bars are decorative width only. Update the figures, the
-  region, the year span and the "as of" date together -- rank means nothing
-  without them. Ranks 6 and 6 are a genuine tie at 24.1, as CSRankings shows.
+  Source: https://csrankings.org/#/fromyear/2015/toyear/2026/index?soft&northamerica
+  (publication data from DBLP, November 2026). A real table, not a screenshot:
+  the numbers are selectable and searchable, and the bars are decorative width
+  only. Update the figures, the region and the year span together -- a rank
+  means nothing without them. Ranks 6 and 6 are a genuine tie at 24.1.
+
+  Columns: 1 number, 2 name, 3 faculty, 4 count, 5 histogram.
+  Row data is "rank,short name,full name,count,faculty".
 {%- endcomment -%}
 <figure class="rank">
-  {%- comment -%} The title lives in the Institution column header rather than
-    in a <caption>, so aria-label gives the table its accessible name.
-  {%- endcomment -%}
   <table class="rankchart" aria-label="Top 10 SE groups, North America, 2015 to 2026">
     {%- comment -%} fixed layout + explicit widths: without them the browser
       hands the slack to whichever column it likes, which put a gutter in
@@ -17,26 +17,20 @@
     <colgroup>
       <col class="c-rank">
       <col class="c-name">
-      <col class="c-bar">
-      <col class="c-count">
       <col class="c-fac">
+      <col class="c-count">
+      <col class="c-bar">
     </colgroup>
     <thead>
-      {%- comment -%} One header row only: the title doubles as the heading for
-        the institution column, so the chart costs no extra line. It is nowrap,
-        so that column widens rather than the title breaking over two lines.
-        NB: no colspan -- spanning the rank column too made the browser share
-        the extra width between both, fattening "#" and shoving the names right.
-      {%- endcomment -%}
       <tr>
         <th scope="col" class="r">#</th>
-        {%- comment -%} spans the name + count columns so it sits on one line.
-          Safe under table-layout:fixed -- the colgroup owns the widths, so a
-          colspan cannot redistribute them the way it did under auto layout.
-        {%- endcomment -%}
-        <th scope="col" colspan="2" class="title"><a href="https://csrankings.org/#/fromyear/2015/toyear/2026/index?none&amp;northamerica">Top 10 SE groups, North America, 2015&ndash;2026</a></th>
-        <th scope="col" class="n">Count</th>
+        <th scope="col"><span class="visually-hidden">Institution</span></th>
         <th scope="col" class="n f">Faculty</th>
+        <th scope="col" class="n">Count</th>
+        {%- comment -%} the title rides in the histogram column: it is the
+          widest, so the heading fits on one line without costing a row
+        {%- endcomment -%}
+        <th scope="col" class="title"><a href="https://csrankings.org/#/fromyear/2015/toyear/2026/index?soft&amp;northamerica">Top 10 SE groups, North America, 2015&ndash;2026</a></th>
       </tr>
     </thead>
     <tbody>
@@ -47,9 +41,9 @@
         <tr{% if c[1] == "NC State" %} class="us"{% endif %}>
           <td class="r">{{ c[0] }}</td>
           <th scope="row"><abbr title="{{ c[2] }}">{{ c[1] }}</abbr></th>
-          <td class="barcell"><span class="bar" style="width: {{ pct }}%" aria-hidden="true"></span></td>
-          <td class="n count">{{ c[3] }}</td>
           <td class="n f">{{ c[4] }}</td>
+          <td class="n count">{{ c[3] }}</td>
+          <td class="barcell"><span class="bar" style="width: {{ pct }}%" aria-hidden="true"></span></td>
         </tr>
       {%- endfor -%}
     </tbody>
