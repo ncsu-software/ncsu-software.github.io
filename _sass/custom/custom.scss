@@ -980,3 +980,15 @@ a.deadline {
 // The badges used to be pushed down by the WISER banner that sat above the
 // search bar. The main column starts with the search bar now, so they go
 // back to their own tops (10px / 40px) and sit over it.
+
+// Main column vertical rhythm. The theme sets .main-content to 1.6, which on
+// pages that are mostly tables and dot-lists (which is most of this site)
+// spreads everything out and pushes content below the fold. 1.4 is the
+// theme's own body value, so this is the looser-than-default setting being
+// dropped, not type being squeezed. Paragraph gaps come in to match.
+.main-content {
+  line-height: 1.4;
+  p { margin-top: 0.7em; margin-bottom: 0.7em; }
+  ul, ol { margin-top: 0.5em; margin-bottom: 0.5em; }
+  li { margin: 0.15em 0; }
+}
