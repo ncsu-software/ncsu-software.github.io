@@ -42,7 +42,7 @@ people:
 
   - name: "Xingyue (Amber) Shi"
     slug: xingyue-shi
-    nophoto: true
+    # nophoto: true
     email: xshi22@ncsu.edu
     lab: evolve
     url: https://www.linkedin.com/in/xingyue-shi-39b50b2a7/
