@@ -1035,3 +1035,99 @@ a.deadline {
   ul, ol { margin-top: 0.5em; margin-bottom: 0.5em; }
   li { margin: 0.15em 0; }
 }
+
+// ---------------------------------------------------------------------
+// CSRankings bar table (_includes/csrankings.html). One series, so no
+// legend: NC State wears Wolfpack Red, every other row a neutral grey.
+// That grey is #8A8A8A, not something lighter -- a bar fill needs 3:1
+// against white, and it keeps the best colour-blind separation from the
+// red (deutan dE 14.1). The bars are width-only decoration; every number
+// is also printed, so the chart reads with no colour at all.
+.rank {
+  margin: 1.25rem 0 1.5rem;
+  // the global figcaption rule puts captions in Roboto Slab; under a table
+  // of figures that slab serif reads as a different, odder typeface, so
+  // this one stays in the body face
+  figcaption {
+    margin-top: 0.5rem;
+    font-family: "Roboto", system-ui, sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.35;
+    color: #4b4953;
+  }
+}
+.table-wrapper:has(table.rankchart) { box-shadow: none; }
+table.rankchart {
+  width: 100%;
+  max-width: 44rem;   // on a wide screen the bars do not need the full column
+  margin: 0 auto;     // ...so hold it in and centre it
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  // the chart title IS the heading for the rank + institution columns, so it
+  // costs no extra row. nowrap keeps it on one line: the span widens and the
+  // bar column gives up the difference.
+  thead th.title {
+    text-align: left;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: $ink;
+  }
+  // tight rows: .main-content runs 1.4 line-height, which on a figure table
+  // leaves the bars swimming in space. 1.15 plus a hair of padding is enough
+  // to separate them.
+  line-height: 1.15;
+  th, td {
+    border: 0;
+    background: none;
+    padding: 0.05rem 0.5rem 0.05rem 0;
+    vertical-align: middle;
+    min-width: 0 !important;
+  }
+  thead th {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #4b4953;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  }
+  // explicit column widths; without these the browser parks the leftover
+  // space in front of the rank numbers and squeezes the bars to nothing
+  table-layout: fixed;
+  .c-rank  { width: 2.4rem; }  // must hold "10" without wrapping
+  // The bar lives in its OWN column, not sharing a flex cell with the number:
+  // in that flex cell, narrowing the window shrank every bar towards zero and
+  // they all ended up the same length. A plain column means each bar stays a
+  // true percentage of it at any width.
+  .c-name  { width: 26%; }
+  .c-bar   { width: auto; }    // the widest column: the bars get the slack
+  .c-count { width: 3rem; }
+  .c-fac   { width: 3.5rem; }
+  // names are abbreviated, so the full name lives in <abbr title> -- no
+  // dotted underline, which would read as a mistake in a table of figures
+  abbr[title] { text-decoration: none; cursor: help; }
+  tbody th {
+    font-weight: 400;      // the institution name is a row header, not a shout
+    text-align: right;     // names sit against the bars they label
+    white-space: nowrap;
+  }
+  thead th:not(.r):not(.n) { text-align: left; }
+  .r { text-align: right; color: #4b4953; }
+  .n { text-align: right; white-space: nowrap; }
+  td.barcell { padding-right: 0.5rem; }
+  td.barcell .bar {
+    display: block;
+    height: 0.65rem;
+    border-radius: 0 3px 3px 0;   // rounded data-end, square at the baseline
+    background: #8A8A8A;
+  }
+  // the theme puts 12px of padding under the LAST row's cells, which made
+  // row 10 half again as tall as the other nine
+  tbody tr:last-child { th, td { padding-bottom: 0.05rem; } }
+  .f { width: 4rem; }
+  tr.us {
+    th, td { font-weight: 700; color: $ink; }
+    td.barcell .bar { background: $red; }
+  }
+}
+@media (max-width: 49.99rem) {
+  table.rankchart td.n .bar { max-width: 6rem; }
+}
