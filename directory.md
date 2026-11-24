@@ -1,7 +1,7 @@
 ---
 title: Directory
 parent: For Students
-nav_order: 3
+nav_order: 4
 description: "Who's who among NC State software engineering students, by lab."
 ---
 

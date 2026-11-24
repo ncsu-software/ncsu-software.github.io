@@ -1,6 +1,6 @@
 ---
 title: Internships
-nav_order: 5
+nav_order: 6
 description: "Internship information for NC State software engineering students."
 parent: For Students
 ---

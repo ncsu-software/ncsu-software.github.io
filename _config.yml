@@ -6,6 +6,8 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-sitemap
+  # accessibility.html became compliance.html; this keeps the old URL alive
+  - jekyll-redirect-from
 search_enabled: true
 mermaid:
   version: "9.4.3"

@@ -136,7 +136,7 @@ entries.
 {: #a11y}
 
 > In github.com/ncsu-software/ncsu-software.github.io, read
-> `accessibility.md` and the a11y scanner in `tools/a11y`. Check the
+> `compliance.md` and the a11y scanner in `tools/a11y`. Check the
 > pages I changed (`<files>`) against WCAG 2.1 AA: alt text, heading
 > order, link text, color contrast. Fix what you can, push to main,
 > and list anything you could not check.
