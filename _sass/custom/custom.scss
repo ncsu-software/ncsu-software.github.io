@@ -120,7 +120,7 @@ a.site-title {
   }
   a.site-title {
     height: auto;
-    padding: 1rem 0.75rem 0.85rem;
+    padding: 0.2rem 0.75rem 0.85rem;   // graphic starts high, so it can be bigger
   }
   // tighter sidebar: small gap under the block, compact top-level nav rows
   .site-nav { padding-top: 0.5rem; }
@@ -141,7 +141,7 @@ a.site-title {
     width: 100%;
     // air above the red rule, and air between the rule and its label:
     // the divisions read as sections rather than a stack of rows
-    margin: 1.25rem 0 0;
+    margin: 0.9rem 0 0;
     padding-top: 0.5rem;
     padding-bottom: 0.2rem;
     background: none !important;
@@ -154,8 +154,8 @@ a.site-title {
     &:hover, &.active, &:focus { color: $red-dk !important; }
   }
   .nav-list .nav-list-item .nav-list-link {
-    min-height: 1.5rem;
-    line-height: 1.5rem;
+    min-height: 1.3rem;   // tighter rows: 21px, not the theme's 24px
+    line-height: 1.3rem;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -198,8 +198,8 @@ a.site-title {
     color: $ink;
     &:hover { color: $red; }
     @media (min-width: 50rem) {
-      min-height: 1.5rem;
-      line-height: 1.5rem;
+      min-height: 1.3rem;
+      line-height: 1.3rem;
     }
   }
 }
@@ -890,11 +890,12 @@ a.deadline {
 }
 
 
-// sidebar footer: one tiny line (typo / issue link)
+// sidebar footer: one tiny line (typo / issue link), centred over the brick
 .side-bar .site-footer.side-typo {
   flex-shrink: 0;
   font-size: 0.7rem;
   padding: 0.25rem 1rem 0.5rem;
+  text-align: center;
   color: #4b4953;   // theme grey (#959396) is 2.8:1 on the sidebar; this is 8:1
 }
 @media (max-width: 49.99rem) {
@@ -926,9 +927,24 @@ a.deadline {
     line-height: 1;
     letter-spacing: -0.01em;
   }
-  .wb-text { display: flex; flex-direction: column; line-height: 1.25; }
+  .wb-text { display: flex; flex-direction: column; line-height: 1.1; }
   .wb-name { font-weight: 700; font-size: 1rem; }
   .wb-sub  { font-size: 0.8rem; color: #4b4953; }
+  // robot arms stacking a cube: decoration above the mark, half the size
+  // it first ran at, so the nav keeps its room. Transparent PNG, so it
+  // sits on the sidebar grey with no panel or frame around it. The gap
+  // under it keeps it from reading as part of the {WISER} mark.
+  .wb-art {
+    display: block;
+    order: -1;
+    // sized so the top of {WISER} lands level with the "SE @ NC State"
+    // heading in the main column: the art is 0.914 wide:tall, so every
+    // extra rem of width pushes the mark down 14.6px
+    width: 7.25rem;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto -0.1rem;   // tucked up against the mark below it
+  }
 }
 // phone width: the sidebar header collapses to a single bar beside the
 // menu button, so the block goes back to one line and drops the tagline
@@ -940,23 +956,21 @@ a.deadline {
     .wb-mark { font-size: 1.7rem; }
     .wb-name { font-size: 0.95rem; }
     .wb-sub  { display: none; }
+    .wb-art  { display: none; }   // the phone header is a single bar
   }
 }
 
-// The NC State brick, bottom of the sidebar (nav_footer_custom.html),
-// centred and set at the brand's 200px floor for the 4x1 logo -- smaller
-// than the 232px it ran at on top, and no smaller than the rules allow.
-// https://brand.ncsu.edu/logos/
-.side-brick {
+// WISER email signature, bottom of the sidebar (nav_footer_custom.html):
+// centred under the Issues/Skills/Accessibility line. Desktop only -- on a
+// phone the sidebar collapses to a menu and this would just be bulk.
+.side-bar .site-footer.side-typo .side-sig {
   display: block;
-  margin: 0.9rem auto 0.25rem;   // > the 11px clear space the floor needs
-  width: 200px;
-  max-width: 100%;
+  margin: 0.5rem auto 0;
+  max-width: 14rem;
+  img { display: block; width: 100%; height: auto; }
 }
-.nav-brick {
-  display: block;
-  width: 100%;
-  height: auto;
+@media (max-width: 49.99rem) {
+  .side-bar .site-footer.side-typo .side-sig { display: none; }
 }
 .visually-hidden {
   position: absolute; width: 1px; height: 1px; overflow: hidden;

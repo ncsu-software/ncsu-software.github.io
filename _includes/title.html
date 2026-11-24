@@ -4,6 +4,11 @@
   The NC State brick closes the sidebar (nav_footer_custom.html).
 {%- endcomment -%}
 <span class="wiser-banner">
+  {%- comment -%} Decorative only: alt="" keeps it out of the link's
+    accessible name, which stays "ncsu.software home". A graphic element
+    set apart from any mark, which is what the brand architecture allows.
+  {%- endcomment -%}
+  <img class="wb-art" src="{{ '/img/se-arms.png' | relative_url }}" alt="" aria-hidden="true">
   <span class="wb-mark">{WISER}</span>
   <span class="wb-text">
     <span class="wb-name">Software Engineering @ NC&nbsp;State</span>

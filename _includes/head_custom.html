@@ -54,20 +54,6 @@
    NB: theme minifies HTML to one line, so no // comments inside the script. {% endcomment %}
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  /* 2.4.4: the theme emits an empty href for a parent page that is not marked
-     has_children, which leaves a "Student Life" link that goes nowhere. Point it
-     at the matching nav entry, or drop the link and keep the text. */
-  document.querySelectorAll(".breadcrumb-nav-list a").forEach(function (a) {
-    if (a.getAttribute("href")) { return; }
-    var want = a.textContent.trim(), hit = null;
-    document.querySelectorAll("#site-nav a.nav-list-link").forEach(function (n) {
-      if (!hit && n.textContent.trim() === want && n.getAttribute("href")) { hit = n.getAttribute("href"); }
-    });
-    if (hit) { a.setAttribute("href", hit); return; }
-    var s = document.createElement("span");
-    s.textContent = want;
-    a.parentNode.replaceChild(s, a);
-  });
   /* 2.1.1: a table that overflows (narrow windows, 400% zoom) scrolls
      sideways, so the scroll container has to be reachable by keyboard. Only
      tag the ones actually scrolling, so the tab ring stays short. */

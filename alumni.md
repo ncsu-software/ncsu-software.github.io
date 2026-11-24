@@ -7,8 +7,6 @@ parent: For Students
 
 {% include badges.html %}
 
-[&larr; For Students](students.html)
-
 # <i class="fa-solid fa-user-graduate" aria-hidden="true"></i> Alumni
 
 Where our graduates went next. (Faculty: send us more!)

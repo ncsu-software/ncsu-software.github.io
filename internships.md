@@ -7,8 +7,6 @@ parent: For Students
 
 {% include badges.html %}
 
-[&larr; For Students](students.html)
-
 # <i class="fa-solid fa-briefcase" aria-hidden="true"></i> Internships
 
 Our students intern in industry and abroad. (Faculty: send us
