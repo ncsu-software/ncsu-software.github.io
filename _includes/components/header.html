@@ -1,13 +1,7 @@
-{%- comment -%} Site override of the theme's header: WISER banner on top of
-  the search bar. Everything else in the page (badges included) sits below it.
+{%- comment -%} Site override of the theme's header: the main column starts
+  with the search bar. The WISER block tops the left sidebar (title.html) and
+  the NC State brick closes it (nav_footer_custom.html).
 {%- endcomment -%}
-<a class="wiser-banner" href="{{ '/' | relative_url }}" aria-label="WISER home: Software Engineering @ NC State">
-  <span class="wb-mark">{WISER}</span>
-  <span class="wb-text">
-    <span class="wb-name">Software Engineering @ NC State</span>
-    <span class="wb-sub">Wolfpack Innovations in SE Research</span>
-  </span>
-</a>
 <div id="main-header" class="main-header">
   {% if site.search_enabled != false %}
     {% include components/search_header.html %}

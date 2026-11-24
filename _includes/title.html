@@ -1,5 +1,13 @@
-{%- comment -%} Site override: the NC State brick tops the left sidebar;
-  the WISER mark lives in the top banner (components/header.html).
+{%- comment -%} Site override: the WISER block tops the left sidebar. The
+  theme wraps this in <a class="site-title">, so everything here is a span.
+  Stacked rather than side-by-side, because the sidebar is 16.5rem wide.
+  The NC State brick closes the sidebar (nav_footer_custom.html).
 {%- endcomment -%}
-<img class="nav-brick" src="{{ '/img/ncstate-brick-4x1-red.png' | relative_url }}" alt="NC State University">
+<span class="wiser-banner">
+  <span class="wb-mark">{WISER}</span>
+  <span class="wb-text">
+    <span class="wb-name">Software Engineering @ NC&nbsp;State</span>
+    <span class="wb-sub">Wolfpack Innovations in SE Research</span>
+  </span>
+</span>
 <span class="visually-hidden">ncsu.software home</span>

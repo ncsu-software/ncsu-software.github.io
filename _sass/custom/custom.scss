@@ -17,12 +17,6 @@ $indigo: #4156A1; // Bio-Indigo
 // "AI" mark), it uses this shade instead: 5.9:1. Icons use the mixin below.
 $gold: #7A6200;
 
-// Height of the top band, used twice: the WISER banner across the main
-// column and the sidebar header that holds the brick. Same height on both
-// means the brick sits level with the banner type and the two bottom rules
-// meet across the page.
-$wb-height: 5.5rem;
-
 // Honour marks (award rosette, keynote mic) wear Hunt Yellow, same as the
 // "grad students apply" burst. Hunt Yellow alone is 1.5:1 on white, so the
 // glyph is outlined in the dark shade (5.9:1): the shape stays legible against
@@ -110,34 +104,25 @@ table.plain {
   }
 }
 
-// sidebar header: the brick sits in a.site-title, and the header must GROW
-// to hold it (the theme pins header height to 4rem, so content would
-// overflow onto the nav). NB: the theme's .site-logo is unused here --
-// title.html is overridden to emit an <img class="nav-brick">.
-//
-// The padding here is the brand's clear space, not decoration:
-// https://brand.ncsu.edu/logos/ wants at least the width of the "N" in
-// "NC State" between the logo and any text or design element. In the 4x1
-// file that "N" is 59 of 1080px, so the clear space is 5.5% of however
-// wide the brick renders -- 12.7px at the 232px desktop width below,
-// 11.1px at the 203px phone width. 0.75rem (12px) clears both.
+// sidebar header: holds the stacked WISER block (title.html), and must GROW
+// to fit it -- the theme pins header height to 4rem, so two lines of type
+// would overflow onto the nav. NB: the theme's .site-logo is unused here.
 a.site-title {
   padding: 0.75rem;
 }
 @media (min-width: 50rem) {
-  // same band as the WISER banner opposite, so the brick lines up with the
-  // banner type and the two bottom rules meet across the page
   .site-header {
     height: auto;
-    min-height: $wb-height;
+    min-height: 0;
     max-height: none;
     align-items: center;
-    flex-shrink: 0;  // never squeeze the logo; the nav scrolls instead
+    flex-shrink: 0;  // never squeeze the block; the nav scrolls instead
   }
   a.site-title {
     height: auto;
+    padding: 1rem 0.75rem 0.85rem;
   }
-  // tighter sidebar: small gap under logo, compact top-level nav rows
+  // tighter sidebar: small gap under the block, compact top-level nav rows
   .site-nav { padding-top: 0.5rem; }
   // the big divisions: red bars, full width of the sidebar, always
   // expanded one level (the theme hides children until clicked)
@@ -199,13 +184,23 @@ a.site-title {
     margin: 0;
     &::before { display: none; }
   }
+  // These rows sit among real nav rows, so they take the nav's metrics
+  // rather than any of their own: no font-size (inherit the 0.75rem, or
+  // 0.875rem on phones, the theme sets on the .nav-list-item they hang
+  // inside) and the same row box as .nav-list-link. A hardcoded 0.8rem and
+  // line-height 1.35 made "Apply for Grad School" both a size and a row
+  // height nothing else on the sidebar used, which read as a gap above it.
   a {
     display: block;
     padding: 0 2rem 0 3rem;         // depth 3: hung off a child row
-    font-size: 0.8rem;
-    line-height: 1.35;
+    min-height: 3rem;               // phone metrics, as the theme has them
+    line-height: 2.5rem;
     color: $ink;
     &:hover { color: $red; }
+    @media (min-width: 50rem) {
+      min-height: 1.5rem;
+      line-height: 1.5rem;
+    }
   }
 }
 // ...but a sub-list hung off a *section* row (the "Apply for Grad School"
@@ -766,14 +761,6 @@ h2 small { font-weight: normal; font-size: 0.75em; }
 }
 
 // pick your professor: Venn + detail card + topic matrix (_includes/pick.html)
-.pick-hint {
-  font-size: 1.6rem;
-  font-weight: 800;
-  color: $ink;
-  text-align: center;
-  margin: 0.5rem 0 1rem;
-  .fa-solid { margin-right: 0.4rem; }
-}
 .pick-legend {
   display: flex;
   flex-wrap: wrap;
@@ -910,92 +897,72 @@ a.deadline {
   padding: 0.25rem 1rem 0.5rem;
   color: #4b4953;   // theme grey (#959396) is 2.8:1 on the sidebar; this is 8:1
 }
-.side-bar .site-footer.side-typo .side-sig {
-  display: block;
-  margin-top: 0.5rem;
-  img { display: block; width: 100%; height: auto; }
-}
 @media (max-width: 49.99rem) {
   .side-bar .site-footer.side-typo { position: static; }
   .side-bar .site-nav:not(.nav-open) ~ .site-footer { display: none; }
 }
 
 // ---------------------------------------------------------------------
-// WISER banner across the top of the main column (components/header.html),
-// above the search bar. Its height is $wb-height, shared with the sidebar
-// header so the brick and this type sit on the same band.
-a.wiser-banner {
+// WISER block, top of the left sidebar (title.html). Stacked, not the
+// side-by-side banner it used to be in the main column: 16.5rem is too
+// narrow for the mark and the name on one line. Type only -- no drawn
+// mark -- which is the unit identifier the brand architecture allows.
+.wiser-banner {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 1.25rem;
-  padding: 0.75rem 2rem;
-  border-bottom: 1px solid $border-color;
-  background: #fff;
+  gap: 0.35rem;
+  width: 100%;
   color: $ink;
+  text-align: center;
   text-decoration: none;
   &:hover, &:focus { text-decoration: none; }
-  @media (min-width: 50rem) { height: $wb-height; }
+  // "{WISER}" sets about 3.7em wide in Roboto Bold, so 3.6rem fills most of
+  // the 240px the sidebar leaves inside a.site-title's padding
   .wb-mark {
-    flex-shrink: 0;
-    padding-right: 1.25rem;
-    border-right: 2px solid #bdbdbd;
     color: $red;
     font-weight: 700;
-    font-size: 2.6rem;
+    font-size: 3.6rem;
     line-height: 1;
     letter-spacing: -0.01em;
   }
   .wb-text { display: flex; flex-direction: column; line-height: 1.25; }
-  .wb-name { font-weight: 700; font-size: 1.45rem; }
-  .wb-sub  { font-size: 1rem; color: #4b4953; }
+  .wb-name { font-weight: 700; font-size: 1rem; }
+  .wb-sub  { font-size: 0.8rem; color: #4b4953; }
 }
-// small screens: same banner, scaled down; tagline wraps or drops
+// phone width: the sidebar header collapses to a single bar beside the
+// menu button, so the block goes back to one line and drops the tagline
 @media (max-width: 49.99rem) {
-  a.wiser-banner {
-    gap: 0.75rem;
-    padding: 0.6rem 1rem;
-    .wb-mark { font-size: 1.8rem; padding-right: 0.75rem; }
-    .wb-name { font-size: 1.05rem; }
-    .wb-sub  { font-size: 0.8rem; }
+  .wiser-banner {
+    flex-direction: row;
+    gap: 0.6rem;
+    align-items: baseline;
+    .wb-mark { font-size: 1.7rem; }
+    .wb-name { font-size: 0.95rem; }
+    .wb-sub  { display: none; }
   }
 }
-@media (max-width: 26rem) {
-  a.wiser-banner .wb-sub { display: none; }
-}
 
-// sidebar header: the NC State brick, top of the left-hand side.
-// Brand floor for the 4x1 logo is 200px wide on screen; min-width holds
-// that whatever the sidebar does.
+// The NC State brick, bottom of the sidebar (nav_footer_custom.html),
+// centred and set at the brand's 200px floor for the 4x1 logo -- smaller
+// than the 232px it ran at on top, and no smaller than the rules allow.
+// https://brand.ncsu.edu/logos/
+.side-brick {
+  display: block;
+  margin: 0.9rem auto 0.25rem;   // > the 11px clear space the floor needs
+  width: 200px;
+  max-width: 100%;
+}
 .nav-brick {
   display: block;
   width: 100%;
-  min-width: 200px;
   height: auto;
-}
-@media (min-width: 50rem) {
-  // 16.5rem sidebar less 0.75rem clear space each side = 232px of brick
-  .site-header a.site-title {
-    padding: 0.75rem; height: auto; min-height: 0;
-  }
-}
-@media (max-width: 49.99rem) {
-  // 2rem tall x the file's 6.35 aspect = 203px wide, just over the floor
-  // (1.9rem gave 193px, under it)
-  .nav-brick { width: auto; min-width: 0; height: 2rem; }
 }
 .visually-hidden {
   position: absolute; width: 1px; height: 1px; overflow: hidden;
   clip: rect(0 0 0 0); white-space: nowrap;
 }
 
-// bottom-left email logo: desktop only (hidden on narrow screens)
-.side-bar .site-footer.side-typo .side-sig { max-width: 14rem; }
-@media (max-width: 49.99rem) {
-  .side-bar .site-footer.side-typo .side-sig { display: none; }
-}
-
-// badges: drop below the banner (desktop; on phones they sit in the page)
-@media (min-width: 50rem) {
-  a.hiring   { top: calc(#{$wb-height} + 10px); }
-  a.deadline { top: calc(#{$wb-height} + 40px); }
-}
+// The badges used to be pushed down by the WISER banner that sat above the
+// search bar. The main column starts with the search bar now, so they go
+// back to their own tops (10px / 40px) and sit over it.
