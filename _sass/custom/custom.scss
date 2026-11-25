@@ -1135,3 +1135,11 @@ table.rankchart {
 @media (max-width: 49.99rem) {
   table.rankchart td.n .bar { max-width: 6rem; }
 }
+
+// Directory cards for students who have a photo and a lab but have not yet
+// written their bio. Said plainly rather than left as an empty paragraph:
+// the gap is the prompt that gets it filled in.
+.dir-pending {
+  color: #4b4953;
+  font-style: italic;
+}

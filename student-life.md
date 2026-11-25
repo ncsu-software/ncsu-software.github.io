@@ -26,7 +26,7 @@ description: "Student life in software engineering at NC State: lab highlights, 
 Our students defend PhDs, win paper awards, intern on three
 continents, and occasionally climb a mountain. Highlights by lab
 (every lab: send us your wins!).
-Who's who: the [student directory](directory.html).
+Who's who, lab by lab, with photos: the [student directory](directory.html).
 
 | <i class="fa-solid fa-flask badge40" aria-hidden="true"></i> labs | <i class="fa-solid fa-user-graduate badge40" aria-hidden="true"></i> alumni | <i class="fa-solid fa-briefcase badge40" aria-hidden="true"></i> internships |
 |----------------|---------------|--------------|
@@ -43,11 +43,6 @@ for Fall, October 15 for Spring. Full list:
 
 ## HFXE Lab (Sandeep Kuttal), 2026
 {: #hfxe}
-
-<div class="faces right col">
-  <div class="face"><img src="img/students/shandler-mason.jpg" alt="Shandler Mason"><b>Shandler Mason</b><span>PhD 2026</span></div>
-  <div class="face"><img src="img/students/leon-shahnewaz.jpg" alt="Shahnewaz Leon"><b>Shahnewaz Leon</b><span>PhD 2026</span></div>
-</div>
 
 - Shandler Mason earned her PhD and joined Norfolk State as
   tenure-track faculty
@@ -76,12 +71,6 @@ Evolve students presented at ICSE 2026 in Rio — see the
 
 ## Irrational Research Lab (Tim Menzies), 2026
 {: #irl}
-
-<div class="faces right col">
-  <a class="face" href="https://amiiralii.github.io/"><img src="img/students/amirali-rayegan.jpg" alt="Amirali Rayegan"><b>Amirali Rayegan</b><span>IRL</span></a>
-  <a class="face" href="https://github.com/KKGanguly"><img src="img/students/kishan-kumar-ganguly.jpg" alt="Kishan Kumar Ganguly"><b>Kishan Kumar Ganguly</b><span>IRL</span></a>
-  <a class="face" href="https://srina1h.github.io/"><img src="img/students/srinath-srinivasan.jpg" alt="Srinath Srinivasan"><b>Srinath Srinivasan</b><span>IRL</span></a>
-</div>
 
 Small models, sharp answers: [IRL](https://timm.fyi/irl.html)
 studies the uncomfortable finding that smaller, interpretable
@@ -115,18 +104,6 @@ models repeatedly match or beat larger ones on real SE tasks.
 
 ## SoftMax Lab (Bowen Xu)
 {: #softmax}
-
-<div class="faces right">
-  <a class="face" href="https://ncsu-softmax.github.io/people.html"><img src="img/students/aditya-bhardwaj.jpg" alt="Aditya Bhardwaj"><b>Aditya Bhardwaj</b><span>SoftMax</span></a>
-  <a class="face" href="https://ncsu-softmax.github.io/people.html"><img src="img/students/hua-yang.jpg" alt="Hua Yang"><b>Hua Yang</b><span>SoftMax</span></a>
-  <a class="face" href="https://ncsu-softmax.github.io/people.html"><img src="img/students/md-nazmul-haque.jpg" alt="Md Nazmul Haque"><b>Md Nazmul Haque</b><span>SoftMax</span></a>
-  <a class="face" href="https://ncsu-softmax.github.io/people.html"><img src="img/students/quoc-hung-le.jpg" alt="Quoc Hung Le"><b>Quoc Hung Le</b><span>SoftMax</span></a>
-  <a class="face" href="https://ncsu-softmax.github.io/people.html"><img src="img/students/sen-fang.jpg" alt="Sen Fang"><b>Sen Fang</b><span>SoftMax</span></a>
-  <a class="face" href="https://ncsu-softmax.github.io/people.html"><img src="img/students/weiyuan-ding.jpg" alt="Weiyuan Ding"><b>Weiyuan Ding</b><span>SoftMax</span></a>
-  <a class="face" href="https://ncsu-softmax.github.io/people.html"><img src="img/students/xiang-lan.jpg" alt="Xiang Lan"><b>Xiang Lan</b><span>SoftMax</span></a>
-  <a class="face" href="https://ncsu-softmax.github.io/people.html"><img src="img/students/yinan-wu.jpg" alt="Yinan Wu"><b>Yinan Wu</b><span>SoftMax</span></a>
-  <a class="face" href="https://ncsu-softmax.github.io/people.html"><img src="img/students/zhezhen-cao.jpg" alt="Zhezhen (Justin) Cao"><b>Zhezhen (Justin) Cao</b><span>SoftMax</span></a>
-</div>
 
 [SoftMax](https://ncsu-softmax.github.io/) works on trustworthy AI
 for software engineering: human-AI collaboration, robustness and

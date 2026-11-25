@@ -174,3 +174,48 @@ people:
       Second-year PhD student from Chenzhou, China. Works on AI for
       software engineering and neuro-symbolic AI. Off hours: guitar,
       video games, and the gym.
+
+  # Entries below came from the Student Life lab grids. Photo, lab and (where
+  # known) home page are real; the bio is pending until the student fills in
+  # their Drive doc. Replace `pending: true` and the bio when they do.
+  - name: "Amirali Rayegan"
+    slug: amirali-rayegan
+    pending: true
+    lab: irl
+    url: https://amiiralii.github.io/
+
+  - name: "Kishan Kumar Ganguly"
+    slug: kishan-kumar-ganguly
+    pending: true
+    lab: irl
+    url: https://github.com/KKGanguly
+
+  - name: "Srinath Srinivasan"
+    slug: srinath-srinivasan
+    pending: true
+    lab: irl
+    url: https://srina1h.github.io/
+
+  - name: "Aditya Bhardwaj"
+    slug: aditya-bhardwaj
+    pending: true
+    lab: softmax
+    url:
+
+  - name: "Md Nazmul Haque"
+    slug: md-nazmul-haque
+    pending: true
+    lab: softmax
+    url:
+
+  - name: "Quoc Hung Le"
+    slug: quoc-hung-le
+    pending: true
+    lab: softmax
+    url:
+
+  - name: "Zhezhen (Justin) Cao"
+    slug: zhezhen-cao
+    pending: true
+    lab: softmax
+    url:

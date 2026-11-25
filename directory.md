@@ -24,7 +24,7 @@ something is wrong)? See [add yourself](#add).
   <div>
     <b>{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</b>{% if p.note %} <span class="dir-note">({{ p.note }})</span>{% endif %}
     <span class="dir-links">{% if p.email %}<a href="mailto:{{ p.email }}">{{ p.email }}</a>{% endif %}{% if p.email and p.url %} &middot; {% endif %}{% if p.url %}<a href="{{ p.url }}" aria-label="{{ p.name }} home page">home page</a>{% endif %}</span>
-    <p>{{ p.bio }}</p>
+    <p>{% if p.pending %}<span class="dir-pending">Entry pending — this student has not written their few lines yet. <a href="#add">How to add yours</a>.</span>{% else %}{{ p.bio }}{% endif %}</p>
   </div>
 </div>
 {% endfor %}
