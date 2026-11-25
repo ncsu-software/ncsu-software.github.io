@@ -139,3 +139,38 @@ people:
       also studied how robust code LLMs really are (EvaLooop,
       quantized LLMs). Outside the lab he cooks, looks at the stars,
       and has played Dota 2 for about 20 years (Invoker main).
+
+  - name: "Xiang Lan"
+    slug: xiang-lan
+    email: xlan4@ncsu.edu
+    lab: softmax
+    url:
+    bio: >-
+      Third-year PhD student working on trustworthy AI for code and
+      efficient ML systems. Research focus: the security of code LLMs,
+      especially backdoor attacks and vulnerability detection.
+      Previously interned at Google on ML performance debugging. Off
+      hours: hiking and fishing.
+
+  - name: "Kevin Lira"
+    slug: kevin-lira
+    nophoto: true
+    email: kwlira@ncsu.edu
+    lab: evolve
+    url: https://kevinws.com/
+    bio: >-
+      Second-year PhD student from Maceio, Brazil. Researches how LLMs
+      can better detect and repair software vulnerabilities, and builds
+      tools that help AI agents explore vulnerabilities in web
+      applications. Off hours: at the kart track, a concert, or a
+      Canes game.
+
+  - name: "Lunxiao Li"
+    slug: lunxiao-li
+    email: lli66@ncsu.edu
+    lab: irl
+    url: https://claude216.github.io/
+    bio: >-
+      Second-year PhD student from Chenzhou, China. Works on AI for
+      software engineering and neuro-symbolic AI. Off hours: guitar,
+      video games, and the gym.
