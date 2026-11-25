@@ -1,7 +1,7 @@
 ---
 title: Student Life
 parent: For Students
-nav_order: 1
+nav_order: 2
 description: "Student life in software engineering at NC State: lab highlights, awards, defences, and how to apply for grad school."
 ---
 

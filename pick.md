@@ -1,7 +1,7 @@
 ---
 title: Pick an Advisor
 parent: For Students
-nav_order: 3
+nav_order: 4
 description: "Guidance on picking your advisor among NC State software engineering faculty."
 ---
 

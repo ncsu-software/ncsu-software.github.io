@@ -1,7 +1,7 @@
 ---
 title: Live in Raleigh
 parent: For Students
-nav_order: 2
+nav_order: 3
 description: "Why live in Raleigh — the area for prospective NC State students."
 ---
 

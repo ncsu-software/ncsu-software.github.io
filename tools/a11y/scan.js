@@ -25,8 +25,9 @@ const CHROME = [
   '/usr/bin/google-chrome',
 ].find(p => p && fs.existsSync(p));
 
-const PAGES = ['/', '/ai.html', '/alumni.html', '/contact.html', '/faculty.html', '/internships.html',
-  '/keynotes.html', '/pick.html', '/pubs.html', '/raleigh.html', '/students.html', '/accessibility.html'];
+const PAGES = ['/', '/ai.html', '/alumni.html', '/compliance.html', '/contact.html', '/directory.html',
+  '/faculty.html', '/internships.html', '/keynotes.html', '/lessons.html', '/pick.html', '/pubs.html',
+  '/raleigh.html', '/student-life.html', '/students.html'];
 const TAGS = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'];
 const SPACING = `* { line-height: 1.5 !important; letter-spacing: 0.12em !important;
   word-spacing: 0.16em !important; }
@@ -34,6 +35,20 @@ const SPACING = `* { line-height: 1.5 !important; letter-spacing: 0.12em !import
 
 const fails = [];
 const note = (where, what) => { fails.push(`${where}: ${what}`); console.log(`  FAIL ${where}: ${what}`); };
+
+async function launch(tries) {
+  for (let i = 1; ; i++) {
+    try {
+      return await puppeteer.launch({
+        executablePath: CHROME, headless: true, timeout: 90000,
+        args: ['--no-sandbox', '--disable-dev-shm-usage', '--disable-gpu'],
+      });
+    } catch (e) {
+      if (i >= tries) throw e;
+      console.log(`  chrome did not start (attempt ${i}): ${e.message.split('\n')[0]}`);
+    }
+  }
+}
 
 async function axeRun(page) {
   await page.evaluate(AXE);
@@ -44,7 +59,10 @@ async function axeRun(page) {
 
 (async () => {
   if (!CHROME) { console.error('no Chrome found'); process.exit(2); }
-  const browser = await puppeteer.launch({ executablePath: CHROME, headless: 'new', args: ['--no-sandbox'] });
+  // CI runners occasionally fail to hand back the devtools endpoint inside the
+  // default 30s. --disable-dev-shm-usage keeps Chrome off the runner's tiny
+  // /dev/shm (the usual cause); the retry covers the rest.
+  const browser = await launch(2);
 
   // ---------- 1. axe, four states ----------
   const STATES = [
