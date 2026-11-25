@@ -9,8 +9,9 @@ description: "Who's who among NC State software engineering students, by lab."
 
 # <i class="fa-solid fa-address-book" aria-hidden="true"></i> Student Directory
 
-Who works on what, lab by lab. Student here and not listed (or
-something is wrong)? See [add yourself](#add).
+Who works on what, lab by lab.<br>
+Student here and not listed (or something is wrong)? See
+[add yourself](#add).
 
 {% for lab in site.data.students.labs %}
 {% assign folks = site.data.students.people | where: "lab", lab.key | sort: "name" %}
