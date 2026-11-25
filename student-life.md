@@ -44,17 +44,9 @@ for Fall, October 15 for Spring. Full list:
 ## HFXE Lab (Sandeep Kuttal), 2026
 {: #hfxe}
 
-- Shandler Mason earned her PhD and joined Norfolk State as
-  tenure-track faculty
-  ([feature](https://engr.ncsu.edu/news/2026/04/29/shandler-mason-human-centered-software-engineering/){: aria-label="feature: Shandler Mason joins Norfolk State faculty"});
-  her remote-collaboration paper took an **Honorable Mention at
-  ACM DIS 2026**
-  ([NC State News](https://news.ncsu.edu/2026/05/improving-online-collaboration/)).
-- Shahnewaz Leon defended his PhD; his "Where Will They Click
-  Next?" earned an **Honorable Mention at ACM CHI 2026**
-  ([feature](https://csc.ncsu.edu/2026/04/shahnewaz-leon-sandeep-kuttal-receive-honorable-mention-at-acm-chi/){: aria-label="feature: Shahnewaz Leon, CHI 2026 Honorable Mention"}).
-- Sandeep Sthapit defended his PhD and joined a liberal arts
-  college as teaching faculty.
+- Three PhDs finished and left for faculty and teaching posts, two of
+  them carrying honorable mentions from ACM CHI and ACM DIS 2026:
+  see [alumni](alumni.html).
 - Saba Khanmohammadi finished her master's, stayed for the PhD
   ([feature](https://csc.ncsu.edu/2026/10/saba-khanmohammadi-from-masters-to-ph-d/){: aria-label="feature: Saba Khanmohammadi, IBM internships"}),
   won a **Provost Doctoral Fellowship**, and interned at IBM —
@@ -76,24 +68,10 @@ Small models, sharp answers: [IRL](https://timm.fyi/irl.html)
 studies the uncomfortable finding that smaller, interpretable
 models repeatedly match or beat larger ones on real SE tasks.
 
-- [Amirali Rayegan](https://amiiralii.github.io/) (PhD candidate)
-  leads the lab's work on explanation &mdash; can causal methods
-  make software analytics more stable and trustworthy? His
-  [Explaining Optimization Heuristics](https://arxiv.org/abs/2509.08667)
-  appeared in **JSS 2026**, and he spoke on shaky causal
-  structures at **ICSE 2026**.
-- [Kishan Kumar Ganguly](https://github.com/KKGanguly) (PhD
-  candidate) leads optimization and testing: simple,
-  sample-efficient optimizers that beat complex ones
-  ([Zoom, Don't Wander](https://arxiv.org/pdf/2605.09658),
-  **SSBSE 2026**) and
-  [data-centric fuzzing for JavaScript engines](https://arxiv.org/abs/2512.18102)
-  (**IST 2026**).
-- [Srinath Srinivasan](https://srina1h.github.io/) (PhD candidate)
-  leads agentic systems &mdash; how far can lightweight LLM agents
-  go without drowning in compute?
-  [Beyond the Prompt](https://arxiv.org/abs/2602.02752) appeared at
-  **MSR 2026**.
+- Explanation, optimization and agentic systems are each led by a PhD
+  candidate &mdash; Amirali Rayegan, Kishan Kumar Ganguly and Srinath
+  Srinivasan. Who does what, with papers:
+  [their directory entries](directory.html#irl).
 - Kishan and Srinath co-wrote
   [Can AI be Easy? Lessons Learned from the EZR.py Toolkit](https://timm.fyi/ezr.html)
   (**SPE 2026**); the lab's [MOOT](https://github.com/timm/moot)

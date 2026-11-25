@@ -178,23 +178,41 @@ people:
   # Entries below came from the Student Life lab grids. Photo, lab and (where
   # known) home page are real; the bio is pending until the student fills in
   # their Drive doc. Replace `pending: true` and the bio when they do.
+  # The three IRL bios below were lifted from the Student Life lab write-up
+  # rather than written by the student, so they cover research and not the
+  # person. They get replaced when each student fills in their Drive doc.
   - name: "Amirali Rayegan"
     slug: amirali-rayegan
-    pending: true
     lab: irl
     url: https://amiiralii.github.io/
+    bio: >-
+      PhD candidate leading the lab's work on explanation: can causal
+      methods make software analytics more stable and trustworthy? His
+      <a href="https://arxiv.org/abs/2509.08667">Explaining Optimization
+      Heuristics</a> appeared in JSS 2026, and he spoke on shaky causal
+      structures at ICSE 2026.
 
   - name: "Kishan Kumar Ganguly"
     slug: kishan-kumar-ganguly
-    pending: true
     lab: irl
     url: https://github.com/KKGanguly
+    bio: >-
+      PhD candidate leading optimization and testing: simple,
+      sample-efficient optimizers that beat complex ones
+      (<a href="https://arxiv.org/pdf/2605.09658">Zoom, Don't Wander</a>,
+      SSBSE 2026) and
+      <a href="https://arxiv.org/abs/2512.18102">data-centric fuzzing for
+      JavaScript engines</a> (IST 2026).
 
   - name: "Srinath Srinivasan"
     slug: srinath-srinivasan
-    pending: true
     lab: irl
     url: https://srina1h.github.io/
+    bio: >-
+      PhD candidate leading agentic systems: how far can lightweight LLM
+      agents go without drowning in compute?
+      <a href="https://arxiv.org/abs/2602.02752">Beyond the Prompt</a>
+      appeared at MSR 2026.
 
   - name: "Aditya Bhardwaj"
     slug: aditya-bhardwaj
