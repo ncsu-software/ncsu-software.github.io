@@ -51,7 +51,7 @@ for Fall, October 15 for Spring. Full list:
   ([feature](https://csc.ncsu.edu/2026/10/saba-khanmohammadi-from-masters-to-ph-d/){: aria-label="feature: Saba Khanmohammadi, IBM internships"}),
   won a **Provost Doctoral Fellowship**, and interned at IBM —
   twice.
-- Manali Tekes completed an international internship in Germany
+- Manali Teke completed an international internship in Germany
   ([feature](https://csc.ncsu.edu/2026/10/manali-tekes-internship-abroad/){: aria-label="feature: Manali Teke, internship in Germany"});
   lab students presented **seven papers at HCII 2026**.
 

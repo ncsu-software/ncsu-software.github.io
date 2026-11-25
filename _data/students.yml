@@ -52,6 +52,28 @@ people:
       development tasks. Earlier research in graph machine learning,
       computer vision, and HPC. From Shenzhen, China. Loves badminton.
 
+  # HFXE had no directory entries at all. These two are current students
+  # (the lab's other 2026 names are graduates, and are on alumni.html).
+  # Bios summarised from the CSC features until they fill in their docs.
+  - name: "Saba Khanmohammadi"
+    slug: saba-khanmohammadi
+    nophoto: true
+    lab: hfxe
+    bio: >-
+      Finished her master's here and stayed on for the PhD, with a
+      <a href="https://csc.ncsu.edu/2026/10/saba-khanmohammadi-from-masters-to-ph-d/">Provost
+      Doctoral Fellowship</a>. Has interned at IBM twice.
+
+  - name: "Manali Teke"
+    slug: manali-teke
+    nophoto: true
+    lab: hfxe
+    bio: >-
+      PhD student who spent a summer at the German Aerospace Center's
+      Institute of Software Technology in Braunschweig, on a DAAD RISE
+      Professional placement
+      (<a href="https://csc.ncsu.edu/2026/10/manali-tekes-internship-abroad/">feature</a>).
+
   - name: "Hannah Estes"
     slug: hannah-estes
     email: hmestes@ncsu.edu
