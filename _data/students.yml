@@ -74,6 +74,35 @@ people:
       Professional placement
       (<a href="https://csc.ncsu.edu/2026/10/manali-tekes-internship-abroad/">feature</a>).
 
+  - name: "Tural Mehtiyev"
+    slug: tural-mehtiyev
+    email: tmehtiy@ncsu.edu
+    lab: evolve
+    url: https://tmehtiyev2019.github.io/
+    bio: >-
+      PhD candidate working on causal analysis of AI coding agent
+      failures: he mines large-scale agent trajectories, then runs
+      controlled online experiments to find what actually makes coding
+      agents fail. From Azerbaijan, where he spent six years as a product
+      data scientist before starting the PhD. For fun: ping pong,
+      swimming, and juggling three balls.
+
+  # Not a student: a visiting postdoc who filled in a student form. Listed
+  # because he asked to be, with the note making the status clear.
+  - name: "Anderson Uchôa"
+    slug: anderson-uchoa
+    nophoto: true
+    lab: evolve
+    note: "visiting postdoc"
+    url: https://anderson-uchoa.github.io/
+    bio: >-
+      Associate Professor at the Federal University of Ceará in Brazil,
+      where he leads the RESET Lab, and a visiting postdoctoral
+      researcher here. PhD and MSc in Informatics from PUC-Rio. Works on
+      software evolution, code review, technical debt and AI for software
+      engineering, and is currently interested in how AI coding agents
+      change development practice. Off hours: travel and new places.
+
   - name: "Hannah Estes"
     slug: hannah-estes
     email: hmestes@ncsu.edu
@@ -200,41 +229,47 @@ people:
   # Entries below came from the Student Life lab grids. Photo, lab and (where
   # known) home page are real; the bio is pending until the student fills in
   # their Drive doc. Replace `pending: true` and the bio when they do.
-  # The three IRL bios below were lifted from the Student Life lab write-up
-  # rather than written by the student, so they cover research and not the
-  # person. They get replaced when each student fills in their Drive doc.
   - name: "Amirali Rayegan"
     slug: amirali-rayegan
+    email: arayega@ncsu.edu
     lab: irl
     url: https://amiiralii.github.io/
     bio: >-
-      PhD candidate leading the lab's work on explanation: can causal
-      methods make software analytics more stable and trustworthy? His
-      <a href="https://arxiv.org/abs/2509.08667">Explaining Optimization
-      Heuristics</a> appeared in JSS 2026, and he spoke on shaky causal
-      structures at ICSE 2026.
+      Third-year PhD student working on label-efficient software
+      optimization. His aim is to come at optimization from several
+      directions at once — explainability, stability, performance — so
+      that the tools are practical enough for practitioners to adopt.
+      Hence Minimal Data, Maximum Clarity (JSS 2026) arrives alongside a
+      causal investigation paper (SANER 2026) and an instability paper
+      (TSE).
 
   - name: "Kishan Kumar Ganguly"
     slug: kishan-kumar-ganguly
+    email: kgangul@ncsu.edu
     lab: irl
-    url: https://github.com/KKGanguly
+    url: https://kkganguly.github.io/
     bio: >-
-      PhD candidate leading optimization and testing: simple,
-      sample-efficient optimizers that beat complex ones
-      (<a href="https://arxiv.org/pdf/2605.09658">Zoom, Don't Wander</a>,
-      SSBSE 2026) and
-      <a href="https://arxiv.org/abs/2512.18102">data-centric fuzzing for
-      JavaScript engines</a> (IST 2026).
+      PhD student from Bangladesh. His research asks how to make reliable
+      decisions about complex software and AI systems when data, time and
+      compute are all short: data-efficient optimization, software
+      testing, and cheap evaluation of LLM-based systems. Recent work
+      includes How Low Can You Go? (FSE 2026), Zoom, Don't Wander
+      (SSBSE 2026) and From Coverage to Causes (IST 2026). The recurring
+      theme is asking how much experimentation is actually needed to
+      reach a trustworthy conclusion. Outside research: video games and
+      travel, preferably without turning either into another optimization
+      problem.
 
   - name: "Srinath Srinivasan"
     slug: srinath-srinivasan
+    email: ssrini27@ncsu.edu
     lab: irl
     url: https://srina1h.github.io/
     bio: >-
-      PhD candidate leading agentic systems: how far can lightweight LLM
-      agents go without drowning in compute?
-      <a href="https://arxiv.org/abs/2602.02752">Beyond the Prompt</a>
-      appeared at MSR 2026.
+      Studies when, where and how LLMs help with software engineering
+      tasks such as optimization and the oracle problem. The focus is
+      efficiency: placing LLMs surgically, where they deliver the most
+      value, to build SE systems that scale and stay practical to run.
 
   - name: "Aditya Bhardwaj"
     slug: aditya-bhardwaj
