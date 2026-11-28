@@ -54,7 +54,8 @@ people:
 
   # HFXE had no directory entries at all. These two are current students
   # (the lab's other 2026 names are graduates, and are on alumni.html).
-  # Bios summarised from the CSC features until they fill in their docs.
+  # Saba's bio is still summarised from her CSC feature, until she fills
+  # in her doc; Manali's below is her own.
   - name: "Saba Khanmohammadi"
     slug: saba-khanmohammadi
     nophoto: true
@@ -66,13 +67,14 @@ people:
 
   - name: "Manali Teke"
     slug: manali-teke
-    nophoto: true
+    nophoto: true   # photo uploaded to Drive 27 Nov; needs pulling into the repo
+    email: mkteke@ncsu.edu
     lab: hfxe
+    url: https://www.linkedin.com/in/manali-teke/
     bio: >-
-      PhD student who spent a summer at the German Aerospace Center's
-      Institute of Software Technology in Braunschweig, on a DAAD RISE
-      Professional placement
-      (<a href="https://csc.ncsu.edu/2026/10/manali-tekes-internship-abroad/">feature</a>).
+      Second-year PhD student from Pune, India. Works on human factors in
+      software engineering and human–AI collaboration. Outside research
+      she hikes, travels, makes handmade cards, and is a cat mom.
 
   - name: "Tural Mehtiyev"
     slug: tural-mehtiyev
