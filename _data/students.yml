@@ -206,7 +206,6 @@ people:
 
   - name: "Kevin Lira"
     slug: kevin-lira
-    nophoto: true
     email: kwlira@ncsu.edu
     lab: evolve
     url: https://kevinws.com/
