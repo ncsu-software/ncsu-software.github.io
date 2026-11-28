@@ -67,7 +67,6 @@ people:
 
   - name: "Manali Teke"
     slug: manali-teke
-    nophoto: true   # photo uploaded to Drive 27 Nov; needs pulling into the repo
     email: mkteke@ncsu.edu
     lab: hfxe
     url: https://www.linkedin.com/in/manali-teke/
